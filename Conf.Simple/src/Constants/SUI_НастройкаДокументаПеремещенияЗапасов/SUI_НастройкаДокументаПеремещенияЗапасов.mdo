@@ -11,7 +11,7 @@
     <value>Настройка документа перемещения запасов (SUI)</value>
   </synonym>
   <type>
-    <types>CatalogRef.SUI_НастройкиДокументов</types>
+    <types>CatalogRef.SUI_НастройкиДокументовОбмена</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
   <extendedPresentation>

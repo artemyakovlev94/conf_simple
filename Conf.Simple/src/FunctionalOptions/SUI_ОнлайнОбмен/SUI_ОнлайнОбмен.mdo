@@ -8,6 +8,4 @@
   <location>Constant.SUI_ОнлайнОбмен</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>DataProcessor.SUI_РабочееМестоОператораОбмена</content>
-  <content>InformationRegister.SUI_docs</content>
-  <content>InformationRegister.SUI_docs_tbl_barcode_flow</content>
 </mdclass:FunctionalOption>

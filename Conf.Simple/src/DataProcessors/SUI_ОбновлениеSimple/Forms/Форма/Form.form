@@ -68,36 +68,6 @@
           <userVisible>
             <common>true</common>
             <for>
-              <role>Role.SUI_ИнтерактивноеУдалениеДокументовСборШтрихкодов</role>
-            </for>
-            <for>
-              <role>Role.SUI_ИнтерактивноеУдалениеКонфигурацийПриложений</role>
-            </for>
-            <for>
-              <role>Role.SUI_ИнтерактивноеУдалениеМобильныхКлиентов</role>
-            </for>
-            <for>
-              <role>Role.SUI_ИнтерактивноеУдалениеМобильныхУстройств</role>
-            </for>
-            <for>
-              <role>Role.SUI_ИнтерактивноеУдалениеНастроекКонфигурацийПриложений</role>
-            </for>
-            <for>
-              <role>Role.SUI_ИнтерактивноеУдалениеНастройкиДокументов</role>
-            </for>
-            <for>
-              <role>Role.SUI_ИнтерактивноеУдалениеПользователейТСД</role>
-            </for>
-            <for>
-              <role>Role.SUI_ИнтерактивноеУдалениеПрисоединенныхФайлов</role>
-            </for>
-            <for>
-              <role>Role.SUI_ИнтерактивноеУдалениеРегламентныхЗаданий</role>
-            </for>
-            <for>
-              <role>Role.SUI_ИнтерактивноеУдалениеШаблоновЭтикетокZPL</role>
-            </for>
-            <for>
               <value>true</value>
               <role>Role.SUI_РольАдминистрирование</role>
             </for>
@@ -2048,36 +2018,6 @@
     </toolTip>
     <use>
       <common>true</common>
-      <for>
-        <role>Role.SUI_ИнтерактивноеУдалениеДокументовСборШтрихкодов</role>
-      </for>
-      <for>
-        <role>Role.SUI_ИнтерактивноеУдалениеКонфигурацийПриложений</role>
-      </for>
-      <for>
-        <role>Role.SUI_ИнтерактивноеУдалениеМобильныхКлиентов</role>
-      </for>
-      <for>
-        <role>Role.SUI_ИнтерактивноеУдалениеМобильныхУстройств</role>
-      </for>
-      <for>
-        <role>Role.SUI_ИнтерактивноеУдалениеНастроекКонфигурацийПриложений</role>
-      </for>
-      <for>
-        <role>Role.SUI_ИнтерактивноеУдалениеНастройкиДокументов</role>
-      </for>
-      <for>
-        <role>Role.SUI_ИнтерактивноеУдалениеПользователейТСД</role>
-      </for>
-      <for>
-        <role>Role.SUI_ИнтерактивноеУдалениеПрисоединенныхФайлов</role>
-      </for>
-      <for>
-        <role>Role.SUI_ИнтерактивноеУдалениеРегламентныхЗаданий</role>
-      </for>
-      <for>
-        <role>Role.SUI_ИнтерактивноеУдалениеШаблоновЭтикетокZPL</role>
-      </for>
       <for>
         <value>true</value>
         <role>Role.SUI_РольАдминистрирование</role>

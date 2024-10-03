@@ -7,7 +7,6 @@
   </synonym>
   <source>
     <types>ConstantValueManager.SUI_РЗ_ОчисткаОчередиЗаданий</types>
-    <types>ConstantValueManager.Удалить_SUI_РЗ_ФормированиеСлужебныхПакетов</types>
     <types>ConstantValueManager.SUI_РЗ_ОбработкаОчередиЗаданий</types>
     <types>ConstantValueManager.SUI_РЗ_ОбработкаСообщенийОбменаДанными</types>
     <types>ConstantValueManager.SUI_РЗ_ОчисткаОбработанныхДокументов</types>

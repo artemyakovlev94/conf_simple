@@ -8,5 +8,5 @@
   <location>Constant.SUI_ИспользоватьТаблицу_Контрагенты</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>InformationRegister.SUI_tbl_countragents</content>
-  <content>InformationRegister.SUI_docs.Resource.id_countragents</content>
+  <content>Document.SUI_ДокументОбмена.Attribute.Контрагент</content>
 </mdclass:FunctionalOption>

@@ -8,10 +8,10 @@
   <location>Constant.SUI_ИспользоватьТаблицу_Номенклатура</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>InformationRegister.SUI_tbl_goods</content>
-  <content>InformationRegister.SUI_docs_tbl_goods</content>
-  <content>InformationRegister.SUI_docs_tbl_goods.Resource.id_good</content>
-  <content>InformationRegister.SUI_docs_tbl_goods_delta</content>
-  <content>InformationRegister.SUI_docs_tbl_goods_delta.Resource.id_good</content>
-  <content>InformationRegister.SUI_docs_tbl_barcodes.Resource.id_good</content>
-  <content>InformationRegister.SUI_docs_tbl_series.Resource.id_good</content>
+  <content>Document.SUI_ДокументОбмена.TabularSection.Товары.Attribute.Номенклатура</content>
+  <content>Document.SUI_ДокументОбмена.TabularSection.Серии.Attribute.Номенклатура</content>
+  <content>Document.SUI_ДокументОбмена.TabularSection.ШтрихкодыУпаковок.Attribute.Номенклатура</content>
+  <content>Document.SUI_ДокументОбмена.TabularSection.Товары</content>
+  <content>InformationRegister.SUI_ГрупповойПересчет</content>
+  <content>InformationRegister.SUI_ГрупповойПересчет.Attribute.Номенклатура</content>
 </mdclass:FunctionalOption>

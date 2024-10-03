@@ -218,8 +218,6 @@
     <valueType>
       <types>CatalogRef.SUI_ШаблоныЭтикетокZPL</types>
       <types>CatalogRef.SUI_ПользователиТСД</types>
-      <types>DocumentRef.SUI_СборШтрихкодов</types>
-      <types>CatalogRef.SUI_НастройкиДокументов</types>
       <types>CatalogRef.SUI_НастройкиКонфигурацийПриложений</types>
       <types>CatalogRef.SUI_ПрисоединенныеФайлыОбщие</types>
       <types>CatalogRef.SUI_КонфигурацииПриложений</types>

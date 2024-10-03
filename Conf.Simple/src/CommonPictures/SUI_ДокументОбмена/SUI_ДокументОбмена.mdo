@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="075ffa30-b11b-4e14-8568-f4f20cbf482c">
+  <name>SUI_ДокументОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ обмена</value>
+  </synonym>
+</mdclass:CommonPicture>

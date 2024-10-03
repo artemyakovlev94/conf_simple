@@ -93,20 +93,10 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <descriptionLength>100</descriptionLength>
   <content>
-    <mdObject>Catalog.SUI_НастройкиДокументов</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
-    <mdObject>InformationRegister.SUI_tbl_marking_codes</mdObject>
-  </content>
-  <content>
     <mdObject>InformationRegister.SUI_tbl_countragents</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.SUI_tbl_warehouses</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.SUI_docs</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.SUI_ТаблицыКПерезаписиВМУ</mdObject>
@@ -116,10 +106,11 @@
     <mdObject>Catalog.SUI_ПользователиТСД</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.SUI_tbl_series</mdObject>
+    <mdObject>InformationRegister.SUI_tbl_cells</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.SUI_tbl_cells</mdObject>
+    <mdObject>Catalog.SUI_НастройкиДокументовОбмена</mdObject>
+    <autoRecord>Allow</autoRecord>
   </content>
   <content>
     <mdObject>InformationRegister.SUI_tbl_classifier_units</mdObject>
@@ -128,16 +119,10 @@
     <mdObject>InformationRegister.SUI_tbl_properties</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.SUI_tbl_prices</mdObject>
-  </content>
-  <content>
     <mdObject>InformationRegister.SUI_tbl_types_goods</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.SUI_tbl_goods</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.SUI_tbl_price_types</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.SUI_tbl_units</mdObject>
@@ -147,6 +132,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.SUI_tbl_barcodes</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.SUI_ДокументОбмена</mdObject>
   </content>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
@@ -195,36 +183,6 @@
     <synonym>
       <key>ru</key>
       <value>Пуш уведомления</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="51fde9d4-96cb-4d51-b80c-d44711621c20">
-    <name>Удалить_МобильныйКлиент</name>
-    <synonym>
-      <key>ru</key>
-      <value>(не используется) Мобильный клиент</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Удалить_SUI_МобильныеКлиенты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="04a38502-1773-45dd-96c2-ebf40e524eed">
-    <name>Удалить_Служебный</name>
-    <synonym>
-      <key>ru</key>
-      <value>(не используется) Служебный</value>
     </synonym>
     <type>
       <types>Boolean</types>

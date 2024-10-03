@@ -1,0 +1,20 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.simple-document-settings.org" elementFormQualified="true" attributeFormQualified="false">
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<valueType name="ManifestVersion" base="xs:string" variety="Atomic">
+		<enumeration>1.0</enumeration>
+	</valueType>
+	<objectType name="manifest">
+		<property xmlns:d3p1="http://www.simple-document-settings.org" name="version" type="d3p1:ManifestVersion" form="Attribute"/>
+		<property name="date" type="xs:dateTime"/>
+		<property name="configuration" type="xs:string"/>
+		<property name="configuration_version" type="xs:string"/>
+		<property name="extension_version" type="xs:string"/>
+		<property xmlns:d3p1="http://www.simple-document-settings.org" name="settings" type="d3p1:setting" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="setting" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="id" type="d3p1:UUID" form="Attribute"/>
+		<property name="name" type="xs:string" form="Attribute"/>
+		<property name="owner" type="xs:string" form="Attribute"/>
+		<property name="comment" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+</package>

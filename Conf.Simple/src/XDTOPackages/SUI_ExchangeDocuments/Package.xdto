@@ -1,0 +1,65 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.simple-exchange-documents.org">
+	<import namespace="http://www.w3.org/2001/XMLSchema"/>
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<valueType name="SimpleID" base="xs:string" length="69" minLength="69" maxLength="69" whiteSpace="collapse">
+		<pattern>[A-Fa-f0-9]{8}-[A-Fa-f0-9]{4}-[A-Fa-f0-9]{4}-[A-Fa-f0-9]{4}-[A-Fa-f0-9]{12}-[A-Fa-f0-9]{32}</pattern>
+	</valueType>
+	<valueType name="SimpleIDWithEmpty" base="xs:string" maxLength="69" whiteSpace="collapse">
+		<pattern>[A-Fa-f0-9]{8}-[A-Fa-f0-9]{4}-[A-Fa-f0-9]{4}-[A-Fa-f0-9]{4}-[A-Fa-f0-9]{12}-[A-Fa-f0-9]{32}</pattern>
+		<pattern></pattern>
+	</valueType>
+	<valueType name="BarcodeFromScanner" base="xs:string" minLength="1" maxLength="200" whiteSpace="collapse"/>
+	<valueType name="SSCC" base="xs:string" maxLength="20" whiteSpace="collapse">
+		<pattern>00[0-9]{18}</pattern>
+		<pattern></pattern>
+	</valueType>
+	<objectType name="ВходящиеДокументы">
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="RS_docs" type="d3p1:ВходящийДокумент" upperBound="-1"/>
+	</objectType>
+	<objectType name="ВходящийДокумент" ordered="false">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="id" type="d3p1:UUID"/>
+		<property name="comment" type="xs:string" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="tbl_products" type="d3p1:ВходящаяСтрокаТовар" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="tbl_series" type="d3p1:ВходящаяСтрокаСерия" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="tbl_marks" type="d3p1:ВходящаяСтрокаШтрихкодУпаковки" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="tbl_barcode_flow" type="d3p1:ВходящаяСтрокаПотокШтрихкода" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="tbl_products_delta" type="d3p1:ВходящаяСтрокаТовар" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ВходящаяСтрокаТовар" ordered="false">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="id" type="d3p1:UUID"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="product_id" type="d3p1:SimpleID" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="property_id" type="d3p1:SimpleIDWithEmpty" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="unit_id" type="d3p1:SimpleIDWithEmpty" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="cell_id" type="d3p1:SimpleIDWithEmpty" lowerBound="0" nillable="true"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="series_id" type="d3p1:SimpleIDWithEmpty" lowerBound="0" nillable="true"/>
+		<property name="qty" type="xs:decimal"/>
+		<property name="is_new" type="xs:boolean"/>
+	</objectType>
+	<objectType name="ВходящаяСтрокаСерия" ordered="false">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="id" type="d3p1:UUID"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="product_id" type="d3p1:SimpleID"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="property_id" type="d3p1:SimpleIDWithEmpty"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="series_id" type="d3p1:SimpleIDWithEmpty" lowerBound="0"/>
+		<property name="name" type="xs:string"/>
+		<property name="number" type="xs:string"/>
+		<property name="best_before" type="xs:dateTime" lowerBound="0" nillable="true"/>
+		<property name="production_date" type="xs:dateTime" lowerBound="0" nillable="true"/>
+		<property name="qty" type="xs:decimal"/>
+		<property name="is_new" type="xs:boolean"/>
+	</objectType>
+	<objectType name="ВходящаяСтрокаШтрихкодУпаковки" ordered="false">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="id" type="d3p1:UUID"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="product_id" type="d3p1:SimpleID"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="property_id" type="d3p1:SimpleIDWithEmpty"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="unit_id" type="d3p1:SimpleIDWithEmpty"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="barcode_id" type="d3p1:SimpleIDWithEmpty" lowerBound="0"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="barcode_from_scanner" type="d3p1:BarcodeFromScanner"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="SSCC" type="d3p1:SSCC"/>
+		<property name="is_new" type="xs:boolean"/>
+	</objectType>
+	<objectType name="ВходящаяСтрокаПотокШтрихкода" ordered="false">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="id" type="d3p1:UUID"/>
+		<property xmlns:d3p1="http://www.simple-exchange-documents.org" name="barcode" type="d3p1:BarcodeFromScanner" localName="barcode"/>
+		<property name="qty" type="xs:decimal"/>
+	</objectType>
+</package>

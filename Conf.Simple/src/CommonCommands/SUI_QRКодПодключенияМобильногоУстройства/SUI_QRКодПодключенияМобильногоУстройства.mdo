@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46317b03-df97-48a6-88b3-faa3817e0d77">
+  <name>SUI_QRКодПодключенияМобильногоУстройства</name>
+  <synonym>
+    <key>ru</key>
+    <value>QR код подключения мобильного устройства</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>ExchangePlanRef.SUI_МобильныеУстройства</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Открыть и сформировать QR код для подключения мобильного устройства</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.SUI_QR_код</picture>
+  </picture>
+</mdclass:CommonCommand>

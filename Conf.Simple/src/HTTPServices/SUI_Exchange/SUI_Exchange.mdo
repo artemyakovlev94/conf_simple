@@ -92,15 +92,6 @@
       <value>Документы</value>
     </synonym>
     <template>/documents</template>
-    <methods uuid="e3bd1c8c-ec3b-405d-9721-a15ec906d292">
-      <name>Создать</name>
-      <synonym>
-        <key>ru</key>
-        <value>Создать</value>
-      </synonym>
-      <httpMethod>POST</httpMethod>
-      <handler>ДокументыСоздать</handler>
-    </methods>
     <methods uuid="b154f6db-c379-49ed-b1f7-719c33235edb">
       <name>ОбновитьДокументы</name>
       <synonym>

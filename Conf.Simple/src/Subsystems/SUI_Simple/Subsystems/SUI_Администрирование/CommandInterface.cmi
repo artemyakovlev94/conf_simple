@@ -22,10 +22,6 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Constant.SUI_ИспользоватьТаблицу_ВидыЦен.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Constant.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
@@ -35,10 +31,6 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>Constant.SUI_ИспользоватьТаблицу_Номенклатура.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Constant.SUI_ИспользоватьТаблицу_СерииНоменклатуры.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -54,19 +46,11 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Constant.SUI_ИспользоватьТаблицу_ЦеныНоменклатуры.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Constant.SUI_ИспользоватьТаблицу_ШаблоныЭтикеток.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>Constant.SUI_ИспользоватьТаблицу_ШтрихкодыНоменклатуры.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Constant.SUI_ИспользоватьТаблицу_ШтрихкодыУпаковок.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -166,18 +150,14 @@
       <commands>Constant.SUI_ИспользоватьЗапросыАвторизацииМУ.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьПользовательскийЗапрос.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_ВидыНоменклатуры.StandardCommand.Open</commands>
-      <commands>Constant.SUI_ИспользоватьТаблицу_ВидыЦен.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_Контрагенты.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_Номенклатура.StandardCommand.Open</commands>
-      <commands>Constant.SUI_ИспользоватьТаблицу_СерииНоменклатуры.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_Склады.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_УпаковкиНоменклатуры.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_ХарактеристикиНоменклатуры.StandardCommand.Open</commands>
-      <commands>Constant.SUI_ИспользоватьТаблицу_ЦеныНоменклатуры.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_ШаблоныЭтикеток.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_ШтрихкодыНоменклатуры.StandardCommand.Open</commands>
-      <commands>Constant.SUI_ИспользоватьТаблицу_ШтрихкодыУпаковок.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_Ячейки.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользуемыйВариантОбмена.StandardCommand.Open</commands>
       <commands>Constant.SUI_ОнлайнОбмен.StandardCommand.Open</commands>

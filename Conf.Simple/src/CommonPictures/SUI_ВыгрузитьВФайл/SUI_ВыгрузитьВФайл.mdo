@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c0aa719-a427-4382-ac10-966ef9d458dc">
+  <name>SUI_ВыгрузитьВФайл</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузить в файл</value>
+  </synonym>
+</mdclass:CommonPicture>

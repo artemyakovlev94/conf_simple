@@ -10,15 +10,23 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>DataProcessor.SUI_ОбработкаПотокаШтрихкодов.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Constant.SUI_ХранениеОбработанныхДокументовОбмена.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>Constant.SUI_ОткрыватьВыгрузкуДокументовОбменаОфлайн.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.SUI_ВладельцыНастроекДокументов.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.SUI_ГрупповойПересчет.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.SUI_ПотокШтрихкодов.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
   </commandsVisibility>

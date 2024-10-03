@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fb6e8d4-71d2-437e-a407-294ec2b496fa">
+  <producedTypes>
+    <objectType typeId="2ff4a2d4-80f2-4c98-9680-069b1067031a" valueTypeId="05320e3a-bb32-412a-b526-ebbf15f65346"/>
+    <managerType typeId="45a7fce8-13fa-4c77-b2d6-06e91d9ee47f" valueTypeId="9015b429-ce0e-46fe-8538-5e32c7106472"/>
+  </producedTypes>
+  <name>SUI_РедакторКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор кода (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.SUI_РедакторКода.Form.Редактор</defaultForm>
+  <forms uuid="d029d49b-d774-4712-937e-c27740a83690">
+    <name>Редактор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4df12a2f-91c2-4c46-82ec-9dab70e2c29c">
+    <name>CodeEditor</name>
+    <synonym>
+      <key>ru</key>
+      <value>Code editor</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

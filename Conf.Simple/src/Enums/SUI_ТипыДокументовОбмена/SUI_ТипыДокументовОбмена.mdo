@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb432049-cb23-4871-b312-dd7c5ceec9b9">
+  <producedTypes>
+    <refType typeId="1b63ca70-2183-4d3b-8291-2a788a5e18e8" valueTypeId="05118b5c-b27f-4c18-86d2-43fa8edd96aa"/>
+    <listType typeId="5a755970-cb3b-4b44-8c32-6f625d6bb274" valueTypeId="49f6b273-149c-4b46-8458-4f49fd1d4222"/>
+    <managerType typeId="9bddaf8d-2a02-4ac6-b218-73a2941e0db5" valueTypeId="c4e623d0-edb3-40df-93c0-e60fea2e1d96"/>
+  </producedTypes>
+  <name>SUI_ТипыДокументовОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы документов обмена (SUI)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы документов обмена</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Виды документов обмена</value>
+  </extendedListPresentation>
+  <enumValues uuid="bbc1fae9-1d58-4097-93b7-f25156c13897">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3b8cdcd-7c00-4e15-bfd3-94e05a7797b5">
+    <name>АдресноеХранениеОтбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad8b977a-a7a1-4aea-94e3-0ec1f50314e3">
+    <name>АдресноеХранениеРазмещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f484646-8020-467c-8846-d12811017877">
+    <name>СборШтрихкодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сбор штрихкодов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

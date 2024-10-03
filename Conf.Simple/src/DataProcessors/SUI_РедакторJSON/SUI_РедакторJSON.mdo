@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="685da8e0-c685-4e59-b8ae-610eaafef77f">
+  <producedTypes>
+    <objectType typeId="7356bc5a-2dc7-4bcc-844a-1f68a9dd42cd" valueTypeId="073c90af-7b63-4f98-8f97-5675be1f5f46"/>
+    <managerType typeId="35a3c588-b657-4495-bddc-ec0c800a1482" valueTypeId="60ecfd9e-3758-40ca-81e8-3b48b8bf5ec2"/>
+  </producedTypes>
+  <name>SUI_РедакторJSON</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор JSON (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.SUI_РедакторJSON.Form.Редактор</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Редактор JSON</value>
+  </extendedPresentation>
+  <forms uuid="9e376898-b789-4e01-aa02-67a5967c5f38">
+    <name>Редактор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7c7cc67f-1e3d-4d0d-a14a-4a1358974aea">
+    <name>JsonEditor</name>
+    <synonym>
+      <key>ru</key>
+      <value>Json editor</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

@@ -56,9 +56,6 @@
           <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ХарактеристикиНоменклатуры</value>
         </values>
         <values xsi:type="core:ReferenceValue">
-          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.СерииНоменклатуры</value>
-        </values>
-        <values xsi:type="core:ReferenceValue">
           <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ЕдиницыИзмерения</value>
         </values>
         <values xsi:type="core:ReferenceValue">
@@ -68,16 +65,7 @@
           <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ВидыНоменклатуры</value>
         </values>
         <values xsi:type="core:ReferenceValue">
-          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ВидыЦен</value>
-        </values>
-        <values xsi:type="core:ReferenceValue">
-          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ЦеныНоменклатуры</value>
-        </values>
-        <values xsi:type="core:ReferenceValue">
           <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ШтрихкодыНоменклатуры</value>
-        </values>
-        <values xsi:type="core:ReferenceValue">
-          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ШтрихкодыУпаковок</value>
         </values>
         <values xsi:type="core:ReferenceValue">
           <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.НастройкиДокументов</value>

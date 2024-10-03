@@ -27,9 +27,7 @@
   <content>CommonModule.SUI_ШтрихкодыУпаковок</content>
   <content>CommonModule.SUI_ШтрихкодыУпаковокКлиентСервер</content>
   <content>CommonModule.SUI_ШтрихкодыУпаковокПовтИсп</content>
-  <content>EventSubscription.SUI_ДокументыОбменаПередЗаписью</content>
-  <content>EventSubscription.SUI_ДокументыОбменаПриЗаписи</content>
-  <content>EventSubscription.SUI_ДокументыОбменаПриЗаписи_beta</content>
+  <content>EventSubscription.SUI_ДокументыПриЗаписи</content>
   <content>EventSubscription.SUI_ИнтеграцияВКонфигурациюРегистрыСведенийПередЗаписью</content>
   <content>EventSubscription.SUI_ИнтеграцияВКонфигурациюРегистрыСведенийПриЗаписи</content>
   <content>EventSubscription.SUI_ИнтеграцияВКонфигурациюСправочникиПередУдалением</content>
@@ -39,26 +37,20 @@
   <content>FunctionalOption.SUI_ИспользоватьЗапросыАвторизацииМУ</content>
   <content>FunctionalOption.SUI_ИспользоватьПользовательскийЗапрос</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_ВидыНоменклатуры</content>
-  <content>FunctionalOption.SUI_ИспользоватьТаблицу_ВидыЦен</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_Контрагенты</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_Номенклатура</content>
-  <content>FunctionalOption.SUI_ИспользоватьТаблицу_СерииНоменклатуры</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_Склады</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_УпаковкиНоменклатуры</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_ХарактеристикиНоменклатуры</content>
-  <content>FunctionalOption.SUI_ИспользоватьТаблицу_ЦеныНоменклатуры</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_ШаблоныЭтикеток</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_ШтрихкодыНоменклатуры</content>
-  <content>FunctionalOption.SUI_ИспользоватьТаблицу_ШтрихкодыУпаковок</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_Ячейки</content>
   <content>FunctionalOption.SUI_ЛогированиеHTTPЗапросов</content>
   <content>FunctionalOption.SUI_ОнлайнОбмен</content>
   <content>FunctionalOption.SUI_ОфлайнОбмен</content>
   <content>CommonForm.SUI_QRКодДляПодключенияМобильногоПриложения</content>
   <content>CommonForm.SUI_АутентификацияВСервисе</content>
-  <content>CommonForm.SUI_ВыгрузкаДокументаНаТСД</content>
-  <content>CommonForm.SUI_ЗагрузкаДокументаИзТСД</content>
   <content>CommonForm.SUI_КонструкторЗапроса</content>
   <content>CommonForm.SUI_ФормаВыбораЗначений</content>
   <content>CommonForm.SUI_ЛогированиеHTTPЗапросов</content>
@@ -111,12 +103,10 @@
   <content>CommonPicture.SUI_УдалитьНепосредственно</content>
   <content>Enum.SUI_ВариантОбмена</content>
   <content>Enum.SUI_ПредопределенныеНастройкиПодсистемы</content>
-  <content>Enum.SUI_РежимыОткрытияДокументаОбмена</content>
   <content>Enum.SUI_СостоянияДокументовОбмена</content>
   <content>Enum.SUI_СтатусыОбработкиСтрок</content>
   <content>Enum.SUI_ТаблицыИнтеграции</content>
   <content>DataProcessor.SUI_ФормаДополнительнаяИнформация</content>
-  <content>InformationRegister.SUI_НастройкиДокументовМобильныхУстройств</content>
   <content>CommonPicture.SUI_QRКодДляПечатныхФорм</content>
   <content>CommonPicture.SUI_ПереместитьВсеВлево</content>
   <content>CommonPicture.SUI_ПереместитьВсеВправо</content>
@@ -133,7 +123,6 @@
   <content>CommonTemplate.SUI_ПредопределенныеУправлениеНашейФирмой</content>
   <content>CommonTemplate.SUI_ПредопределенныеРозница30</content>
   <content>CommonModule.SUI_ПользователиПереопределяемый</content>
-  <content>DataProcessor.SUI_КонсольПроизвольногоАлгоритма</content>
   <content>CommonModule.SUI_СобытияФормИСКлиент</content>
   <content>CommonModule.SUI_СобытияФормИС</content>
   <content>XDTOPackage.SUI_ExchangeSupport</content>

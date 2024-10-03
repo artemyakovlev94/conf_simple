@@ -52,7 +52,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
         <minValue>10000</minValue>
-        <maxValue>50000</maxValue>
+        <maxValue>25000</maxValue>
         <step>1000</step>
         <largeStep>5000</largeStep>
         <markingStep>5</markingStep>

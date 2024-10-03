@@ -7,6 +7,5 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>Catalog.SUI_ПрисоединенныеФайлыОбщие</content>
-  <content>Role.SUI_ИнтерактивноеУдалениеПрисоединенныхФайлов</content>
   <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

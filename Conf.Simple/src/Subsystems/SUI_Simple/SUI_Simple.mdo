@@ -17,12 +17,6 @@
   <content>DataProcessor.SUI_МастерНастроек</content>
   <content>Role.SUI_РольОсновныеПрава</content>
   <content>Role.SUI_РольПраваТСД</content>
-  <content>Role.SUI_ИнтерактивноеУдалениеМобильныхУстройств</content>
-  <content>Role.SUI_ИнтерактивноеУдалениеМобильныхКлиентов</content>
-  <content>Role.SUI_ИнтерактивноеУдалениеНастройкиДокументов</content>
-  <content>Role.SUI_ИнтерактивноеУдалениеПользователейТСД</content>
-  <content>Role.SUI_ИнтерактивноеУдалениеРегламентныхЗаданий</content>
-  <content>Role.SUI_ИнтерактивноеУдалениеШаблоновЭтикетокZPL</content>
   <content>CommonForm.SUI_ИдентификаторSimple</content>
   <content>CommonPicture.SUI_КоллекцияВидыСобытийЖурналаРегистрации</content>
   <content>CommonPicture.SUI_ЗагрузитьСхемуИзФайла</content>

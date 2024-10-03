@@ -4,115 +4,6 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Catalog.SUI_НастройкиДокументов.TabularSection.СоответствияРеквизитов.Attribute.Значение</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.StandardAttribute.Predefined</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.StandardAttribute.Ref</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.StandardAttribute.IsFolder</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.StandardAttribute.Owner</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.StandardAttribute.Parent</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.StandardAttribute.Description</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.StandardAttribute.Code</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.TabularSection.СопоставлениеРеквизитовТабличныхЧастей.Attribute.ПостоянноеЗначение</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.TabularSection.СоответствияРеквизитовТабличныхЧастей.Attribute.Ключ</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.SUI_tbl_marking_codes</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.SUI_ИспользоватьТаблицу_ВидыЦен</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>HTTPService.SUI_Exchange.URLTemplate.ТоварыВЯчейках.Method.Получить</name>
 		<right>
 			<name>Use</name>
@@ -128,13 +19,6 @@
 		<right>
 			<name>Update</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.TabularSection.СопоставлениеРеквизитовТабличныхЧастей.Attribute.ИспользуетсяПостоянноеЗначение</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -159,13 +43,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.SUI_НастройкиДокументов.TabularSection.СопоставлениеРеквизитовТабличныхЧастей</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.SUI_ЗапросыАвторизацииМобильныхУстройств</name>
 		<right>
 			<name>Read</name>
@@ -178,28 +55,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.SUI_tbl_warehouses</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.SUI_docs</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -228,21 +83,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Удалить_SUI_МобильныеКлиенты</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Insert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.SUI_ШаблоныЭтикетокZPL</name>
 		<right>
 			<name>Read</name>
@@ -264,35 +104,10 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.SUI_НастройкиДокументов.TabularSection.НастройкиТабличныхЧастей.Attribute.ИмяТабличнойЧасти</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.SUI_tbl_series</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.SUI_НастройкаДокументаПеремещенияЗапасов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.TabularSection.НастройкиТабличныхЧастей.Attribute.ТипТаблицы</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -303,6 +118,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными.Attribute.СообщениеОбменаДанными</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.SUI_ИспользоватьТаблицу_Контрагенты</name>
 		<right>
 			<name>Read</name>
@@ -310,36 +136,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.SUI_НастройкиДокументов.TabularSection.СоответствияРеквизитов</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.SUI_НастройкиДокументовМобильныхУстройств</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.SUI_СообщенияОбменаДанными</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.SUI_docs_tbl_series</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -364,6 +161,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.SUI_НастройкиТаблицИнтеграции</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.SUI_СоздаватьШтрихкодыИзТСД</name>
 		<right>
 			<name>Read</name>
@@ -375,13 +183,6 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.Attribute.НастройкиСхемыКомпоновкиДанных</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -403,20 +204,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.SUI_НастройкиДокументов.Attribute.КонтролироватьДокумент</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.TabularSection.СопоставлениеРеквизитовТабличныхЧастей.Attribute.Поле</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.SUI_КешПакетовДанных</name>
 		<right>
 			<name>Read</name>
@@ -428,9 +215,45 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными.Attribute.ДатаЗаписи</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>HTTPService.SUI_Exchange.URLTemplate.ЦеныНоменклатуры.Method.Получить</name>
 		<right>
 			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.SUI_НастройкиДокументовОбмена</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными.Resource.Обработано</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_ВладельцыНастроекДокументов</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -453,13 +276,6 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.TabularSection.СоответствияРеквизитовТабличныхЧастей.Attribute.ИмяТабличнойЧасти</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -492,17 +308,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_tbl_prices</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.SUI_ИспользоватьТаблицу_Ячейки</name>
 		<right>
 			<name>Read</name>
@@ -528,20 +333,6 @@
 		<right>
 			<name>Use</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.TabularSection.СопоставлениеРеквизитовТабличныхЧастей.Attribute.ИмяРеквизита</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.Attribute.ИмяОбъектаМетаданных</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -574,20 +365,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.SUI_НастройкиДокументов.TabularSection.СоответствияРеквизитовТабличныхЧастей.Attribute.ТипТаблицы</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.TabularSection.НастройкиТабличныхЧастей.Attribute.КлючСвязи</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.SUI_ЗапросПолученияОстатковИЦен</name>
 		<right>
 			<name>Read</name>
@@ -609,31 +386,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.SUI_НастройкиДокументов.Attribute.СостояниеДокументаПоУмолчанию</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.TabularSection.СоответствияРеквизитовТабличныхЧастей</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.SUI_НастройкиТаблицИнтеграции</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.SUI_СеансыМобильныхУстройств</name>
 		<right>
 			<name>Read</name>
@@ -646,6 +398,28 @@
 	</object>
 	<object>
 		<name>InformationRegister.SUI_СеансыМобильныхУстройств.StandardAttribute.Active</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными.Dimension.ID</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными.Resource.Статус</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -721,49 +495,10 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_tbl_price_types</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.TabularSection.НастройкиТабличныхЧастей</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.SUI_ИспользоватьТаблицу_ЦеныНоменклатуры</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы.Subsystem.SUI_ДополнительныеРеквизитыТаблиц</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.TabularSection.СоответствияРеквизитов.Attribute.Ключ</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.Attribute.ЗагружатьВДокумент1СПослеПолученияИзТСД</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -785,9 +520,42 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными.Resource.Сообщения</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными.Resource.ПодробноеПредставлениеОшибки</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_ГрупповойПересчет</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -818,6 +586,50 @@
 		<right>
 			<name>Update</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными.StandardAttribute.Active</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными.StandardAttribute.LineNumber</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными.StandardAttribute.Recorder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными.StandardAttribute.Period</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -854,6 +666,13 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.SUI_ДополнительныеРеквизитыДокументовОбмена</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>HTTPService.SUI_Exchange.URLTemplate.СообщенияОбменаРезультат.Method.Получить</name>
 		<right>
 			<name>Use</name>
@@ -882,34 +701,9 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.SUI_НастройкиДокументов.Attribute.СинонимОбъектаМетаданных</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.TabularSection.СопоставлениеРеквизитовТабличныхЧастей.Attribute.КлючСвязи</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>HTTPService.SUI_Exchange.URLTemplate.ШтрихкодыНоменклатуры.Method.СоздатьШтрихкодыНоменклатуры</name>
 		<right>
 			<name>Use</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.SUI_docs_tbl_goods</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -943,17 +737,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_goods_delta</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.SUI_ЗамещатьВПотокеШтрихкодов</name>
 		<right>
 			<name>Read</name>
@@ -975,17 +758,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcode_flow</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>ExchangePlan.SUI_МобильныеУстройства</name>
 		<right>
 			<name>Read</name>
@@ -997,40 +769,6 @@
 		</right>
 		<right>
 			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.SUI_ИспользоватьТаблицу_ШтрихкодыУпаковок</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Configuration.Simple</name>
-		<right>
-			<name>MainWindowModeNormal</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeEmbeddedWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeFullscreenWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeKiosk</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>AnalyticsSystemClient</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1064,13 +802,6 @@
 		</right>
 	</object>
 	<object>
-		<name>HTTPService.SUI_Exchange.URLTemplate.Документы.Method.Создать</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.SUI_СостоянияМобильныхУстройств</name>
 		<right>
 			<name>Read</name>
@@ -1079,27 +810,6 @@
 		<right>
 			<name>Update</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.SUI_ИспользоватьТаблицу_СерииНоменклатуры</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.Attribute.ДополнительныеНастройки</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиДокументов.TabularSection.СоответствияРеквизитовТабличныхЧастей.Attribute.Значение</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -1124,6 +834,25 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.SUI_ДокументОбмена</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UndoPosting</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.SUI_ОчередьЗаданий</name>
 		<right>
 			<name>Read</name>
@@ -1139,6 +868,17 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными.Resource.КраткоеПредставлениеОшибки</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>

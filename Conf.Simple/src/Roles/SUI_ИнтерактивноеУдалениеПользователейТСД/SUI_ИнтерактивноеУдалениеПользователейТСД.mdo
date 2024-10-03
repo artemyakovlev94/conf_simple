@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7ad7c40-50d3-44b1-af1c-81497930b47b">
-  <name>SUI_ИнтерактивноеУдалениеПользователейТСД</name>
-  <synonym>
-    <key>ru</key>
-    <value>Simple: Интерактивное удаление пользователей ТСД</value>
-  </synonym>
-</mdclass:Role>

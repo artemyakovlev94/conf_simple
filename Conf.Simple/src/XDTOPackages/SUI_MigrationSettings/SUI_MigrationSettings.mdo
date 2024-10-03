@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90341bd4-242d-4d5f-a790-4a152cf7ec3b">
+  <name>SUI_MigrationSettings</name>
+  <synonym>
+    <key>ru</key>
+    <value>Migration settings (SUI)</value>
+  </synonym>
+  <namespace>http://www.migration-settings.simple</namespace>
+</mdclass:XDTOPackage>

@@ -17,17 +17,17 @@
     <value>Статусы обработки строк</value>
   </listPresentation>
   <enumValues uuid="bb68e048-a72e-4c8f-9559-a300b7a10a5d">
-    <name>Новая</name>
+    <name>ТребуетсяОбработка</name>
     <synonym>
       <key>ru</key>
-      <value>Новая</value>
+      <value>Требуется обработка</value>
     </synonym>
   </enumValues>
   <enumValues uuid="c9611b24-9173-411f-9a4a-446cb127da2e">
-    <name>Пропущена</name>
+    <name>ОбработкаНеВыполнена</name>
     <synonym>
       <key>ru</key>
-      <value>Пропущена</value>
+      <value>Обработка не выполнена</value>
     </synonym>
   </enumValues>
   <enumValues uuid="f92558e0-1024-4d76-8753-8347ad86af78">

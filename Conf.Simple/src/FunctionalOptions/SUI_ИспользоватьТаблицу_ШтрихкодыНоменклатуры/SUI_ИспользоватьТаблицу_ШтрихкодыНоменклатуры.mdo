@@ -8,6 +8,5 @@
   <location>Constant.SUI_ИспользоватьТаблицу_ШтрихкодыНоменклатуры</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>InformationRegister.SUI_tbl_barcodes</content>
-  <content>DataProcessor.SUI_ОбработкаПотокаШтрихкодов</content>
-  <content>InformationRegister.SUI_docs_tbl_barcode_flow.Resource.barcode</content>
+  <content>InformationRegister.SUI_ПотокШтрихкодов</content>
 </mdclass:FunctionalOption>

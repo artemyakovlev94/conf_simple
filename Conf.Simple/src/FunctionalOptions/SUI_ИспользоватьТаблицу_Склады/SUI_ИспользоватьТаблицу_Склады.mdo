@@ -8,6 +8,5 @@
   <location>Constant.SUI_ИспользоватьТаблицу_Склады</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>InformationRegister.SUI_tbl_warehouses</content>
-  <content>InformationRegister.SUI_docs.Resource.id_warehouse</content>
-  <content>InformationRegister.SUI_docs_tbl_series.Resource.id_warehouse</content>
+  <content>Document.SUI_ДокументОбмена.Attribute.Склад</content>
 </mdclass:FunctionalOption>

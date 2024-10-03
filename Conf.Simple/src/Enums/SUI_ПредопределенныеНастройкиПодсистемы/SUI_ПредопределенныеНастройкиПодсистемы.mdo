@@ -60,25 +60,4 @@
       <value>Розница 2.3</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="76ab1c99-edd3-49b3-af90-9e493b78f490">
-    <name>ЕРП</name>
-    <synonym>
-      <key>ru</key>
-      <value>ЕРП</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="5a37e8e0-c100-4d29-9947-580457e0d0a3">
-    <name>Бухгалтерия</name>
-    <synonym>
-      <key>ru</key>
-      <value>Бухгалтерия</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="e5cf925b-d3b0-4a9e-af6f-825132dc5fd3">
-    <name>КомплекснаяАвтоматизация</name>
-    <synonym>
-      <key>ru</key>
-      <value>Комплексная автоматизация</value>
-    </synonym>
-  </enumValues>
 </mdclass:Enum>

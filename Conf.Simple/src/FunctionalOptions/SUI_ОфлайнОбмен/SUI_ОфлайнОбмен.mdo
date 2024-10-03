@@ -9,8 +9,6 @@
   <privilegedGetMode>true</privilegedGetMode>
   <content>DataProcessor.SUI_РабочееМестоОператораОбмена</content>
   <content>InformationRegister.SUI_КешПакетовДанных</content>
-  <content>InformationRegister.SUI_docs</content>
-  <content>InformationRegister.SUI_docs_tbl_barcode_flow</content>
   <content>ExchangePlan.SUI_МобильныеУстройства.Attribute.IPАдрес</content>
   <content>ExchangePlan.SUI_МобильныеУстройства.Attribute.Порт</content>
   <content>ExchangePlan.SUI_МобильныеУстройства.Attribute.ПушУведомления</content>

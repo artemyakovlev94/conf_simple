@@ -27,7 +27,7 @@
     <value>10000</value>
   </minValue>
   <maxValue xsi:type="core:StringValue">
-    <value>50000</value>
+    <value>25000</value>
   </maxValue>
   <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Constant>

@@ -8,8 +8,8 @@
   <location>Constant.SUI_ИспользоватьТаблицу_ХарактеристикиНоменклатуры</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>InformationRegister.SUI_tbl_properties</content>
-  <content>InformationRegister.SUI_docs_tbl_goods.Resource.id_properties</content>
-  <content>InformationRegister.SUI_docs_tbl_goods_delta.Resource.id_properties</content>
-  <content>InformationRegister.SUI_docs_tbl_barcodes.Resource.id_property</content>
-  <content>InformationRegister.SUI_docs_tbl_series.Resource.id_properties</content>
+  <content>Document.SUI_ДокументОбмена.TabularSection.Товары.Attribute.Характеристика</content>
+  <content>Document.SUI_ДокументОбмена.TabularSection.Серии.Attribute.Характеристика</content>
+  <content>Document.SUI_ДокументОбмена.TabularSection.ШтрихкодыУпаковок.Attribute.Характеристика</content>
+  <content>InformationRegister.SUI_ГрупповойПересчет.Attribute.Характеристика</content>
 </mdclass:FunctionalOption>

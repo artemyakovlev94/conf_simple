@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95f8143e-a422-44d0-b77a-b5405365d417">
+  <name>SUI_РегистрироватьИзмененияПослеЗагрузкиДокументаОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрировать изменения после загрузки документа обмена (SUI)</value>
+  </synonym>
+  <location>Constant.SUI_РегистрироватьИзмененияПослеЗагрузкиДокументаИзМУ</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

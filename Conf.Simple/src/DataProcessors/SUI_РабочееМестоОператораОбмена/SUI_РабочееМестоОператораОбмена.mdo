@@ -10,20 +10,11 @@
     <value>Рабочее место оператора обмена (SUI)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.SUI_РабочееМестоОператораОбмена.Form.Основная</defaultForm>
+  <defaultForm>DataProcessor.SUI_РабочееМестоОператораОбмена.Form.Форма</defaultForm>
   <extendedPresentation>
     <key>ru</key>
     <value>Рабочее место оператора обмена</value>
   </extendedPresentation>
-  <forms uuid="d0efab59-cd37-4961-ba41-ba433bffa133">
-    <name>ВыборДокументаДляВыгрузки</name>
-    <synonym>
-      <key>ru</key>
-      <value>Выбор документа для выгрузки</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="a185e802-29ef-4f88-a3bb-f5afa5fd0351">
     <name>ОбменСПользователямиОфлайн</name>
     <synonym>
@@ -33,11 +24,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="d3633141-ba1c-431a-971d-cdcd060df97d">
-    <name>Основная</name>
+  <forms uuid="d0894cc4-37c9-420c-8e32-18823e002494">
+    <name>Форма</name>
     <synonym>
       <key>ru</key>
-      <value>Основная</value>
+      <value>РМО</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

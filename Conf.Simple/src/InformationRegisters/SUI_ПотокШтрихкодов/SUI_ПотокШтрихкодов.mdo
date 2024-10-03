@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69a34da4-9988-4400-a203-aa160ecbb9c0">
+  <producedTypes>
+    <selectionType typeId="2188eb6c-39a1-49b0-9969-bcfb8ed9a347" valueTypeId="af0d3f74-f144-4498-ad57-b8f50f3231bd"/>
+    <listType typeId="88677547-f392-4618-bbcc-b89dd752f19b" valueTypeId="cfb6334e-a22b-448c-94d0-328308c39dfd"/>
+    <managerType typeId="5a6c6fce-59bf-40fd-8fcd-df8484c9cf02" valueTypeId="e0834213-6609-4816-966e-e0125dacecc0"/>
+    <recordSetType typeId="e18504da-370a-4714-8575-b76c6c9d764a" valueTypeId="145dc061-ccb2-4416-9a88-9d85a9ecc04d"/>
+    <recordKeyType typeId="ba22b6f7-008c-4075-b7ea-714f1c4219cd" valueTypeId="e411fc70-b44b-43cf-b403-9a8a09c9104b"/>
+    <recordType typeId="ae2f295e-8ea9-42b9-b9c9-07c98c7bf34a" valueTypeId="e60e812a-c279-4df6-8c8d-4bc78dd1a1b6"/>
+    <recordManagerType typeId="929dfb70-9f49-4747-8ccc-5525fbc5f4b7" valueTypeId="7e945932-de19-4e87-804f-1981830885f6"/>
+  </producedTypes>
+  <name>SUI_ПотокШтрихкодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поток штрихкодов документов обмена (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Поток штрихкодов</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Поток штрихкодов</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Поток штрихкодов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Поток штрихкодов</value>
+  </extendedListPresentation>
+  <resources uuid="362e0b2f-d7d0-42b9-82b3-64a33a5411d3">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="29b908ea-0251-4447-a14c-25812b8922ea">
+    <name>МобильноеУстройство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильное устройство</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.SUI_МобильныеУстройства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cc942022-3c95-4d2f-a4af-0ff755f6ca86">
+    <name>МеткаВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метка времени</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>16</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="a9b20cfe-d2b6-4074-8af6-ed607c191aae">
+    <name>ДокументОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ обмена</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.SUI_ДокументОбмена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3537028d-dfca-45e9-be07-a13b4f55ee66">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ef0db2a7-cf57-4064-b2d5-0731c1dc3c10">
+    <name>ИдентификаторЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор записи</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d85fb117-2c53-4ecb-84ff-1b19021889ac">
+    <name>ФормаПотокШтрихкодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поток штрихкодов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

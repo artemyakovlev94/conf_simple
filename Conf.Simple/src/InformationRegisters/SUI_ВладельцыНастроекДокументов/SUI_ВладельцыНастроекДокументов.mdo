@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c860e4c-3eb2-45a3-942c-0ec3683700a4">
+  <producedTypes>
+    <selectionType typeId="9fcab0ef-c5bb-417a-ba85-4ef7dec6bc11" valueTypeId="aeffc9e3-2ede-4347-ace9-2639f08073e8"/>
+    <listType typeId="98be7014-9c21-4eae-aa29-ed293fba2d04" valueTypeId="9b335b25-c0c8-4ee0-bac7-7e2b84008886"/>
+    <managerType typeId="abe71cfa-967b-4b7b-a7c3-9e8f621b7d6e" valueTypeId="45fd2568-e71f-4631-b74a-3c9a345883e5"/>
+    <recordSetType typeId="8ad70e25-a270-4d1c-a111-ad768259303c" valueTypeId="56953688-755d-4c8a-b8d8-107f34f6159a"/>
+    <recordKeyType typeId="0a94fd73-3722-48c4-90e4-0936b4d9055d" valueTypeId="aeecbb52-70ca-49d7-8db3-f3fedca430b2"/>
+    <recordType typeId="73fd0d40-a6f3-488d-a7b6-7da53645458b" valueTypeId="135b43e5-e160-45aa-afb8-b3593758661d"/>
+    <recordManagerType typeId="df405881-13ad-4653-815d-ef102c6b9d1e" valueTypeId="ac97c600-ca42-42a1-98b6-b09fe816175b"/>
+  </producedTypes>
+  <name>SUI_ВладельцыНастроекДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Владельцы настроек документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.SUI_ВладельцыНастроекДокументов.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="f8db1813-8341-4bb3-8a3c-3cf1fc413427">
+    <name>НастройкаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка документа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.SUI_НастройкиДокументовОбмена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.Используется</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="51c714a9-9dc4-459c-b928-8c722cb20f68">
+    <name>МобильноеУстройство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильное устройство</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.SUI_МобильныеУстройства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="fe8a49a6-ef25-4a06-b369-e38145a569fb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

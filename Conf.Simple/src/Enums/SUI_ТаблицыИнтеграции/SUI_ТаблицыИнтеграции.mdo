@@ -79,20 +79,6 @@
       <value>Виды номенклатуры</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="06ce3679-b17d-4d5d-b083-33b1a5be3968">
-    <name>ВидыЦен</name>
-    <synonym>
-      <key>ru</key>
-      <value>Виды цен</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="46f9dc2a-b41b-497d-982c-fdcfc40ae1f9">
-    <name>ЦеныНоменклатуры</name>
-    <synonym>
-      <key>ru</key>
-      <value>Цены номенклатуры</value>
-    </synonym>
-  </enumValues>
   <enumValues uuid="9826a07b-4ef8-4701-8530-ae2bfe9e4db2">
     <name>ШтрихкодыНоменклатуры</name>
     <synonym>
@@ -114,46 +100,11 @@
       <value>Документы</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="5227f154-f6a0-4f76-89fd-7c469a919025">
-    <name>ТоварыДокументов</name>
-    <synonym>
-      <key>ru</key>
-      <value>Товары документов</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="41974dfe-3d67-4f1b-9ee3-4c53a9e8de38">
-    <name>ШтрихкодыУпаковокДокументов</name>
-    <synonym>
-      <key>ru</key>
-      <value>Штрихкоды упаковок документов</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="22b148df-ce10-4663-990a-03ca41158179">
-    <name>ДокументыАдресногоХранения</name>
-    <synonym>
-      <key>ru</key>
-      <value>Документы адресного хранения</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="de8176bd-9e50-4502-a0f3-2a1020db5043">
-    <name>ТоварыДокументовАдресногоХранения</name>
-    <synonym>
-      <key>ru</key>
-      <value>Товары документов адресного хранения</value>
-    </synonym>
-  </enumValues>
   <enumValues uuid="1bfd48ea-a721-45ba-8d2b-a60068917e59">
     <name>НастройкиДокументов</name>
     <synonym>
       <key>ru</key>
       <value>Настройки документов</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="f3167d0b-eaf3-449c-9bfb-e7bdc2e6b797">
-    <name>СерииДокументов</name>
-    <synonym>
-      <key>ru</key>
-      <value>Серии документов</value>
     </synonym>
   </enumValues>
   <enumValues uuid="06a2fd53-2f79-43bc-9546-51a75981f85b">

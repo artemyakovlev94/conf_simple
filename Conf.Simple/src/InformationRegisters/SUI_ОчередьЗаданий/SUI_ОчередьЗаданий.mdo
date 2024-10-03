@@ -142,26 +142,6 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="de97cada-aec2-4431-9113-b168f0ace06a">
-    <name>ИдентификаторДокумента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Идентификатор документа</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>69</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-  </resources>
   <attributes uuid="e26838b3-fb5e-4b9e-b0bd-361bc4f79db6">
     <name>ВнеОчереди</name>
     <synonym>

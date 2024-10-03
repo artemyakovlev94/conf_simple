@@ -12,21 +12,17 @@
   <content>CommonModule.SUI_ДокументыОбменаКлиент</content>
   <content>CommonModule.SUI_ДокументыОбменаКлиентСервер</content>
   <content>CommonModule.SUI_ДокументыОбменаПовтИсп</content>
-  <content>CommonForm.SUI_ВыгрузкаДокументаНаТСД</content>
-  <content>CommonForm.SUI_ЗагрузкаДокументаИзТСД</content>
   <content>Constant.SUI_ЗамещатьВПотокеШтрихкодов</content>
   <content>Constant.SUI_РегистрироватьИзмененияПослеЗагрузкиДокументаИзМУ</content>
   <content>Enum.SUI_СостоянияДокументовОбмена</content>
-  <content>Enum.SUI_РежимыОткрытияДокументаОбмена</content>
-  <content>InformationRegister.SUI_docs</content>
-  <content>DataProcessor.SUI_ОбработкаПотокаШтрихкодов</content>
-  <content>Document.SUI_СборШтрихкодов</content>
-  <content>Role.SUI_ИнтерактивноеУдалениеДокументовСборШтрихкодов</content>
-  <content>Enum.SUI_СтатусыДокументовСбораШтрихкодов</content>
   <content>Constant.SUI_ХранениеОбработанныхДокументовОбмена</content>
   <content>Constant.SUI_ОткрыватьВыгрузкуДокументовОбменаОфлайн</content>
   <content>FunctionalOption.SUI_ОткрыватьВыгрузкуДокументовОбменаОфлайн</content>
-  <subsystems>SUI_НастройкиДокументовОбмена</subsystems>
-  <subsystems>SUI_ТаблицыДокументовОбмена</subsystems>
+  <content>Document.SUI_ДокументОбмена</content>
+  <content>Catalog.SUI_НастройкиДокументовОбмена</content>
+  <content>InformationRegister.SUI_ВладельцыНастроекДокументов</content>
+  <content>InformationRegister.SUI_ГрупповойПересчет</content>
+  <content>InformationRegister.SUI_ДополнительныеРеквизитыДокументовОбмена</content>
+  <content>InformationRegister.SUI_ПотокШтрихкодов</content>
   <parentSubsystem>Subsystem.SUI_Simple</parentSubsystem>
 </mdclass:Subsystem>

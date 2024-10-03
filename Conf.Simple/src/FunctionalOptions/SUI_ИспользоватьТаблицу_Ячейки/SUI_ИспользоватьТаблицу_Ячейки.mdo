@@ -8,6 +8,5 @@
   <location>Constant.SUI_ИспользоватьТаблицу_Ячейки</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>InformationRegister.SUI_tbl_cells</content>
-  <content>InformationRegister.SUI_docs_tbl_goods.Resource.id_cell</content>
-  <content>InformationRegister.SUI_docs_tbl_goods_delta.Resource.id_cell</content>
+  <content>InformationRegister.SUI_ГрупповойПересчет.Attribute.Ячейка</content>
 </mdclass:FunctionalOption>

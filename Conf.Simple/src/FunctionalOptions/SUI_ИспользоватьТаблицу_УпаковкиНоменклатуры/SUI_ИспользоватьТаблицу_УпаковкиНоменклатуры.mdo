@@ -8,7 +8,7 @@
   <location>Constant.SUI_ИспользоватьТаблицу_УпаковкиНоменклатуры</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>InformationRegister.SUI_tbl_units</content>
-  <content>InformationRegister.SUI_docs_tbl_goods.Resource.id_unit</content>
-  <content>InformationRegister.SUI_docs_tbl_goods_delta.Resource.id_unit</content>
-  <content>InformationRegister.SUI_docs_tbl_barcodes.Resource.id_unit</content>
+  <content>Document.SUI_ДокументОбмена.TabularSection.Товары.Attribute.Упаковка</content>
+  <content>Document.SUI_ДокументОбмена.TabularSection.ШтрихкодыУпаковок.Attribute.Упаковка</content>
+  <content>InformationRegister.SUI_ГрупповойПересчет.Attribute.Упаковка</content>
 </mdclass:FunctionalOption>

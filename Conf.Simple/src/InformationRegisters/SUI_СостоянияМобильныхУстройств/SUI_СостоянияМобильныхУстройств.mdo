@@ -41,21 +41,6 @@
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="9169c701-ddb5-42bc-aa3c-237ce771589d">
-    <name>Удалить_СостояниеПолнойВыгрузки</name>
-    <synonym>
-      <key>ru</key>
-      <value>(не используется) Состояние полной выгрузки</value>
-    </synonym>
-    <type>
-      <types>EnumRef.Удалить_SUI_СостоянияПолнойВыгрузкиМУ</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
   <attributes uuid="0df1a8ff-7a29-4fa4-89af-7b5cef164ac8">
     <name>ДатаОбновления</name>
     <synonym>

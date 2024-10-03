@@ -7,8 +7,5 @@
   </synonym>
   <location>Constant.SUI_ИспользоватьДополнительныеРеквизитыТаблиц</location>
   <privilegedGetMode>true</privilegedGetMode>
-  <content>InformationRegister.SUI_docs.Resource.additional_details</content>
-  <content>InformationRegister.SUI_docs_tbl_goods.Resource.additional_details</content>
-  <content>InformationRegister.SUI_docs_tbl_series.Resource.additional_details</content>
-  <content>InformationRegister.SUI_docs_tbl_barcodes.Resource.additional_details</content>
+  <content>InformationRegister.SUI_ДополнительныеРеквизитыДокументовОбмена</content>
 </mdclass:FunctionalOption>

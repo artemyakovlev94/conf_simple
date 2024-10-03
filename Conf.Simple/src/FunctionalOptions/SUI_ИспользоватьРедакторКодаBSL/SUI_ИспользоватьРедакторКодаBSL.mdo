@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0eae1bf-39cf-4a2d-84a2-7d1399ed963a">
+  <name>SUI_ИспользоватьРедакторКодаBSL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать редактор кода BSL (SUI)</value>
+  </synonym>
+  <location>Constant.SUI_ИспользоватьРедакторКодаBSL</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>
