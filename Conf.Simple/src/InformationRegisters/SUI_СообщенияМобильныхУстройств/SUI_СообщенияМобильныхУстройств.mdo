@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd10efb8-d594-4240-a2de-ff15f2225c0a">
+  <producedTypes>
+    <selectionType typeId="3172ed3b-6746-4483-9576-c12b5677e92a" valueTypeId="4f332dda-6bcd-4705-8c14-b7c48f08ab00"/>
+    <listType typeId="aba8a98f-c1a2-4a54-b62f-be04770dbbf3" valueTypeId="17933b8b-27c7-4da5-8971-231e41922ea2"/>
+    <managerType typeId="66c0a0ec-b7c3-4e66-9ca2-58cf71612105" valueTypeId="7518cc3f-8569-4559-b651-0fb399863195"/>
+    <recordSetType typeId="d779edc4-adf1-430e-a9da-f65841e7af8a" valueTypeId="6b2a93c8-f345-497d-91df-078cbcfa1527"/>
+    <recordKeyType typeId="a6179ec4-3aae-4705-a1ab-2974e14f573c" valueTypeId="88fad766-a185-49c2-8a60-b2a182ab1e26"/>
+    <recordType typeId="f0978fa3-4541-41ec-9b8d-7118a1fe9114" valueTypeId="1afc62ba-bbc9-45cc-a2d3-2f55d3a53c4a"/>
+    <recordManagerType typeId="c5e98168-e40c-4a05-a8b4-553d6a9ff3ed" valueTypeId="2c44e7b1-1add-429e-8ce6-4822cb79e4b6"/>
+  </producedTypes>
+  <name>SUI_СообщенияМобильныхУстройств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения мобильных устройств (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.SUI_СообщенияМобильныхУстройств.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.SUI_СообщенияМобильныхУстройств.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Сообщение мобильного устройства</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Сообщения мобильных устройств</value>
+  </listPresentation>
+  <resources uuid="3ef8d099-4c51-450f-aabf-8d89a7a9d8eb">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="70d24e8b-1935-4eaf-9cd4-77c9644b2665">
+    <name>МеткаВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метка времени</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>30</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ad36c12c-2a62-4aba-aa63-c99784f0877a">
+    <name>ДатаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="77485505-533c-43a4-9d7f-d06a5b17c626">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value>0000000000000000000000000000000000000000</value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c3545762-1212-4755-8995-c50459a4b0af">
+    <name>Отправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправитель</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.SUI_МобильныеУстройства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЭтотУзел</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c140f1db-3755-4424-9725-43a25307a8a0">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.SUI_МобильныеУстройства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЭтотУзел</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="fc627f66-643d-4879-b128-a918c8674c1b">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="23bf1b17-e203-4e5e-b81c-55a423e32eee">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="fa5420c0-c030-4035-8734-7a10c6ce02ea">
+    <name>ОтправитьСообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить сообщение</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>ExchangePlanRef.SUI_МобильныеУстройства</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Отправить сообщение мобильному устройству</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.SendMessage</picture>
+    </picture>
+  </commands>
+</mdclass:InformationRegister>

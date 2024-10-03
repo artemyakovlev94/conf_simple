@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="116ecf90-b468-4596-8243-88581bff2d02">
+  <name>SUI_СообщенияМобильныхУстройств</name>
+  <synonym>
+    <key>ru</key>
+    <value>SUI сообщения мобильных устройств</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.SUI_СообщенияМобильныхУстройств</content>
+  <content>InformationRegister.SUI_СообщенияМобильныхУстройств</content>
+  <content>CommonModule.SUI_СообщенияМобильныхУстройствКлиент</content>
+  <content>FunctionalOption.SUI_ХранениеСообщенийМобильныхУстройствВДнях</content>
+  <content>Constant.SUI_ХранениеСообщенийМобильныхУстройствВДнях</content>
+  <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

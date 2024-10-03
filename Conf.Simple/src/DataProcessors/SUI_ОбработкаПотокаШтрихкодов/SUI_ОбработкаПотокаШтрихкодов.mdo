@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b361b643-2dc1-434f-922c-6fc90e0f528a">
+  <producedTypes>
+    <objectType typeId="36ad0ce3-dfde-4601-9dbc-538b0b85a9b0" valueTypeId="c3f57599-3a95-410c-a3d4-1c37aff1251f"/>
+    <managerType typeId="8df596cb-c5ca-4841-b91b-96c6b724e996" valueTypeId="0345b691-e5db-4022-9d52-ce4f0663913f"/>
+  </producedTypes>
+  <name>SUI_ОбработкаПотокаШтрихкодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка потока штрихкодов (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.SUI_ОбработкаПотокаШтрихкодов.Form.СопоставлениеПотокаШтрихкодов</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Обработка потока штрихкодов</value>
+  </extendedPresentation>
+  <forms uuid="49cf0bbd-ff27-45a0-910f-9107198734d6">
+    <name>СопоставлениеПотокаШтрихкодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление потока штрихкодов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

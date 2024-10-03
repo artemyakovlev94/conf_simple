@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f47d3b72-3120-46a2-92a6-e165c226c397">
+  <name>SUI_ПометитьНаУдаление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пометить на удаление</value>
+  </synonym>
+</mdclass:CommonPicture>

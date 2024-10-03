@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37df7578-2c03-4b77-a709-1a4994c70ce2">
+  <name>SUI_РольПраваТСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Simple: Права ТСД</value>
+  </synonym>
+</mdclass:Role>

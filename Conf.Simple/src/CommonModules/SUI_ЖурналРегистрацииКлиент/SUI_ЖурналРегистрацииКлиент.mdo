@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="550b2053-6e1e-4df5-ae60-41e88ce177ae">
+  <name>SUI_ЖурналРегистрацииКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал регистрации клиент (SUI)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

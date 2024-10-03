@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27f727b8-d13a-430c-9d9f-e31bc11ea7ee">
+  <name>SUI_РаботаСФайлами</name>
+  <synonym>
+    <key>ru</key>
+    <value>SUI работа с файлами</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.SUI_ПрисоединенныеФайлыОбщие</content>
+  <content>Role.SUI_ИнтерактивноеУдалениеПрисоединенныхФайлов</content>
+  <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

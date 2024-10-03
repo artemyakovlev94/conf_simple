@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a98a9937-a4c3-4ff6-9ca5-cdee614e63ad">
+  <name>SUI_РазмерПакетаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер пакета данных</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

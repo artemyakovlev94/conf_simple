@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="496d78d0-ccc5-406b-8b50-cc934105fe00">
+  <name>SUI_ОткрыватьВыгрузкуДокументовОбменаОфлайн</name>
+  <synonym>
+    <key>ru</key>
+    <value>Открывать выгрузку документов обмена (офлайн) (SUI)</value>
+  </synonym>
+  <location>Constant.SUI_ОткрыватьВыгрузкуДокументовОбменаОфлайн</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

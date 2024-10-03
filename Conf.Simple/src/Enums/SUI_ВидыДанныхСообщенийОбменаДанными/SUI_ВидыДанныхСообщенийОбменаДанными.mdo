@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f282490-f485-4c1d-a634-42260d5f489d">
+  <producedTypes>
+    <refType typeId="1f041fde-8538-4685-bc8c-83ba4ef31c0b" valueTypeId="c61a6544-d69b-4909-9d41-3687552ab8e0"/>
+    <listType typeId="a36bd193-f928-4e17-824a-fe492e15c10d" valueTypeId="965b9ae8-0836-499f-baaf-1320873b67a5"/>
+    <managerType typeId="4a603a05-d90b-4867-a1d6-7e5de6bd80d2" valueTypeId="9d924a72-d1ff-4add-821a-485ee2e324a3"/>
+  </producedTypes>
+  <name>SUI_ВидыДанныхСообщенийОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды данных сообщений обмена данными (SUI)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды данных сообещений обмена данными</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Виды данных сообещений обмена данными</value>
+  </extendedListPresentation>
+  <enumValues uuid="6ea273ae-c5b4-4177-8736-56edb7e430a8">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="72928738-78d4-4f88-91e5-80aadb731a0c">
+    <name>JSON</name>
+    <synonym>
+      <key>ru</key>
+      <value>JSON</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

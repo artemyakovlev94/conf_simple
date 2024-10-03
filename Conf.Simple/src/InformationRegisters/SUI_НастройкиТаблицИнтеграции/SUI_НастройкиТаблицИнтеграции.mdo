@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="758ff624-2ed9-494a-87ba-8ef753a37a0d">
+  <producedTypes>
+    <selectionType typeId="2f6cbc99-030c-4f25-8007-6fe86ccf5c5f" valueTypeId="9d7dd57c-8b91-412f-90cc-35a140531324"/>
+    <listType typeId="aadf876d-0646-467d-ba6f-122ea43e5c88" valueTypeId="28183ae5-418c-4334-9191-65eb0ff7a94c"/>
+    <managerType typeId="9d46c323-4c9b-407c-8d6a-923812206c40" valueTypeId="fc3edf53-114e-4700-989c-ce5f7502d03c"/>
+    <recordSetType typeId="82b8b8ff-4be9-4336-9df5-24f27814bc22" valueTypeId="0aad2877-2c2b-4921-8a62-8832e9b064ae"/>
+    <recordKeyType typeId="8a42286a-a217-4c05-bffc-8ac71fc19d17" valueTypeId="11a22d5c-7db4-421a-bad9-0ae70cb420f2"/>
+    <recordType typeId="0910940e-0e83-4c16-a379-737f9d139c5a" valueTypeId="4fbc7fe1-981e-496a-8931-90546ef222fa"/>
+    <recordManagerType typeId="fa26182d-8966-4168-8539-44ce15f54b77" valueTypeId="2b87eacb-a2ad-478f-a373-36b1d892973e"/>
+  </producedTypes>
+  <name>SUI_НастройкиТаблицИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки таблиц интеграции (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.SUI_НастройкиТаблицИнтеграции.Form.НастройкаТаблиц</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка таблицы интеграции</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Настройки таблиц интеграции</value>
+  </listPresentation>
+  <resources uuid="5b2f1f07-e455-4dfe-8454-3556876bc8d7">
+    <name>НастройкиКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки компоновки данных</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c9966718-e4db-4cbf-a2d9-29cc7723013d">
+    <name>ОсновнойОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной объект</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a074fbd3-029a-42be-981d-d0949441c78c">
+    <name>СхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b4f826ce-59fa-49a1-814d-7cdb7315a41c">
+    <name>ТаблицаИнтеграции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица интеграции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.SUI_ТаблицыИнтеграции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1617baa5-1e5b-4f47-bff7-e9d9fbb6804f">
+    <name>ИмяОбъектаКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя объекта конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="aed9a7c8-f06b-49ff-a5ac-b5586fce052e">
+    <name>НастройкаТаблиц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка таблиц</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c22dc432-69e6-433b-9854-cc7321b0dd93">
+    <name>РезультатКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат компоновки данных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4f4583f8-e670-473e-bd43-f6cf0f5b7b46">
+    <name>НастройкиТаблиц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки таблиц</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:InformationRegister>

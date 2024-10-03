@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd063a0b-ae7e-4aca-ab81-ece0074f29c0">
+  <name>SUI_ИспользоватьТаблицу_ШаблоныЭтикеток</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать таблицу шаблоны этикеток (SUI)</value>
+  </synonym>
+  <location>Constant.SUI_ИспользоватьТаблицу_ШаблоныЭтикеток</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.SUI_tbl_label_templates</content>
+  <content>Catalog.SUI_ШаблоныЭтикетокZPL</content>
+</mdclass:FunctionalOption>

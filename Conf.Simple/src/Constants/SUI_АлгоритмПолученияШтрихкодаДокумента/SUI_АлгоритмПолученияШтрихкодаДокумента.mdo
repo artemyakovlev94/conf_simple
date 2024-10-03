@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad22ed7d-5d07-43e4-bafa-5aca0348f454">
+  <producedTypes>
+    <managerType typeId="038b3ddc-8400-40c8-ba50-35bbf349c9be" valueTypeId="1c0b8d71-74cb-4683-a0c1-1e9ac762c71a"/>
+    <valueManagerType typeId="d8238dc0-50ec-461a-a900-10688c54c0cd" valueTypeId="70fe870c-2399-4b44-a9c1-1807e566166f"/>
+    <valueKeyType typeId="8c6c6d8e-2357-4a16-beff-fac34d594b23" valueTypeId="dc751fb5-1879-47d6-b19c-fb1cf6f8c824"/>
+  </producedTypes>
+  <name>SUI_АлгоритмПолученияШтрихкодаДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Алгоритм получения штрихкода документа (SUI)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.SUI_АлгоритмПолученияШтрихкодаДокумента</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Алгоритм получения штрихкода документа</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

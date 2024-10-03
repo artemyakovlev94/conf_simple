@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7cf252c-eb54-48bf-b957-7ac2fba448e4">
+  <name>SUI_ИнтеграцияВКонфигурациюСправочникиПередУдалением</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция в конфигурацию справочники перед удалением (SUI)</value>
+  </synonym>
+  <source>
+    <types>CatalogObject</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.SUI_ИнтеграцияВКонфигурацию.SUI_ИнтеграцияВКонфигурациюСправочникиПередУдалением</handler>
+</mdclass:EventSubscription>

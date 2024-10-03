@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a5cad87-2b78-49f7-9b1f-2ec17f6e3f12">
+  <producedTypes>
+    <managerType typeId="910a39bf-a208-47c8-89d2-ce61f9ce7a08" valueTypeId="34f84f1b-cb40-4cd3-9054-c472f2209aba"/>
+    <valueManagerType typeId="e908b30e-9c7e-4622-bc74-f3e03e0fb281" valueTypeId="e5f66c5a-b767-4838-860b-6480a3a15970"/>
+    <valueKeyType typeId="63be2beb-e488-4c7b-8872-28c7384a014a" valueTypeId="e2b7abba-56b6-4818-bc3b-f0187a4f1c76"/>
+  </producedTypes>
+  <name>SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Срок хранения результатов обработки входящих сообщений обмена в днях (SUI)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>1</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Срок хранения результатов обработки входящих сообщений обмена в днях</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:StringValue">
+    <value>0</value>
+  </minValue>
+  <maxValue xsi:type="core:StringValue">
+    <value>9</value>
+  </maxValue>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

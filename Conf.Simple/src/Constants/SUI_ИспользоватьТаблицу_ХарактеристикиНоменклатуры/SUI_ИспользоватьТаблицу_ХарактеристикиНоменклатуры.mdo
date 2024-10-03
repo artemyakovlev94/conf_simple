@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14515bf2-6839-430c-98c4-74acee05683e">
+  <producedTypes>
+    <managerType typeId="3896ed41-f9b0-4999-88bb-8c07780c6a9b" valueTypeId="a5bfa936-4a93-439f-a7b9-f12455ff0fee"/>
+    <valueManagerType typeId="6ebd6253-7666-407b-99aa-5e05d4b2f9a2" valueTypeId="00142d4e-2db6-4704-b23e-32780bb2c430"/>
+    <valueKeyType typeId="03700ba4-236f-4048-801d-9f8819ee0d97" valueTypeId="144c06ca-350d-4598-81b3-0d2c0fd53777"/>
+  </producedTypes>
+  <name>SUI_ИспользоватьТаблицу_ХарактеристикиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать таблицу Характеристики номенклатуры (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использовать таблицу Характеристики номенклатуры</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

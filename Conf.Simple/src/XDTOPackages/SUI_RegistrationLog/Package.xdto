@@ -1,0 +1,56 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.registration-log.simple" elementFormQualified="true" attributeFormQualified="false">
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<import namespace="http://www.w3.org/2001/XMLSchema"/>
+	<objectType name="Log">
+		<property name="Date" type="xs:dateTime" form="Attribute"/>
+		<property name="DateServer" type="xs:dateTime" lowerBound="0" form="Attribute"/>
+		<property name="Level" type="xs:string" form="Attribute"/>
+		<property xmlns:d3p1="http://www.registration-log.simple" name="Event" type="d3p1:Event"/>
+		<property xmlns:d3p1="http://www.registration-log.simple" name="Connect" type="d3p1:Connect"/>
+		<property xmlns:d3p1="http://www.registration-log.simple" name="Metadata" type="d3p1:Metadata"/>
+		<property xmlns:d3p1="http://www.registration-log.simple" name="Transaction" type="d3p1:Transaction"/>
+		<property xmlns:d3p1="http://www.registration-log.simple" name="DataSeparation" type="d3p1:DataSeparation"/>
+		<property xmlns:d3p1="http://www.registration-log.simple" name="Data" type="d3p1:Data"/>
+	</objectType>
+	<objectType name="Event">
+		<property name="Name" type="xs:string" lowerBound="0"/>
+		<property name="View" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="Connect">
+		<property name="Computer" type="xs:string" lowerBound="0"/>
+		<property name="Server" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://www.registration-log.simple" name="Port" type="d3p1:Port"/>
+		<property xmlns:d3p1="http://www.registration-log.simple" name="User" type="d3p1:User"/>
+		<property xmlns:d3p1="http://www.registration-log.simple" name="App" type="d3p1:App"/>
+		<property name="Session" type="xs:int" lowerBound="0"/>
+		<property name="Connection" type="xs:int" lowerBound="0"/>
+	</objectType>
+	<objectType name="Port">
+		<property name="Main" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="Additional" type="xs:string" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="User">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="ID" type="d3p1:UUID" lowerBound="0" form="Attribute"/>
+		<property name="Name" type="xs:string" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="App">
+		<property name="Name" type="xs:string" lowerBound="0"/>
+		<property name="View" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="Metadata">
+		<property name="Name" type="xs:string" lowerBound="0"/>
+		<property name="View" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="Transaction">
+		<property name="Name" type="xs:string" lowerBound="0"/>
+		<property name="Status" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="DataSeparation">
+		<property name="Name" type="xs:string" lowerBound="0"/>
+		<property name="View" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="Data">
+		<property name="Data" type="xs:string" lowerBound="0"/>
+		<property name="Comment" type="xs:string" lowerBound="0"/>
+	</objectType>
+</package>

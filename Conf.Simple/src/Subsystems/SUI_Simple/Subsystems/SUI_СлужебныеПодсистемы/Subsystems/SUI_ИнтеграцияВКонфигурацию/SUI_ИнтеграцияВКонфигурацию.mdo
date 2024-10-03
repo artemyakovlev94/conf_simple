@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51f5455e-f409-4365-927c-887297b7003a">
+  <name>SUI_ИнтеграцияВКонфигурацию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция в конфигурацию</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.SUI_ИнтеграцияВКонфигурациюКлиент</content>
+  <content>CommonModule.SUI_ИнтеграцияВКонфигурациюВызовСервера</content>
+  <content>CommonModule.SUI_ИнтеграцияВКонфигурациюКлиентСервер</content>
+  <content>CommonModule.SUI_НастройкиМетаданныхВызовСервера</content>
+  <content>CommonModule.SUI_НастройкиМетаданныхКлиент</content>
+  <content>CommonModule.SUI_НастройкиМетаданныхКлиентСервер</content>
+  <content>CommonModule.SUI_НастройкиМетаданныхПовтИсп</content>
+  <content>CommonModule.SUI_НастройкиМетаданныхСервер</content>
+  <content>CommonModule.SUI_ИнтеграцияВКонфигурацию</content>
+  <content>InformationRegister.SUI_НастройкиТаблицИнтеграции</content>
+  <content>InformationRegister.SUI_ДополнительныеНастройкиТаблицИнтеграции</content>
+  <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

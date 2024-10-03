@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="760c05d4-9fcf-4c01-9bf0-cc17f812b0ca">
+  <producedTypes>
+    <selectionType typeId="22babfbf-bb03-4906-9bff-bd8d5853caa4" valueTypeId="b9b6b7a8-fa51-484f-bee4-56b23f443bb4"/>
+    <listType typeId="8ca83c87-b962-4244-80d2-b472db6f1a74" valueTypeId="5359a587-72f9-4282-9d49-67b40e11c4c7"/>
+    <managerType typeId="c91e49d9-1a20-447c-984f-a16f80b4da83" valueTypeId="71042817-9600-4379-93c3-3ea04e386076"/>
+    <recordSetType typeId="ba44ca0c-1210-429b-998f-d222ac44d4d1" valueTypeId="0d42dd07-9064-4876-a466-294ac7003f68"/>
+    <recordKeyType typeId="ae531fb7-064d-4461-b458-218f1bf3f636" valueTypeId="706e229a-3d89-4014-8b61-be01f986e74b"/>
+    <recordType typeId="2dcab00f-49ff-44c3-8785-ede959fde679" valueTypeId="247165a8-4d96-40c0-bfdc-711e39ae0f3a"/>
+    <recordManagerType typeId="30277bf7-97b6-49f3-9060-aaeca6dd140a" valueTypeId="ba10a01a-ceb0-40bd-b244-d41dce77e4ba"/>
+  </producedTypes>
+  <name>SUI_СеансыМобильныхУстройств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сеансы мобильных устройств (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.SUI_СеансыМобильныхУстройств.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.SUI_СеансыМобильныхУстройств.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Сеансы мобильных устройств</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Сеансы мобильных устройств</value>
+  </listPresentation>
+  <resources uuid="d4eb5cce-2a15-4524-b02a-895827227644">
+    <name>Сеанс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сеанс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1a9a2209-5397-4589-9a2b-7fb6c18bdd53">
+    <name>ДатаСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата сеанса</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a67eadbc-44d9-4eb6-899c-fe6b947302a8">
+    <name>ВерсияПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия приложения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>26</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="bb57faac-7433-4bd6-9a3c-dbae4d9f2cf2">
+    <name>МеткаВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метка времени</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>30</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="628fb41a-c9f6-48c7-84cc-e5ebecf322e9">
+    <name>МобильноеУстройство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильное устройство</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.SUI_МобильныеУстройства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЭтотУзел</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="899f5c95-796a-4317-a6e6-0511d2839e2b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d50bd9d2-677a-4a39-8103-2ac2115a1e72">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

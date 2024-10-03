@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56e07b71-db25-4453-8c52-e48777e5e36d">
+  <producedTypes>
+    <managerType typeId="2596d147-b159-4960-a412-3e85db8c4c97" valueTypeId="4d18f10d-d280-43ff-808b-20f1d690425f"/>
+    <valueManagerType typeId="ccda580d-1706-433b-8778-7f999cd05988" valueTypeId="1414583a-5554-4116-8e37-5d26082526a3"/>
+    <valueKeyType typeId="8df3fd37-f4af-474d-b7f0-f4e8ac6ece07" valueTypeId="0cbe8cf9-74e8-407f-8701-a2e09530711f"/>
+  </producedTypes>
+  <name>SUI_ИспользоватьТаблицу_Ячейки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать таблицу Ячейки (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использовать таблицу Ячейки</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="911063d9-ec29-4979-a6a1-413f1ef38fda">
+  <name>SUI_ИспользоватьДополнительныеРеквизитыТаблиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дополнительные реквизиты таблиц (SUI)</value>
+  </synonym>
+  <location>Constant.SUI_ИспользоватьДополнительныеРеквизитыТаблиц</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.SUI_docs.Resource.additional_details</content>
+  <content>InformationRegister.SUI_docs_tbl_goods.Resource.additional_details</content>
+  <content>InformationRegister.SUI_docs_tbl_series.Resource.additional_details</content>
+  <content>InformationRegister.SUI_docs_tbl_barcodes.Resource.additional_details</content>
+</mdclass:FunctionalOption>

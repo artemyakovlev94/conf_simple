@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5a721e0-9049-4a03-88e2-be94389afb78">
+  <name>SUI_ЛогированиеHTTPЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логирование HTTP запросов (SUI)</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Логирование HTTP запросов</value>
+  </extendedPresentation>
+</mdclass:CommonForm>

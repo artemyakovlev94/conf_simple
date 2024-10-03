@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2df4c351-e273-49ab-8473-99611d87dd27">
+  <name>SUI_ОчередьЗаданийПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь заданий при записи (SUI)</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.SUI_ОчередьЗаданий</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.SUI_ОчередьЗаданий.SUI_ОчередьЗаданийПриЗаписи</handler>
+</mdclass:EventSubscription>

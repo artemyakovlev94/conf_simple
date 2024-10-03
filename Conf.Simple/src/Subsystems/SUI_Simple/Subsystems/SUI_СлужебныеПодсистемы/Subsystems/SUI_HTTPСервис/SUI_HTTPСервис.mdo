@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04a4c537-16b2-419b-b5bf-4ae73076069b">
+  <name>SUI_HTTPСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>HTTP сервис</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.SUI_HTTPСервис</content>
+  <content>CommonModule.SUI_HTTPСервисКлиентСервер</content>
+  <content>CommonModule.SUI_HTTPСервисПовтИсп</content>
+  <content>HTTPService.SUI_Exchange</content>
+  <content>Enum.SUI_HTTPМетоды</content>
+  <content>CommonModule.SUI_HTTPСервисВызовСервера</content>
+  <content>CommonModule.SUI_HTTPКонектор</content>
+  <subsystems>SUI_Логирование</subsystems>
+  <subsystems>SUI_ОбменДанными</subsystems>
+  <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

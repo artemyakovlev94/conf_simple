@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c9fa5e1-6740-47cb-8910-b48c2302b049">
+  <name>SUI_ДополнительныеРеквизитыТаблиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные реквизиты таблиц (SUI)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

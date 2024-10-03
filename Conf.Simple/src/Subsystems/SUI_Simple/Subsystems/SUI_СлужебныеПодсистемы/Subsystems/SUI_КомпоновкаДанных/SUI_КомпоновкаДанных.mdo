@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef44f14d-3592-44f1-a6a5-143f3695d999">
+  <name>SUI_КомпоновкаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компоновка данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.SUI_КомпоновкаДанныхКлиентСервер</content>
+  <content>CommonModule.SUI_КомпоновкаДанныхСервер</content>
+  <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

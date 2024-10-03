@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e251aae-90e3-4e91-a35f-9e034bd24a85">
+  <producedTypes>
+    <managerType typeId="a2a804e7-fe4e-4026-8955-5eb0077b9d4d" valueTypeId="e33ec822-2efe-484a-a8a4-871850ae2672"/>
+    <valueManagerType typeId="e6e1f575-a054-45ac-b7c7-39a9f6613dd6" valueTypeId="01f87e01-27db-4290-a8f4-c45070309930"/>
+    <valueKeyType typeId="34c6f275-5751-4c8e-a33b-6251ec20918d" valueTypeId="8a832ac7-d4bc-4c93-88fa-cf5aa423bd3c"/>
+  </producedTypes>
+  <name>SUI_ПроверятьСвязьСПользователямиПриОткрытииРабочегоМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверять связь с пользователями при открытии рабочего места (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Проверять связь с пользователями при открытии рабочего места</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

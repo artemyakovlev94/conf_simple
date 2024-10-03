@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4ea3ae9-35f6-45a4-a086-af4b72ed1c4b">
+  <name>SUI_СостояниеЖелтый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние желтый</value>
+  </synonym>
+</mdclass:CommonPicture>

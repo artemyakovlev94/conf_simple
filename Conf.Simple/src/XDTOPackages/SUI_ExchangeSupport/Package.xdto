@@ -1,0 +1,115 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.exchange-support.simple" elementFormQualified="true" attributeFormQualified="false">
+	<import namespace="http://www.http-log.simple"/>
+	<import namespace="http://www.w3.org/2001/XMLSchema"/>
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<valueType name="UUIDString" base="xs:string" variety="Atomic">
+		<pattern>[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}</pattern>
+	</valueType>
+	<objectType name="Issue">
+		<property xmlns:d3p1="http://www.exchange-support.simple" name="Environment" type="d3p1:Environment"/>
+		<property xmlns:d3p1="http://www.exchange-support.simple" name="MobileApp" type="d3p1:MobileApp"/>
+		<property xmlns:d3p1="http://www.exchange-support.simple" name="HTTPLogs" type="d3p1:HTTPLogs"/>
+		<property xmlns:d3p1="http://www.exchange-support.simple" name="LogFiles" type="d3p1:LogFiles"/>
+		<property xmlns:d3p1="http://www.exchange-support.simple" name="Attachments" type="d3p1:Attachments"/>
+		<property name="Message" type="xs:string"/>
+	</objectType>
+	<objectType name="FileManifest">
+		<property name="Order" type="xs:int" form="Attribute"/>
+		<property name="Path" type="xs:string" form="Attribute"/>
+	</objectType>
+	<objectType name="MobileApp">
+		<property name="Version" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="Configuration" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="ConfigurationVersion" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="HTTPLogs">
+		<property name="Path" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.http-log.simple" name="Logs" type="d3p1:Logs"/>
+	</objectType>
+	<objectType name="LogFiles">
+		<property name="Path" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.exchange-support.simple" name="LogFile" type="d3p1:FileManifest" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Attachments">
+		<property name="Path" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.exchange-support.simple" name="Attachment" type="d3p1:Attachment" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Attachment">
+		<property name="Name" type="xs:string"/>
+		<property name="View" type="xs:string"/>
+		<property name="Description" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://www.exchange-support.simple" name="File" type="d3p1:FileManifest"/>
+	</objectType>
+	<objectType name="Environment">
+		<property xmlns:d3p1="http://www.exchange-support.simple" name="Platform" type="d3p1:Platform"/>
+		<property xmlns:d3p1="http://www.exchange-support.simple" name="Configuration" type="d3p1:Configuration"/>
+		<property xmlns:d3p1="http://www.exchange-support.simple" name="ExtensionSimple" type="d3p1:ExtensionSimple"/>
+		<property xmlns:d3p1="http://www.exchange-support.simple" name="Client" type="d3p1:Client"/>
+		<property xmlns:d3p1="http://www.exchange-support.simple" name="Computer" type="d3p1:Computer"/>
+	</objectType>
+	<objectType name="Platform">
+		<property name="Version" type="xs:string" form="Attribute"/>
+		<property name="Type" type="xs:string" form="Attribute"/>
+	</objectType>
+	<objectType name="Configuration">
+		<property name="Name" type="xs:string" form="Attribute"/>
+		<property name="Synonym" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="Edition" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="Version" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="SupportID" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="CompatibilityMode" type="xs:string"/>
+		<property name="VersionSSL" type="xs:string" lowerBound="0"/>
+		<property name="LanguageCode" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://www.exchange-support.simple" name="Subsystems" type="d3p1:Subsystems"/>
+		<property name="IsFileDB" type="xs:boolean"/>
+		<property name="IDFileDB" type="xs:string" lowerBound="0"/>
+		<property name="IsBasicVersion" type="xs:boolean"/>
+		<property xmlns:d3p1="http://www.exchange-support.simple" name="SeparationData" type="d3p1:SeparationData"/>
+		<property xmlns:d3p1="http://www.exchange-support.simple" name="DIB" type="d3p1:DIB"/>
+		<property name="Published" type="xs:boolean"/>
+	</objectType>
+	<objectType name="ExtensionSimple">
+		<property name="Version" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="ReplaceBarcodeFlow" type="xs:boolean"/>
+		<property name="ExchangeOption" type="xs:string" lowerBound="0"/>
+		<property name="HTTPLoggingEnabled" type="xs:boolean"/>
+		<property name="InstallingPreviewVersion" type="xs:boolean"/>
+		<property name="RegisterChangesAfterUploadingDocument" type="xs:boolean"/>
+		<property name="Published" type="xs:boolean"/>
+	</objectType>
+	<objectType name="SeparationData">
+		<property name="Available" type="xs:boolean" form="Attribute"/>
+		<property name="Enabled" type="xs:boolean" form="Attribute"/>
+	</objectType>
+	<objectType name="Client">
+		<property name="IsWindowsClient" type="xs:boolean"/>
+		<property name="IsWindowsServer" type="xs:boolean"/>
+		<property name="IsLinuxClient" type="xs:boolean"/>
+		<property name="IsLinuxServer" type="xs:boolean"/>
+		<property name="IsMacOSClient" type="xs:boolean"/>
+		<property name="IsWebClient" type="xs:boolean"/>
+		<property name="IsMobileClient" type="xs:boolean"/>
+		<property name="IsOfflineWorkplace" type="xs:boolean"/>
+		<property name="IsDebuggingMode" type="xs:boolean"/>
+		<property name="ConnectedViaWebServer" type="xs:boolean"/>
+	</objectType>
+	<objectType name="Computer">
+		<property name="AvailableRAM" type="xs:decimal" lowerBound="0"/>
+		<property name="CPU" type="xs:string" lowerBound="0"/>
+		<property name="OSVersion" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="Subsystems">
+		<property xmlns:d3p1="http://www.exchange-support.simple" name="Subsystem" type="d3p1:Subsystem" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Subsystem">
+		<property name="Name" type="xs:string" form="Attribute"/>
+		<property name="SupportID" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="Version" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="IsConfiguration" type="xs:boolean" form="Attribute"/>
+	</objectType>
+	<objectType name="DIB">
+		<property name="IsNodeDIB" type="xs:boolean" form="Attribute"/>
+		<property name="IsNodeDIBWithFilter" type="xs:boolean" form="Attribute"/>
+		<property name="AnUpdateIsRequired" type="xs:boolean" form="Attribute"/>
+	</objectType>
+</package>

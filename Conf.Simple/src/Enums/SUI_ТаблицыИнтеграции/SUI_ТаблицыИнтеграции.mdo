@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="818db601-bbb9-4745-845e-9f5b3cd66442">
+  <producedTypes>
+    <refType typeId="25fc1686-07cb-45cf-b151-f49a20893afd" valueTypeId="0cc14acf-a2b6-4582-ad51-49802e0dff70"/>
+    <listType typeId="a09c4487-a75f-4702-99f3-c451da50e610" valueTypeId="a8a3b878-ee88-42eb-b409-956edbab953a"/>
+    <managerType typeId="273c3d05-5463-47de-a47c-ba3269793ab1" valueTypeId="1a23b520-2d0a-47c7-b5e7-6533e5d89a17"/>
+  </producedTypes>
+  <name>SUI_ТаблицыИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таблицы интеграции (SUI)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Таблицы интеграции</value>
+  </listPresentation>
+  <enumValues uuid="034a5891-efcf-4911-b35d-4c493a4869d2">
+    <name>Контрагенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагенты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d841a1e-d753-40f2-a23b-c11c890efc9f">
+    <name>Склады</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склады</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="59e63a95-9705-4bfc-8339-eb1a1605ab2d">
+    <name>Ячейки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ячейки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="832b893b-a857-4e5d-82f9-1c8c2bcf45c3">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ece1ceb-1f46-4bb1-9517-476f5f83beb1">
+    <name>ХарактеристикиНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристики номенклатуры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a1c5102c-e4b1-46be-a369-4d21a9b48a68">
+    <name>СерииНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серии номенклатуры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e052802a-634e-489c-bb23-cad6c04b4609">
+    <name>ЕдиницыИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единицы измерения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1570c8dd-cba0-4f73-b5be-f65782e7e3ca">
+    <name>УпаковкиНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковки номенклатуры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b07300d1-4a62-402a-9c5a-b99b8a52a3ba">
+    <name>ВидыНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды номенклатуры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06ce3679-b17d-4d5d-b083-33b1a5be3968">
+    <name>ВидыЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды цен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46f9dc2a-b41b-497d-982c-fdcfc40ae1f9">
+    <name>ЦеныНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цены номенклатуры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9826a07b-4ef8-4701-8530-ae2bfe9e4db2">
+    <name>ШтрихкодыНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкоды номенклатуры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8f26a99e-1f7f-4819-8726-b69cb7df7fd6">
+    <name>ШтрихкодыУпаковок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкоды упаковок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e2fd720-877a-4e8c-bb2f-b2377a445464">
+    <name>Документы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5227f154-f6a0-4f76-89fd-7c469a919025">
+    <name>ТоварыДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары документов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="41974dfe-3d67-4f1b-9ee3-4c53a9e8de38">
+    <name>ШтрихкодыУпаковокДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкоды упаковок документов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="22b148df-ce10-4663-990a-03ca41158179">
+    <name>ДокументыАдресногоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы адресного хранения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de8176bd-9e50-4502-a0f3-2a1020db5043">
+    <name>ТоварыДокументовАдресногоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары документов адресного хранения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1bfd48ea-a721-45ba-8d2b-a60068917e59">
+    <name>НастройкиДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки документов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3167d0b-eaf3-449c-9bfb-e7bdc2e6b797">
+    <name>СерииДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серии документов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06a2fd53-2f79-43bc-9546-51a75981f85b">
+    <name>ШаблоныЭтикеток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблоны этикеток</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="33e1a71e-b62f-4ab7-8d55-b4c1bf8c3460">
+    <name>ПользователиТСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи ТСД</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

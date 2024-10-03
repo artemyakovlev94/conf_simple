@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cbb0df8-b433-49a1-9f94-4c065ac6912b">
+  <producedTypes>
+    <managerType typeId="e6e55515-e2f7-4501-b024-45d88f730e7f" valueTypeId="7cf0a7fd-f2b0-485a-b7bf-d02758d6342e"/>
+    <valueManagerType typeId="d0888ec0-9a17-4873-976b-1d31deb6654e" valueTypeId="0aefb4a0-ab22-47ea-a7b1-4ddfb84bb89f"/>
+    <valueKeyType typeId="c9a31471-ce7a-4e2d-b4e8-555eb850cf8e" valueTypeId="992383f8-808d-4657-b914-533b4fd1f7b6"/>
+  </producedTypes>
+  <name>SUI_ИспользоватьДополнительныеРеквизитыТаблиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дополнительные реквизиты таблиц (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использовать дополнительные реквизиты таблиц</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

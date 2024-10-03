@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="176bef6f-ffad-4c65-b682-c629b34d39f0">
+  <producedTypes>
+    <managerType typeId="63a40c09-0fe6-49e1-905a-4e3e4f00a650" valueTypeId="d69ccbad-3ccb-4a91-a6f6-c0cd658d0e78"/>
+    <valueManagerType typeId="2c8cf7db-b2ea-46f9-a142-bc372321e06d" valueTypeId="586a7122-d5f4-48fe-9721-d9edb3bc5cf4"/>
+    <valueKeyType typeId="1575817a-c6d3-4785-983d-30f6f5177d43" valueTypeId="bee14801-c83d-40b9-8325-760117f63103"/>
+  </producedTypes>
+  <name>SUI_ЛогированиеHTTPЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать логирование HTTP запросов (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.SUI_ЛогированиеHTTPЗапросов</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использовать логирование HTTP запросов</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

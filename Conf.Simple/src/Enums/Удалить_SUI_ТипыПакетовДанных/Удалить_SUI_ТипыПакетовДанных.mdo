@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="608e2fb5-5a65-4992-86e7-a9ec0eca72a4">
+  <producedTypes>
+    <refType typeId="62fa36b0-4eb8-49b9-abc1-537057fc6faa" valueTypeId="b4c14277-4ac7-4900-8c5a-25ea7426dd44"/>
+    <listType typeId="93114585-30d5-40ec-a57c-2909c90ff57b" valueTypeId="ed0d46ce-1581-4b3b-aa09-f022aeb629c4"/>
+    <managerType typeId="b9ae02db-e382-4eb2-817d-120adfdd62e4" valueTypeId="1a2b787a-1f20-4ed2-b207-3ad8c187b46c"/>
+  </producedTypes>
+  <name>Удалить_SUI_ТипыПакетовДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Типы пакетов данных (SUI)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b7e7558d-0511-4918-afe7-a92cd8881f20">
+    <name>Входящий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0cef38f2-8872-4e3f-9d4a-fdd77662e46c">
+    <name>Исходящий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1540061-8477-4325-b342-8d34f70f7e18">
+    <name>Служебный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b44585e-74c6-48c5-948a-9a4a570cd0cd">
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

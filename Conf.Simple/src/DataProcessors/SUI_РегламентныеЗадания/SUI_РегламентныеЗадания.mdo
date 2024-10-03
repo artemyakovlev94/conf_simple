@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcd1792b-8f53-4a07-816d-a0f208c08a3d">
+  <producedTypes>
+    <objectType typeId="e1517156-c8c6-485c-929b-d151aa6625aa" valueTypeId="a84899dd-8f2c-412b-8c94-623d7ee05706"/>
+    <managerType typeId="a459f123-da28-4973-ab98-0d1a15404966" valueTypeId="a42ee807-619f-4174-968b-2d8d8340b72b"/>
+  </producedTypes>
+  <name>SUI_РегламентныеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентные задания (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.SUI_РегламентныеЗадания.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Регламентные задания</value>
+  </extendedPresentation>
+  <forms uuid="5ff1705e-f9a3-4fe7-a652-558abc12ce08">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1af1f4fc-8e95-4c0c-9c5d-4db0113e1f0f">
+    <name>ФормаРегламентногоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма регламентного задания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="37cabb29-0932-41f2-93a3-d4f19aaa93ca">
+    <name>ФормаВыполненияРегламентногоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение регламентного задания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="8d78175f-b3d6-4280-88fb-1d27e244fe68">
+    <name>ОткрытьРегламентныеЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентные задания</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

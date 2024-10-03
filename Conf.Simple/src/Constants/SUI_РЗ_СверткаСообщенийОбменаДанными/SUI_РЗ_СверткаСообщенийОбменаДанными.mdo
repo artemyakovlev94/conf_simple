@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d593c824-f509-42a8-ba75-58a86d266230">
+  <producedTypes>
+    <managerType typeId="9e64cc6f-1f80-4064-bc9c-080f742bc33f" valueTypeId="3912bf18-9ebf-4182-8500-59adf5e905cb"/>
+    <valueManagerType typeId="fb0b1fd9-9b36-4e0e-8fc5-f34a493e38ca" valueTypeId="35a9975e-18b0-4fc7-8f58-b0532360eb24"/>
+    <valueKeyType typeId="b8eac724-c2a3-4ec5-9e49-52becc328dc2" valueTypeId="bd511d90-1836-478f-b50f-62f691e4c7d8"/>
+  </producedTypes>
+  <name>SUI_РЗ_СверткаСообщенийОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентное задание: Свертка сообщений обмена данными (SUI)</value>
+  </synonym>
+  <type>
+    <types>UUID</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Регламентное задание: Свертка сообщений обмена данными</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

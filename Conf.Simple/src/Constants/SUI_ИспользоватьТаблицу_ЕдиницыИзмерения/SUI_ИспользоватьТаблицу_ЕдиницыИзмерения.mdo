@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97efad9d-f7b2-4d1a-bdde-258aa763ac1b">
+  <producedTypes>
+    <managerType typeId="c86a13d5-7f02-41c2-9b6a-e17612910817" valueTypeId="bed1dd30-cc39-4634-8152-16a7a0ea587d"/>
+    <valueManagerType typeId="af73b7c5-ca12-44d6-a2ab-59cfe06a290a" valueTypeId="1cb74246-53ae-4873-8ee8-0cef0fe6265a"/>
+    <valueKeyType typeId="fe00898f-590b-4964-8411-f98cc616ee25" valueTypeId="8ee4d3b8-5420-4f67-871c-4ba8b50e1ff5"/>
+  </producedTypes>
+  <name>SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать таблицу Единицы измерения (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использовать таблицу Единицы измерения</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6a192d5-cd94-4711-baa0-bdbe2f1cad39">
+  <producedTypes>
+    <managerType typeId="d68ad600-c6d4-4c39-b774-99492d45ce3f" valueTypeId="db4d84a2-3ade-4be3-9e35-22c65156273d"/>
+    <valueManagerType typeId="d231bb20-2fae-4d09-bf1b-fc8311ae6f18" valueTypeId="929cc085-f162-410d-a96e-b2f662edb4ca"/>
+    <valueKeyType typeId="207d912e-e247-4a52-9916-cfd3c2351a0a" valueTypeId="6aa7c48c-9200-4b63-aeff-3bca3b3d64d0"/>
+  </producedTypes>
+  <name>SUI_ИспользоватьЗапросыАвторизацииМУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать запросы авторизации мобильных устройств (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использовать запросы авторизации мобильных устройств</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

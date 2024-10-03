@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c20d107-1f33-4180-9bfb-4eba7e5d7d48">
+  <producedTypes>
+    <managerType typeId="06efa8f5-19c6-42c4-a970-2ba60e88050f" valueTypeId="c34d8d47-f0e6-4ba1-b0b3-bd3d62a9ed71"/>
+    <valueManagerType typeId="a4724bc5-bd34-4841-84d7-3902be1486cb" valueTypeId="17dc144b-3a22-49f3-9663-20cd9d4abbcf"/>
+    <valueKeyType typeId="59e532d4-846d-44db-ac4c-da5e5e4220c9" valueTypeId="372c45d1-e6b9-4441-841b-49198da585df"/>
+  </producedTypes>
+  <name>SUI_ИспользуемыйВариантОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используемый вариант обмена (SUI)</value>
+  </synonym>
+  <type>
+    <types>EnumRef.SUI_ВариантОбмена</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Используемый вариант обмена</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

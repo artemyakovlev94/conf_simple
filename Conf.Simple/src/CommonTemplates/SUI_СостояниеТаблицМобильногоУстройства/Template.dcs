@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоИзменений</dataPath>
+			<field>КоличествоИзменений</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество изменений</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МобильноеУстройство</dataPath>
+			<field>МобильноеУстройство</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Мобильное устройство</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Таблица</dataPath>
+			<field>Таблица</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВыгрузитьВсе</dataPath>
+			<field>ВыгрузитьВсе</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить все</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Выгружать</dataPath>
+			<field>Выгружать</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгружать</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПерезаписьТаблицы</dataPath>
+			<field>ПерезаписьТаблицы</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перезапись таблицы</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	МобильныеУстройства.Ссылка КАК МобильноеУстройство,
+	СостояниеТаблиц.Таблица КАК Таблица,
+	СостояниеТаблиц.КоличествоИзменений КАК КоличествоИзменений,
+	ВЫБОР
+		КОГДА СостояниеТаблиц.Таблица В (&amp;ТаблицыВыгрузкиТолькоИзменений)
+			ТОГДА ЛОЖЬ
+		ИНАЧЕ НЕ ТаблицыКПерезаписи.Таблица ЕСТЬ NULL ИЛИ &amp;ЭтоПолнаяВыгрузка
+	КОНЕЦ КАК ВыгрузитьВсе,
+	ВЫБОР
+		КОГДА СостояниеТаблиц.Таблица В (&amp;ТаблицыВыгрузкиТолькоИзменений)
+			ТОГДА НЕ МобильныеУстройства.ЭтотУзел
+		ИНАЧЕ НЕ МобильныеУстройства.ЭтотУзел
+	КОНЕЦ КАК Выгружать,
+	НЕ ТаблицыКПерезаписи.Таблица ЕСТЬ NULL КАК ПерезаписьТаблицы
+ИЗ
+	(ВЫБРАТЬ
+		"Сообщения" КАК Таблица,
+		КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Изменения.ID) КАК КоличествоИзменений,
+		&amp;МобильноеУстройство КАК МобильноеУстройство
+	ИЗ
+		РегистрСведений.SUI_СообщенияМобильныхУстройств.Изменения КАК Изменения
+	ГДЕ
+		Изменения.Узел = &amp;МобильноеУстройство
+
+	ОБЪЕДИНИТЬ ВСЕ
+
+	ВЫБРАТЬ
+		ЗНАЧЕНИЕ(Перечисление.SUI_ТаблицыИнтеграции.СерииНоменклатуры),
+		КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Изменения.id),
+		&amp;МобильноеУстройство
+	ИЗ
+		РегистрСведений.SUI_tbl_series.Изменения КАК Изменения
+	ГДЕ
+		Изменения.Узел = &amp;МобильноеУстройство
+
+	ОБЪЕДИНИТЬ ВСЕ
+
+	ВЫБРАТЬ
+		ЗНАЧЕНИЕ(Перечисление.SUI_ТаблицыИнтеграции.Склады),
+		КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Изменения.id),
+		&amp;МобильноеУстройство
+	ИЗ
+		РегистрСведений.SUI_tbl_warehouses.Изменения КАК Изменения
+	ГДЕ
+		Изменения.Узел = &amp;МобильноеУстройство
+
+	ОБЪЕДИНИТЬ ВСЕ
+
+	ВЫБРАТЬ
+		ЗНАЧЕНИЕ(Перечисление.SUI_ТаблицыИнтеграции.ШтрихкодыНоменклатуры),
+		КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Изменения.id),
+		&amp;МобильноеУстройство
+	ИЗ
+		РегистрСведений.SUI_tbl_barcodes.Изменения КАК Изменения
+	ГДЕ
+		Изменения.Узел = &amp;МобильноеУстройство
+
+	ОБЪЕДИНИТЬ ВСЕ
+
+	ВЫБРАТЬ
+		ЗНАЧЕНИЕ(Перечисление.SUI_ТаблицыИнтеграции.Номенклатура),
+		КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Изменения.id),
+		&amp;МобильноеУстройство
+	ИЗ
+		РегистрСведений.SUI_tbl_goods.Изменения КАК Изменения
+	ГДЕ
+		Изменения.Узел = &amp;МобильноеУстройство
+
+	ОБЪЕДИНИТЬ ВСЕ
+
+	ВЫБРАТЬ
+		ЗНАЧЕНИЕ(Перечисление.SUI_ТаблицыИнтеграции.Контрагенты),
+		КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Изменения.id),
+		&amp;МобильноеУстройство
+	ИЗ
+		РегистрСведений.SUI_tbl_countragents.Изменения КАК Изменения
+	ГДЕ
+		Изменения.Узел = &amp;МобильноеУстройство
+
+	ОБЪЕДИНИТЬ ВСЕ
+
+	ВЫБРАТЬ
+		ЗНАЧЕНИЕ(Перечисление.SUI_ТаблицыИнтеграции.Ячейки),
+		КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Изменения.id),
+		&amp;МобильноеУстройство
+	ИЗ
+		РегистрСведений.SUI_tbl_cells.Изменения КАК Изменения
+	ГДЕ
+		Изменения.Узел = &amp;МобильноеУстройство
+
+	ОБЪЕДИНИТЬ ВСЕ
+
+	ВЫБРАТЬ
+		ЗНАЧЕНИЕ(Перечисление.SUI_ТаблицыИнтеграции.ХарактеристикиНоменклатуры),
+		КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Изменения.id),
+		&amp;МобильноеУстройство
+	ИЗ
+		РегистрСведений.SUI_tbl_properties.Изменения КАК Изменения
+	ГДЕ
+		Изменения.Узел = &amp;МобильноеУстройство
+
+	ОБЪЕДИНИТЬ ВСЕ
+
+	ВЫБРАТЬ
+		ЗНАЧЕНИЕ(Перечисление.SUI_ТаблицыИнтеграции.ЦеныНоменклатуры),
+		КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Изменения.id),
+		&amp;МобильноеУстройство
+	ИЗ
+		РегистрСведений.SUI_tbl_prices.Изменения КАК Изменения
+	ГДЕ
+		Изменения.Узел = &amp;МобильноеУстройство
+
+	ОБЪЕДИНИТЬ ВСЕ
+
+	ВЫБРАТЬ
+		ЗНАЧЕНИЕ(Перечисление.SUI_ТаблицыИнтеграции.УпаковкиНоменклатуры),
+		КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Изменения.id),
+		&amp;МобильноеУстройство
+	ИЗ
+		РегистрСведений.SUI_tbl_units.Изменения КАК Изменения
+	ГДЕ
+		Изменения.Узел = &amp;МобильноеУстройство
+
+	ОБЪЕДИНИТЬ ВСЕ
+
+	ВЫБРАТЬ
+		ЗНАЧЕНИЕ(Перечисление.SUI_ТаблицыИнтеграции.ВидыНоменклатуры),
+		КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Изменения.id),
+		&amp;МобильноеУстройство
+	ИЗ
+		РегистрСведений.SUI_tbl_types_goods.Изменения КАК Изменения
+	ГДЕ
+		Изменения.Узел = &amp;МобильноеУстройство
+
+	ОБЪЕДИНИТЬ ВСЕ
+
+	ВЫБРАТЬ
+		ЗНАЧЕНИЕ(Перечисление.SUI_ТаблицыИнтеграции.НастройкиДокументов),
+		КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Изменения.Ссылка),
+		&amp;МобильноеУстройство
+	ИЗ
+		Справочник.SUI_НастройкиДокументов.Изменения КАК Изменения
+	ГДЕ
+		Изменения.Узел = &amp;МобильноеУстройство
+
+	ОБЪЕДИНИТЬ ВСЕ
+
+	ВЫБРАТЬ
+		ЗНАЧЕНИЕ(Перечисление.SUI_ТаблицыИнтеграции.ВидыЦен),
+		КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Изменения.id),
+		&amp;МобильноеУстройство
+	ИЗ
+		РегистрСведений.SUI_tbl_price_types.Изменения КАК Изменения
+	ГДЕ
+		Изменения.Узел = &amp;МобильноеУстройство
+
+	ОБЪЕДИНИТЬ ВСЕ
+
+	ВЫБРАТЬ
+		ЗНАЧЕНИЕ(Перечисление.SUI_ТаблицыИнтеграции.ШтрихкодыУпаковок),
+		КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Изменения.id),
+		&amp;МобильноеУстройство
+	ИЗ
+		РегистрСведений.SUI_tbl_marking_codes.Изменения КАК Изменения
+	ГДЕ
+		Изменения.Узел = &amp;МобильноеУстройство
+
+	ОБЪЕДИНИТЬ ВСЕ
+
+	ВЫБРАТЬ
+		ЗНАЧЕНИЕ(Перечисление.SUI_ТаблицыИнтеграции.ЕдиницыИзмерения),
+		КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Изменения.id),
+		&amp;МобильноеУстройство
+	ИЗ
+		РегистрСведений.SUI_tbl_classifier_units.Изменения КАК Изменения
+	ГДЕ
+		Изменения.Узел = &amp;МобильноеУстройство
+
+	ОБЪЕДИНИТЬ ВСЕ
+
+	ВЫБРАТЬ
+		ЗНАЧЕНИЕ(Перечисление.SUI_ТаблицыИнтеграции.Документы),
+		КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Изменения.sid),
+		&amp;МобильноеУстройство
+	ИЗ
+		РегистрСведений.SUI_docs.Изменения КАК Изменения
+	ГДЕ
+		Изменения.Узел = &amp;МобильноеУстройство
+
+	ОБЪЕДИНИТЬ ВСЕ
+
+	ВЫБРАТЬ
+		ЗНАЧЕНИЕ(Перечисление.SUI_ТаблицыИнтеграции.ПользователиТСД),
+		КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Изменения.Ссылка),
+		&amp;МобильноеУстройство
+	ИЗ
+		Справочник.SUI_ПользователиТСД.Изменения КАК Изменения
+	ГДЕ
+		Изменения.Узел = &amp;МобильноеУстройство) КАК СостояниеТаблиц
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ПланОбмена.SUI_МобильныеУстройства КАК МобильныеУстройства
+		ПО СостояниеТаблиц.МобильноеУстройство = МобильныеУстройства.Ссылка
+		И МобильныеУстройства.Ссылка = &amp;МобильноеУстройство
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.SUI_ТаблицыКПерезаписиВМУ.Изменения КАК ТаблицыКПерезаписи
+		ПО СостояниеТаблиц.Таблица = ТаблицыКПерезаписи.Таблица
+		И (ТаблицыКПерезаписи.Узел = &amp;МобильноеУстройство)</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>ИмяТаблицы</dataPath>
+		<expression>SUI_НастройкиМетаданныхСервер.ПолучитьИмяТаблицыВКонфигурации(Таблица)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Имя таблицы</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ИмяТаблицыМобильногоУстройства</dataPath>
+		<expression>SUI_НастройкиМетаданныхСервер.ПолучитьИмяТаблицыМобильногоУстройства(Таблица)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Имя таблицы мобильного устройства</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ТаблицаИспользуется</dataPath>
+		<expression>ВЫБОР
+	КОГДА Таблица В (&amp;ТаблицыВыгрузкиТолькоИзменений)
+		ТОГДА ИСТИНА
+	ИНАЧЕ SUI_НастройкиМетаданныхСервер.ТаблицаИспользуется(Таблица)
+КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Таблица используется</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ДанныеЗапроса</dataPath>
+		<expression>ВЫБОР
+	КОГДА Выгружать
+		ТОГДА SUI_ПакетыДанных.ПолучитьЗапросДанных(Таблица, МобильноеУстройство, НЕ ВыгрузитьВсе)
+	ИНАЧЕ НЕОПРЕДЕЛЕНО
+КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Данные запроса</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<parameter>
+		<name>МобильноеУстройство</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Мобильное устройство</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:ExchangePlanRef.SUI_МобильныеУстройства</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">ПланОбмена.SUI_МобильныеУстройства.ПустаяСсылка</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ТаблицыВыгрузкиТолькоИзменений</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Таблицы выгрузки только изменений</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.SUI_ТаблицыИнтеграции</v8:Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>100</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<value xsi:type="xs:string">Сообщения</value>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.SUI_ТаблицыИнтеграции.Документы</value>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<parameter>
+		<name>ЭтоПолнаяВыгрузка</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Это полная выгрузка</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МобильноеУстройство</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Таблица</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИмяТаблицы</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИмяТаблицыМобильногоУстройства</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТаблицаИспользуется</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Выгружать</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВыгрузитьВсе</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПерезаписьТаблицы</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоИзменений</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДанныеЗапроса</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemGroup">
+					<dcsset:groupType>OrGroup</dcsset:groupType>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ТаблицаИспользуется</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Таблица</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.SUI_ТаблицыИнтеграции.НастройкиДокументов</dcsset:right>
+					</dcsset:item>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Выгружать</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ИмяТаблицы</dcsset:left>
+					<dcsset:comparisonType>Filled</dcsset:comparisonType>
+					<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemGroup">
+					<dcsset:groupType>OrGroup</dcsset:groupType>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Таблица</dcsset:left>
+						<dcsset:comparisonType>InList</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:string">Сообщения</dcsset:right>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ИмяТаблицыМобильногоУстройства</dcsset:left>
+						<dcsset:comparisonType>Filled</dcsset:comparisonType>
+						<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+					</dcsset:item>
+					<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ДанныеЗапроса</dcsset:left>
+					<dcsset:comparisonType>Filled</dcsset:comparisonType>
+					<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemGroup">
+					<dcsset:groupType>AndGroup</dcsset:groupType>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">МобильноеУстройство.ЭтотУзел</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">МобильноеУстройство.ПометкаУдаления</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+					</dcsset:item>
+					<dcsset:presentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>// Мобильное устройство и клиент</v8:content>
+						</v8:item>
+					</dcsset:presentation>
+					<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemGroup">
+					<dcsset:groupType>OrGroup</dcsset:groupType>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ВыгрузитьВсе</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">КоличествоИзменений</dcsset:left>
+						<dcsset:comparisonType>Greater</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+					</dcsset:item>
+					<dcsset:presentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>// Выгружать все или если есть изменения</v8:content>
+						</v8:item>
+					</dcsset:presentation>
+					<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ПерезаписьТаблицы</dcsset:field>
+					<dcsset:orderType>Desc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

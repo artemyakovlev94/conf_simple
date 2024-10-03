@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c828270-9774-4606-bc50-4d97fa9597d8">
+  <producedTypes>
+    <managerType typeId="cef5c2c6-f5ee-497c-95a4-fd80e22567b8" valueTypeId="833770a1-eef6-43f8-800e-9cf98b8ba61e"/>
+    <valueManagerType typeId="a54ef115-38ad-4058-afdb-d541c173135e" valueTypeId="a069fae3-6583-4317-9a16-318abf315eba"/>
+    <valueKeyType typeId="171131d0-9a10-47d4-b524-2f64f683cfe4" valueTypeId="93b8392b-d71e-4b20-be7d-277742a2e920"/>
+  </producedTypes>
+  <name>SUI_ИспользоватьТаблицу_Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать таблицу Контрагенты (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использовать таблицу Контрагенты</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

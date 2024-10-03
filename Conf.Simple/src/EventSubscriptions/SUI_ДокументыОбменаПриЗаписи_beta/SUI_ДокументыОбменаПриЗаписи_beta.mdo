@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c594138-c42c-40fd-bf77-9758720fa1a4">
+  <name>SUI_ДокументыОбменаПриЗаписи_beta</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы обмена при записи (beta)</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.SUI_docs</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.SUI_ДокументыОбмена.SUI_ДокументыОбменаПриЗаписи</handler>
+</mdclass:EventSubscription>

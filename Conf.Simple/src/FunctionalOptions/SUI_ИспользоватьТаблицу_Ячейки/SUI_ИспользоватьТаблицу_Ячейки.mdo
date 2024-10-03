@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="373f8e7c-e613-4c36-8d60-3a397707884b">
+  <name>SUI_ИспользоватьТаблицу_Ячейки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать таблицу ячейки (SUI)</value>
+  </synonym>
+  <location>Constant.SUI_ИспользоватьТаблицу_Ячейки</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.SUI_tbl_cells</content>
+  <content>InformationRegister.SUI_docs_tbl_goods.Resource.id_cell</content>
+  <content>InformationRegister.SUI_docs_tbl_goods_delta.Resource.id_cell</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68ad2c90-0503-4d48-9464-7791f94df0b0">
+  <name>SUI_Смартфон</name>
+  <synonym>
+    <key>ru</key>
+    <value>Смартфон (SUI)</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

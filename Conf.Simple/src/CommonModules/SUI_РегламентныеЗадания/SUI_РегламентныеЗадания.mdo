@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d845cb5-f6d6-4b44-aea0-168e8dc57a20">
+  <name>SUI_РегламентныеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентные задания (SUI)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

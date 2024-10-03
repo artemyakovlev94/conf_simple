@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccf0cda0-6e2d-4474-b891-1d137ffb661a">
+  <name>SUI_ИспользоватьТаблицу_Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать таблицу номенклатура (SUI)</value>
+  </synonym>
+  <location>Constant.SUI_ИспользоватьТаблицу_Номенклатура</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.SUI_tbl_goods</content>
+  <content>InformationRegister.SUI_docs_tbl_goods</content>
+  <content>InformationRegister.SUI_docs_tbl_goods.Resource.id_good</content>
+  <content>InformationRegister.SUI_docs_tbl_goods_delta</content>
+  <content>InformationRegister.SUI_docs_tbl_goods_delta.Resource.id_good</content>
+  <content>InformationRegister.SUI_docs_tbl_barcodes.Resource.id_good</content>
+  <content>InformationRegister.SUI_docs_tbl_series.Resource.id_good</content>
+</mdclass:FunctionalOption>

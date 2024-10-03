@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ee3f082-d556-4c58-bd8d-3993d9ba7785">
+  <name>SUI_РедакторJSONКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор JSON (клиент) (SUI)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

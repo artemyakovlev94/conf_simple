@@ -1,0 +1,1312 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta http-equiv="content-type" content="text/html;charset=utf-8"></meta><link rel="stylesheet" type="text/css" href="v8help://service_book/service_style"></link><style>
+      ol {
+        counter-reset: item;
+      }
+      ol > li {
+        counter-increment: item;
+      }
+      ol ol > li {
+        display: block;
+      }
+      ol ol > li:before {
+        content: counters(item, ".") ". ";
+        margin-left: -20px;
+      }
+      td {
+        padding: 0.4em;
+      }
+      tr:nth-child(odd) {
+        background-color: #f6f6f6;
+      }
+      .fa-check {
+        color: #90a05f;
+      }
+      .fa-times {
+        color: #d64f4f;
+      }
+      .tech {
+        padding: 0.2em;
+        font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+          Liberation Mono, monospace;
+        background-color: #fff6ea;
+      }
+      dl dt:not(:first-child) {
+        padding-top: 1em;
+      }
+      section {
+        /* no collapsing margins */
+        overflow: auto;
+      }
+      section > p,
+      section > h2,
+      section > h3,
+      section > h4,
+      section > dl,
+      section > table {
+        /* improves target animation look */
+        margin-left: 7px;
+        margin-right: 7px;
+      }
+      h2 {
+        margin-bottom: 1em;
+      }
+      h3,
+      h4 {
+        margin-top: 0.75em;
+        margin-bottom: 0.75em;
+      }
+      p.check:before {
+        content: "\2714";
+        color: #3fdb61;
+      }
+      p.times:before {
+        content: "\26D4";
+        color: #d64f4f;
+      }
+      table {
+        border: 1px solid rgb(0, 0, 0);
+        margin: auto;
+      }
+    </style></head><body>
+    <h3>Поддерживаемые команды ZPL</h3>
+
+    <p>
+      Источник:
+      <a href="https://labelary.com/docs.html">Labelary Engine Documentation</a>
+    </p>
+
+    <p>
+      Механизм рендеринга Label ZPL поддерживает большинство команд
+      форматирования ZPL; проверьте ниже, какие команды поддерживаются, а над
+      какими еще ведется работа.
+    </p>
+
+    <p>
+      Большинство неподдерживаемых команд не влияют на форматирование этикеток
+      (например, команды последовательной связи с принтером и команды аппаратной
+      настройки принтера). Неподдерживаемые команды не препятствуют рендерингу,
+      они просто пропускаются.
+    </p>
+
+    <p class="check"> "+" = Поддерживаемые</p>
+
+    <p class="times"> "-" = Неподдерживаемые</p>
+
+    <table><tbody><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^A font, height, width</b></td>
+          <td>Set font for current field</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^A@ orientation, height, width, path</b></td>
+          <td>Use font name to call font</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^B0 orientation, magnification, eci, size, readerInit, symbols,
+              id</b>
+          </td>
+          <td>Aztec bar code (alternate command: <b>^BO</b>)</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^B1 orientation, checkDigit, height, line, lineAbove</b></td>
+          <td>Code 11 bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^B2 orientation, height, line, lineAbove, checkDigit</b></td>
+          <td>Interleaved 2 of 5 bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^B3 orientation, checkDigit, height, line, lineAbove</b></td>
+          <td>Code 39 bar code</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td><b>^B4 orientation, heightMultiplier, line, mode</b></td>
+          <td>Code 49 bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^B5 orientation, height, line, lineAbove</b></td>
+          <td>Planet Code bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^B7 orientation, rowHeight, security, columns, rows, truncate</b>
+          </td>
+          <td>PDF417 bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^B8 orientation, height, line, lineAbove</b></td>
+          <td>EAN-8 bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^B9 orientation, height, line, lineAbove, checkDigit</b></td>
+          <td>UPC-E bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^BA orientation, height, line, lineAbove, checkDigit</b></td>
+          <td>Code 93 bar code</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td><b>^BB orientation, height, security, columns, rows, mode</b></td>
+          <td>Codablock bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^BC orientation, height, line, lineAbove, checkDigit, mode</b>
+          </td>
+          <td>Code 128 bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^BD mode, position, total</b></td>
+          <td>UPS MaxiCode bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^BE orientation, height, line, lineAbove</b></td>
+          <td>EAN-13 bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^BF orientation, rowHeight, mode</b></td>
+          <td>MicroPDF417 bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^BI orientation, height, line, lineAbove</b></td>
+          <td>Industrial 2 of 5 bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^BJ orientation, height, line, lineAbove</b></td>
+          <td>Standard 2 of 5 bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^BK orientation, checkDigit, height, line, lineAbove, startChar,
+              stopChar</b>
+          </td>
+          <td>ANSI Codabar bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^BL orientation, height, lineAbove</b></td>
+          <td>LOGMARS bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^BM orientation, checkDigitType, height, line, lineAbove,
+              checkDigit</b>
+          </td>
+          <td>MSI bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^BO orientation, magnification, eci, size, readerInit, symbols,
+              id</b>
+          </td>
+          <td>Aztec bar code (alternate command: <b>^B0</b>)</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^BP orientation, checkDigit, height, line, lineAbove</b></td>
+          <td>Plessey bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^BQ orientation, model, magnification, errorCorrection, mask</b>
+          </td>
+          <td>QR Code bar code (model 2 only; no mixed mode or Kanji)</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^BR orientation, type, magnification, sepHeight, height,
+              segWidth</b>
+          </td>
+          <td>GS1 DataBar (RSS) bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^BS orientation, height, line, lineAbove</b></td>
+          <td>UPC/EAN extension</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td>
+            <b>^BT orientation, width, widthRatio, height, narrowWidth,
+              rowHeight</b>
+          </td>
+          <td>TLC 39 bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^BU orientation, height, line, lineAbove, checkDigit</b></td>
+          <td>UPC-A bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^BX orientation, height, quality, columns, rows, format, escape,
+              ratio</b>
+          </td>
+          <td>Data Matrix bar code (quality 200 only)</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^BY width, widthRatio, height</b></td>
+          <td>Bar code field defaults</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^BZ orientation, height, line, lineAbove, type</b></td>
+          <td>Postal bar code</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^CC caret</b></td>
+          <td>Change caret (alternate command: <b>~CC</b>)</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^CD delim</b></td>
+          <td>Change delimiter (alternate command: <b>~CD</b>)</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^CF fontName, height, width</b></td>
+          <td>Change default font</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^CI charset, src1, dest1, src2, dest2, ...</b></td>
+          <td>Change encoding (charsets 0-13, 15, 27, 28, 31, 33-36 only)</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^CM bAlias, eAlias, rAlias, aAlias, multiple</b></td>
+          <td>Change memory letter designation</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^CN override</b></td>
+          <td>Cut now</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^CO on, kilobytes, type</b></td>
+          <td>Cache on</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^CP mode</b></td>
+          <td>Remove label</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^CT tilde</b></td>
+          <td>Change tilde (alternate command: <b>~CT</b>)</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td><b>^CV validate</b></td>
+          <td>Code validation (use the Labelary linter instead)</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^CW fontName, path</b></td>
+          <td>Set font identifier</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td>
+            <b>~DB path, orient, height, width, base, space, chars, copyright,
+              data</b>
+          </td>
+          <td>Download bitmap font</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td><b>~DE path, tableSize, data</b></td>
+          <td>Download encoding</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^DF path</b></td>
+          <td>Download format</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~DG path, totalBytes, rowBytes, data</b></td>
+          <td>Download graphics</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~DN</b></td>
+          <td>Abort download graphics</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td><b>~DS path, size, data</b></td>
+          <td>Download scalable font</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td><b>~DT path, size, data</b></td>
+          <td>Download TrueType font</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~DU path, size, data</b></td>
+          <td>Download unbounded TrueType font</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>~DY path, format, extension, totalBytes, rowBytes, data</b>
+          </td>
+          <td>Download objects (extensions G, B, P and T only)</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~EG</b></td>
+          <td>Erase all graphics (alternate command: <b>^EG</b>)</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^FB maxWidth, maxLines, lineSpacing, alignment, hangingIndent</b>
+          </td>
+          <td>Field block</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^FC indicator1, indicator2, indicator3</b></td>
+          <td>Field clock</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^FD data</b></td>
+          <td>Field data</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^FH hexIndicator</b></td>
+          <td>Field hexadecimal indicator</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^FL extensionPath, basePath, link</b></td>
+          <td>Font link</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^FM x1, y1, x2, y2, ...</b></td>
+          <td>Field multiple origin locations</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^FN fieldNumber</b></td>
+          <td>Field number</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^FO x, y, alignment</b></td>
+          <td>Field origin</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^FP direction, characterSpacing</b></td>
+          <td>Field parameter</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^FR</b></td>
+          <td>Field reverse print</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^FS</b></td>
+          <td>Field separator (alternate command: <b>0x0F</b>)</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^FT x, y, alignment</b></td>
+          <td>Field typeset</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^FV data</b></td>
+          <td>Field variable</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^FW orientation, alignment</b></td>
+          <td>Field orientation</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^FX comment</b></td>
+          <td>Comment</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^GB width, height, thickness, color, rounding</b></td>
+          <td>Graphic box</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^GC diameter, thickness, color</b></td>
+          <td>Graphic circle</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^GD width, height, thickness, color, orientation</b></td>
+          <td>Graphic diagonal line</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^GE width, height, thickness, color</b></td>
+          <td>Graphic ellipse</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^GF format, dataBytes, totalBytes, rowBytes, data</b></td>
+          <td>Graphic field</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^GS orientation, height, width</b></td>
+          <td>Graphic symbol</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~HB</b></td>
+          <td>Battery status</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~HD</b></td>
+          <td>Head diagnostic</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^HF path</b></td>
+          <td>Host format</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^HG path</b></td>
+          <td>Host graphic</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^HH</b></td>
+          <td>Configuration label return</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~HI</b></td>
+          <td>Host identification</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^HL</b></td>
+          <td>Send RFID data log to host (alternate command: <b>~HL</b>)</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~HM</b></td>
+          <td>Host RAM status</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~HQ query</b></td>
+          <td>Host query</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^HR prefix, suffix, start, end, antennaSelection</b></td>
+          <td>Calibrate RFID tag position</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~HS</b></td>
+          <td>Host status return</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^HT</b></td>
+          <td>Host linked font list</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~HU</b></td>
+          <td>Host alert configuration</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^HV fieldNumber, bytes, prefix, suffix, mode</b></td>
+          <td>Host verification</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^HW path, format</b></td>
+          <td>Host directory list</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^HY path</b></td>
+          <td>Upload graphics</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^HZ selector, path, longFilenames</b></td>
+          <td>Display description information</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^ID path</b></td>
+          <td>Delete object</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^IL path</b></td>
+          <td>Image load</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^IM path</b></td>
+          <td>Image move</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^IS path, print</b></td>
+          <td>Image save</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~JA</b></td>
+          <td>Cancel all</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^JB device</b></td>
+          <td>Initialize flash memory</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~JB</b></td>
+          <td>Reset optional memory</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~JC</b></td>
+          <td>Set media sensor calibration</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td><b>~JD</b></td>
+          <td>Enable communications diagnostics</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td><b>~JE</b></td>
+          <td>Disable communications diagnostics</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~JF pause</b></td>
+          <td>Set battery condition</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~JG</b></td>
+          <td>Graphing sensor calibration</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^JH settings</b></td>
+          <td>Set early warning settings</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td><b>^JI path, console, echo, memory</b></td>
+          <td>Start ZBI (alternate command: <b>~JI</b>)</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^JJ opMode, appMode, signalMode, errMode, reprintMode,
+              ribbonMode</b>
+          </td>
+          <td>Set auxiliary port</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~JL</b></td>
+          <td>Set label length</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^JM adjustment</b></td>
+          <td>Set print density</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~JN</b></td>
+          <td>Head test fatal</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~JO</b></td>
+          <td>Head test not fatal</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td><b>~JP</b></td>
+          <td>Pause and cancel format</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td><b>~JQ</b></td>
+          <td>Stop ZBI</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~JR</b></td>
+          <td>Power on reset</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^JS sensor</b></td>
+          <td>Sensor select</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~JS sequence</b></td>
+          <td>Change backfeed sequence</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^JT interval, manual, first, last</b></td>
+          <td>Set head test interval</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^JU configuration</b></td>
+          <td>Configuration update</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^JW tension</b></td>
+          <td>Set ribbon tension</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~JX</b></td>
+          <td>Cancel current format</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^JZ reprint</b></td>
+          <td>Reprint after error</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~KB</b></td>
+          <td>Kill battery</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^KC enable, device, prefix, identifier</b></td>
+          <td>Set DHCP client ID</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^KD format</b></td>
+          <td>Select date and time format</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^KL language</b></td>
+          <td>Select language</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^KN name, description</b></td>
+          <td>Set printer name</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^KP password</b></td>
+          <td>Set password</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^KV cutAmount, cutMargin, presentType, presentTimeout, loopLen</b>
+          </td>
+          <td>Kiosk values</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^LF</b></td>
+          <td>List font links</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^LH x, y</b></td>
+          <td>Label home</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^LL length</b></td>
+          <td>Label length</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^LR reverse</b></td>
+          <td>Label reverse print</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^LS distance</b></td>
+          <td>Label shift</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^LT distance</b></td>
+          <td>Label top</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^MA type, print, threshold, frequency, units</b></td>
+          <td>Maintenance alerts</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^MC clear</b></td>
+          <td>Map clear</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^MD darknessModifier</b></td>
+          <td>Modify darkness</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^MF powerupAction, closingAction</b></td>
+          <td>Media feed</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^MI type, message</b></td>
+          <td>Adjust maintenance information message</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^ML maxLength</b></td>
+          <td>Set max label length</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^MM mode, prepeel</b></td>
+          <td>Print mode</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^MN media, offset</b></td>
+          <td>Media tracking</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^MP function</b></td>
+          <td>Mode protection</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^MT mediaType</b></td>
+          <td>Media type</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^MU units, baseDpi, desiredDpi</b></td>
+          <td>Set units of measurement</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^MW enable</b></td>
+          <td>Modify head cold warning</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^NB check</b></td>
+          <td>Set network boot print server check</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^NC device</b></td>
+          <td>Set primary network device</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~NC networkId</b></td>
+          <td>Network connect</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^ND device, res, ip, mask, gateway, wins, timeout, secs, arp,
+              port</b>
+          </td>
+          <td>Modify network settings</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^NI networkId</b></td>
+          <td>Network ID number</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^NN name, contact, location, getCommunity, setCommunity,
+              trapCommunity</b>
+          </td>
+          <td>Configure SNMP</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^NP device</b></td>
+          <td>Set primary device</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~NR</b></td>
+          <td>Set all network printers transparent</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^NS res, ip, mask, gateway, wins, timeout, secs, arp, port</b>
+          </td>
+          <td>Modify wired network settings</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~NT</b></td>
+          <td>Set current printer transparent</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^NT server, domain</b></td>
+          <td>Configure SMTP</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^NW timeout</b></td>
+          <td>Set password timeout</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^PA defaultGlyph, bidi, charShaping, openTypeSupport</b></td>
+          <td>Advanced text properties</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^PF rows</b></td>
+          <td>Slew rows</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^PH</b></td>
+          <td>Slew to home position (alternate command: <b>~PH</b>)</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~PL length</b></td>
+          <td>Additional present length</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^PM mirror</b></td>
+          <td>Print mirror image</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~PM serialNumber, wipeCount</b></td>
+          <td>Decommission printer</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^PN length</b></td>
+          <td>Present now</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^PO orientation</b></td>
+          <td>Print orientation</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td><b>^PP</b></td>
+          <td>Programmable pause (alternate command: <b>~PP</b>)</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^PQ labels, labelsBetweenPauses, replicates, noPause,
+              cutOnError</b>
+          </td>
+          <td>Print quantity</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^PR printSpeed, slewSpeed, backfeedSpeed</b></td>
+          <td>Print rate</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td><b>~PR</b></td>
+          <td>Applicator reprint</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td><b>~PS</b></td>
+          <td>Print start</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^PW width</b></td>
+          <td>Print width</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td><b>^RA fieldNumber, format, retries, motion, byteType</b></td>
+          <td>Read RFID AFI or DSFID byte</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^RB totalBits, partition1, partition2, ... , partition16</b>
+          </td>
+          <td>Configure RFID EPC data structure</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^RE enable, retries</b></td>
+          <td>Enable RFID EAS bit</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^RF operation, format, passwordOrBlock, bytes, memoryBank</b>
+          </td>
+          <td>Read or write RFID data (write operations only)</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td><b>^RI fieldNumber, order, retries, motion</b></td>
+          <td>Read RFID tag ID</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^RL lockAction, p1, p2, epcOp, userOp</b></td>
+          <td>Lock and unlock RFID tag memory</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^RM enable</b></td>
+          <td>Configure RFID motion</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^RN enable</b></td>
+          <td>Configure RFID multiple tag detection</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~RO counter</b></td>
+          <td>Reset counter</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^RQ format, chipType, option</b></td>
+          <td>Write RFID EPC data and passwords</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^RR retries, adaptive</b></td>
+          <td>Configure RFID retries and adaptive antenna</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^RS type, pos, voidLen, labels, onError, signal, deprecated,
+              voidSpeed</b>
+          </td>
+          <td>Configure RFID</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td>
+            <b>^RT fieldNumber, startBlock, blocks, format, retries, motion,
+              mode</b>
+          </td>
+          <td>Read RFID tag</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td><b>^RU prefix, escapeChar</b></td>
+          <td>Read RFID tag ID</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~RV enable</b></td>
+          <td>Configure RFID reporting</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^RW readPower, writePower, antennaElement</b></td>
+          <td>Configure RFID power levels</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^RZ password, passwordType, lockType</b></td>
+          <td>Set RFID tag password</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^SC baud, wordBits, parity, stopBits, mode, protocol</b></td>
+          <td>Set serial communications</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~SD darkness</b></td>
+          <td>Set darkness</td>
+        </tr><tr><td>
+            <p class="times">-</p>
+          </td>
+          <td><b>^SE path</b></td>
+          <td>Select encoding</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^SF mask, increment</b></td>
+          <td>Serialized field</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^SI setting, value</b></td>
+          <td>Set sensor intensity</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^SL mode, language</b></td>
+          <td>Set RTC mode and language</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^SN start, increment, pad</b></td>
+          <td>Serialized data</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^SO clock, months, days, years, hours, minutes, seconds</b>
+          </td>
+          <td>Set RTC offset</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^SP row</b></td>
+          <td>Start print</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^SQ condition, destination, halt</b></td>
+          <td>Halt alert</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^SR resistance</b></td>
+          <td>Set printhead resistance</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^SS web, media, ribbon, length, int1, int2, sense, mediaSense,
+              ledSense</b>
+          </td>
+          <td>Set media sensors</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^ST month, day, year, hour, minute, second, format</b></td>
+          <td>Set RTC date and time</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^SX condition, destination, set, clear, setting, port</b></td>
+          <td>Set alert</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^SZ version</b></td>
+          <td>Set ZPL version (version 2 only)</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~TA adjustment</b></td>
+          <td>Tear-off adjust position</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^TB orientation, maxWidth, maxHeight</b></td>
+          <td>Text block</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^TO from, to</b></td>
+          <td>Transfer object</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^WA receive, transmit</b></td>
+          <td>Configure wireless antenna</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~WC</b></td>
+          <td>Print configuration label</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^WD path</b></td>
+          <td>Print directory label</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^WE mode, index, authType, keyType, key1, key2, key3, key4</b>
+          </td>
+          <td>Configure WEP</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^WF retries, motion, protect, format, type</b></td>
+          <td>Write RFID AFI or DSFID byte</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^WI res, ip, mask, gateway, wins, timeout, secs, arp, port</b>
+          </td>
+          <td>Modify wireless network settings</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^WL mode, username, password</b></td>
+          <td>Configure LEAP</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~WL</b></td>
+          <td>Print network configuration label</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^WP oldPassword, newPassword</b></td>
+          <td>Set wireless password</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~WQ query</b></td>
+          <td>Write query</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^WR rate1, rate2, rate55, rate11, power</b></td>
+          <td>Set wireless transmit rate</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>~WR</b></td>
+          <td>Reset wireless radio card</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td>
+            <b>^WS essid, mode, preamble, pulse, interval, mask,
+              international</b>
+          </td>
+          <td>Configure wireless radio card</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^WT block, retries, motion, protect, format, verify</b></td>
+          <td>Write RFID tag</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^WV enable</b></td>
+          <td>Configure RFID write verify</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^WX securityType, parameters</b></td>
+          <td>Configure wireless security</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^XA</b></td>
+          <td>Start format (alternate command: <b>0x02</b>)</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^XB</b></td>
+          <td>Supress backfeed</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^XF path</b></td>
+          <td>Recall format</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^XG path, magnificationX, magnificationY</b></td>
+          <td>Recall graphics</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^XS length, threshold, gain</b></td>
+          <td>Set dynamic calibration</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^XZ</b></td>
+          <td>End format (alternate command: <b>0x03</b>)</td>
+        </tr><tr><td>
+            <p class="check">+</p>
+          </td>
+          <td><b>^ZZ seconds, immediate</b></td>
+          <td>Printer sleep</td>
+        </tr></tbody></table></body></html>

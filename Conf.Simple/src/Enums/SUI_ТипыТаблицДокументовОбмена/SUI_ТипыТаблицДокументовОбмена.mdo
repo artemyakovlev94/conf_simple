@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d77e53cb-cffc-439a-b450-fea97cc5d36d">
+  <producedTypes>
+    <refType typeId="2889b1fd-867b-46ee-8776-38069d725d0e" valueTypeId="3abf182b-e0c8-47b5-adbf-514864141107"/>
+    <listType typeId="5883cd6f-0690-4104-a76e-f0ae770adeda" valueTypeId="f98f2ac4-1081-4e3e-a9a4-e2002de0268e"/>
+    <managerType typeId="3f76a6cf-6110-49ee-baf4-25857486ac3a" valueTypeId="6b4ee1ed-cd1e-4592-9c13-ceb237397b13"/>
+  </producedTypes>
+  <name>SUI_ТипыТаблицДокументовОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы таблиц документов обмена (SUI)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы таблиц документов обмена</value>
+  </listPresentation>
+  <enumValues uuid="4bdf80d6-52ec-4602-bcbd-1d14ba37894b">
+    <name>Отбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a34f489e-8d07-4634-a41b-a3397a8c0c34">
+    <name>Размещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="232161d2-a79f-467a-bc25-2785229794e4">
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6112423e-9cbd-4dd0-b09c-46eeafc31405">
+    <name>ШтрихкодыУпаковок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкоды упаковок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5e61c49f-dacd-4191-94d7-d7ba656d4eb6">
+    <name>ПотокШтрихкодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поток штрихкодов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="753b865b-5b81-4bf8-849b-2292f7221a1c">
+    <name>Серии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серии</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

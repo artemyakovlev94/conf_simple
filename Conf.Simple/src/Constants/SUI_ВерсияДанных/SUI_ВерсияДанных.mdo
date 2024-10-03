@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f61c5b40-dd9e-4a3b-98ff-e0fb69830b52">
+  <producedTypes>
+    <managerType typeId="57254cf6-d8a1-4ed4-9041-bef19e8849c0" valueTypeId="c191af18-1df1-4c76-8357-55d6bbb17ac9"/>
+    <valueManagerType typeId="f0609fbe-8d69-4f7b-9b1b-930d7ffa9ba2" valueTypeId="84437fcd-4836-4054-8758-719bfe02792c"/>
+    <valueKeyType typeId="6667872a-7a55-44ac-b71a-d0497a558636" valueTypeId="359f336e-98a6-42ef-85ea-4ec209e376d1"/>
+  </producedTypes>
+  <name>SUI_ВерсияДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия данных (SUI)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>16</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.SUI_ВерсияДанных</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Версия данных</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

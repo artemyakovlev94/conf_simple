@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f2b5b36-c09f-4b12-b7ad-8b2587803c50">
+  <producedTypes>
+    <objectType typeId="be042dcc-10a5-436c-b8cb-487599c94b33" valueTypeId="c37fa7c8-7f66-480d-8bb7-0f30a2b25c79"/>
+    <managerType typeId="3bf67d44-3421-4a0e-860a-4065dd782534" valueTypeId="38105024-2c46-4c03-bc94-53329f6221ee"/>
+  </producedTypes>
+  <name>SUI_ЗапросыКБазамДанныхМобильныхУстройств</name>
+  <synonym>
+    <key></key>
+    <value>SUI запросы к базам данных мобильных устройств</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Запросы к базам данных мобильных устройств (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.SUI_ЗапросыКБазамДанныхМобильныхУстройств.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Запросы к базам данных мобильных устройств</value>
+  </extendedPresentation>
+  <forms uuid="476b4b70-1af1-4fc0-bb70-784f06010680">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="520a9a98-4896-4b15-ab38-b9b2071c9db3">
+    <name>ОткрытьЗапросыКБазамДанныхМобильныхУстройств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запросы к базам данных мобильных устройств</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

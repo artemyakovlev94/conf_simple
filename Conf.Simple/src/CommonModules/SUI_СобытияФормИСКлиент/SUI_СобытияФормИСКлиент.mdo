@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9eaea4a9-b3e5-4e0e-91b5-989bf866b44b">
+  <name>SUI_СобытияФормИСКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>События форм ИС (клиент) (SUI)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

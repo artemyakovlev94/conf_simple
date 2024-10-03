@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33a37eef-58d1-4567-9af0-fa9cdc63200d">
+  <producedTypes>
+    <selectionType typeId="1374507e-e28e-4d1c-8297-6fab511eaedb" valueTypeId="19dc37ef-f976-4a16-8d65-ea517c48825a"/>
+    <listType typeId="78968514-39ec-4648-a852-ff8912f7fe18" valueTypeId="47e6811b-de4b-45c5-988b-15302e1c7a6f"/>
+    <managerType typeId="50960fb8-46fa-4974-a3bb-c9a2c0d84930" valueTypeId="bb775869-0daf-4eb2-8c83-0d0494f8c341"/>
+    <recordSetType typeId="9959d257-33d3-4126-b60c-b8ddb360d33c" valueTypeId="3d4db249-9b96-41c7-bdf0-3daac00045fc"/>
+    <recordKeyType typeId="458adfef-ee2e-4fbc-b418-dff2df141293" valueTypeId="2f175d4b-b615-476a-b64c-7de704df6aff"/>
+    <recordType typeId="fc7c3ff7-ff87-42c7-87a4-9dc8f77e4330" valueTypeId="5ca85144-8f4a-4db5-8916-dc83737bf2e4"/>
+    <recordManagerType typeId="545cbf1e-0b4c-40fe-952b-67c7c4da5683" valueTypeId="613cac8a-ccdb-4dbe-af3e-d074520a93d1"/>
+  </producedTypes>
+  <name>SUI_НастройкиДокументовМобильныхУстройств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки документов мобильных устройств (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.SUI_НастройкиДокументовМобильныхУстройств.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка документа мобильного устройства</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Настройки документов мобильных устройств</value>
+  </listPresentation>
+  <dimensions uuid="169cda1a-3896-42b9-9617-9b33ccd93ac0">
+    <name>НастройкаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка документа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.SUI_НастройкиДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.Используется</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3dedf27f-0f67-47d5-aa9b-e044d89b7b99">
+    <name>МобильноеУстройство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильное устройство</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.SUI_МобильныеУстройства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ЭтотУзел</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="afe52737-e1d0-4fc9-82e6-a5e62533d85a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

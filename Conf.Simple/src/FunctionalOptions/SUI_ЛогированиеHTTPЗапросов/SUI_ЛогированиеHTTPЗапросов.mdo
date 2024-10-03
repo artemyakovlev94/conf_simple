@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ca13963-cd13-4ce3-a03b-ec585252b673">
+  <name>SUI_ЛогированиеHTTPЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логирование HTTP запросов</value>
+  </synonym>
+  <location>Constant.SUI_ЛогированиеHTTPЗапросов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Enum.SUI_HTTPМетоды</content>
+  <content>InformationRegister.SUI_ЛогированиеHTTPЗапросов</content>
+  <content>Constant.SUI_РЗ_ОчисткаЛогированияHTTPЗапросов</content>
+</mdclass:FunctionalOption>

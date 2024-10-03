@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="019f8821-0952-4030-aa27-2179bf595ab5">
+  <name>SUI_ПереместитьВсеВлево</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переместить все влево (SUI)</value>
+  </synonym>
+</mdclass:CommonPicture>

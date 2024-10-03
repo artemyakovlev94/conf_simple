@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d41c88e-ccf0-4a63-a8c3-5c7ddc2a0baa">
+  <name>SUI_ДополнительныеРеквизитыТаблиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные реквизиты таблиц</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Constant.SUI_ИспользоватьДополнительныеРеквизитыТаблиц</content>
+  <content>FunctionalOption.SUI_ИспользоватьДополнительныеРеквизитыТаблиц</content>
+  <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

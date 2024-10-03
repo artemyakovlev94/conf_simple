@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8dc9dda-fc97-427e-8168-e39e5d77bce5">
+  <name>SUI_ЖурналРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал регистрации</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.SUI_ЖурналРегистрации</content>
+  <content>CommonModule.SUI_ЖурналРегистрацииВызовСервера</content>
+  <content>CommonModule.SUI_ЖурналРегистрацииКлиент</content>
+  <content>CommonModule.SUI_ЖурналРегистрацииКлиентСервер</content>
+  <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9ecd1ef-f8bb-469f-86d8-7cab9ce2ea23">
+  <name>SUI_МобильноеУстройствоПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильное устройство перед записью (SUI)</value>
+  </synonym>
+  <source>
+    <types>ExchangePlanObject.SUI_МобильныеУстройства</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.SUI_МобильныеУстройстваСервер.SUI_МобильноеУстройствоПередЗаписью</handler>
+</mdclass:EventSubscription>

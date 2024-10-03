@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>InformationRegister.SUI_docs_tbl_barcode_flow.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.SUI_docs_tbl_series.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.SUI_docs_tbl_barcodes.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.SUI_docs_tbl_goods_delta.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.SUI_docs_tbl_goods.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>InformationRegister.SUI_docs_tbl_goods.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.SUI_docs_tbl_goods_delta.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.SUI_docs_tbl_barcodes.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.SUI_docs_tbl_series.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.SUI_docs_tbl_barcode_flow.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

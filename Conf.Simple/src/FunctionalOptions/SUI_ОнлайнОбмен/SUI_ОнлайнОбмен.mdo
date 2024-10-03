@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d4c61ad-82ec-434c-9b0e-c4151649659f">
+  <name>SUI_ОнлайнОбмен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Онлайн обмен (SUI)</value>
+  </synonym>
+  <location>Constant.SUI_ОнлайнОбмен</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.SUI_РабочееМестоОператораОбмена</content>
+  <content>InformationRegister.SUI_docs</content>
+  <content>InformationRegister.SUI_docs_tbl_barcode_flow</content>
+</mdclass:FunctionalOption>

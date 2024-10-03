@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18c688f3-c509-4b19-93c7-c06ed7b4317c">
+  <producedTypes>
+    <selectionType typeId="91d57ec4-6e9a-4cce-82d7-ce7ec90ff6fd" valueTypeId="dd6887db-f954-457e-991b-e4f1005e6bfd"/>
+    <listType typeId="07e683b1-bdd8-4206-973d-4393022d59ba" valueTypeId="abe574df-dc1f-44da-8046-5adc1948c9a9"/>
+    <managerType typeId="56ae5a43-08be-4f19-ba5f-a791d6789d87" valueTypeId="e36b0ce8-d99c-44a0-b4ad-52593822741e"/>
+    <recordSetType typeId="5179b930-225b-42c5-a444-9fcfc74a8a13" valueTypeId="80745f0a-085c-43dd-abc2-9b695fd2b9ca"/>
+    <recordKeyType typeId="0e9f73a1-8938-4fb1-9ede-156432a3e547" valueTypeId="acc61e90-7f48-484a-8749-4830b20633a7"/>
+    <recordType typeId="aff88155-f121-4c7d-aceb-9c0932277c37" valueTypeId="7fbce627-a727-425a-9b4e-d19f239e3fdb"/>
+    <recordManagerType typeId="b4c54250-9c2d-405e-982c-a1ce8a3366fb" valueTypeId="38a151af-b62d-43c6-8eed-771b6cec5ea1"/>
+  </producedTypes>
+  <name>SUI_ЗапросыАвторизацииМобильныхУстройств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запросы авторизации мобильных устройств (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.SUI_ЗапросыАвторизацииМобильныхУстройств.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.SUI_ЗапросыАвторизацииМобильныхУстройств.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Запрос авторизации мобильного устройства</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Запросы авторизации мобильных устройств</value>
+  </listPresentation>
+  <attributes uuid="e29713e4-7df8-4b0d-9f36-494c64f42041">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="920c2a54-626d-4ba9-a3f7-5d0e50bbadf1">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="3c37d499-d100-49ca-977e-7647ad5a90c2">
+    <name>ИдентификаторУстройства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор устройства</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="2473d242-ad1a-4ead-8e89-6515c966689f">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c8dfa7fc-26ea-4ac0-a287-51028a7b7b49">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

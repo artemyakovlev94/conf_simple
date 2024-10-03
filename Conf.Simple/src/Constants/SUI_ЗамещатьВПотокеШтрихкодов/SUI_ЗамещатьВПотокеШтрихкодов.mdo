@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5681589-a887-4674-9349-7f9287347877">
+  <producedTypes>
+    <managerType typeId="92a2a60e-d78b-4478-900c-aebc0ca27dc2" valueTypeId="cbb177f1-2e06-4af9-bc17-ee1ed074a8a5"/>
+    <valueManagerType typeId="cf6381e7-6b24-4ecf-807d-a56e04918596" valueTypeId="1d729f63-5db4-4441-aaac-4de79b50b28f"/>
+    <valueKeyType typeId="984840b3-f125-4aa7-b5cf-ac0e809b8add" valueTypeId="b7073d3a-4f17-4a98-a18a-df3e96145465"/>
+  </producedTypes>
+  <name>SUI_ЗамещатьВПотокеШтрихкодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замещать записи в потоке штрихкодов (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Замещать записи в потоке штрихкодов</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0cc7d48-0d24-4fcd-9bfd-14d3f7ea4f62">
+  <name>SUI_ИспользоватьТаблицу_ВидыЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать таблицу виды цен (SUI)</value>
+  </synonym>
+  <location>Constant.SUI_ИспользоватьТаблицу_ВидыЦен</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.SUI_tbl_price_types</content>
+  <content>InformationRegister.SUI_docs_tbl_goods.Resource.id_price</content>
+  <content>InformationRegister.SUI_docs_tbl_goods_delta.Resource.id_price</content>
+</mdclass:FunctionalOption>

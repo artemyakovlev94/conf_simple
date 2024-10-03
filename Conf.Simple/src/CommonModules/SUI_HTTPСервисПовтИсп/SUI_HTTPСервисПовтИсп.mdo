@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fffeeb4-8803-48e0-b959-68725d195d4e">
+  <name>SUI_HTTPСервисПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>HTTP сервис (повт. исп.) (SUI)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

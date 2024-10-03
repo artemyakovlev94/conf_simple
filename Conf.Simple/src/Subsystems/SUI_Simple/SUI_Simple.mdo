@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a249196c-64e3-4403-89ca-44241b13b8ec">
+  <name>SUI_Simple</name>
+  <synonym>
+    <key>ru</key>
+    <value>Simple</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.SUI_ПодсистемаSimple</picture>
+  </picture>
+  <content>Role.SUI_РольАдминистрирование</content>
+  <content>DataProcessor.SUI_РабочееМестоОператораОбмена</content>
+  <content>Constant.SUI_НеЗапускатьМастерНастроекПриНачалеРаботы</content>
+  <content>Constant.SUI_ЗапросПолученияОстатковИЦен</content>
+  <content>DataProcessor.SUI_МастерНастроек</content>
+  <content>Role.SUI_РольОсновныеПрава</content>
+  <content>Role.SUI_РольПраваТСД</content>
+  <content>Role.SUI_ИнтерактивноеУдалениеМобильныхУстройств</content>
+  <content>Role.SUI_ИнтерактивноеУдалениеМобильныхКлиентов</content>
+  <content>Role.SUI_ИнтерактивноеУдалениеНастройкиДокументов</content>
+  <content>Role.SUI_ИнтерактивноеУдалениеПользователейТСД</content>
+  <content>Role.SUI_ИнтерактивноеУдалениеРегламентныхЗаданий</content>
+  <content>Role.SUI_ИнтерактивноеУдалениеШаблоновЭтикетокZPL</content>
+  <content>CommonForm.SUI_ИдентификаторSimple</content>
+  <content>CommonPicture.SUI_КоллекцияВидыСобытийЖурналаРегистрации</content>
+  <content>CommonPicture.SUI_ЗагрузитьСхемуИзФайла</content>
+  <content>CommonPicture.SUI_Ошибка32</content>
+  <subsystems>SUI_Администрирование</subsystems>
+  <subsystems>SUI_ДокументыОбмена</subsystems>
+  <subsystems>SUI_МобильныеУстройства</subsystems>
+  <subsystems>SUI_СлужебныеПодсистемы</subsystems>
+</mdclass:Subsystem>

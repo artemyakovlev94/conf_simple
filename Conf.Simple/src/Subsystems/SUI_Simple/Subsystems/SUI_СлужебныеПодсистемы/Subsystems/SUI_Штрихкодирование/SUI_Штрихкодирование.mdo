@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e71378b-adb6-4563-ab95-5d11b779f6dd">
+  <name>SUI_Штрихкодирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкодирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.SUI_ГенерацияШтрихкода</content>
+  <content>CommonModule.SUI_ГенерацияШтрихкодаПовтИсп</content>
+  <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

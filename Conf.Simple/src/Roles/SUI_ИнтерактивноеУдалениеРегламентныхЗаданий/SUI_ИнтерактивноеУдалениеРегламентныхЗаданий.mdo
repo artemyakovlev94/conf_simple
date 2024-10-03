@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f0e3f5f-d463-491d-9123-6cf95323f092">
+  <name>SUI_ИнтерактивноеУдалениеРегламентныхЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Simple: Интерактивное удаление регламентных заданий</value>
+  </synonym>
+</mdclass:Role>

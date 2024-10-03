@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e60ba990-490c-4bba-b6f0-158a5ae5d476">
+  <producedTypes>
+    <selectionType typeId="3a38cc49-3bf8-431c-aaad-98a934f688cd" valueTypeId="4c4a45ba-d3e2-431b-b054-7c5b277788f6"/>
+    <listType typeId="491a20ca-cbdd-4d65-a5f8-e20a6eded79c" valueTypeId="5fac1501-6b3b-45be-8ec0-282fb6c0de30"/>
+    <managerType typeId="5ef8f932-84e1-4f81-8a3e-6b071f62fa01" valueTypeId="99665004-d23b-4f47-b947-7a0bde40b880"/>
+    <recordSetType typeId="c44e747f-5a23-4277-aab8-f9ae5689ada4" valueTypeId="dcfdc65f-65c9-4e05-980c-fc35b3ede27e"/>
+    <recordKeyType typeId="85e9d717-5fc9-4dbd-bbf7-a4c8db6decd8" valueTypeId="d3bb088d-dc68-4c45-a29c-063bc6d20f31"/>
+    <recordType typeId="88ff90f1-9d55-4691-9373-2edea9162962" valueTypeId="ba9b59d5-dabd-4424-acb8-fb974b7d31b5"/>
+    <recordManagerType typeId="84720773-61df-4a77-aa3e-3f7f1cf1c6a0" valueTypeId="6e3b17d9-879c-4e10-9025-80b0d52acc1b"/>
+  </producedTypes>
+  <name>SUI_СостоянияМобильныхУстройств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния мобильных устройств (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.SUI_СостоянияМобильныхУстройств.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.SUI_СостоянияМобильныхУстройств.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Состояние мобильного устройства</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Состояния мобильных устройств</value>
+  </listPresentation>
+  <resources uuid="74741805-1669-448d-b7d4-442aaaa3c542">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.SUI_СостоянияМобильныхУстройств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9169c701-ddb5-42bc-aa3c-237ce771589d">
+    <name>Удалить_СостояниеПолнойВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Состояние полной выгрузки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Удалить_SUI_СостоянияПолнойВыгрузкиМУ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="0df1a8ff-7a29-4fa4-89af-7b5cef164ac8">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="da41b096-a5d0-40e8-9689-99ea8536c22e">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="baa3e0fe-9c91-4611-aea6-27c61fde7112">
+    <name>МобильноеУстройство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильное устройство</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.SUI_МобильныеУстройства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ac0a4de3-9382-45cd-a2e5-ee3bbb71c82a">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="91c70cfa-c3bd-46f5-905f-a27f23cc733c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

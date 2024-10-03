@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="847e38ec-15d0-4240-bf50-50732850492e">
+  <name>SUI_ИспользоватьТаблицу_ПользователиТСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать таблицу пользователи ТСД (SUI)</value>
+  </synonym>
+  <location>Constant.SUI_ИспользоватьТаблицу_ПользователиТСД</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.SUI_ПользователиТСД</content>
+</mdclass:FunctionalOption>

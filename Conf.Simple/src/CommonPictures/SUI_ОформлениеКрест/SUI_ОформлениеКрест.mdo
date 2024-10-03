@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21024eed-c6d1-439a-8da3-682949ef63af">
+  <name>SUI_ОформлениеКрест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оформление крест</value>
+  </synonym>
+</mdclass:CommonPicture>

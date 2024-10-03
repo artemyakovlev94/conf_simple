@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03382f7a-b779-4201-99c4-d39368731cf3">
+  <producedTypes>
+    <managerType typeId="f4048d5f-8b4c-4cc5-8204-c553aef9f5a4" valueTypeId="615fd0d5-32d8-4e42-adb5-ed0115a9d5f1"/>
+    <valueManagerType typeId="5f09cf42-7a57-4bb6-8e5f-418947e3d8bf" valueTypeId="98209018-43ea-43af-b4b7-fd2f58c0c664"/>
+    <valueKeyType typeId="1af61c79-2692-4eb7-a8b1-8ff65a09e374" valueTypeId="a2c61d9a-b04c-400f-80d7-ea5faad3ae56"/>
+  </producedTypes>
+  <name>SUI_КоличествоЗаданийВПотокеОчередиЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество заданий в потоке очереди заданий (SUI)</value>
+  </synonym>
+  <comment>Максимальное количество выполняемых заданий в одном потоке</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Максимальное количество выполняемых заданий в одном потоке</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

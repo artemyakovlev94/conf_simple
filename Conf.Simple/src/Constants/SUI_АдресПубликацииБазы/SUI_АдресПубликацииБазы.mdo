@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67966198-89e5-4d88-8e7e-a363d4ac7e04">
+  <producedTypes>
+    <managerType typeId="e0e5e1f0-d4f1-4ebf-aa0b-babea2ed1bab" valueTypeId="7e323936-8b03-46db-aadf-3da8133f42d8"/>
+    <valueManagerType typeId="1a2521a5-b5f1-4235-88d6-3921745fa2a3" valueTypeId="c7f94b6e-eb86-4174-871b-4c01bd6daf6e"/>
+    <valueKeyType typeId="f55041cf-39d0-4216-8897-764c0508daa8" valueTypeId="c4386763-8273-4a07-8ed5-99887da79b5a"/>
+  </producedTypes>
+  <name>SUI_АдресПубликацииБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес публикации информационной базы (SUI)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>250</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Адрес публикации информационной базы</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd92a864-7cf7-4cce-9d5f-539a95230280">
+  <producedTypes>
+    <refType typeId="204071f9-cb46-458b-aafa-ff983426eb64" valueTypeId="9b7e76ff-22f9-404b-8455-6684b02c2e39"/>
+    <listType typeId="61dad97b-2866-4573-b3ff-593a4b40ab14" valueTypeId="de518992-5c39-4009-8135-fb458683b44b"/>
+    <managerType typeId="a201a224-409c-4917-bf2f-3e3990c5c95d" valueTypeId="ab87d929-e2a0-467e-8076-3503a7d0c309"/>
+  </producedTypes>
+  <name>SUI_РежимыОткрытияДокументаОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы открытия документа обмена (SUI)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Режимы открытия документа обмена</value>
+  </listPresentation>
+  <enumValues uuid="9e89cd0f-03d7-4dd3-923a-7bc68b667866">
+    <name>Просмотр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотр</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e5f3036-2bf5-400f-8253-0750ae2fae7f">
+    <name>Выгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1491880-ca84-4f40-8938-a4fd3eb50dc9">
+    <name>Загрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e23a3119-185f-4651-9a89-df241a84717d">
+    <name>ДокументОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ обмена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

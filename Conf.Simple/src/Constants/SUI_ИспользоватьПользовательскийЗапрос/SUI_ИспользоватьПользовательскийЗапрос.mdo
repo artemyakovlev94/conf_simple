@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf823f71-cba6-49cf-839b-b01a9353493b">
+  <producedTypes>
+    <managerType typeId="7bbb722b-dcad-42d7-963e-4f090dc73ca8" valueTypeId="91d875ee-ce34-4eee-8ba6-4b7ba09c4144"/>
+    <valueManagerType typeId="e6acd3d9-81e3-48bc-8bcc-9c98a73b6d25" valueTypeId="001e2870-16aa-4cb1-89d6-2caf468ab409"/>
+    <valueKeyType typeId="55c5258e-e3d5-40c5-aae4-b3800095e519" valueTypeId="ece78346-4adb-4411-8295-aa2210cf3304"/>
+  </producedTypes>
+  <name>SUI_ИспользоватьПользовательскийЗапрос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать пользовательский запрос (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использовать пользовательский запрос</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

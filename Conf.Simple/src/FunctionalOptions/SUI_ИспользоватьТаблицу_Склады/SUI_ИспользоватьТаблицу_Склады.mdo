@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd30f558-e5ee-485e-a497-79e82f19c730">
+  <name>SUI_ИспользоватьТаблицу_Склады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать таблицу склады (SUI)</value>
+  </synonym>
+  <location>Constant.SUI_ИспользоватьТаблицу_Склады</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.SUI_tbl_warehouses</content>
+  <content>InformationRegister.SUI_docs.Resource.id_warehouse</content>
+  <content>InformationRegister.SUI_docs_tbl_series.Resource.id_warehouse</content>
+</mdclass:FunctionalOption>

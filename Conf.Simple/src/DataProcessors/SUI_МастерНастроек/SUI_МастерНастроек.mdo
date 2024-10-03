@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbcda18f-5e81-4db7-a0a9-0e0da4a2c198">
+  <producedTypes>
+    <objectType typeId="b7cefa89-593e-497b-b9b8-70e9d93f4101" valueTypeId="a7610d5b-ba1f-4f7d-8b66-f4b19c5818e2"/>
+    <managerType typeId="00bdc204-1ac2-4790-93d4-50a04abe8345" valueTypeId="cd622ba5-525a-41c3-9b73-e49d411ddb99"/>
+  </producedTypes>
+  <name>SUI_МастерНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мастер настроек (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.SUI_МастерНастроек.Form.Основная</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Мастер настроек</value>
+  </extendedPresentation>
+  <forms uuid="085a4311-dfe2-4bc6-b945-1c560268278c">
+    <name>Основная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d731d472-175d-44d4-918f-2934d60e2571">
+    <name>ФормаОтображенияПримера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отображения примера</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="a98fc488-f8a6-48b9-9276-6d77234f97ad">
+    <name>ОткрытьМастерНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мастер настроек</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9eb746f2-1c7d-4b95-a488-8283f09ef10e">
+  <producedTypes>
+    <refType typeId="332dd0ec-ae32-4077-bf6c-b5513a8a5f2b" valueTypeId="65a1a1aa-a508-41a8-98e0-f4dd45a76921"/>
+    <listType typeId="73c102f7-4f56-4938-9b4d-322de209ee47" valueTypeId="c2b7b7f1-afd5-46fa-861f-7f5a9e0c72f0"/>
+    <managerType typeId="27d2946a-f7f1-4b8a-a71e-4a6fd1875604" valueTypeId="04b85f46-7df5-4ac3-999a-1caaae334e28"/>
+  </producedTypes>
+  <name>SUI_ПредопределенныеНастройкиПодсистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предопределенные настройки подсистемы (SUI)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Предопределенные настройки подсистемы</value>
+  </listPresentation>
+  <enumValues uuid="11d17f60-10f3-4ffb-b564-d0b924cb9384">
+    <name>УправлениеТорговлей11</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление торговлей 11</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="142c89b1-a176-42c3-8f01-28fb200dd41d">
+    <name>УправлениеНашейФирмой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление нашей фирмой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3aa77b55-4688-4914-80eb-2029bb4b1dad">
+    <name>Розница30</name>
+    <synonym>
+      <key>ru</key>
+      <value>Розница 3.0</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ff104945-1026-489d-a524-0aa9042a5644">
+    <name>Розница23</name>
+    <synonym>
+      <key>ru</key>
+      <value>Розница 2.3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76ab1c99-edd3-49b3-af90-9e493b78f490">
+    <name>ЕРП</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЕРП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a37e8e0-c100-4d29-9947-580457e0d0a3">
+    <name>Бухгалтерия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бухгалтерия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5cf925b-d3b0-4a9e-af6f-825132dc5fd3">
+    <name>КомплекснаяАвтоматизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплексная автоматизация</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

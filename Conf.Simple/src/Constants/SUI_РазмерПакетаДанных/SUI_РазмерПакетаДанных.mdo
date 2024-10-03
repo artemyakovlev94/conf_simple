@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="401772c5-8b0a-4e3f-8824-16bada4b8e0e">
+  <producedTypes>
+    <managerType typeId="df0f21c6-7c9b-45d3-b078-d28b108f5505" valueTypeId="142b5cc2-7c3d-4a88-8cf0-20b15f598442"/>
+    <valueManagerType typeId="2936c6eb-426a-4e0b-8fed-a1804f48c421" valueTypeId="9138dc80-2b6a-44b1-9866-fd46afb6cc6f"/>
+    <valueKeyType typeId="78884fc1-d492-4b85-96e8-5bfd9847bcb7" valueTypeId="d95d3a34-c5f7-4e41-a825-975bfd1ec9c5"/>
+  </producedTypes>
+  <name>SUI_РазмерПакетаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер пакета данных (SUI)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.SUI_РазмерПакетаДанных</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Размер пакета данных</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:StringValue">
+    <value>10000</value>
+  </minValue>
+  <maxValue xsi:type="core:StringValue">
+    <value>50000</value>
+  </maxValue>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

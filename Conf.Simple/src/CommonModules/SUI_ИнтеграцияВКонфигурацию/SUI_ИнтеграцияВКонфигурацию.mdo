@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d4b4962-05b1-4404-922a-3188a82fc67b">
+  <name>SUI_ИнтеграцияВКонфигурацию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция в конфигурацию (сервер) (SUI)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

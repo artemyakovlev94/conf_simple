@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e95bf7b0-3a71-46f0-8693-96680894e4a3">
+  <name>SUI_РазмерПакетаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер пакета данных (SUI)</value>
+  </synonym>
+  <location>Constant.SUI_РазмерПакетаДанных</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="478cf508-6552-4efa-b95d-749351c3761e">
+  <producedTypes>
+    <selectionType typeId="575439e2-9b36-44e3-88f7-18452714ef10" valueTypeId="72bfe47c-eb14-4031-a75f-dd0b4bc7fe4f"/>
+    <listType typeId="939ab36f-d3af-4938-bdf3-cf9eefc006e3" valueTypeId="6a262f1e-3db0-43f1-98f5-dfe3a60b3a7d"/>
+    <managerType typeId="409d6162-e73b-4254-8421-a5564499f87e" valueTypeId="ef106d4d-8ffc-43af-8781-2460c17b7de3"/>
+    <recordSetType typeId="6364bf54-c2f1-45c6-a266-812830573dca" valueTypeId="3414b701-0b3c-48d9-9d0c-0ac9f5e71c8d"/>
+    <recordKeyType typeId="db3cc76e-7e41-48c3-887b-51289b2bca3a" valueTypeId="aecc646c-9139-4e3f-bd22-d13712096d04"/>
+    <recordType typeId="74ee9243-0f42-47ce-8d98-2f1685f7adfa" valueTypeId="9b3335cb-96e1-4c78-8643-3e67c39faa1c"/>
+    <recordManagerType typeId="78071b8d-6011-4bca-82e0-0adf55d8eb1b" valueTypeId="f85e7824-1003-4c41-ba7c-82354f0cade3"/>
+  </producedTypes>
+  <name>SUI_tbl_cells</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таблица Ячейки (SUI)</value>
+  </synonym>
+  <comment>Таблица &quot;Ячейки&quot; мобильного устройства</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.SUI_tbl_cells.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Запись таблицы Ячейки</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Таблица Ячейки</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Таблица &quot;Ячейки&quot; на мобильном устройстве.</value>
+  </explanation>
+  <resources uuid="fced89c9-b3d1-4b48-94bf-8f3f4a65b269">
+    <name>barcode</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Штрихкод (код) ячейки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d666b4f2-2f95-4dbd-a70a-2686adaf7e88">
+    <name>name</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование ячейки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="14a4ff80-a8c0-4864-b037-ca2c8ead6f0e">
+    <name>id</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>69</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор записи. В качестве значения можно указать ссылку объекта справочника или пустую строку для автоматической генерации идентификатора регистра сведений. Автоматическая генерация идентификатора снижает производительность.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="5a9c27b9-c483-4853-ae92-b8fc6468387f">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

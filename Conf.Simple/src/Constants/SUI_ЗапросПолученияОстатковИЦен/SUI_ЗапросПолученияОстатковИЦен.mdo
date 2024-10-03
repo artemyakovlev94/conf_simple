@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6837ef73-cf7b-4d49-b7f6-374e03e6a6f6">
+  <producedTypes>
+    <managerType typeId="2ff2d1c6-a11c-489d-a934-75543ecdf05d" valueTypeId="d7b069a8-1df1-4b8a-bb3f-6482441a2bae"/>
+    <valueManagerType typeId="ed6db96d-eebc-4bb5-a5ca-5eed2a4e4dff" valueTypeId="68631361-670e-47db-a523-2fab4d976f50"/>
+    <valueKeyType typeId="97e828f7-8413-4716-8410-874b6a31cd04" valueTypeId="184ff7d5-eec6-47e6-bb2b-8cca42aeb5a4"/>
+  </producedTypes>
+  <name>SUI_ЗапросПолученияОстатковИЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрос получения остатков и цен (SUI)</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Запрос получения остатков и цен</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

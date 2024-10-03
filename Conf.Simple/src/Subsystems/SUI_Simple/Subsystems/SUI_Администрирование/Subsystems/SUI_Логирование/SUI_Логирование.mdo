@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00ce279e-ec37-4be4-a88d-443c5f56f453">
+  <name>SUI_Логирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.SUI_ЛогированиеHTTPЗапросов</content>
+  <content>CommonModule.SUI_ЛогированиеHTTPЗапросовВызовСервера</content>
+  <content>CommonForm.SUI_ЛогированиеHTTPЗапросов</content>
+  <content>Constant.SUI_ЛогированиеHTTPЗапросов</content>
+  <content>Constant.SUI_ХранениеЛоговHTTPЗапросовВДнях</content>
+  <content>InformationRegister.SUI_ЛогированиеHTTPЗапросов</content>
+  <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_Администрирование</parentSubsystem>
+</mdclass:Subsystem>

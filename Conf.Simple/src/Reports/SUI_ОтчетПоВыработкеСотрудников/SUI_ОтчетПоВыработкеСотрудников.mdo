@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d58852e3-7ee3-4c09-a72a-390b00f2ba48">
+  <producedTypes>
+    <objectType typeId="e3352c90-bc4a-441b-b9dd-5762836534b0" valueTypeId="3c88c702-28e7-4ab0-b790-7cbe8a83c60b"/>
+    <managerType typeId="6fb1a4cc-1176-4b6e-8542-fb4c104e4a9d" valueTypeId="d343e50a-a3f0-4336-95d8-c3c64d9d0f10"/>
+  </producedTypes>
+  <name>SUI_ОтчетПоВыработкеСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по выработке сотрудников (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.SUI_ОтчетПоВыработкеСотрудников.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.SUI_ОтчетПоВыработкеСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>Report.SUI_ОтчетПоВыработкеСотрудников.Form.ФормаНастроек</defaultSettingsForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Отчет по выработке сотрудников</value>
+  </extendedPresentation>
+  <forms uuid="5d2d03b8-2d01-4686-80ea-b86a424be6c3">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d0cff514-5c23-4726-b9a8-fc8a79f6578c">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="47ac2f3c-d6d2-444c-a0cc-c323fc820b51">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="878f62f3-eed4-4f99-a34e-161c4a15e585">
+    <name>ОткрытьОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по выработке сотрудников</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

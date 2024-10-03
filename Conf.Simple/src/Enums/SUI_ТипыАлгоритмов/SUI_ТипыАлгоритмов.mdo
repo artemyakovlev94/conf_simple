@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac57a921-dfcf-4914-bbd0-863d9bc516c4">
+  <producedTypes>
+    <refType typeId="e0981e74-d1b1-426f-9daf-5a596b4be7a8" valueTypeId="59a3fc64-b036-4823-8333-5e6d9f74481b"/>
+    <listType typeId="a7bf6dd3-0165-4eca-b818-8094b0ccb7fe" valueTypeId="7ca29063-4b6c-49f0-a660-4114b0f8b669"/>
+    <managerType typeId="fb3bab1d-5f0c-4e33-aa9d-39050aa27682" valueTypeId="e873efc3-e42e-46bf-92a1-a74658f74445"/>
+  </producedTypes>
+  <name>SUI_ТипыАлгоритмов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы алгоритмов (SUI)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы алгоритмов</value>
+  </listPresentation>
+  <enumValues uuid="e34813cd-61a0-4826-99b2-9a324d2cf0dc">
+    <name>Simple</name>
+    <synonym>
+      <key>ru</key>
+      <value>Simple</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f9ced1c-357e-4699-ad0c-df4d5b5aaee4">
+    <name>Произвольный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

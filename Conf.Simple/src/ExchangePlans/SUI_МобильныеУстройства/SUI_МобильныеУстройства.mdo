@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ceabf7ea-d158-4d29-b62e-376e69dc1400" thisNode="497627f6-3a8c-4f19-b85f-f225eeab58ae">
+  <producedTypes>
+    <objectType typeId="7322e90d-dce9-47f4-983d-3b2604967883" valueTypeId="1e8d54de-5cce-4b7b-a363-e5f34e60a662"/>
+    <refType typeId="b0bb7013-defc-4303-a961-b5042999573e" valueTypeId="d3b7e678-5ee5-46f7-b67e-d8f9522b90c4"/>
+    <selectionType typeId="107bd6b3-3d52-4378-a466-42d0d4d218ec" valueTypeId="f22c4115-4ef2-4a82-9313-049950126b1d"/>
+    <listType typeId="43a11231-8376-48e5-a5f5-4998e76fd25e" valueTypeId="f4783ece-65f6-4733-8b4a-89a9e1952e44"/>
+    <managerType typeId="c18bf400-5244-454a-b3c5-b9ab07c46872" valueTypeId="666fc7f8-a5aa-4d0c-9ba4-5c2e44147130"/>
+  </producedTypes>
+  <name>SUI_МобильныеУстройства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильные устройства (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.SUI_МобильныеУстройства.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.SUI_МобильныеУстройства.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Мобильное устройство</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Мобильные устройства</value>
+  </listPresentation>
+  <codeLength>30</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>100</descriptionLength>
+  <content>
+    <mdObject>Catalog.SUI_НастройкиДокументов</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.SUI_tbl_marking_codes</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.SUI_tbl_countragents</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.SUI_tbl_warehouses</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.SUI_docs</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.SUI_ТаблицыКПерезаписиВМУ</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.SUI_ПользователиТСД</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.SUI_tbl_series</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.SUI_tbl_cells</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.SUI_tbl_classifier_units</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.SUI_tbl_properties</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.SUI_tbl_prices</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.SUI_tbl_types_goods</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.SUI_tbl_goods</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.SUI_tbl_price_types</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.SUI_tbl_units</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.SUI_СообщенияМобильныхУстройств</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.SUI_tbl_barcodes</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.SUI_МобильныеУстройства.Form.ФормаУзла</defaultObjectForm>
+  <defaultListForm>ExchangePlan.SUI_МобильныеУстройства.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="6622d5d6-069a-4004-b3bf-b48a8198cbdb">
+    <name>IPАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>IP адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>18</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="705cd573-5ee3-4eb5-9416-70377df84ffc">
+    <name>Порт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="241a5a78-e32b-4d0a-93ef-27aa416447ea">
+    <name>ПушУведомления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пуш уведомления</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="51fde9d4-96cb-4d51-b80c-d44711621c20">
+    <name>Удалить_МобильныйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Мобильный клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Удалить_SUI_МобильныеКлиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="04a38502-1773-45dd-96c2-ebf40e524eed">
+    <name>Удалить_Служебный</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Служебный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="81ef77e7-e660-4a12-862a-1bfa5108bb38">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3be191c9-e9e7-4a6e-9eca-2eebe5a92a4d">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExchangePlan>

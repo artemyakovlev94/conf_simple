@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9eb1b0bd-ef11-433a-8bff-302e4f4faaf2">
+  <producedTypes>
+    <managerType typeId="3adca9fa-a51f-456e-a136-b03f5810cb3d" valueTypeId="a5e9bc76-57e6-4558-8a47-a53c1d80b6bc"/>
+    <valueManagerType typeId="eb244172-0380-47b3-bc08-a8319a3bc7ec" valueTypeId="b7d8c25b-eaee-441a-bce5-6e156a97aeb4"/>
+    <valueKeyType typeId="c1678c66-3aa5-44b3-93e7-16e210629177" valueTypeId="3d1abb03-65a0-44d2-982e-e22fd2c12b9e"/>
+  </producedTypes>
+  <name>SUI_ОфлайнОбмен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать офлайн обмен (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использовать офлайн обмен</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

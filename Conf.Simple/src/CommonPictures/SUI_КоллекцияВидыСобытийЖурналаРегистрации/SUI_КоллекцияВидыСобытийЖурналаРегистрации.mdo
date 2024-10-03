@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1889692-d304-49bc-b38f-c03cdaddc643">
+  <name>SUI_КоллекцияВидыСобытийЖурналаРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коллекция виды событий журнала регистрации</value>
+  </synonym>
+</mdclass:CommonPicture>

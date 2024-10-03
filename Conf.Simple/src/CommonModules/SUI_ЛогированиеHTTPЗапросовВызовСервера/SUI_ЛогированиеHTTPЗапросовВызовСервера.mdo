@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2188302a-56f6-47ad-b302-37644ed0821a">
+  <name>SUI_ЛогированиеHTTPЗапросовВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логирование HTTPЗапросов (вызов сервера) (SUI)</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

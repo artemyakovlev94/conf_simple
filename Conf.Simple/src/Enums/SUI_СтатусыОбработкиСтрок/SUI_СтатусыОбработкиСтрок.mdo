@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8456a003-26df-4341-891a-0df7215c0bfc">
+  <producedTypes>
+    <refType typeId="68e15b1c-4e11-4f9c-8776-bea343841d85" valueTypeId="fff7c077-20e4-4f76-9842-97978303af31"/>
+    <listType typeId="014464b7-d1d8-42fc-8924-4178d879279a" valueTypeId="6ba823b3-83e5-4763-a9ae-f23b5e39d0bc"/>
+    <managerType typeId="87a0ee98-bf28-4de2-9c26-7173aa2e7732" valueTypeId="8b09128e-684c-47ed-af1b-9959e6a15225"/>
+  </producedTypes>
+  <name>SUI_СтатусыОбработкиСтрок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы обработки строк (SUI)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Статусы обработки строк</value>
+  </listPresentation>
+  <enumValues uuid="bb68e048-a72e-4c8f-9559-a300b7a10a5d">
+    <name>Новая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9611b24-9173-411f-9a4a-446cb127da2e">
+    <name>Пропущена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропущена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f92558e0-1024-4d76-8753-8347ad86af78">
+    <name>ОбработкаНеТребуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка не требуется</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

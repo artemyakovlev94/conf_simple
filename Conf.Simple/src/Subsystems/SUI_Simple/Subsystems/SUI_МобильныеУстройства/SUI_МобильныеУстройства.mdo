@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcf0a926-83b3-4b4c-b91f-188df0a05480">
+  <name>SUI_МобильныеУстройства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильные устройства</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.SUI_МобильныеУстройстваВызовСервера</content>
+  <content>CommonModule.SUI_МобильныеУстройстваКлиент</content>
+  <content>CommonModule.SUI_МобильныеУстройстваКлиентСервер</content>
+  <content>CommonModule.SUI_МобильныеУстройстваСервер</content>
+  <content>CommonForm.SUI_QRКодДляПодключенияМобильногоПриложения</content>
+  <content>CommonCommand.SUI_ВыполнитьПолнуюВыгрузку</content>
+  <content>Constant.SUI_ИспользоватьЗапросыАвторизацииМУ</content>
+  <content>InformationRegister.SUI_ЗапросыАвторизацииМобильныхУстройств</content>
+  <content>InformationRegister.SUI_СостоянияМобильныхУстройств</content>
+  <content>InformationRegister.SUI_СеансыМобильныхУстройств</content>
+  <content>ExchangePlan.SUI_МобильныеУстройства</content>
+  <subsystems>SUI_ТаблицыМобильныхКлиентов</subsystems>
+  <subsystems>SUI_ЦентрализованноеУправление</subsystems>
+  <parentSubsystem>Subsystem.SUI_Simple</parentSubsystem>
+</mdclass:Subsystem>

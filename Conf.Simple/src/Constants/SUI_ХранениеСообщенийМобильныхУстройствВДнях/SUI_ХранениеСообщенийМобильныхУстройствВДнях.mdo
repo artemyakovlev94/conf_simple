@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9917254-3448-4379-820f-95f408e676b7">
+  <producedTypes>
+    <managerType typeId="2cb556d1-f926-4ba9-9b90-c969bb52a6b9" valueTypeId="c3edf544-46bd-4336-be34-cb228d9d4a34"/>
+    <valueManagerType typeId="257bbcde-b66e-4edd-a28c-ff406efcd6c7" valueTypeId="5c0012fe-fe22-4a92-ac6d-d9931d3dba22"/>
+    <valueKeyType typeId="acca9a28-d375-40a4-bb79-1af3b39fc99f" valueTypeId="1863046d-6639-43d9-9025-bed05a32c329"/>
+  </producedTypes>
+  <name>SUI_ХранениеСообщенийМобильныхУстройствВДнях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальное количество дней хранения сообщений мобильных устройств (SUI)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Максимальное количество дней хранения сообщений мобильных устройств</value>
+  </extendedPresentation>
+  <toolTip>
+    <key>ru</key>
+    <value>Максимальное количество дней хранения сообщений мобильных устройств. Если количество дней равно 0, то сообщения удаляться не будут.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

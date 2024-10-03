@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98387bf9-0ada-4012-a2d0-dcde6dd31717">
+  <producedTypes>
+    <refType typeId="83ab486b-868c-432c-bcb4-c74d101d668b" valueTypeId="c03c988e-ceba-41a2-abf0-47f647938424"/>
+    <listType typeId="8d50a014-c716-41ed-9d2b-feb970df18be" valueTypeId="e3bd3d48-28fa-443e-8219-d466405ea22b"/>
+    <managerType typeId="fd0a58d5-7895-48af-856c-df0c480201c5" valueTypeId="5ba03a52-5eb8-4754-a16b-cab8af7b6c1b"/>
+  </producedTypes>
+  <name>SUI_СостоянияМобильныхУстройств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния мобильных устройств (SUI)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Состояния мобильных устройств</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Состояния мобильных устройств</value>
+  </extendedListPresentation>
+  <enumValues uuid="9d84f73a-1e0f-4107-a61b-a43d284b873a">
+    <name>ЗапросПолнойВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос полной выгрузки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ae1f5aae-82d6-4843-912d-9cafbe5cdf48">
+    <name>ФормированиеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формирование данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4b8e8d9e-1c43-4dc4-bf45-f6224ca4c3c4">
+    <name>ТребуетсяПолучитьДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется получить данные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a206a2c7-3282-4297-8316-543f037d8154">
+    <name>Выгружено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1a42468d-1e42-4655-b7ce-f036b1c98032">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

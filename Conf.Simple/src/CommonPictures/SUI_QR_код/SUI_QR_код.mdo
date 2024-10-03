@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f89079c3-5f99-4c67-b262-a0fe0d28f7dd">
+  <name>SUI_QR_код</name>
+  <synonym>
+    <key>ru</key>
+    <value>SUI q r код</value>
+  </synonym>
+</mdclass:CommonPicture>

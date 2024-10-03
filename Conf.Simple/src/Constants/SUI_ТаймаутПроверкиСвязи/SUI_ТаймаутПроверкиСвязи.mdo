@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6aada1ea-5ced-4e52-9e81-9c6dc052e4fc">
+  <producedTypes>
+    <managerType typeId="5e91e6cf-9cfd-4a1a-a0da-3898015b5547" valueTypeId="ef605b7e-cce0-4990-84a9-4294fe0bc982"/>
+    <valueManagerType typeId="0a25da8b-725b-4cd4-91b4-fca691676c71" valueTypeId="77188fe5-412c-43c1-920c-e621e9ddb108"/>
+    <valueKeyType typeId="eefe0702-7570-4f1d-8881-929a34e732f0" valueTypeId="3871fdd5-1877-449f-ac6b-66c5dd91964f"/>
+  </producedTypes>
+  <name>SUI_ТаймаутПроверкиСвязи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таймаут проверки связи (SUI)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Таймаут проверки связи</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

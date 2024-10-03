@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="251d514b-47b6-4f26-a6b7-b70e2b640044">
+  <producedTypes>
+    <managerType typeId="fd23b068-bd19-4ac4-9306-ac714de253c2" valueTypeId="86cb6dbe-ee03-4ead-b410-b983846c4b2a"/>
+    <valueManagerType typeId="1e776258-20d3-4d02-9aa7-8cca8a76ad30" valueTypeId="150d3021-786b-4758-9beb-25e4ed585eba"/>
+    <valueKeyType typeId="c74d4398-7fff-486d-b528-b6b7cef9d256" valueTypeId="89b8cff9-50cf-4ddb-ba66-f29cf5c2f9df"/>
+  </producedTypes>
+  <name>SUI_НастройкаДокументаПеремещенияЗапасов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка документа перемещения запасов (SUI)</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.SUI_НастройкиДокументов</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Настройка документа перемещения запасов</value>
+  </extendedPresentation>
+  <toolTip>
+    <key>ru</key>
+    <value>Настройка документа используемая для создания документа перемещения запасов между складами</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

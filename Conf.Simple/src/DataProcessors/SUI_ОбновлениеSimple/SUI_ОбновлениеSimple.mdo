@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84379be4-3119-4342-823c-6d2ae7c9275e">
+  <producedTypes>
+    <objectType typeId="900cb941-100c-455c-b150-552f1a23013a" valueTypeId="b240154a-bc71-4f09-aaf2-72f66fd2e354"/>
+    <managerType typeId="a67aac16-328f-4428-9293-52d4b77b32c2" valueTypeId="de35f9b6-3ae6-48da-b4c9-62dc2358cfb5"/>
+  </producedTypes>
+  <name>SUI_ОбновлениеSimple</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление Simple (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.SUI_ОбновлениеSimple.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Обновление Simple</value>
+  </extendedPresentation>
+  <forms uuid="41b32610-1c9d-4fd6-8fce-080ec8b6c7a1">
+    <name>ОбновлениеВерсииSimple</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление версии Simple</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a9b1cb45-1bd0-46de-89c9-bc23905ac32a">
+    <name>СообщениеОНеудачномОбновлении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение о неудачном обновлении</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="df36cf31-5dda-469f-900b-788c06c06d3e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="f3537685-f00d-45dc-b335-9a85538b37c7">
+    <name>ОткрытьОбновлениеSimple</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление Simple</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

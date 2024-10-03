@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9d01f05-8905-4e86-bf09-29dfa7580571">
+  <name>SUI_ДокументыОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы обмена</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.SUI_ДокументыОбмена</content>
+  <content>CommonModule.SUI_ДокументыОбменаВызовСервера</content>
+  <content>CommonModule.SUI_ДокументыОбменаКлиент</content>
+  <content>CommonModule.SUI_ДокументыОбменаКлиентСервер</content>
+  <content>CommonModule.SUI_ДокументыОбменаПовтИсп</content>
+  <content>CommonForm.SUI_ВыгрузкаДокументаНаТСД</content>
+  <content>CommonForm.SUI_ЗагрузкаДокументаИзТСД</content>
+  <content>Constant.SUI_ЗамещатьВПотокеШтрихкодов</content>
+  <content>Constant.SUI_РегистрироватьИзмененияПослеЗагрузкиДокументаИзМУ</content>
+  <content>Enum.SUI_СостоянияДокументовОбмена</content>
+  <content>Enum.SUI_РежимыОткрытияДокументаОбмена</content>
+  <content>InformationRegister.SUI_docs</content>
+  <content>DataProcessor.SUI_ОбработкаПотокаШтрихкодов</content>
+  <content>Document.SUI_СборШтрихкодов</content>
+  <content>Role.SUI_ИнтерактивноеУдалениеДокументовСборШтрихкодов</content>
+  <content>Enum.SUI_СтатусыДокументовСбораШтрихкодов</content>
+  <content>Constant.SUI_ХранениеОбработанныхДокументовОбмена</content>
+  <content>Constant.SUI_ОткрыватьВыгрузкуДокументовОбменаОфлайн</content>
+  <content>FunctionalOption.SUI_ОткрыватьВыгрузкуДокументовОбменаОфлайн</content>
+  <subsystems>SUI_НастройкиДокументовОбмена</subsystems>
+  <subsystems>SUI_ТаблицыДокументовОбмена</subsystems>
+  <parentSubsystem>Subsystem.SUI_Simple</parentSubsystem>
+</mdclass:Subsystem>

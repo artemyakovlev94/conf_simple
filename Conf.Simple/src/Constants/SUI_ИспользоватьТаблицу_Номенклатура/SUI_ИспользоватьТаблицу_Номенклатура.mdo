@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58a0dedf-7d95-440d-bf41-1994ef9a7cdb">
+  <producedTypes>
+    <managerType typeId="74e6fb2e-577a-4ca9-8335-b4018bd84ab2" valueTypeId="f0f0117f-a85b-495d-9fe4-5b5563861175"/>
+    <valueManagerType typeId="b5fbd095-028d-48ec-80ec-2ba333d23d17" valueTypeId="d910c72d-1705-4a44-95f7-ee55dfef4976"/>
+    <valueKeyType typeId="e3fd5f2b-9bd0-4c23-ad7a-f6abf1b88652" valueTypeId="4c6b47a2-bd43-4139-9335-c0eda150048e"/>
+  </producedTypes>
+  <name>SUI_ИспользоватьТаблицу_Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать таблицу Номенклатура (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использовать таблицу Номенклатура</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

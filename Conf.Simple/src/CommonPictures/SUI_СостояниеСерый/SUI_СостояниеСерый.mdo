@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08b29f47-e5cc-4fa4-b0b8-c46edfb2783e">
+  <name>SUI_СостояниеСерый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние серый</value>
+  </synonym>
+</mdclass:CommonPicture>

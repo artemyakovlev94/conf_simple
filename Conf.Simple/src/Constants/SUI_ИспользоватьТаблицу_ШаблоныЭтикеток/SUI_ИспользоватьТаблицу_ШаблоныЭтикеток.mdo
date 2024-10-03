@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af087c4b-7513-46ce-89a6-c15dfcf2fb3b">
+  <producedTypes>
+    <managerType typeId="b04ccc00-16c0-4b84-9cb9-87332589277a" valueTypeId="c5bd0bd6-6761-4a95-9765-110b30744c98"/>
+    <valueManagerType typeId="f9560676-302c-4ecb-9c1c-915ee5991ca3" valueTypeId="6943738c-2156-467d-b158-0e54b67459fa"/>
+    <valueKeyType typeId="e2d83bc9-4c24-48f2-938b-402cf7d3c8da" valueTypeId="ea4839ab-6d97-4ccc-8d43-85d7d3ed87b0"/>
+  </producedTypes>
+  <name>SUI_ИспользоватьТаблицу_ШаблоныЭтикеток</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать таблицу Шаблоны этикеток (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использовать таблицу Шаблоны этикеток</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

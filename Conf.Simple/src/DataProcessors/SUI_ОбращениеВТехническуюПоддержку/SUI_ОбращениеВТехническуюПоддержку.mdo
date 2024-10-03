@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d76ce70-9a49-4108-a4fe-45e26d47e1f7">
+  <producedTypes>
+    <objectType typeId="ee51bc68-b2a9-42d3-a7b0-5fe813120fd8" valueTypeId="022778e7-3426-4fd4-a0dc-21634b0ebe72"/>
+    <managerType typeId="7907062b-d416-4c2a-9a59-5a726aa13e15" valueTypeId="66885de0-e27c-4fb8-8069-c02ffa9014d1"/>
+  </producedTypes>
+  <name>SUI_ОбращениеВТехническуюПоддержку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обращение в техническую поддержку (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.SUI_ОбращениеВТехническуюПоддержку.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Обращение в техническую поддержку Simple</value>
+  </extendedPresentation>
+  <forms uuid="1c393d2b-eff7-4237-acce-e550e4801a31">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8ccbd631-61a9-4dac-ab65-cfc2ab1f14ec">
+    <name>МакетОбращения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет обращения</value>
+    </synonym>
+  </templates>
+  <commands uuid="269b4f93-7378-43fc-be24-cb2ddc28a8f2">
+    <name>ОткрытьОбращениеВТехническуюПоддержку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обращение в техническую поддержку</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

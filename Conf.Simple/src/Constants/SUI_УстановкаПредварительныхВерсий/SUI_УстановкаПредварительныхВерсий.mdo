@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d642cf84-10f5-426d-bc79-9aeb4f37a6e7">
+  <producedTypes>
+    <managerType typeId="eef35016-84af-4fe5-ba95-ec38f5d946e4" valueTypeId="6bb7e5af-3be0-4d1c-8866-92ff005bf7f1"/>
+    <valueManagerType typeId="7b1e8231-aa9d-4cbc-b519-0b0629dab0a0" valueTypeId="9c1317fc-89a7-4040-9856-2c32910e7788"/>
+    <valueKeyType typeId="856183a3-61e1-4cee-b9f8-343d1072424e" valueTypeId="a0d025cb-ba19-4083-a870-9e40c2e83a2d"/>
+  </producedTypes>
+  <name>SUI_УстановкаПредварительныхВерсий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка предварительных версий (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Установка предварительных версий</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

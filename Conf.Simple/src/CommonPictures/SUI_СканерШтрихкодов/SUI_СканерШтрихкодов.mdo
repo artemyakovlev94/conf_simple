@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36ef1cb8-c98d-4061-9e06-8e63eb692fe8">
+  <name>SUI_СканерШтрихкодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сканер штрихкодов</value>
+  </synonym>
+</mdclass:CommonPicture>

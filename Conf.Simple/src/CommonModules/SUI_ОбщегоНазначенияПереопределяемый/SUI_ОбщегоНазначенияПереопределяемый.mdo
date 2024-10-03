@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="981792e9-0961-400d-97ce-fe438950f953">
+  <name>SUI_ОбщегоНазначенияПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общего назначения (переопределяемый) (SUI)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

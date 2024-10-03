@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8dae219-0561-400e-8045-d166592357fa">
+  <producedTypes>
+    <selectionType typeId="6a972390-8611-435c-a07a-a405c894f3e3" valueTypeId="6888de70-ca0d-4832-b84e-343ea2353cb4"/>
+    <listType typeId="c4dff0c1-f623-4dfb-a078-659c551fe55a" valueTypeId="ec844f56-a775-4191-ad3c-f8f841677083"/>
+    <managerType typeId="f26e0972-92ba-493e-9040-05b94256e077" valueTypeId="f994e329-70de-44bd-9c82-e16e25f1771a"/>
+    <recordSetType typeId="4bc34cd7-591d-4a78-bdef-c0b372a6fd4e" valueTypeId="de0f6e20-4c9f-4b48-b727-73a43d0cd45d"/>
+    <recordKeyType typeId="0347a0ab-f772-4bb5-8010-1c753de15eec" valueTypeId="5baeba24-8ed9-4fc4-b806-5efdf17f760c"/>
+    <recordType typeId="e562cd7f-c5d3-4cc7-a7c6-ed734649168b" valueTypeId="d4cfe614-b5a3-46aa-b9f5-33d4faff6552"/>
+    <recordManagerType typeId="dcd276d0-b28a-4d0d-bbdc-a3932f00660d" valueTypeId="fdec21b0-ef19-4eb3-b18d-800154e234b1"/>
+  </producedTypes>
+  <name>SUI_tbl_label_templates</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таблица Шаблоны этикеток (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.SUI_tbl_label_templates.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Запись таблицы Шаблоны этикеток</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Таблица Шаблоны этикеток</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Таблица &quot;Шаблоны этикеток&quot; для выгрузки на мобильное устройство.</value>
+  </explanation>
+  <resources uuid="01cd5745-ff1b-486f-8152-c0effde69b2f">
+    <name>containsDM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержит DataMatrix код</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак, что в шаблоне этикетки содержится DataMatrix код</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2a573157-28bc-428b-bcc0-83ee304d85fd">
+    <name>height</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота (mm)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Высота шаблона этикетки (mm)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6113cd2a-6ffd-4687-a191-a59917ad172c">
+    <name>isZPL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это ZPL код</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак использования в значении реквизита layout (Макет) строки кода ZPL</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="318bacd4-5fe8-480b-a858-0cd5f4b651ee">
+    <name>layout</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment>Двоичные данные макета шаблона этикетки строкой Base64</comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаблон или XML описание макета этикетки (для БПО). Допустимые типы реквизита: Хранилище значений. Хранилище значений должно содержать Табличный документа макета, Структуру с ключом &quot;МакетЭтикетки&quot; (тип значение ключа &quot;МакетЭтикетки&quot; должен быть ТабличныйДокумент) или Строка XML (XML описание макета БПО).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="065daa70-1df2-4d6c-94e6-0db6b6654df7">
+    <name>name</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование шаблона этикетки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c54d073d-50f2-48e7-acdb-0b35a30dec3d">
+    <name>width</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ширина (mm)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ширина шаблона этикетки (mm)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="19b1d67c-d4b3-4809-a3ab-369f1ec2b408">
+    <name>id</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>69</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор записи. В качестве значения можно указать ссылку объекта справочника или пустую строку для автоматической генерации идентификатора регистра сведений. Автоматическая генерация идентификатора снижает производительность.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a3dc6152-4ff0-4ae5-a96d-9365668e6779">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

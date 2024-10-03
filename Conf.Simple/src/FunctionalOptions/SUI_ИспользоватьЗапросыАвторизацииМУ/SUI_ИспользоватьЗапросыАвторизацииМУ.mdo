@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6d6c979-a9fb-49a3-a970-6aee4dcc5dc0">
+  <name>SUI_ИспользоватьЗапросыАвторизацииМУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать запросы авторизации мобильных устройств (SUI)</value>
+  </synonym>
+  <location>Constant.SUI_ИспользоватьЗапросыАвторизацииМУ</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.SUI_ЗапросыАвторизацииМобильныхУстройств</content>
+</mdclass:FunctionalOption>

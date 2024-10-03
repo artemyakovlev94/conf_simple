@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62d69213-0200-4d30-adad-0c78a218e649">
+  <name>SUI_ОбновлениеSimple</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление Simple</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.SUI_ОбновлениеSimpleКлиентСервер</content>
+  <content>CommonModule.SUI_ОбновлениеSimple</content>
+  <content>CommonModule.SUI_ОбновлениеSimpleВызовСервера</content>
+  <content>CommonModule.SUI_ОбновлениеSimpleКлиент</content>
+  <content>FunctionalOption.SUI_УстановкаПредварительныхВерсий</content>
+  <content>Constant.SUI_УстановкаПредварительныхВерсий</content>
+  <content>Constant.SUI_ВерсияДанных</content>
+  <content>CommonTemplate.SUI_ПолучениеДереваОбработчиковОбновления</content>
+  <content>Constant.SUI_ПроверкаОбновленийПриСтарте</content>
+  <content>FunctionalOption.SUI_ПроверкаОбновленийПриСтарте</content>
+  <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

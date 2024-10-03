@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa4df3db-d760-48ec-b842-ca4d0faeb89a">
+  <name>SUI_ПроверкаОбновленийПриСтарте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка обновлений при старте</value>
+  </synonym>
+  <location>Constant.SUI_ПроверкаОбновленийПриСтарте</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

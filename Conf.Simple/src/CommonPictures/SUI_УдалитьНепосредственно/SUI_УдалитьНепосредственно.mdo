@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e9eab68-e319-443c-bc36-7770feda7c3f">
+  <name>SUI_УдалитьНепосредственно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить непосредственно</value>
+  </synonym>
+</mdclass:CommonPicture>

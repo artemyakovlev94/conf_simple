@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae6b51d0-f9a8-467c-8fa5-eb78e412ae34">
+  <producedTypes>
+    <managerType typeId="1aa95d2c-1d2b-4016-bc36-6324880732dd" valueTypeId="431b1abb-f9de-4982-a605-058786c90128"/>
+    <valueManagerType typeId="0e022046-facb-4276-8924-329ce296bd08" valueTypeId="b2c79e39-1603-416b-a12a-e8cd09f70d0e"/>
+    <valueKeyType typeId="f4d4d665-a779-4e5b-a802-52c22f9ef14e" valueTypeId="dfed3894-a029-41a2-a036-a2bc08d9e662"/>
+  </producedTypes>
+  <name>SUI_ХранениеОбработанныхДокументовОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>ХранениеОбработанныхДокументовОбмена (SUI)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Максимальное количество дней хранения обработанных документов обмена</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

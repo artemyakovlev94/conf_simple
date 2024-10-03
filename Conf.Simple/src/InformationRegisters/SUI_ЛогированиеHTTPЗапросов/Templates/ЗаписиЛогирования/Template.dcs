@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтносительныйURL</dataPath>
+			<field>ОтносительныйURL</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Период</dataPath>
+			<field>Период</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдентификаторУстройства</dataPath>
+			<field>ИдентификаторУстройства</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>SID</dataPath>
+			<field>SID</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтветЖдать</dataPath>
+			<field>ОтветЖдать</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Удалить_МобильноеУстройство</dataPath>
+			<field>Удалить_МобильноеУстройство</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Метод</dataPath>
+			<field>Метод</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>БазовыйURL</dataPath>
+			<field>БазовыйURL</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтветЕстьДанные</dataPath>
+			<field>ОтветЕстьДанные</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КодСостояния</dataPath>
+			<field>КодСостояния</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МеткаВремени</dataPath>
+			<field>МеткаВремени</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВерсияПриложения</dataPath>
+			<field>ВерсияПриложения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОтвета</dataPath>
+			<field>ДанныеОтвета</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеЗапроса</dataPath>
+			<field>ДанныеЗапроса</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтветКоманда</dataPath>
+			<field>ОтветКоманда</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтветНетДанных</dataPath>
+			<field>ОтветНетДанных</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерСеанса</dataPath>
+			<field>НомерСеанса</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдентификаторПользователя</dataPath>
+			<field>ИдентификаторПользователя</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИмяПользователя</dataPath>
+			<field>ИмяПользователя</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерРисунка</dataPath>
+			<field>НомерРисунка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер рисунка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ ПЕРВЫЕ 1000
+	SUI_ЛогированиеHTTPЗапросов.Период КАК Период,
+	SUI_ЛогированиеHTTPЗапросов.SID КАК SID,
+	SUI_ЛогированиеHTTPЗапросов.Метод КАК Метод,
+	SUI_ЛогированиеHTTPЗапросов.Удалить_МобильноеУстройство КАК Удалить_МобильноеУстройство,
+	SUI_ЛогированиеHTTPЗапросов.КодСостояния КАК КодСостояния,
+	SUI_ЛогированиеHTTPЗапросов.БазовыйURL КАК БазовыйURL,
+	SUI_ЛогированиеHTTPЗапросов.ОтносительныйURL КАК ОтносительныйURL,
+	SUI_ЛогированиеHTTPЗапросов.ИдентификаторУстройства КАК ИдентификаторУстройства,
+	SUI_ЛогированиеHTTPЗапросов.ВерсияПриложения КАК ВерсияПриложения,
+	SUI_ЛогированиеHTTPЗапросов.ДанныеЗапроса КАК ДанныеЗапроса,
+	SUI_ЛогированиеHTTPЗапросов.ДанныеОтвета КАК ДанныеОтвета,
+	SUI_ЛогированиеHTTPЗапросов.ОтветЕстьДанные КАК ОтветЕстьДанные,
+	SUI_ЛогированиеHTTPЗапросов.ОтветЖдать КАК ОтветЖдать,
+	SUI_ЛогированиеHTTPЗапросов.ОтветКоманда КАК ОтветКоманда,
+	SUI_ЛогированиеHTTPЗапросов.ОтветНетДанных КАК ОтветНетДанных,
+	SUI_ЛогированиеHTTPЗапросов.МеткаВремени КАК МеткаВремени,
+	SUI_ЛогированиеHTTPЗапросов.НомерСеанса КАК НомерСеанса,
+	SUI_ЛогированиеHTTPЗапросов.ИдентификаторПользователя КАК ИдентификаторПользователя,
+	SUI_ЛогированиеHTTPЗапросов.ИмяПользователя КАК ИмяПользователя,
+	ВЫБОР
+		КОГДА КодСостояния &gt;= 400
+			ТОГДА 1
+		КОГДА КодСостояния &gt;= 300
+		И КодСостояния &lt; 400
+			ТОГДА 2
+		КОГДА КодСостояния &gt;= 200
+		И КодСостояния &lt; 300
+			ТОГДА 3
+		ИНАЧЕ 0
+	КОНЕЦ КАК НомерРисунка
+ИЗ
+	РегистрСведений.SUI_ЛогированиеHTTPЗапросов КАК SUI_ЛогированиеHTTPЗапросов
+{ГДЕ
+	(SUI_ЛогированиеHTTPЗапросов.Период В (&amp;Период)),
+	(SUI_ЛогированиеHTTPЗапросов.SID В (&amp;SID)),
+	(SUI_ЛогированиеHTTPЗапросов.Метод В (&amp;Метод)),
+	(SUI_ЛогированиеHTTPЗапросов.Удалить_МобильноеУстройство В (&amp;Удалить_МобильноеУстройство))}
+
+УПОРЯДОЧИТЬ ПО
+	МеткаВремени УБЫВ</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>URL</dataPath>
+		<expression>БазовыйURL + ОтносительныйURL</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>URL</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+	</calculatedField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<parameter>
+		<name>Удалить_МобильноеУстройство</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Удалить мобильное устройство</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:ExchangePlanRef.SUI_МобильныеУстройства</v8:Type>
+		</valueType>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<parameter>
+		<name>Метод</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Метод</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.SUI_HTTPМетоды</v8:Type>
+		</valueType>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<parameter>
+		<name>SID</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>SID</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>36</v8:Length>
+				<v8:AllowedLength>Fixed</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

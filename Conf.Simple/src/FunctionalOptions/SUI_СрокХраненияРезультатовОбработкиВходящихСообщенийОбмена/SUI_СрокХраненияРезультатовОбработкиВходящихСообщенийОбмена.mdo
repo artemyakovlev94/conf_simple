@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0247335-c927-4668-a7ec-be34ab4e6484">
+  <name>SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Срок хранения результатов обработки входящих сообщений обмена (SUI)</value>
+  </synonym>
+  <location>Constant.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

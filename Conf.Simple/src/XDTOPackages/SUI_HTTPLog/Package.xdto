@@ -1,0 +1,40 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.http-log.simple">
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<import namespace="http://www.w3.org/2001/XMLSchema"/>
+	<valueType name="Method" base="xs:string">
+		<enumeration>GET</enumeration>
+		<enumeration>POST</enumeration>
+		<enumeration>PUT</enumeration>
+		<enumeration>PATCH</enumeration>
+		<enumeration>DELETE</enumeration>
+	</valueType>
+	<objectType name="Logs">
+		<property xmlns:d3p1="http://www.http-log.simple" name="Log" type="d3p1:Log" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Log">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="SID" type="d3p1:UUID" form="Attribute"/>
+		<property name="Date" type="xs:dateTime" form="Attribute"/>
+		<property xmlns:d3p1="http://www.http-log.simple" name="Method" type="d3p1:Method" lowerBound="0" form="Attribute"/>
+		<property name="StatusCode" type="xs:int" form="Attribute"/>
+		<property name="DeviceID" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="Session" type="xs:int" form="Attribute"/>
+		<property name="Timestamp" type="xs:integer" form="Attribute"/>
+		<property xmlns:d3p1="http://www.http-log.simple" name="URL" type="d3p1:URL"/>
+		<property xmlns:d3p1="http://www.http-log.simple" name="User" type="d3p1:User"/>
+		<property xmlns:d3p1="http://www.http-log.simple" name="Data" type="d3p1:Data"/>
+	</objectType>
+	<objectType name="URL">
+		<property name="URL" type="xs:string" form="Attribute"/>
+		<property name="Base" type="xs:string"/>
+		<property name="Relative" type="xs:string"/>
+	</objectType>
+	<objectType name="User">
+		<property name="Name" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="ID" type="d3p1:UUID" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="Data">
+		<property name="Path" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="Request" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="Response" type="xs:string" lowerBound="0" form="Attribute"/>
+	</objectType>
+</package>

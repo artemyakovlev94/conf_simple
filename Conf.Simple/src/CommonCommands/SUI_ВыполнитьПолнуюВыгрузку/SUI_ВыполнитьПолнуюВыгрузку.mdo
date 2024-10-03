@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2130dbae-127a-4b5c-9fab-c20beb674190">
+  <name>SUI_ВыполнитьПолнуюВыгрузку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнить полную выгрузку</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>ExchangePlanRef.SUI_МобильныеУстройства</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Выполнить полную выгрузку на мобильное устройство</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.WriteChanges</picture>
+  </picture>
+</mdclass:CommonCommand>

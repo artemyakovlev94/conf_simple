@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="892276ee-cb9e-485e-868f-0661dc38e599">
+  <producedTypes>
+    <managerType typeId="eedfd226-33cd-41de-9b1a-ffb5b0e28315" valueTypeId="e47ad0f8-07ac-4e2e-8b0f-2c346aeb5db2"/>
+    <valueManagerType typeId="9051b6c5-e66d-48cf-9404-c45592ed61a9" valueTypeId="c000a4b3-2494-4fd7-a3e2-478f08985cf0"/>
+    <valueKeyType typeId="9ce42b8e-1334-4f67-95ad-0b13030b97c0" valueTypeId="51285121-09fa-4cb2-9705-2346ef897162"/>
+  </producedTypes>
+  <name>Удалить_SUI_РЗ_ФормированиеСлужебныхПакетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Регламентное задание: Формирование служебных пакетов (SUI)</value>
+  </synonym>
+  <type>
+    <types>UUID</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fe2d0f4-85a4-4248-8108-7d1ca4be6f85">
+  <producedTypes>
+    <objectType typeId="288c6aa3-8cfd-4e72-bacc-77f3a87d02c0" valueTypeId="5a3bce7e-6847-4175-bbfd-1b1bfc63c947"/>
+    <refType typeId="2cae969d-61b2-46dc-8016-88d99efa3757" valueTypeId="3002dd26-02bd-40e2-8fe1-1434a6746ec3"/>
+    <selectionType typeId="b664c310-4453-4912-a562-21b743365a95" valueTypeId="a277d0e8-f739-4a8d-9377-c0d42c47e9b5"/>
+    <listType typeId="82ac0c75-68dc-403c-86ad-b6e6ec3ba75b" valueTypeId="f5f7f2c6-4ec2-4222-9342-fd15964056bb"/>
+    <managerType typeId="9dc05e57-0b3e-43e7-af25-753b6e6150bc" valueTypeId="f7234fa6-c034-4555-9361-2eff1c2cd14c"/>
+  </producedTypes>
+  <name>SUI_ПользователиТСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи ТСД (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.SUI_ПользователиТСД.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Пользователь ТСД</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Пользователи ТСД</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.SUI_ПользователиТСД.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="fe1b372a-5ee7-43a9-b391-ef35b99d4c1f">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5826f282-e363-4903-b566-5ae847fe002d">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f08d9554-6978-4a06-8d38-d605a6f2de85">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="16ea5a91-3b69-4a45-b40e-e2602f21acca">
+    <name>ФормаУстановкаПароля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка пароля</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="31afc020-725c-4ae3-8bf8-593bb319aa5e">
+    <name>QRКодАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>QR код авторизации</value>
+    </synonym>
+  </templates>
+  <commands uuid="bc589290-1236-475b-a8b7-fe1bd9a64be0">
+    <name>ПечатьQRКодаАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>QR кода авторизации</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.SUI_ПользователиТСД</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Печать QR кода авторизации</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.SUI_QR_код</picture>
+    </picture>
+  </commands>
+</mdclass:Catalog>

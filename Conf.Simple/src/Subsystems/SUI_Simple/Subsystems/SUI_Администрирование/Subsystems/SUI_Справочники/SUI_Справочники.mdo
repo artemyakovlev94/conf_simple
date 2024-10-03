@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36424788-0bb0-41d6-90c6-13a05618fb72">
+  <name>SUI_Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.SUI_ПользователиТСД</content>
+  <content>Catalog.SUI_ШаблоныЭтикетокZPL</content>
+  <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_Администрирование</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a00594d9-ba3e-4215-bd00-6bbcb68dc243">
+  <name>SUI_ОфлайнОбмен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Офлайн обмен (SUI)</value>
+  </synonym>
+  <location>Constant.SUI_ОфлайнОбмен</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.SUI_РабочееМестоОператораОбмена</content>
+  <content>InformationRegister.SUI_КешПакетовДанных</content>
+  <content>InformationRegister.SUI_docs</content>
+  <content>InformationRegister.SUI_docs_tbl_barcode_flow</content>
+  <content>ExchangePlan.SUI_МобильныеУстройства.Attribute.IPАдрес</content>
+  <content>ExchangePlan.SUI_МобильныеУстройства.Attribute.Порт</content>
+  <content>ExchangePlan.SUI_МобильныеУстройства.Attribute.ПушУведомления</content>
+  <content>DataProcessor.SUI_ЗапросыКБазамДанныхМобильныхУстройств</content>
+  <content>DataProcessor.SUI_ЗапросыКБазамДанныхМобильныхУстройств.Command.ОткрытьЗапросыКБазамДанныхМобильныхУстройств</content>
+</mdclass:FunctionalOption>

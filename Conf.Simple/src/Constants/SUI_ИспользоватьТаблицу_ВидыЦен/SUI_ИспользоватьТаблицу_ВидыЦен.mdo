@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fac2050-5562-437b-9160-a39002cb695e">
+  <producedTypes>
+    <managerType typeId="c310cdce-3a33-4030-9f85-d7f1aacb8c2e" valueTypeId="00c6d72e-0666-4612-8109-9fdb03ac4ba6"/>
+    <valueManagerType typeId="0d682e5c-d48e-4bae-9ec6-a33508de7418" valueTypeId="274adf4b-8113-4c2f-8a40-173a9b033dc6"/>
+    <valueKeyType typeId="d6917baf-7d22-4b43-bf3b-b3d521165604" valueTypeId="5590eae1-7ee5-46b6-b883-f860880060e5"/>
+  </producedTypes>
+  <name>SUI_ИспользоватьТаблицу_ВидыЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать таблицу Виды цен (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использовать таблицу Виды цен</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

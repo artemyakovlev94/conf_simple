@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17fc1324-181f-4105-bf2e-1f1936c89ee4">
+  <name>SUI_ЛогированиеHTTPЗапросовКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логирование HTTP (клиент) (SUI)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

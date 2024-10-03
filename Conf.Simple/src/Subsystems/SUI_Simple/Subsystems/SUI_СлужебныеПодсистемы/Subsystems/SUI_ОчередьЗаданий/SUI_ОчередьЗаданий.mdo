@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d3be485-94e9-4c08-b812-eeda3c9df0dd">
+  <name>SUI_ОчередьЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь заданий</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.SUI_ОчередьЗаданий</content>
+  <content>CommonModule.SUI_ОчередьЗаданийКлиентСервер</content>
+  <content>Constant.SUI_КоличествоЗаданийВПотокеОчередиЗаданий</content>
+  <content>Enum.SUI_СтатусыОбработкиОчередиЗаданий</content>
+  <content>InformationRegister.SUI_ОчередьЗаданий</content>
+  <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

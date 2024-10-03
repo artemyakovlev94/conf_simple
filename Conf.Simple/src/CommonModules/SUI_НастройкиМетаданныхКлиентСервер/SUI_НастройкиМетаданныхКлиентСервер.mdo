@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c56ed7e6-9d88-444f-951b-c81aaf7f2747">
+  <name>SUI_НастройкиМетаданныхКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки метаданных клиент-сервер (SUI)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

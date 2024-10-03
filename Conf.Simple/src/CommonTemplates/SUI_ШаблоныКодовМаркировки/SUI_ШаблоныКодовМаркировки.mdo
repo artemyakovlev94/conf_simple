@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85c1e83d-37f3-4f79-a039-a5098c018b81">
+  <name>SUI_ШаблоныКодовМаркировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны кодов маркировки (SUI)</value>
+  </synonym>
+</mdclass:CommonTemplate>

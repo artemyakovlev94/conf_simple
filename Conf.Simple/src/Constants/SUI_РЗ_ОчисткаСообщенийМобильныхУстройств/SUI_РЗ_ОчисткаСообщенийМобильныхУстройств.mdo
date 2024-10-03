@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff78ce9a-4546-46bd-bada-b77a58539ef5">
+  <producedTypes>
+    <managerType typeId="d4348753-eac4-4e2a-b631-65f8a58608e2" valueTypeId="9a4d6d9c-8f38-4271-9151-743ffe2ea680"/>
+    <valueManagerType typeId="db40d88d-f43d-40c5-8fb6-466d2ae3ae51" valueTypeId="9f3abde4-13f9-4171-bf78-de6d47263f61"/>
+    <valueKeyType typeId="447e7cb1-afb1-4028-8045-11bc0bfe750c" valueTypeId="0293f164-73b4-4354-83ad-0e2be7ba31c8"/>
+  </producedTypes>
+  <name>SUI_РЗ_ОчисткаСообщенийМобильныхУстройств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентное задание: Очистка сообщений мобильных устройств (SUI)</value>
+  </synonym>
+  <type>
+    <types>UUID</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Регламентное задание: Очистка сообщений мобильных устройств</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="429bb1fa-743a-419c-a125-1f56d077aa0f">
+  <name>SUI_СостояниеТаблицМобильногоУстройства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние таблиц мобильного устройства</value>
+  </synonym>
+  <templateType>DataCompositionSchema</templateType>
+</mdclass:CommonTemplate>

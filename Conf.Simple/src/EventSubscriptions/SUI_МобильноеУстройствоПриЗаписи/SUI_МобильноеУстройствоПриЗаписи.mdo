@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32ceaa99-91e0-4ff1-a459-54fa3612b5eb">
+  <name>SUI_МобильноеУстройствоПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильное устройство при записи (SUI)</value>
+  </synonym>
+  <source>
+    <types>ExchangePlanObject.SUI_МобильныеУстройства</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.SUI_МобильныеУстройстваСервер.SUI_МобильноеУстройствоПриЗаписи</handler>
+</mdclass:EventSubscription>

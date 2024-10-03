@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57c174a4-0a6e-43db-a8ba-e0d54a086340">
+  <producedTypes>
+    <managerType typeId="f36f166f-63c8-4119-acf9-cac91957d707" valueTypeId="9c4e26c2-0e4d-4e75-986d-f28e71319e6b"/>
+    <valueManagerType typeId="d32e50a3-adfc-4ebe-acab-a85c0ffaa87a" valueTypeId="a42134b0-56e8-4fc4-8024-740e3679a08c"/>
+    <valueKeyType typeId="9ccccc7b-28a3-42d2-b399-a98a8b226702" valueTypeId="9f6941fc-f8d9-4fae-a1f0-92ef54361149"/>
+  </producedTypes>
+  <name>SUI_ИспользоватьТаблицу_ПользователиТСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать таблицу пользователи ТСД (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использовать таблицу пользователи ТСД</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="081ea026-5448-43e1-9a70-6b8d01399b65">
+  <producedTypes>
+    <objectType typeId="932246b6-15d5-4290-9c7f-94e7192aeb85" valueTypeId="5aa408da-23e2-449b-b576-0fe822ea40a0"/>
+    <managerType typeId="da579f0f-883e-4e2d-8101-570683d9e776" valueTypeId="4be70270-b679-4510-8704-9bc80d914558"/>
+  </producedTypes>
+  <name>SUI_ОтчетПоЗадачамПересчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по задачам пересчет (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.SUI_ОтчетПоЗадачамПересчет.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.SUI_ОтчетПоЗадачамПересчет.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>Report.SUI_ОтчетПоЗадачамПересчет.Form.ФормаНастроек</defaultSettingsForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Отчет по задачам пересчет</value>
+  </extendedPresentation>
+  <attributes uuid="abc7a9a3-4ef0-4acc-8636-6487e6e20ef9">
+    <name>ТестовыйРеквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестовый реквизит</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="4f78dc7e-311e-4719-a2b1-8b1bd549fb99">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ad076324-b9fd-4c47-9bb7-0f6369541cdd">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3512d163-fc9b-4496-9f5a-ed3c250f6610">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="1f1e36de-ed93-4c27-8332-f1d3d5cd87e8">
+    <name>ОткрытьОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по задачам пересчет</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

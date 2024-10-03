@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2c9f896-c21a-4307-9df2-acb5e9adeab0">
+  <name>SUI_Exchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Exchange (SUI)</value>
+  </synonym>
+  <rootURL>simple_accounting</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="ea2e2621-f8ca-44fd-a5a0-6c55bcdced88">
+    <name>ГрупповойПересчетДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповой пересчет документа</value>
+    </synonym>
+    <template>/document_lines</template>
+    <methods uuid="78354ade-a896-4295-a78f-53aef0e1ff7e">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <handler>ГрупповойПересчетДокументаПолучить</handler>
+    </methods>
+    <methods uuid="de20d163-507f-400c-8e6c-71bedc2cd9c4">
+      <name>Записать</name>
+      <synonym>
+        <key>ru</key>
+        <value>Записать</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ГрупповойПересчетДокументаЗаписать</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="80e50076-83f8-4a17-a7a7-458b55c6e493">
+    <name>ГрупповойПересчетДокументаЗавершение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповой пересчет документа (завершить)</value>
+    </synonym>
+    <comment>Завершить групповой пересчет документа</comment>
+    <template>/document_lines/finish</template>
+    <methods uuid="16236f25-16d5-4e4c-baf8-823f3bee26c6">
+      <name>Завершить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Завершить</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ГрупповойПересчетДокументаЗавершить</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="b1d8f276-b6dd-42f9-82fd-3b13156fc81a">
+    <name>ГрупповойПересчетДокументаПерезапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповой пересчет документа (перезаписать)</value>
+    </synonym>
+    <comment>Перезаписывает данные группового пересчета документа</comment>
+    <template>/document_lines/overwrite</template>
+    <methods uuid="44f0e046-a71e-4496-b54f-8c80ac02cd34">
+      <name>Перезаписать</name>
+      <synonym>
+        <key>ru</key>
+        <value>Перезаписать</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ГрупповойПересчетДокументаПерезаписать</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="86fb77e6-064e-4513-89a0-657333f30258">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <template>/data</template>
+    <methods uuid="914c9e3d-a90a-4f2f-bfc2-fecfe6f62dd7">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <handler>ДанныеПолучить</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="086194b0-0c79-4347-a1e6-049ee6bbfd2f">
+    <name>Документы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы</value>
+    </synonym>
+    <template>/documents</template>
+    <methods uuid="e3bd1c8c-ec3b-405d-9721-a15ec906d292">
+      <name>Создать</name>
+      <synonym>
+        <key>ru</key>
+        <value>Создать</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ДокументыСоздать</handler>
+    </methods>
+    <methods uuid="b154f6db-c379-49ed-b1f7-719c33235edb">
+      <name>ОбновитьДокументы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обновить документы</value>
+      </synonym>
+      <httpMethod>PUT</httpMethod>
+      <handler>ОбновитьДокументы</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="70b4d319-21f7-48c6-b8ad-05849ec25a63">
+    <name>ОбновленияКонфигурацийПриложений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновления конфигураций приложений</value>
+    </synonym>
+    <template>/app/updates</template>
+    <methods uuid="2be7c1fe-14e5-4be8-9b2b-34531f6f4857">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <handler>ОбновленияКонфигурацийПриложенийПолучить</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="50763652-bb3d-4e2d-9071-e556dbfb43f3">
+    <name>ОстаткиИЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки и цены</value>
+    </synonym>
+    <template>/LA/balances_prices</template>
+    <methods uuid="783a0341-1efc-488f-85b4-4d4f641c7a75">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <handler>ОстаткиИЦеныПолучить</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="36c815b5-74a5-4d11-823d-9103960460fb">
+    <name>ПеремещениеЗапасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение запасов</value>
+    </synonym>
+    <template>/LA/moving_stocks</template>
+    <methods uuid="3ca74e0d-dc0c-4b2c-be39-94ded5857ab6">
+      <name>Создать</name>
+      <synonym>
+        <key>ru</key>
+        <value>Создать</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПеремещениеЗапасовСоздать</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="662cdfc1-49fc-46d1-b0d9-a21e583e976d">
+    <name>ПользовательскийЗапрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользовательский запрос</value>
+    </synonym>
+    <template>/user_query</template>
+    <methods uuid="b2e2607d-3640-42c2-a51e-c9b581eab2ad">
+      <name>Выполнить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выполнить</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПользовательскийЗапросВыполнить</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="883912b9-8c63-4a2f-9a53-7413f2069776">
+    <name>РегистрацияИзмененийМобильногоУстройства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация изменений мобильного устройства</value>
+    </synonym>
+    <template>/reset_exchange</template>
+    <methods uuid="512b3682-7393-4d8f-847f-205d6adb5d36">
+      <name>Сбросить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сбросить</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>РегистрацияИзмененийМобильногоУстройстваСбросить</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="1146899d-8c48-4d07-9a2a-9cf63e040898">
+    <name>Сообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщения</value>
+    </synonym>
+    <template>/messages</template>
+    <methods uuid="6b2b9104-e523-433b-83c8-029499afb888">
+      <name>Создать</name>
+      <synonym>
+        <key>ru</key>
+        <value>Создать</value>
+      </synonym>
+      <comment>Создать сообщение</comment>
+      <httpMethod>POST</httpMethod>
+      <handler>СообщенияСоздать</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="873d2838-e459-41c1-9d7a-fb70ed7a5493">
+    <name>СообщенияОбменаРезультат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат сообщения обмена данными</value>
+    </synonym>
+    <template>/exchange_message/{messageID}/result</template>
+    <methods uuid="acf02fff-d25f-4a9a-b800-ce12b0be1a1d">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <handler>СообщенияОбменаРезультатПолучить</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="b2e97086-5849-4e36-a294-f4ec338c0c16">
+    <name>ТестСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест связи</value>
+    </synonym>
+    <template>/communication_test</template>
+    <methods uuid="1dd7af52-addc-4efa-a324-334583698426">
+      <name>ПолучитьОтвет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить ответ</value>
+      </synonym>
+      <handler>ТестСвязиПолучитьОтвет</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="48eb5d7a-d80f-45ec-91df-bb7df4e4833f">
+    <name>ТоварыВЯчейках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары в ячейках</value>
+    </synonym>
+    <template>/good_balances/cells</template>
+    <methods uuid="0ffddb81-2834-4f59-9f0c-91d50db6a82f">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <handler>ТоварыВЯчейкахПолучить</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="165bf8f9-ea00-48f7-a0da-9a82b1a0057e">
+    <name>ТоварыНаСкладах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары на складах</value>
+    </synonym>
+    <template>/good_balances/warehouses</template>
+    <methods uuid="5c174898-3441-4bf8-b874-cf6521e1440d">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <handler>ТоварыНаСкладахПолучить</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a95353cb-99fb-4e49-aa91-59a2ba1bce82">
+    <name>Удалить_СтрокиПересчетаДокументаПерезапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Удалить строки пересчета документа перезапись</value>
+    </synonym>
+    <comment>Старый шаблон</comment>
+    <template>/document_lines_rewrite</template>
+    <methods uuid="513e4070-9244-4378-87a8-e1c44a13c85c">
+      <name>Обновить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обновить</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>СтрокиПересчетаДокументаПерезаписать</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="96452959-db6e-4b08-98e5-d6d28b8b35d4">
+    <name>ЦеныНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цены номенклатуры</value>
+    </synonym>
+    <template>/good_prices</template>
+    <methods uuid="4f1e409a-fc15-4c02-856d-8956f33e9373">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <handler>ЦеныНоменклатурыПолучить</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="60ddd9c0-9f00-4592-a608-d335f48440ac">
+    <name>ШаблоныЭтикеток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблоны этикеток</value>
+    </synonym>
+    <template>/label_templates</template>
+    <methods uuid="fc8eaa87-ad26-4f64-9159-059a3d8bc3b5">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <handler>ШаблоныЭтикетокПолучить</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="7c116bd6-9173-4859-8e50-a7be552dd454">
+    <name>ШтрихкодыНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкоды номенклатуры</value>
+    </synonym>
+    <template>/barcodes</template>
+    <methods uuid="b6ffc6f8-b656-4e15-88fb-75116d45ea93">
+      <name>СоздатьШтрихкодыНоменклатуры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Создать штрихкоды номенклатуры</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ШтрихкодыНоменклатурыСоздатьШтрихкодыНоменклатуры</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

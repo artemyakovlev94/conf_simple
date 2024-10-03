@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1edbf7d3-0d78-414d-a207-9bb3a0b12957">
+  <name>SUI_СообщенияОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения обмена данными</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.SUI_СообщенияОбменаДанными</content>
+  <content>Enum.SUI_ВидыДанныхСообщенийОбменаДанными</content>
+  <content>CommonModule.SUI_СообщенияОбменаДанными</content>
+  <content>Constant.SUI_РЗ_ОбработкаСообщенийОбменаДанными</content>
+  <content>Constant.SUI_РЗ_СверткаСообщенийОбменаДанными</content>
+  <content>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными</content>
+  <content>Constant.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</content>
+  <content>FunctionalOption.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</content>
+  <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

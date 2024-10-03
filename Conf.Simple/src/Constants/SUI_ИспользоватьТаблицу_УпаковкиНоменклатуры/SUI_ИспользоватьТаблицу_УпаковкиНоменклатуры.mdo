@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6581c405-3dc4-4170-aa05-625c1aaae890">
+  <producedTypes>
+    <managerType typeId="0bf6ae9e-c827-4a01-9589-a3edb77d2f6c" valueTypeId="c88d5181-5c05-416f-9d0c-4be2771a6c17"/>
+    <valueManagerType typeId="26e45ac5-4f05-4664-97f0-5b366b06d8ab" valueTypeId="d489a67d-7141-4de6-8235-0cb99c352374"/>
+    <valueKeyType typeId="a6800185-7e83-404f-94a5-fa84822c3f89" valueTypeId="7feb1535-cdbc-4710-959a-4e756ef53c89"/>
+  </producedTypes>
+  <name>SUI_ИспользоватьТаблицу_УпаковкиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать таблицу Упаковки номенклатуры (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использовать таблицу Упаковки номенклатуры</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

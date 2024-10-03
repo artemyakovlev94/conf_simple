@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32b51895-3f02-4e5d-9bc1-7f4b38e4c1cc">
+  <name>SUI_КонстантыИспользоватьТаблицуПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Константы использовать таблицу перед записью (SUI)</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager.SUI_ИспользоватьТаблицу_ВидыЦен</types>
+    <types>ConstantValueManager.SUI_ИспользоватьТаблицу_СерииНоменклатуры</types>
+    <types>ConstantValueManager.SUI_ИспользоватьТаблицу_ЦеныНоменклатуры</types>
+    <types>ConstantValueManager.SUI_ИспользоватьТаблицу_УпаковкиНоменклатуры</types>
+    <types>ConstantValueManager.SUI_ИспользоватьТаблицу_ХарактеристикиНоменклатуры</types>
+    <types>ConstantValueManager.SUI_ИспользоватьТаблицу_ВидыНоменклатуры</types>
+    <types>ConstantValueManager.SUI_ИспользоватьТаблицу_ШтрихкодыНоменклатуры</types>
+    <types>ConstantValueManager.SUI_ИспользоватьТаблицу_ШтрихкодыУпаковок</types>
+    <types>ConstantValueManager.SUI_ИспользоватьТаблицу_Контрагенты</types>
+    <types>ConstantValueManager.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</types>
+    <types>ConstantValueManager.SUI_ИспользоватьТаблицу_Номенклатура</types>
+    <types>ConstantValueManager.SUI_ИспользоватьТаблицу_Ячейки</types>
+    <types>ConstantValueManager.SUI_ИспользоватьТаблицу_Склады</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.SUI_ИнтеграцияВКонфигурацию.SUI_КонстантыИспользоватьТаблицуПередЗаписью</handler>
+</mdclass:EventSubscription>

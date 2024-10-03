@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3741a3b9-694d-4c26-9dee-53a325151661">
+  <name>SUI_УпрощеннаяНастройкаСхемыКомпоновкиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Упрощенная настройка схемы компоновки данных (SUI)</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Упрощенная настройка схемы компоновки данных</value>
+  </extendedPresentation>
+</mdclass:CommonForm>

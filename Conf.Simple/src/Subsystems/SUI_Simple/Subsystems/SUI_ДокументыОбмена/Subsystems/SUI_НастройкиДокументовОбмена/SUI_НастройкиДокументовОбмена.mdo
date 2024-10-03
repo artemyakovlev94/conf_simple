@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff7d6367-3030-4921-9358-b9b3bcb6a1f7">
+  <name>SUI_НастройкиДокументовОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.SUI_НастройкиДокументовВызовСервера</content>
+  <content>CommonModule.SUI_НастройкиДокументовКлиент</content>
+  <content>CommonModule.SUI_НастройкиДокументовКлиентСервер</content>
+  <content>CommonModule.SUI_НастройкиДокументовСервер</content>
+  <content>Catalog.SUI_НастройкиДокументов</content>
+  <content>Enum.SUI_ТипыАлгоритмов</content>
+  <content>Enum.SUI_ТипыИдентификацииСтрокТЧ</content>
+  <content>Constant.SUI_НастройкаДокументаПеремещенияЗапасов</content>
+  <content>FunctionalOption.SUI_НастройкаДокументаПеремещенияЗапасов</content>
+  <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_ДокументыОбмена</parentSubsystem>
+</mdclass:Subsystem>

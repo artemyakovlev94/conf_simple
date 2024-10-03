@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d7c9f5a-aad3-4ac5-b7da-e44bb02764eb">
+  <producedTypes>
+    <managerType typeId="8bf7847b-0653-4ca6-a5ac-6077ac0a121c" valueTypeId="5f89c267-6e22-4f74-a1c4-6dc6a8bfe504"/>
+    <valueManagerType typeId="485675a3-c8fa-4b1e-b856-ae48eec8dffa" valueTypeId="d4c9ed28-d329-48fc-a124-6cc874c81fa3"/>
+    <valueKeyType typeId="f3c149c7-326f-4674-86dd-59be43d625c4" valueTypeId="c109da17-f15e-4240-94b9-e17bfb15dabc"/>
+  </producedTypes>
+  <name>SUI_СоздаватьШтрихкодыИзТСД</name>
+  <synonym>
+    <key></key>
+    <value>SUI создавать штрихкоды из ТСД</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Создавать новые штрихкоды (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Создавать новые штрихкоды</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

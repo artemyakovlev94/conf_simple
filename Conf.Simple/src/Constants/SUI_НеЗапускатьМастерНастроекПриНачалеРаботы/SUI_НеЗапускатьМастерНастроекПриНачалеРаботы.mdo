@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e0fa269-7c47-46af-965b-e822090bed12">
+  <producedTypes>
+    <managerType typeId="4644e147-94bf-4713-902b-cff0ad702bb1" valueTypeId="61743bc4-864e-4176-bd71-2c13d3965ca7"/>
+    <valueManagerType typeId="e14b27f9-8201-4c21-a598-0de189ebc482" valueTypeId="b2eece27-771f-49fa-bc9f-c1997bda4ec2"/>
+    <valueKeyType typeId="64e0cc91-b9e8-48f0-9205-b79b2b72ae0c" valueTypeId="780cd352-ed0c-4342-8ed8-4a49c8768e05"/>
+  </producedTypes>
+  <name>SUI_НеЗапускатьМастерНастроекПриНачалеРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отключить запуск мастера настроек при начале работы системы (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Отключить запуск мастера настроек при начале работы системы</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

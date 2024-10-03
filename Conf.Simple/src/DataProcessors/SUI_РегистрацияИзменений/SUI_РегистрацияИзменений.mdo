@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7e7c959-b994-4621-bfdf-335e52b9cac7">
+  <producedTypes>
+    <objectType typeId="a298c854-963f-4209-a874-e3a5d6d50c99" valueTypeId="6710d96c-8cdc-4bc1-bc8d-5cdc491640dd"/>
+    <managerType typeId="2bc81667-70a9-4275-990f-16e86584029d" valueTypeId="a3f016fa-c777-4410-ac92-ee601efff7b5"/>
+  </producedTypes>
+  <name>SUI_РегистрацияИзменений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация изменений (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.SUI_РегистрацияИзменений.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Регистрация изменений</value>
+  </extendedPresentation>
+  <forms uuid="0a8201c4-0db3-4076-acb2-ba6e5876008a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="092fbc83-a04c-4a71-8d06-d5fd1fc547bd">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="39fafafa-849f-4a98-93c3-05be710a487d">
+    <name>ОткрытьРегистрациюИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация изменений</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

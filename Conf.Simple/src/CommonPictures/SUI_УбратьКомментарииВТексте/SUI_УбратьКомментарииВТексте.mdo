@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2aeaec1-d4fc-4891-80cc-0103742eea18">
+  <name>SUI_УбратьКомментарииВТексте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Убрать комментарии в тексте</value>
+  </synonym>
+</mdclass:CommonPicture>

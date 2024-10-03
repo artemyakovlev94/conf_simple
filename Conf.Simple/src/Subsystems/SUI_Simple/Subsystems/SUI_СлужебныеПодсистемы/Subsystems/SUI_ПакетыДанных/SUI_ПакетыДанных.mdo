@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9d712da-186e-451b-8f61-c0f156973185">
+  <name>SUI_ПакетыДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пакеты данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.SUI_КешПакетовДанных</content>
+  <content>CommonModule.SUI_ПакетыДанных</content>
+  <content>CommonTemplate.SUI_СостояниеТаблицМобильногоУстройства</content>
+  <content>CommonModule.SUI_ПакетыДанныхПовтИсп</content>
+  <content>Constant.SUI_РазмерПакетаДанных</content>
+  <content>FunctionalOption.SUI_РазмерПакетаДанных</content>
+  <content>CommonForm.SUI_РазмерПакетаДанных</content>
+  <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

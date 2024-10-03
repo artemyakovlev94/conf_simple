@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="861cdbb2-ddae-40e2-b6b8-6f1d091664a6">
+  <name>SUI_МобильноеУстройствоПередУдалением</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильное устройство перед удалением (SUI)</value>
+  </synonym>
+  <source>
+    <types>ExchangePlanObject.SUI_МобильныеУстройства</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.SUI_МобильныеУстройстваСервер.SUI_МобильноеУстройствоПередУдалением</handler>
+</mdclass:EventSubscription>

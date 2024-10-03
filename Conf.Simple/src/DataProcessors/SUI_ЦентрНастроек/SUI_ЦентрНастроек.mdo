@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dda0d811-45ee-4c40-be55-c6793b2d2c1d">
+  <producedTypes>
+    <objectType typeId="ccdb1d1a-62b7-42df-88cf-95c3db27f322" valueTypeId="dd57dd81-50b3-4709-ac66-532657bedfcd"/>
+    <managerType typeId="abb08b61-dda6-4f4d-997b-9a0b783d7d0d" valueTypeId="ed57097d-a9a5-4ae0-8bc2-fa0f4ff2b7dd"/>
+  </producedTypes>
+  <name>SUI_ЦентрНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Центр настроек (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.SUI_ЦентрНастроек.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Центр настроек</value>
+  </extendedPresentation>
+  <forms uuid="480e2880-4ab5-4395-b7ff-af186ab673e8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="4d301885-ded7-4c6e-b85a-9e58932c3b88">
+    <name>ОткрытьЦентрНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Центр настроек</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7dd8c807-1c72-4cd9-9ff7-47b3d2e0e704">
+  <name>SUI_ИспользоватьПользовательскийЗапрос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать пользовательский запрос</value>
+  </synonym>
+  <location>Constant.SUI_ИспользоватьПользовательскийЗапрос</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Constant.SUI_ПользовательскийЗапрос</content>
+</mdclass:FunctionalOption>

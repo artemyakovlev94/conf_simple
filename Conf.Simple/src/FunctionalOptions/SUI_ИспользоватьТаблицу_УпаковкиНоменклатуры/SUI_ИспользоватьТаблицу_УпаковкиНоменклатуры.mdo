@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f3432b7-284c-497c-ab31-a85750989990">
+  <name>SUI_ИспользоватьТаблицу_УпаковкиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать таблицу упаковки номенклатуры (SUI)</value>
+  </synonym>
+  <location>Constant.SUI_ИспользоватьТаблицу_УпаковкиНоменклатуры</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.SUI_tbl_units</content>
+  <content>InformationRegister.SUI_docs_tbl_goods.Resource.id_unit</content>
+  <content>InformationRegister.SUI_docs_tbl_goods_delta.Resource.id_unit</content>
+  <content>InformationRegister.SUI_docs_tbl_barcodes.Resource.id_unit</content>
+</mdclass:FunctionalOption>

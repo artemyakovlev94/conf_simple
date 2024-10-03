@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d02f8fca-d25b-4447-88df-744d6a818baf">
+  <producedTypes>
+    <managerType typeId="8a756622-2272-4f16-9485-4e5cab66ce07" valueTypeId="3d299f19-e840-45fc-949b-3b2816d38dba"/>
+    <valueManagerType typeId="9eb2acae-3ef9-429f-beb5-a3fb42b01df3" valueTypeId="f16c811e-bbe9-4890-b223-11fb9033034e"/>
+    <valueKeyType typeId="e9fd3675-4910-4111-b417-b73c665ee912" valueTypeId="e40ae39e-bdaf-405e-ae82-93017f2521b8"/>
+  </producedTypes>
+  <name>SUI_ИспользоватьТаблицу_ШтрихкодыУпаковок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать таблицу Штрихкоды упаковок (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использовать таблицу Штрихкоды упаковок</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

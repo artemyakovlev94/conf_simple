@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fe6d9e1-b62f-443f-bc2d-fcc699affd26">
+  <producedTypes>
+    <managerType typeId="e244eba5-5c76-40f6-9ff5-f3962c3fd22c" valueTypeId="9388b909-91c1-46f1-bfc3-ba42aae02dcb"/>
+    <valueManagerType typeId="2cbb044b-871d-45ff-a556-8b7eaf506e55" valueTypeId="f2a367a6-58c3-4c40-ad96-23406cb70f79"/>
+    <valueKeyType typeId="b41ce969-c4c0-411e-9c8b-9b447722ab98" valueTypeId="7cf06e66-a754-4d74-9381-336b5746ca5b"/>
+  </producedTypes>
+  <name>SUI_ХранениеЛоговHTTPЗапросовВДнях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальное количество дней хранения записей логирования HTTP запросов (SUI)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Максимальное количество дней хранения записей логирования HTTP запросов</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

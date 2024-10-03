@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="841cf77a-f2d7-4331-b0f4-6fde8bda6ee5">
+  <producedTypes>
+    <objectType typeId="91ca6f12-6384-4e68-b8e7-9d4813578c67" valueTypeId="c63f8f0b-5e2b-4cfe-864c-9e9a413c0243"/>
+    <managerType typeId="529ae13d-6997-4245-825b-8def905945c9" valueTypeId="6e3e3adc-0a41-47b0-b6ed-19296ec1364f"/>
+  </producedTypes>
+  <name>SUI_РабочееМестоОператораОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место оператора обмена (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.SUI_РабочееМестоОператораОбмена.Form.Основная</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Рабочее место оператора обмена</value>
+  </extendedPresentation>
+  <forms uuid="d0efab59-cd37-4961-ba41-ba433bffa133">
+    <name>ВыборДокументаДляВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор документа для выгрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a185e802-29ef-4f88-a3bb-f5afa5fd0351">
+    <name>ОбменСПользователямиОфлайн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен с пользователями (офлайн)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d3633141-ba1c-431a-971d-cdcd060df97d">
+    <name>Основная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="fc08ed3b-f940-48ba-ba9b-2298ca70df61">
+    <name>ОткрытьРабочееМестоОператораОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место оператора обмена</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

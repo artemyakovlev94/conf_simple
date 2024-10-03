@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11d6fff0-0275-4abf-92e6-996d792e3938">
+  <producedTypes>
+    <managerType typeId="f25cd144-c871-4ddf-a13c-0af3b45ab9db" valueTypeId="c2470c24-9642-4c68-a31c-07ffd9309859"/>
+    <valueManagerType typeId="2206e903-4f6b-4c7f-a245-c250f3116a7f" valueTypeId="e3d58fba-da40-4996-becb-41d5f71fe3ba"/>
+    <valueKeyType typeId="fd751cad-15c0-4178-8b8d-7bcf83279a38" valueTypeId="75a41c3f-c286-4673-8f93-f002f713e07a"/>
+  </producedTypes>
+  <name>SUI_РЗ_ОчисткаОчередиЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентное задание: Очистка очереди заданий (SUI)</value>
+  </synonym>
+  <type>
+    <types>UUID</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Регламентное задание: Очистка очереди заданий</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

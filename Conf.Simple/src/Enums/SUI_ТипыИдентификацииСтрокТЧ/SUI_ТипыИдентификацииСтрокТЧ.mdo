@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcc10813-f2e9-498c-8807-e6ef93cc232c">
+  <producedTypes>
+    <refType typeId="896a4d79-510d-4955-8f70-b0cc2dee1cf4" valueTypeId="7e5b2b73-fbcd-4b51-ba6f-b4b2bd680182"/>
+    <listType typeId="295456e5-18ac-4814-868d-8146e2a12daf" valueTypeId="336c2d64-651f-44fb-bac0-0c4d2a8e23db"/>
+    <managerType typeId="6369c137-ad50-47ec-9a5c-a242a1a255b4" valueTypeId="b49d34c2-23a4-4f1a-9237-4a3c53125be3"/>
+  </producedTypes>
+  <name>SUI_ТипыИдентификацииСтрокТЧ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы идентификации строк табличных частей (SUI)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы идентификации строк табличных частей</value>
+  </listPresentation>
+  <enumValues uuid="b8bdea44-94be-469a-8d60-724d0e3111da">
+    <name>ПоРеквизиту</name>
+    <synonym>
+      <key>ru</key>
+      <value>По реквизиту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7bfffc4d-b9d3-4f8e-a2cb-58920a006d1a">
+    <name>ПоСовокупностиРеквизитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>По совокупности реквизитов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

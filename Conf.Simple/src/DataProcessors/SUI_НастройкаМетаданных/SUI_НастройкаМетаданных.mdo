@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21054654-3cd2-495f-99a1-d99d2af24de2">
+  <producedTypes>
+    <objectType typeId="8c1d6114-3d3e-4400-a444-bc8ca4a90a23" valueTypeId="3977700c-87ed-4fdd-a59e-4873286ba062"/>
+    <managerType typeId="1dffd6d9-6137-4ddd-bb97-ae3852f168ed" valueTypeId="c7eee243-3fdd-415a-9c47-af66cf5b3f0e"/>
+  </producedTypes>
+  <name>SUI_НастройкаМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка метаданных (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.SUI_НастройкаМетаданных.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Настройка метаданных</value>
+  </extendedPresentation>
+  <forms uuid="ad6f9e5f-5553-479d-925c-cc88f7c10a0d">
+    <name>СписокВыбораТаблиц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список выбора таблиц</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c3e876fd-5840-444e-b231-b8bf58fa9c91">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

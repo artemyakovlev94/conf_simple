@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f81b632-3e7d-4c6f-9173-bffab0414645">
+  <producedTypes>
+    <selectionType typeId="1ab72d33-a6ce-4bc8-9f32-1298553eec09" valueTypeId="f2caa9c7-8208-46be-9107-8af5810db613"/>
+    <listType typeId="55b25609-f573-4392-8420-88d8466b4d70" valueTypeId="8dc898f0-1aaa-4945-99b1-6239d821c890"/>
+    <managerType typeId="0dcb745b-b4e6-4eaa-b127-4dd17694ac67" valueTypeId="63211f49-48ab-4482-beef-fd6419cad691"/>
+    <recordSetType typeId="3a625c01-d1ce-4050-970f-e51b8fe9d92d" valueTypeId="14bb507c-6342-4257-9bb0-4b4e3c8dfda5"/>
+    <recordKeyType typeId="805813e6-a6a3-4729-b481-324ed6b999f0" valueTypeId="b06263b3-ed08-4f5d-9abf-605f6287b862"/>
+    <recordType typeId="cb71f76c-7118-4298-b47f-00422f270e52" valueTypeId="1476fc8b-4837-4a5e-9bbd-b1a967ea9e6c"/>
+    <recordManagerType typeId="1247b564-920f-4ce2-ba8f-3fb99b531f0c" valueTypeId="b23841c2-d6fe-4e74-ab75-23d7178f8467"/>
+  </producedTypes>
+  <name>SUI_ТаблицыКПерезаписиВМУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таблицы к перезаписи в мобильном устройстве (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Таблица к перезаписи в мобильном устройстве</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Таблицы к перезаписи в мобильном устройстве</value>
+  </listPresentation>
+  <dimensions uuid="2e2df24c-6905-4fae-807a-9d24a2adc4f8">
+    <name>Таблица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица</value>
+    </synonym>
+    <type>
+      <types>EnumRef.SUI_ТаблицыИнтеграции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.Ссылка</name>
+      <value xsi:type="core:FixedArrayValue">
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.Контрагенты</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.Склады</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.Ячейки</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.Номенклатура</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ХарактеристикиНоменклатуры</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.СерииНоменклатуры</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ЕдиницыИзмерения</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.УпаковкиНоменклатуры</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ВидыНоменклатуры</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ВидыЦен</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ЦеныНоменклатуры</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ШтрихкодыНоменклатуры</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ШтрихкодыУпаковок</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.НастройкиДокументов</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ШаблоныЭтикеток</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ПользователиТСД</value>
+        </values>
+      </value>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

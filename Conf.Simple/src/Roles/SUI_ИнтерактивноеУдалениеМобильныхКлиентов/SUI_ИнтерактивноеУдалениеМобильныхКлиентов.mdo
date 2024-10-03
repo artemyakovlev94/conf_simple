@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfd3b8cf-b545-4be5-9d81-59276b85e848">
+  <name>SUI_ИнтерактивноеУдалениеМобильныхКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Simple: Интерактивное удаление мобильных клиентов</value>
+  </synonym>
+</mdclass:Role>

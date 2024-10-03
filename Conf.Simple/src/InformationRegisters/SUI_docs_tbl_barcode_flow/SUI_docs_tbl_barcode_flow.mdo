@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cab3b276-4d44-4916-abbb-a20003ca5e63">
+  <producedTypes>
+    <selectionType typeId="1b2e5bfd-58ba-4968-b78f-28bc6499bc14" valueTypeId="4901a7b6-da23-4142-b192-6c57f5883b56"/>
+    <listType typeId="25422ed0-5e83-44b9-84e9-04486eb56c7c" valueTypeId="786af2e9-d207-4bc5-80b0-efc352999980"/>
+    <managerType typeId="8bf6016e-18c3-41a1-84cc-8db405df95be" valueTypeId="eaef99c7-98bd-491f-b1ff-87155d07cd6b"/>
+    <recordSetType typeId="ec85fa2c-91d2-48bb-b3de-09443c61233b" valueTypeId="7bbdd81b-988f-438a-bedf-10ed74c10fa2"/>
+    <recordKeyType typeId="0a846c69-112b-40dd-bd43-bbdf521e1bed" valueTypeId="e272756d-65ac-4c77-baac-70b7d6c52913"/>
+    <recordType typeId="a59bf558-0a74-4ba0-ab0d-d174cb9d4c4d" valueTypeId="5ddc8281-c434-48ec-93b6-7745546d23d6"/>
+    <recordManagerType typeId="3f8e5da7-b046-4f9f-9aaa-5ea8c30b3258" valueTypeId="f291bb5c-2351-4a01-9c6a-04d33ca6dcf2"/>
+  </producedTypes>
+  <name>SUI_docs_tbl_barcode_flow</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поток штрихкодов документов обмена (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Штрихкод потока штрихкодов документа обмена</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Поток штрихкодов документов обмена</value>
+  </listPresentation>
+  <resources uuid="bad69daf-9128-4ff6-b176-c1cf255eb552">
+    <name>barcode</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение штрихкода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="183d816a-aae6-433d-a771-1743069a760d">
+    <name>sid</name>
+    <synonym>
+      <key>ru</key>
+      <value>SID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="601a6fe5-14b5-45b4-babc-fabc872bb363">
+    <name>sid_doc</name>
+    <synonym>
+      <key>ru</key>
+      <value>SID документа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <templates uuid="f858fed7-1b48-4ee2-b350-a63d850c56cd">
+    <name>ПотокШтрихкодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поток штрихкодов</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:InformationRegister>

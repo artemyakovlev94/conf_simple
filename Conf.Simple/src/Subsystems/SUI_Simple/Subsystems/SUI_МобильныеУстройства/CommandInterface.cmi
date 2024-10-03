@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Constant.SUI_ИспользоватьЗапросыАвторизацииМУ.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>ExchangePlan.SUI_МобильныеУстройства.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.SUI_ЗапросыАвторизацииМобильныхУстройств.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.SUI_СостоянияМобильныхУстройств.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.SUI_СеансыМобильныхУстройств.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9aac89d-9887-45d9-b027-4ac1fc3b19c0">
+  <name>SUI_ИконкаSimpleUI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Simple UI (SUI)</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a815187-60ca-4bbe-84ee-6cb48d54f938">
+  <name>SUI_ОбновлениеSimpleКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление Simple (клиент) (SUI)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

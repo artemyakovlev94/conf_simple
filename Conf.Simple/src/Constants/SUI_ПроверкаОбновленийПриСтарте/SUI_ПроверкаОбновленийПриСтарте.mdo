@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="620e26e4-fba7-4ce4-aa87-c816db614ee6">
+  <producedTypes>
+    <managerType typeId="64fb3ce6-c741-4719-892a-be99d40b1592" valueTypeId="22ac7757-3ff1-436e-8cf8-dd66839c06cc"/>
+    <valueManagerType typeId="50cfabfd-56c7-4891-b6ef-511af574c120" valueTypeId="e20cf1f2-27e2-4403-985b-39f9cfe57892"/>
+    <valueKeyType typeId="f834d4fa-a072-4dab-8d67-8fae795cd326" valueTypeId="5f9b87fb-7d1f-4222-8288-c963f0613677"/>
+  </producedTypes>
+  <name>SUI_ПроверкаОбновленийПриСтарте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка обновлений при старте (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

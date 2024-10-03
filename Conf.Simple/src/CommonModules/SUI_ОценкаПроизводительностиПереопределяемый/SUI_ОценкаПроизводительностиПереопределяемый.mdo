@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20884769-3cfd-4659-be4c-a3304e8b9236">
+  <name>SUI_ОценкаПроизводительностиПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка производительности (переопределяемый)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

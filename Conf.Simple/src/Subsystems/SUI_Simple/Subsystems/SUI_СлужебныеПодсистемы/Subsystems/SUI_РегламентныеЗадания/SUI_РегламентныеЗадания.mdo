@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc307ef6-ce13-424c-97ab-e2842202fab2">
+  <name>SUI_РегламентныеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентные задания</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.SUI_РегламентныеЗадания</content>
+  <content>Enum.SUI_КлючиРегламентыхЗаданий</content>
+  <content>Constant.SUI_РЗ_ОбработкаОчередиЗаданий</content>
+  <content>Constant.SUI_РЗ_ОчисткаСообщенийМобильныхУстройств</content>
+  <content>Constant.SUI_РЗ_ОчисткаОчередиЗаданий</content>
+  <content>Constant.SUI_РЗ_ОчисткаЛогированияHTTPЗапросов</content>
+  <content>EventSubscription.SUI_ИдентификаторыРегламентныхЗаданийПриЗаписи</content>
+  <content>EventSubscription.SUI_ИдентификаторыРегламентныхЗаданийПередЗаписью</content>
+  <content>DataProcessor.SUI_РегламентныеЗадания</content>
+  <content>Constant.SUI_РЗ_ОчисткаОбработанныхДокументов</content>
+  <content>Constant.SUI_РЗ_ОбработкаСообщенийОбменаДанными</content>
+  <content>Constant.SUI_РЗ_СверткаСообщенийОбменаДанными</content>
+  <content>CommonModule.SUI_РегламентныеЗаданияКлиентСервер</content>
+  <content>CommonModule.SUI_РегламентныеЗаданияКлиент</content>
+  <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

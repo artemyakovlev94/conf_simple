@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f41e959f-4cad-459a-b795-47a74f3fe6d0">
+  <name>SUI_ИспользоватьТаблицу_ШтрихкодыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать таблицу штрихкоды номенклатуры (SUI)</value>
+  </synonym>
+  <location>Constant.SUI_ИспользоватьТаблицу_ШтрихкодыНоменклатуры</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.SUI_tbl_barcodes</content>
+  <content>DataProcessor.SUI_ОбработкаПотокаШтрихкодов</content>
+  <content>InformationRegister.SUI_docs_tbl_barcode_flow.Resource.barcode</content>
+</mdclass:FunctionalOption>
