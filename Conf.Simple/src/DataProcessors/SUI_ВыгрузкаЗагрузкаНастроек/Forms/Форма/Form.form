@@ -1432,6 +1432,23 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ФайлПолученИзРепозитория</name>
+    <title>
+      <key>ru</key>
+      <value>Файл получен из репозитория</value>
+    </title>
+    <id>27</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ЗаполнитьВсе</name>
     <title>
