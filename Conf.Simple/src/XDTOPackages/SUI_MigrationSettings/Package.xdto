@@ -17,6 +17,7 @@
 	<objectType name="Configuration">
 		<property xmlns:d3p1="http://www.migration-settings.simple" name="HEX" type="d3p1:HEX" form="Attribute"/>
 		<property name="Name" type="xs:string" form="Attribute"/>
+		<property name="NameEN" type="xs:string" form="Attribute"/>
 		<property name="Synonym" type="xs:string" form="Attribute"/>
 		<property xmlns:d3p1="http://www.migration-settings.simple" name="Version" type="d3p1:ConfigurationVersion" lowerBound="0" nillable="true" form="Attribute"/>
 		<property xmlns:d3p1="http://www.migration-settings.simple" name="ExtensionVersion" type="d3p1:ExtensionVersion" lowerBound="0" nillable="true" form="Attribute"/>
