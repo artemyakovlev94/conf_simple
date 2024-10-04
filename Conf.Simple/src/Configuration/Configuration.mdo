@@ -244,7 +244,6 @@
   <commonModules>CommonModule.СобытияФормИСМПКлиентПереопределяемый</commonModules>
   <exchangePlans>ExchangePlan.SUI_МобильныеУстройства</exchangePlans>
   <xDTOPackages>XDTOPackage.SUI_ExchangeDocuments</xDTOPackages>
-  <xDTOPackages>XDTOPackage.SUI_ExchangeDocumentSettings</xDTOPackages>
   <xDTOPackages>XDTOPackage.SUI_ExchangeSupport</xDTOPackages>
   <xDTOPackages>XDTOPackage.SUI_HTTPLog</xDTOPackages>
   <xDTOPackages>XDTOPackage.SUI_MigrationSettings</xDTOPackages>
