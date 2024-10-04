@@ -152,6 +152,7 @@
   <subsystems>SUI_ПакетыДанных</subsystems>
   <subsystems>SUI_РаботаСФайлами</subsystems>
   <subsystems>SUI_РегламентныеЗадания</subsystems>
+  <subsystems>SUI_РепозиторийРасширения</subsystems>
   <subsystems>SUI_СообщенияМобильныхУстройств</subsystems>
   <subsystems>SUI_СообщенияОбменаДанными</subsystems>
   <subsystems>SUI_Штрихкодирование</subsystems>

@@ -219,6 +219,8 @@
   <commonModules>CommonModule.SUI_РегламентныеЗаданияКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_РедакторJSON</commonModules>
   <commonModules>CommonModule.SUI_РедакторJSONКлиент</commonModules>
+  <commonModules>CommonModule.SUI_РепозиторийРасширенияВызовСервера</commonModules>
+  <commonModules>CommonModule.SUI_РепозиторийРасширенияКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_СерииНоменклатуры</commonModules>
   <commonModules>CommonModule.SUI_СерииНоменклатурыВызовСервера</commonModules>
   <commonModules>CommonModule.SUI_СерииНоменклатурыКлиент</commonModules>
