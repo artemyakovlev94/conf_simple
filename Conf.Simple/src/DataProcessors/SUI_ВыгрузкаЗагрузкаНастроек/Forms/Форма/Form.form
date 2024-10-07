@@ -1371,6 +1371,27 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>ЗаписьВыполнена</name>
+      <title>
+        <key>ru</key>
+        <value>Запись выполнена</value>
+      </title>
+      <id>29</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>АдресЗагружаемыйФайл</name>
@@ -1466,6 +1487,26 @@
     <edit>
       <common>true</common>
     </edit>
+  </attributes>
+  <attributes>
+    <name>ЗаписанныеНастройкиТаблиц</name>
+    <title>
+      <key>ru</key>
+      <value>Записанные настройки таблиц</value>
+    </title>
+    <id>31</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
   </attributes>
   <formCommands>
     <name>ЗаполнитьВсе</name>
