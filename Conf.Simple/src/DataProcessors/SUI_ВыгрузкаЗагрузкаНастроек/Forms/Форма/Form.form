@@ -1353,6 +1353,24 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>КонфигурацияИмяEN</name>
+      <title>
+        <key>ru</key>
+        <value>Конфигурация имя EN</value>
+      </title>
+      <id>28</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>АдресЗагружаемыйФайл</name>
