@@ -198,6 +198,25 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="80e1f289-dbcd-4209-b1a4-c8e197a5359d">
+    <name>use_mark</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признак маркировки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак маркировки номенклатуры</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <dimensions uuid="e5f11665-72a6-411d-a78c-76738b8f5626">
     <name>id</name>
     <synonym>
