@@ -140,10 +140,6 @@
   <commonTemplates>CommonTemplate.SUI_КартинкаШтрихкода</commonTemplates>
   <commonTemplates>CommonTemplate.SUI_КомпонентаПечатиШтрихкодов</commonTemplates>
   <commonTemplates>CommonTemplate.SUI_ПолучениеДереваОбработчиковОбновления</commonTemplates>
-  <commonTemplates>CommonTemplate.SUI_ПредопределенныеРозница23</commonTemplates>
-  <commonTemplates>CommonTemplate.SUI_ПредопределенныеРозница30</commonTemplates>
-  <commonTemplates>CommonTemplate.SUI_ПредопределенныеУправлениеНашейФирмой</commonTemplates>
-  <commonTemplates>CommonTemplate.SUI_ПредопределенныеУправлениеТорговлей11</commonTemplates>
   <commonTemplates>CommonTemplate.SUI_СостояниеТаблицМобильногоУстройства</commonTemplates>
   <commonTemplates>CommonTemplate.SUI_ШаблоныКодовМаркировки</commonTemplates>
   <commonModules>CommonModule.SUI_HTTPКонектор</commonModules>

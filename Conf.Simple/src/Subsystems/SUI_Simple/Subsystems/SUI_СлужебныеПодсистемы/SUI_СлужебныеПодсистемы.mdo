@@ -118,10 +118,6 @@
   <content>CommonModule.SUI_СтроковыеФункцииКлиентСерверПереопределяемый</content>
   <content>CommonModule.SUI_ОбщегоНазначенияКлиентСерверПереопределяемый</content>
   <content>CommonForm.SUI_РедактированиеВерсии</content>
-  <content>CommonTemplate.SUI_ПредопределенныеУправлениеТорговлей11</content>
-  <content>CommonTemplate.SUI_ПредопределенныеРозница23</content>
-  <content>CommonTemplate.SUI_ПредопределенныеУправлениеНашейФирмой</content>
-  <content>CommonTemplate.SUI_ПредопределенныеРозница30</content>
   <content>CommonModule.SUI_ПользователиПереопределяемый</content>
   <content>CommonModule.SUI_СобытияФормИСКлиент</content>
   <content>CommonModule.SUI_СобытияФормИС</content>
