@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b959faa-15ac-4e03-a10b-f5bbc3e51cba">
-  <name>SUI_ПредопределенныеНастройки</name>
-  <synonym>
-    <key>ru</key>
-    <value>Предопределенные настройки (SUI)</value>
-  </synonym>
-  <templateType>BinaryData</templateType>
-</mdclass:CommonTemplate>

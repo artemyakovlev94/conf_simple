@@ -24,4 +24,12 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="b681636b-fa77-43ef-ae24-fc22e9695977">
+    <name>ПредопределенныеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенные настройки</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
 </mdclass:DataProcessor>
