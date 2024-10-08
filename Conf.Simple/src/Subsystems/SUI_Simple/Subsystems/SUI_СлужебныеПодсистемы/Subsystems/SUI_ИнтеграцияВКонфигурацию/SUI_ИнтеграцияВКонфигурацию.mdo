@@ -10,7 +10,6 @@
   <content>CommonModule.SUI_ИнтеграцияВКонфигурациюВызовСервера</content>
   <content>CommonModule.SUI_ИнтеграцияВКонфигурациюКлиентСервер</content>
   <content>CommonModule.SUI_НастройкиМетаданныхВызовСервера</content>
-  <content>CommonModule.SUI_НастройкиМетаданныхКлиент</content>
   <content>CommonModule.SUI_НастройкиМетаданныхКлиентСервер</content>
   <content>CommonModule.SUI_НастройкиМетаданныхПовтИсп</content>
   <content>CommonModule.SUI_НастройкиМетаданныхСервер</content>

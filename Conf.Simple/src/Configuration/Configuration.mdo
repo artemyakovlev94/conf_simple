@@ -191,7 +191,6 @@
   <commonModules>CommonModule.SUI_НастройкиДокументовКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_НастройкиДокументовПовтИсп</commonModules>
   <commonModules>CommonModule.SUI_НастройкиМетаданныхВызовСервера</commonModules>
-  <commonModules>CommonModule.SUI_НастройкиМетаданныхКлиент</commonModules>
   <commonModules>CommonModule.SUI_НастройкиМетаданныхКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_НастройкиМетаданныхПовтИсп</commonModules>
   <commonModules>CommonModule.SUI_НастройкиМетаданныхСервер</commonModules>
