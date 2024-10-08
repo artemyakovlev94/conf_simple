@@ -34,7 +34,6 @@
   <content>EventSubscription.SUI_ИнтеграцияВКонфигурациюРегистрыСведенийПриЗаписи</content>
   <content>EventSubscription.SUI_ИнтеграцияВКонфигурациюСправочникиПередУдалением</content>
   <content>EventSubscription.SUI_ИнтеграцияВКонфигурациюСправочникиПриЗаписи</content>
-  <content>EventSubscription.SUI_КонстантыИспользоватьТаблицуПередЗаписью</content>
   <content>EventSubscription.SUI_КонстантыИспользоватьТаблицуПриЗаписи</content>
   <content>FunctionalOption.SUI_ИспользоватьЗапросыАвторизацииМУ</content>
   <content>FunctionalOption.SUI_ИспользоватьПользовательскийЗапрос</content>
