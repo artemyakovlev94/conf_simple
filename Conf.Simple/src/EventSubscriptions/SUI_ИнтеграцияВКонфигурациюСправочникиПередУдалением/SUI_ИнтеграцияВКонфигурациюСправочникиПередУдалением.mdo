@@ -9,5 +9,5 @@
     <types>CatalogObject</types>
   </source>
   <event>BeforeDelete</event>
-  <handler>CommonModule.SUI_ИнтеграцияВКонфигурацию.SUI_ИнтеграцияВКонфигурациюСправочникиПередУдалением</handler>
+  <handler>CommonModule.SUI_ИнтеграцияВКонфигурацию.СправочникиПередУдалением</handler>
 </mdclass:EventSubscription>
