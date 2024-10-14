@@ -9,5 +9,5 @@
     <types>CatalogObject</types>
   </source>
   <event>OnWrite</event>
-  <handler>CommonModule.SUI_ИнтеграцияВКонфигурацию.SUI_ИнтеграцияВКонфигурациюСправочникиПриЗаписи</handler>
+  <handler>CommonModule.SUI_ИнтеграцияВКонфигурацию.СправочникиПриЗаписи</handler>
 </mdclass:EventSubscription>

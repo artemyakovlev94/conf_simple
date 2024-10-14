@@ -253,7 +253,6 @@
   <eventSubscriptions>EventSubscription.SUI_ИнтеграцияВКонфигурациюРегистрыСведенийПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_ИнтеграцияВКонфигурациюСправочникиПередУдалением</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_ИнтеграцияВКонфигурациюСправочникиПриЗаписи</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.SUI_КонстантыИспользоватьТаблицуПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_КонстантыИспользоватьТаблицуПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_МобильноеУстройствоПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_МобильноеУстройствоПередУдалением</eventSubscriptions>

@@ -17,5 +17,5 @@
     <types>ConstantValueManager.SUI_ИспользоватьТаблицу_Склады</types>
   </source>
   <event>OnWrite</event>
-  <handler>CommonModule.SUI_ИнтеграцияВКонфигурацию.SUI_КонстантыИспользоватьТаблицуПриЗаписи</handler>
+  <handler>CommonModule.SUI_ИнтеграцияВКонфигурацию.КонстантыИспользоватьТаблицуПриЗаписи</handler>
 </mdclass:EventSubscription>
