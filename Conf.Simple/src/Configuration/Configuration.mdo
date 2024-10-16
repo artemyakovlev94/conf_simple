@@ -45,7 +45,7 @@
   </vendorInformationAddress>
   <configurationInformationAddress>
     <key>ru</key>
-    <value>https://github.com/artemyakovlev94/simple</value>
+    <value>https://github.com/simple-kit/simple-1C</value>
   </configurationInformationAddress>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.17</compatibilityMode>
