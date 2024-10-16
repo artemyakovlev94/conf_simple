@@ -5,10 +5,10 @@
     <valueManagerType typeId="711a01b5-2f74-4a5c-acfc-ad2bf1508a9c" valueTypeId="5dba7569-5355-40ea-9607-db5a31ec9bc0"/>
     <valueKeyType typeId="842d8e05-3687-4c6f-b490-8191ac2fa31f" valueTypeId="71cf1836-63a6-4115-97e1-b2dafac67962"/>
   </producedTypes>
-  <name>SUI_ИспользоватьТаблицу_ВидыНоменклатуры</name>
+  <name>Удалить_SUI_ИспользоватьТаблицу_ВидыНоменклатуры</name>
   <synonym>
     <key>ru</key>
-    <value>Использовать таблицу Виды номенклатуры (SUI)</value>
+    <value>(не используется) Использовать таблицу Виды номенклатуры (SUI)</value>
   </synonym>
   <type>
     <types>Boolean</types>

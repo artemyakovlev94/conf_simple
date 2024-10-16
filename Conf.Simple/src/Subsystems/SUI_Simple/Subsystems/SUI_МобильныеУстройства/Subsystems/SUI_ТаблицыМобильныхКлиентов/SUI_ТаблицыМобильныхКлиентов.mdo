@@ -7,7 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>FunctionalOption.SUI_ИспользоватьТаблицу_ВидыНоменклатуры</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_Контрагенты</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_Номенклатура</content>
@@ -17,7 +16,6 @@
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_ШаблоныЭтикеток</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_ШтрихкодыНоменклатуры</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_Ячейки</content>
-  <content>Constant.SUI_ИспользоватьТаблицу_ВидыНоменклатуры</content>
   <content>Constant.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</content>
   <content>Constant.SUI_ИспользоватьТаблицу_Контрагенты</content>
   <content>Constant.SUI_ИспользоватьТаблицу_Номенклатура</content>
@@ -35,7 +33,6 @@
   <content>InformationRegister.SUI_tbl_goods</content>
   <content>InformationRegister.SUI_tbl_label_templates</content>
   <content>InformationRegister.SUI_tbl_properties</content>
-  <content>InformationRegister.SUI_tbl_types_goods</content>
   <content>InformationRegister.SUI_tbl_units</content>
   <content>InformationRegister.SUI_tbl_warehouses</content>
   <content>Constant.SUI_ИспользоватьТаблицу_ПользователиТСД</content>

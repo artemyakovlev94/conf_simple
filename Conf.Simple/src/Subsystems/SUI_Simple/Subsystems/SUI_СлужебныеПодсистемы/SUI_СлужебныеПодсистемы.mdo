@@ -35,7 +35,6 @@
   <content>EventSubscription.SUI_КонстантыИспользоватьТаблицуПриЗаписи</content>
   <content>FunctionalOption.SUI_ИспользоватьЗапросыАвторизацииМУ</content>
   <content>FunctionalOption.SUI_ИспользоватьПользовательскийЗапрос</content>
-  <content>FunctionalOption.SUI_ИспользоватьТаблицу_ВидыНоменклатуры</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_Контрагенты</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_Номенклатура</content>

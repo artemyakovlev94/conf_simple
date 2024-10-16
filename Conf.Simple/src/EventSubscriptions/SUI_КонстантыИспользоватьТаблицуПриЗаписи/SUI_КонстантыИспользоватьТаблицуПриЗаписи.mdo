@@ -8,7 +8,7 @@
   <source>
     <types>ConstantValueManager.SUI_ИспользоватьТаблицу_УпаковкиНоменклатуры</types>
     <types>ConstantValueManager.SUI_ИспользоватьТаблицу_ХарактеристикиНоменклатуры</types>
-    <types>ConstantValueManager.SUI_ИспользоватьТаблицу_ВидыНоменклатуры</types>
+    <types>ConstantValueManager.Удалить_SUI_ИспользоватьТаблицу_ВидыНоменклатуры</types>
     <types>ConstantValueManager.SUI_ИспользоватьТаблицу_ШтрихкодыНоменклатуры</types>
     <types>ConstantValueManager.SUI_ИспользоватьТаблицу_Контрагенты</types>
     <types>ConstantValueManager.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</types>

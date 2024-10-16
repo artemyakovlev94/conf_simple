@@ -265,7 +265,6 @@
   <functionalOptions>FunctionalOption.SUI_ИспользоватьПользовательскийЗапрос</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторJSON</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторКодаBSL</functionalOptions>
-  <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ВидыНоменклатуры</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_Контрагенты</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_Номенклатура</functionalOptions>
@@ -288,6 +287,7 @@
   <functionalOptions>FunctionalOption.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_УстановкаПредварительныхВерсий</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ХранениеСообщенийМобильныхУстройствВДнях</functionalOptions>
+  <functionalOptions>FunctionalOption.Удалить_SUI_ИспользоватьТаблицу_ВидыНоменклатуры</functionalOptions>
   <commonCommands>CommonCommand.SUI_QRКодПодключенияМобильногоУстройства</commonCommands>
   <commonCommands>CommonCommand.SUI_ВыполнитьПолнуюВыгрузку</commonCommands>
   <commonCommands>CommonCommand.SUI_ИдентификаторSimple</commonCommands>
@@ -301,7 +301,7 @@
   <constants>Constant.SUI_ИспользоватьПользовательскийЗапрос</constants>
   <constants>Constant.SUI_ИспользоватьРедакторJSON</constants>
   <constants>Constant.SUI_ИспользоватьРедакторКодаBSL</constants>
-  <constants>Constant.SUI_ИспользоватьТаблицу_ВидыНоменклатуры</constants>
+  <constants>Constant.Удалить_SUI_ИспользоватьТаблицу_ВидыНоменклатуры</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_Контрагенты</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_Номенклатура</constants>
@@ -397,7 +397,6 @@
   <informationRegisters>InformationRegister.SUI_tbl_goods</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_label_templates</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_properties</informationRegisters>
-  <informationRegisters>InformationRegister.SUI_tbl_types_goods</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_units</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_warehouses</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ВладельцыНастроекДокументов</informationRegisters>
@@ -416,4 +415,5 @@
   <informationRegisters>InformationRegister.SUI_СообщенияОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.SUI_СостоянияМобильныхУстройств</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ТаблицыКПерезаписиВМУ</informationRegisters>
+  <informationRegisters>InformationRegister.Удалить_SUI_tbl_types_goods</informationRegisters>
 </mdclass:Configuration>
