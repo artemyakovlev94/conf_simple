@@ -269,7 +269,6 @@
   <functionalOptions>FunctionalOption.SUI_ИспользоватьДополнительныеРеквизитыТаблиц</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьЗапросыАвторизацииМУ</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьПользовательскийЗапрос</functionalOptions>
-  <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ВидыНоменклатуры</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ВидыЦен</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_Контрагенты</functionalOptions>
@@ -295,6 +294,7 @@
   <functionalOptions>FunctionalOption.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_УстановкаПредварительныхВерсий</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ХранениеСообщенийМобильныхУстройствВДнях</functionalOptions>
+  <functionalOptions>FunctionalOption.Удалить_SUI_ИспользоватьТаблицу_ВидыНоменклатуры</functionalOptions>
   <commonCommands>CommonCommand.SUI_ВыполнитьПолнуюВыгрузку</commonCommands>
   <commonCommands>CommonCommand.SUI_ИдентификаторSimple</commonCommands>
   <constants>Constant.SUI_АдресПубликацииБазы</constants>
@@ -305,7 +305,7 @@
   <constants>Constant.SUI_ИспользоватьДополнительныеРеквизитыТаблиц</constants>
   <constants>Constant.SUI_ИспользоватьЗапросыАвторизацииМУ</constants>
   <constants>Constant.SUI_ИспользоватьПользовательскийЗапрос</constants>
-  <constants>Constant.SUI_ИспользоватьТаблицу_ВидыНоменклатуры</constants>
+  <constants>Constant.Удалить_SUI_ИспользоватьТаблицу_ВидыНоменклатуры</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_ВидыЦен</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_Контрагенты</constants>
@@ -420,7 +420,6 @@
   <informationRegisters>InformationRegister.SUI_tbl_prices</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_properties</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_series</informationRegisters>
-  <informationRegisters>InformationRegister.SUI_tbl_types_goods</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_units</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_warehouses</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ДополнительныеНастройкиТаблицИнтеграции</informationRegisters>
@@ -436,4 +435,5 @@
   <informationRegisters>InformationRegister.SUI_СообщенияОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.SUI_СостоянияМобильныхУстройств</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ТаблицыКПерезаписиВМУ</informationRegisters>
+  <informationRegisters>InformationRegister.Удалить_SUI_tbl_types_goods</informationRegisters>
 </mdclass:Configuration>

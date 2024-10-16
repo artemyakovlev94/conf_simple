@@ -11,7 +11,7 @@
     <types>ConstantValueManager.SUI_ИспользоватьТаблицу_ЦеныНоменклатуры</types>
     <types>ConstantValueManager.SUI_ИспользоватьТаблицу_УпаковкиНоменклатуры</types>
     <types>ConstantValueManager.SUI_ИспользоватьТаблицу_ХарактеристикиНоменклатуры</types>
-    <types>ConstantValueManager.SUI_ИспользоватьТаблицу_ВидыНоменклатуры</types>
+    <types>ConstantValueManager.Удалить_SUI_ИспользоватьТаблицу_ВидыНоменклатуры</types>
     <types>ConstantValueManager.SUI_ИспользоватьТаблицу_ШтрихкодыНоменклатуры</types>
     <types>ConstantValueManager.SUI_ИспользоватьТаблицу_ШтрихкодыУпаковок</types>
     <types>ConstantValueManager.SUI_ИспользоватьТаблицу_Контрагенты</types>

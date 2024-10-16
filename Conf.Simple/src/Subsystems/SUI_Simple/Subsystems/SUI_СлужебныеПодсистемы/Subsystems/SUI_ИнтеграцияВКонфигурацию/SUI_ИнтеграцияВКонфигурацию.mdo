@@ -14,8 +14,8 @@
   <content>CommonModule.SUI_НастройкиМетаданныхКлиентСервер</content>
   <content>CommonModule.SUI_НастройкиМетаданныхПовтИсп</content>
   <content>CommonModule.SUI_НастройкиМетаданныхСервер</content>
-  <content>CommonModule.SUI_ИнтеграцияВКонфигурацию</content>
   <content>InformationRegister.SUI_НастройкиТаблицИнтеграции</content>
   <content>InformationRegister.SUI_ДополнительныеНастройкиТаблицИнтеграции</content>
+  <content>CommonModule.SUI_ИнтеграцияВКонфигурацию</content>
   <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

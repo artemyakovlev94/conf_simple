@@ -140,10 +140,6 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>InformationRegister.SUI_tbl_types_goods</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
     <mdObject>InformationRegister.SUI_tbl_goods</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>

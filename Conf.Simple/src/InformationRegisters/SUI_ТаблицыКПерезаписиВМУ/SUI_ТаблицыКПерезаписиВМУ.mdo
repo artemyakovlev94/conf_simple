@@ -65,9 +65,6 @@
           <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.УпаковкиНоменклатуры</value>
         </values>
         <values xsi:type="core:ReferenceValue">
-          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ВидыНоменклатуры</value>
-        </values>
-        <values xsi:type="core:ReferenceValue">
           <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ВидыЦен</value>
         </values>
         <values xsi:type="core:ReferenceValue">

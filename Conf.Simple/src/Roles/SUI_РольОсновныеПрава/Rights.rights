@@ -700,7 +700,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_tbl_types_goods</name>
+		<name>InformationRegister.Удалить_SUI_tbl_types_goods</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1867,7 +1867,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.SUI_ИспользоватьТаблицу_ВидыНоменклатуры</name>
+		<name>Constant.Удалить_SUI_ИспользоватьТаблицу_ВидыНоменклатуры</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

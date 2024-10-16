@@ -172,7 +172,7 @@
     <name>Запись</name>
     <id>1</id>
     <valueType>
-      <types>InformationRegisterRecordManager.SUI_tbl_types_goods</types>
+      <types>InformationRegisterRecordManager.Удалить_SUI_tbl_types_goods</types>
     </valueType>
     <view>
       <common>true</common>

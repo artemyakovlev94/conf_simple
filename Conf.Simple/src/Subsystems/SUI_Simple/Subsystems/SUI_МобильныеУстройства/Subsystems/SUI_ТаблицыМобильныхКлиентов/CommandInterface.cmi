@@ -54,10 +54,6 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Constant.SUI_ИспользоватьТаблицу_ВидыНоменклатуры.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Constant.SUI_ИспользоватьТаблицу_ПользователиТСД.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
@@ -69,7 +65,6 @@
   <commandsOrder>
     <orderFragments>
       <group>ActionsPanelTools</group>
-      <commands>Constant.SUI_ИспользоватьТаблицу_ВидыНоменклатуры.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_ВидыЦен.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_Контрагенты.StandardCommand.Open</commands>

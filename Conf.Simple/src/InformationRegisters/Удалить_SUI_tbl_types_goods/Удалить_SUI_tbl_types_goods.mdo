@@ -9,14 +9,14 @@
     <recordType typeId="55b8b977-1cab-4ed2-adde-0c83c9fb267b" valueTypeId="f5d83d5d-c354-4e06-88a9-c193f5ea2df3"/>
     <recordManagerType typeId="291d421a-2719-4c6e-a886-bd31d41586c4" valueTypeId="31a14f7e-131c-410a-ad24-bfdd3c3477f7"/>
   </producedTypes>
-  <name>SUI_tbl_types_goods</name>
+  <name>Удалить_SUI_tbl_types_goods</name>
   <synonym>
     <key>ru</key>
-    <value>Таблица Виды номенклатуры (SUI)</value>
+    <value>(не используется) Таблица Виды номенклатуры (SUI)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
-  <defaultRecordForm>InformationRegister.SUI_tbl_types_goods.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultRecordForm>InformationRegister.Удалить_SUI_tbl_types_goods.Form.ФормаЗаписи</defaultRecordForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
