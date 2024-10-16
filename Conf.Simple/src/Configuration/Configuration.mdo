@@ -305,7 +305,6 @@
   <constants>Constant.SUI_ИспользоватьДополнительныеРеквизитыТаблиц</constants>
   <constants>Constant.SUI_ИспользоватьЗапросыАвторизацииМУ</constants>
   <constants>Constant.SUI_ИспользоватьПользовательскийЗапрос</constants>
-  <constants>Constant.Удалить_SUI_ИспользоватьТаблицу_ВидыНоменклатуры</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_ВидыЦен</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_Контрагенты</constants>
@@ -348,6 +347,7 @@
   <constants>Constant.SUI_ХранениеЛоговHTTPЗапросовВДнях</constants>
   <constants>Constant.SUI_ХранениеОбработанныхДокументовОбмена</constants>
   <constants>Constant.SUI_ХранениеСообщенийМобильныхУстройствВДнях</constants>
+  <constants>Constant.Удалить_SUI_ИспользоватьТаблицу_ВидыНоменклатуры</constants>
   <constants>Constant.Удалить_SUI_РЗ_ФормированиеСлужебныхПакетов</constants>
   <commonForms>CommonForm.SUI_QRКодДляПодключенияМобильногоПриложения</commonForms>
   <commonForms>CommonForm.SUI_АлгоритмПолученияШтрихкодаДокумента</commonForms>
