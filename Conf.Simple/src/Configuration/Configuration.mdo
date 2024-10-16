@@ -301,7 +301,6 @@
   <constants>Constant.SUI_ИспользоватьПользовательскийЗапрос</constants>
   <constants>Constant.SUI_ИспользоватьРедакторJSON</constants>
   <constants>Constant.SUI_ИспользоватьРедакторКодаBSL</constants>
-  <constants>Constant.Удалить_SUI_ИспользоватьТаблицу_ВидыНоменклатуры</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_Контрагенты</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_Номенклатура</constants>
@@ -340,6 +339,7 @@
   <constants>Constant.SUI_ХранениеЛоговHTTPЗапросовВДнях</constants>
   <constants>Constant.SUI_ХранениеОбработанныхДокументовОбмена</constants>
   <constants>Constant.SUI_ХранениеСообщенийМобильныхУстройствВДнях</constants>
+  <constants>Constant.Удалить_SUI_ИспользоватьТаблицу_ВидыНоменклатуры</constants>
   <commonForms>CommonForm.SUI_QRКодДляПодключенияМобильногоПриложения</commonForms>
   <commonForms>CommonForm.SUI_АлгоритмПолученияШтрихкодаДокумента</commonForms>
   <commonForms>CommonForm.SUI_АутентификацияВСервисе</commonForms>
