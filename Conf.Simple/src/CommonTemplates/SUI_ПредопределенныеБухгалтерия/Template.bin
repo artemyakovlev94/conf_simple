@@ -397,79 +397,6 @@
 				</Value>
 			</row>
 			<row>
-				<Value xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">ВидыНоменклатуры</Value>
-				<Value xsi:type="xs:string">Справочник.ВидыНоменклатуры</Value>
-				<Value xsi:type="xs:boolean">true</Value>
-				<Value xsi:type="xs:boolean">true</Value>
-				<Value xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xsi:type="dcssch:DataCompositionSchema">
-					<dcssch:dataSource>
-						<dcssch:name>ИсточникДанных1</dcssch:name>
-						<dcssch:dataSourceType>Local</dcssch:dataSourceType>
-					</dcssch:dataSource>
-					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
-						<dcssch:name>НаборДанных1</dcssch:name>
-						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
-						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	*
-ИЗ
-	Справочник.ВидыНоменклатуры КАК ВидыНоменклатуры
-{ГДЕ
-	ВидыНоменклатуры.Ссылка = &amp;Ссылка}</dcssch:query>
-					</dcssch:dataSet>
-					<dcssch:settingsVariant>
-						<dcsset:name>Основной</dcsset:name>
-						<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
-						<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
-					</dcssch:settingsVariant>
-				</Value>
-				<Value xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xsi:type="dcsset:Settings">
-					<dcsset:userFields>
-						<dcsset:item xsi:type="dcsset:UserFieldCase">
-							<dcsset:dataPath>ПользовательскиеПоля.Поле1</dcsset:dataPath>
-							<dcsset:title>маркировка</dcsset:title>
-							<dcsset:cases>
-								<dcsset:item>
-									<dcsset:filter>
-										<dcsset:item xsi:type="dcsset:FilterItemComparison">
-											<dcsset:left xsi:type="dcscor:Field">Ссылка</dcsset:left>
-											<dcsset:comparisonType>Equal</dcsset:comparisonType>
-											<dcsset:right xmlns:d12p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d12p1:CatalogRef.ВидыНоменклатуры">a99fb492-e533-11ee-82b8-a8a15945d7d2</dcsset:right>
-										</dcsset:item>
-									</dcsset:filter>
-									<dcsset:value xsi:type="xs:decimal">1</dcsset:value>
-								</dcsset:item>
-								<dcsset:item>
-									<dcsset:filter/>
-									<dcsset:value xsi:type="xs:decimal">0</dcsset:value>
-								</dcsset:item>
-							</dcsset:cases>
-						</dcsset:item>
-					</dcsset:userFields>
-					<dcsset:selection>
-						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>Ссылка</dcsset:field>
-							<dcsset:title>id</dcsset:title>
-						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>Наименование</dcsset:field>
-							<dcsset:title>name</dcsset:title>
-						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>ПользовательскиеПоля.Поле1</dcsset:field>
-							<dcsset:title>use_mark</dcsset:title>
-						</dcsset:item>
-					</dcsset:selection>
-					<dcsset:item xsi:type="dcsset:StructureItemGroup">
-						<dcsset:order>
-							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
-						</dcsset:order>
-						<dcsset:selection>
-							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
-						</dcsset:selection>
-					</dcsset:item>
-				</Value>
-			</row>
-			<row>
 				<Value xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">ШтрихкодыНоменклатуры</Value>
 				<Value xsi:type="xs:string">РегистрСведений.ПервоначальныеСведенияОСБухгалтерскийУчет</Value>
 				<Value xsi:type="xs:boolean">false</Value>
@@ -708,10 +635,22 @@
 							<Property name="Алгоритм">
 								<Value xsi:type="xs:string">РезультатРазбора = РазборКодаМаркировкиИССлужебный.РазобратьКодМаркировки(ЗначениеШтрихкода);
 
+
+
+
+
 Если ЗначениеЗаполнено(РезультатРазбора) Тогда
+
+
 	ЗначениеШтрихкода = РезультатРазбора.НормализованныйКодМаркировки;
+
+
 Иначе
+
+
 	ЗначениеШтрихкода = "";
+
+
 КонецЕсли;</Value>
 							</Property>
 						</Value>
@@ -721,37 +660,105 @@
 							<Property name="Алгоритм">
 								<Value xsi:type="xs:string">ШтрихкодУпаковки = Справочники.ШтрихкодыУпаковокТоваров.ПолучитьПоЗначениюШтрихкода(ЗначениеШтрихкода);
 
+
+
+
+
 Если Не ЗначениеЗаполнено(ШтрихкодУпаковки) Тогда
+
+
 	
+
+
 	РезультатРазбора = РазборКодаМаркировкиИССлужебный.РазобратьКодМаркировки(ЗначениеШтрихкода);
+
+
+
+
 
 	Если ЗначениеЗаполнено(РезультатРазбора) Тогда
 
+
+
+
+
 		СтруктураСоздания = Справочники.ШтрихкодыУпаковокТоваров.СтруктураСозданияШтрихкодаУпаковки();
+
+
 		СтруктураСоздания.Номенклатура = Номенклатура;
+
+
 		СтруктураСоздания.Характеристика = Характеристика;
+
+
 		СтруктураСоздания.Серия = Серия;
+
+
 		СтруктураСоздания.Упаковка = Упаковка;
+
+
 		СтруктураСоздания.Штрихкод = РезультатРазбора.НормализованныйКодМаркировки;
+
+
 		СтруктураСоздания.ТипШтрихкода = РезультатРазбора.ТипШтрихкода;
 
+
+
+
+
 		Если РезультатРазбора.ВидУпаковки = ПредопределенноеЗначение("Перечисление.ВидыУпаковокИС.Потребительская") Тогда
+
+
 			СтруктураСоздания.ТипУпаковки = ПредопределенноеЗначение("Перечисление.ТипыУпаковок.МаркированныйТовар");
+
+
 		ИначеЕсли РезультатРазбора.ВидУпаковки = ПредопределенноеЗначение("Перечисление.ВидыУпаковокИС.Групповая") Тогда
+
+
 			СтруктураСоздания.ТипУпаковки = ПредопределенноеЗначение("Перечисление.ТипыУпаковок.МонотоварнаяУпаковка");
+
+
 		ИначеЕсли РезультатРазбора.ВидУпаковки = ПредопределенноеЗначение("Перечисление.ВидыУпаковокИС.Логистическая") И
+
+
 			РезультатРазбора.СоставКодаМаркировки.Свойство("GTIN") И
+
+
 			ЗначениеЗаполнено(РезультатРазбора.СоставКодаМаркировки.GTIN) Тогда
+
+
 			СтруктураСоздания.ТипУпаковки = ПредопределенноеЗначение("Перечисление.ТипыУпаковок.МонотоварнаяУпаковка");
+
+
 		Иначе
+
+
 			СтруктураСоздания.ТипУпаковки = ПредопределенноеЗначение("Перечисление.ТипыУпаковок.МультитоварнаяУпаковка");
+
+
 		КонецЕсли;
+
+
+
+
 
 		ДополнительныеПараметрыСоздания = Справочники.ШтрихкодыУпаковокТоваров.ДополнительныеПараметрыСозданияШтрихкодовУпаковок();
 
+
+
+
+
 		ШтрихкодУпаковки =  Справочники.ШтрихкодыУпаковокТоваров.СоздатьШтрихкодУпаковки(СтруктураСоздания, , , , ДополнительныеПараметрыСоздания);
 
+
+
+
+
 	КонецЕсли;
+
+
+
+
 
 КонецЕсли;</Value>
 							</Property>
