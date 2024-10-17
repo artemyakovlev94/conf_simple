@@ -157,17 +157,17 @@
     <name>type_good</name>
     <synonym>
       <key>ru</key>
-      <value>Идентификатор вида номенклатуры</value>
+      <value>Вид номенклатуры</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>69</length>
+        <length>100</length>
       </stringQualifiers>
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Ссылка вида номенклатуры</value>
+      <value>Наименование вида номенклатуры</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -322,7 +322,7 @@
 							<dcsset:title>unit</dcsset:title>
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>КатегорияНоменклатуры</dcsset:field>
+							<dcsset:field>КатегорияНоменклатуры.Наименование</dcsset:field>
 							<dcsset:title>type_good</dcsset:title>
 						</dcsset:item>
 					</dcsset:selection>
