@@ -1109,7 +1109,6 @@
             <type>UsualGroup</type>
             <extInfo xsi:type="form:UsualGroupExtInfo">
               <group>AlwaysHorizontal</group>
-              <behavior>Collapsible</behavior>
               <controlRepresentation>Picture</controlRepresentation>
               <representation>WeakSeparation</representation>
               <showLeftMargin>true</showLeftMargin>
