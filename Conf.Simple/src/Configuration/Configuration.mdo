@@ -363,7 +363,6 @@
   <constants>Constant.Удалить_SUI_ИспользоватьТаблицу_ВидыНоменклатуры</constants>
   <constants>Constant.Удалить_SUI_РЗ_ФормированиеСлужебныхПакетов</constants>
   <commonForms>CommonForm.SUI_QRКодДляПодключенияМобильногоПриложения</commonForms>
-  <commonForms>CommonForm.SUI_АлгоритмПолученияШтрихкодаДокумента</commonForms>
   <commonForms>CommonForm.SUI_АутентификацияВСервисе</commonForms>
   <commonForms>CommonForm.SUI_ВерсияДанных</commonForms>
   <commonForms>CommonForm.SUI_ВыгрузкаДокументаНаТСД</commonForms>

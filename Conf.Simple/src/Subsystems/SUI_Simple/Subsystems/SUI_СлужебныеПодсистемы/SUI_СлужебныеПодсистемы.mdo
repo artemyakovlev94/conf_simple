@@ -117,7 +117,6 @@
   <content>CommonPicture.SUI_ПереместитьВсеВправо</content>
   <content>Constant.SUI_АлгоритмПолученияШтрихкодаДокумента</content>
   <content>FunctionalOption.SUI_АлгоритмПолученияШтрихкодаДокумента</content>
-  <content>CommonForm.SUI_АлгоритмПолученияШтрихкодаДокумента</content>
   <content>CommonModule.SUI_ОбщегоНазначенияПереопределяемый</content>
   <content>CommonModule.SUI_СтроковыеФункцииКлиентСерверПереопределяемый</content>
   <content>CommonModule.SUI_ОбщегоНазначенияКлиентСерверПереопределяемый</content>

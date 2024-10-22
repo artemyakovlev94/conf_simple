@@ -15,7 +15,6 @@
     <stringQualifiers/>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>CommonForm.SUI_АлгоритмПолученияШтрихкодаДокумента</defaultForm>
   <extendedPresentation>
     <key>ru</key>
     <value>Алгоритм получения штрихкода документа</value>
