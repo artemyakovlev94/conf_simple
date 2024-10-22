@@ -451,6 +451,7 @@
         <verticalLines>true</verticalLines>
         <searchOnInput>Auto</searchOnInput>
         <initialListView>Auto</initialListView>
+        <initialTreeView>ExpandTopLevel</initialTreeView>
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
         <fileDragMode>AsFileRef</fileDragMode>
