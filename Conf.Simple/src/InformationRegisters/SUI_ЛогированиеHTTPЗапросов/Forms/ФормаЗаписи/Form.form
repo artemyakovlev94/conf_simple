@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>ГруппаSIDДата</name>
     <id>102</id>
@@ -938,21 +938,17 @@
     <items xsi:type="form:FormGroup">
       <name>СтраницаЗапрос</name>
       <id>56</id>
-      <items xsi:type="form:FormField">
-        <name>ДанныеЗапроса</name>
-        <id>60</id>
+      <items xsi:type="form:Decoration">
+        <name>СтраницаЗапросДекорацияЗаглушка</name>
+        <id>104</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Запись.ДанныеЗапроса</segments>
-        </dataPath>
-        <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>ДанныеЗапросаРасширеннаяПодсказка</name>
-          <id>62</id>
+          <name>СтраницаЗапросДекорацияЗаглушкаРасширеннаяПодсказка</name>
+          <id>106</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -966,8 +962,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ДанныеЗапросаКонтекстноеМеню</name>
-          <id>61</id>
+          <name>СтраницаЗапросДекорацияЗаглушкаКонтекстноеМеню</name>
+          <id>105</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -975,19 +971,19 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>TextDocumentField</type>
-        <readOnly>true</readOnly>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:TextDocFieldExtInfo">
-          <width>50</width>
-          <autoMaxWidth>true</autoMaxWidth>
-          <height>10</height>
-          <autoMaxHeight>true</autoMaxHeight>
-          <horizontalStretch>true</horizontalStretch>
-          <verticalStretch>true</verticalStretch>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
+        <textColor xsi:type="core:ColorRef">
+          <color>Style.SpecialTextColor</color>
+        </textColor>
+        <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <nonselectedPictureText>
+            <key>ru</key>
+            <value>Ошибка открытия редактора JSON</value>
+          </nonselectedPictureText>
+          <fileDragMode>AsFileRef</fileDragMode>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1023,21 +1019,17 @@
     <items xsi:type="form:FormGroup">
       <name>СтраницаОтвет</name>
       <id>58</id>
-      <items xsi:type="form:FormField">
-        <name>ДанныеОтвета</name>
-        <id>63</id>
+      <items xsi:type="form:Decoration">
+        <name>СтраницаОтветДекорацияЗаглушка</name>
+        <id>107</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Запись.ДанныеОтвета</segments>
-        </dataPath>
-        <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>ДанныеОтветаРасширеннаяПодсказка</name>
-          <id>65</id>
+          <name>СтраницаОтветДекорацияЗаглушкаРасширеннаяПодсказка</name>
+          <id>109</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1051,8 +1043,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ДанныеОтветаКонтекстноеМеню</name>
-          <id>64</id>
+          <name>СтраницаОтветДекорацияЗаглушкаКонтекстноеМеню</name>
+          <id>108</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1060,19 +1052,19 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>TextDocumentField</type>
-        <readOnly>true</readOnly>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:TextDocFieldExtInfo">
-          <width>50</width>
-          <autoMaxWidth>true</autoMaxWidth>
-          <height>10</height>
-          <autoMaxHeight>true</autoMaxHeight>
-          <horizontalStretch>true</horizontalStretch>
-          <verticalStretch>true</verticalStretch>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
+        <textColor xsi:type="core:ColorRef">
+          <color>Style.SpecialTextColor</color>
+        </textColor>
+        <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <nonselectedPictureText>
+            <key>ru</key>
+            <value>Ошибка открытия редактора JSON</value>
+          </nonselectedPictureText>
+          <fileDragMode>AsFileRef</fileDragMode>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1127,6 +1119,10 @@
     </extendedTooltip>
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
+      <handlers>
+        <event>OnCurrentPageChange</event>
+        <name>СтраницыПриСменеСтраницы</name>
+      </handlers>
       <pagesRepresentation>TabsOnTop</pagesRepresentation>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
