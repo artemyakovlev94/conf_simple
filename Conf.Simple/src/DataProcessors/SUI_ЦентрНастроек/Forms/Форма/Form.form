@@ -2539,6 +2539,160 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
+          <name>ГруппаРедакторы</name>
+          <id>202</id>
+          <items xsi:type="form:FormField">
+            <name>SUI_ИспользоватьРедакторJSON</name>
+            <id>204</id>
+            <title>
+              <key>ru</key>
+              <value>Использовать редактор JSON</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>НаборКонстант.SUI_ИспользоватьРедакторJSON</segments>
+            </dataPath>
+            <titleLocation>Right</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>Просмотр и редактирование структуры JSON в HTML редакторе JSON</value>
+            </toolTip>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <handlers>
+              <event>OnChange</event>
+              <name>SUI_ИспользоватьРедакторJSONПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>SUI_ИспользоватьРедакторJSONРасширеннаяПодсказка</name>
+              <id>206</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>SUI_ИспользоватьРедакторJSONКонтекстноеМеню</name>
+              <id>205</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>CheckBoxField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>SUI_ИспользоватьРедакторКодаBSL</name>
+            <id>207</id>
+            <title>
+              <key>ru</key>
+              <value>Использовать редактор кода BSL</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>НаборКонстант.SUI_ИспользоватьРедакторКодаBSL</segments>
+            </dataPath>
+            <titleLocation>Right</titleLocation>
+            <toolTip>
+              <key>ru</key>
+              <value>Просмотр и редактирование кода в редакторе BSL</value>
+            </toolTip>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <handlers>
+              <event>OnChange</event>
+              <name>SUI_ИспользоватьРедакторКодаBSLПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>SUI_ИспользоватьРедакторКодаBSLРасширеннаяПодсказка</name>
+              <id>209</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>SUI_ИспользоватьРедакторКодаBSLКонтекстноеМеню</name>
+              <id>208</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>CheckBoxField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Редакторы</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаРедакторыРасширеннаяПодсказка</name>
+            <id>203</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>HorizontalIfPossible</group>
+            <behavior>Collapsible</behavior>
+            <controlRepresentation>Picture</controlRepresentation>
+            <representation>WeakSeparation</representation>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <showTitle>true</showTitle>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
           <name>ГруппаНастройкаПеремещенияЗапасов</name>
           <id>139</id>
           <items xsi:type="form:FormField">
@@ -3350,6 +3504,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.SUI_АлгоритмПолученияШтрихкодаДокумента</segments>
+    </notDefaultUseAlwaysAttributes>
     <main>true</main>
   </attributes>
   <attributes>
