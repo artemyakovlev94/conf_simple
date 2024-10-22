@@ -126,7 +126,6 @@
   <content>CommonTemplate.SUI_ПредопределенныеУправлениеНашейФирмой</content>
   <content>CommonTemplate.SUI_ПредопределенныеРозница30</content>
   <content>CommonModule.SUI_ПользователиПереопределяемый</content>
-  <content>DataProcessor.SUI_КонсольПроизвольногоАлгоритма</content>
   <content>CommonModule.SUI_СобытияФормИСКлиент</content>
   <content>CommonModule.SUI_СобытияФормИС</content>
   <content>XDTOPackage.SUI_ExchangeSupport</content>

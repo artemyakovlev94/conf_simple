@@ -404,7 +404,6 @@
   <reports>Report.SUI_ОтчетПоВыработкеСотрудников</reports>
   <reports>Report.SUI_ОтчетПоЗадачамПересчет</reports>
   <dataProcessors>DataProcessor.SUI_ЗапросыКБазамДанныхМобильныхУстройств</dataProcessors>
-  <dataProcessors>DataProcessor.SUI_КонсольПроизвольногоАлгоритма</dataProcessors>
   <dataProcessors>DataProcessor.SUI_МастерНастроек</dataProcessors>
   <dataProcessors>DataProcessor.SUI_НастройкаМетаданных</dataProcessors>
   <dataProcessors>DataProcessor.SUI_ОбновлениеSimple</dataProcessors>
