@@ -197,6 +197,7 @@
   <commonModules>CommonModule.SUI_НастройкиДокументовВызовСервера</commonModules>
   <commonModules>CommonModule.SUI_НастройкиДокументовКлиент</commonModules>
   <commonModules>CommonModule.SUI_НастройкиДокументовКлиентСервер</commonModules>
+  <commonModules>CommonModule.SUI_НастройкиДокументовПовтИсп</commonModules>
   <commonModules>CommonModule.SUI_НастройкиДокументовСервер</commonModules>
   <commonModules>CommonModule.SUI_НастройкиМетаданныхВызовСервера</commonModules>
   <commonModules>CommonModule.SUI_НастройкиМетаданныхКлиент</commonModules>
