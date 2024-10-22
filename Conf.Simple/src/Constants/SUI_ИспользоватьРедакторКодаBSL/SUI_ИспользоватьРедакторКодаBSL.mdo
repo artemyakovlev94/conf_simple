@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7afdfdd9-78e6-4f38-a3f3-77b952a7769e">
+  <producedTypes>
+    <managerType typeId="126c9b3d-0b5d-4882-800f-98464cfb0991" valueTypeId="be2a6972-5d5f-463e-a45d-42ae16435952"/>
+    <valueManagerType typeId="cd3af70e-1d22-45c3-bcfb-90faaee17994" valueTypeId="7442c04f-b4bb-4b85-9b74-e282dd9be259"/>
+    <valueKeyType typeId="09ce8499-ef29-4b42-a9a1-d1ba7c5a9980" valueTypeId="176e2045-8025-4cf9-b257-1ea8dc55d4eb"/>
+  </producedTypes>
+  <name>SUI_ИспользоватьРедакторКодаBSL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать редактор кода BSL (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Использовать редактор кода BSL</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

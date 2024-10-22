@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bccb2d60-e827-43d7-9b0a-1a72d1933b5d">
+  <name>SUI_ИспользоватьРедакторJSON</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать редактор JSON</value>
+  </synonym>
+  <location>Constant.SUI_ИспользоватьРедакторJSON</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

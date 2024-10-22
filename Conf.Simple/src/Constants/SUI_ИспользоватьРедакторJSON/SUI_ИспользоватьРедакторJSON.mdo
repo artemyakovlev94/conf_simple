@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92e40b9a-fe95-4917-89b6-aaf70c809f0f">
+  <producedTypes>
+    <managerType typeId="48314e31-d04a-4778-9810-10a759352bb3" valueTypeId="dae283b5-14a5-4f94-abc4-acf65851ef5f"/>
+    <valueManagerType typeId="99938861-5ee2-41ed-af6d-33e7bb6e61c3" valueTypeId="6f623b2d-8557-4bce-bb01-07cac5c85d60"/>
+    <valueKeyType typeId="bb42860d-12d6-47f1-9184-93b7775d3351" valueTypeId="a4b55e54-f650-4a01-8bfd-6f5ed2108826"/>
+  </producedTypes>
+  <name>SUI_ИспользоватьРедакторJSON</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать редактор JSON (SUI)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Использовать редактор JSON для просмотра и редактирования JSON</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
