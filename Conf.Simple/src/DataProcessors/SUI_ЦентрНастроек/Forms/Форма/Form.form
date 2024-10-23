@@ -2559,7 +2559,7 @@
             <titleLocation>Right</titleLocation>
             <toolTip>
               <key>ru</key>
-              <value>Просмотр и редактирование структуры JSON в HTML редакторе JSON</value>
+              <value>Просмотр и редактирование структуры JSON в HTML редакторе JSON (недоступно в веб клиенте).</value>
             </toolTip>
             <toolTipRepresentation>ShowBottom</toolTipRepresentation>
             <handlers>
@@ -2616,7 +2616,7 @@
             <titleLocation>Right</titleLocation>
             <toolTip>
               <key>ru</key>
-              <value>Просмотр и редактирование кода в редакторе BSL</value>
+              <value>Просмотр и редактирование кода в редакторе BSL (недоступно в веб клиенте).</value>
             </toolTip>
             <toolTipRepresentation>ShowBottom</toolTipRepresentation>
             <handlers>
