@@ -97,10 +97,6 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>InformationRegister.SUI_tbl_marking_codes</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
     <mdObject>InformationRegister.SUI_tbl_countragents</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
