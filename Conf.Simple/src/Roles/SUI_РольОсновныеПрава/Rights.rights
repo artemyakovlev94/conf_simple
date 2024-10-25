@@ -119,13 +119,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.SUI_ИспользоватьТаблицу_ВидыЦен</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonForm.SUI_АутентификацияВСервисе</name>
 		<right>
 			<name>View</name>
@@ -870,13 +863,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.SUI_ИспользоватьТаблицу_ЦеныНоменклатуры</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.SUI_docs_tbl_goods.Resource.id_series</name>
 		<right>
 			<name>Edit</name>
@@ -928,13 +914,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -1853,13 +1832,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.Удалить_SUI_ИспользоватьТаблицу_ВидыНоменклатуры</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
 		</right>
 	</object>
 	<object>

@@ -106,13 +106,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.SUI_ИспользоватьТаблицу_ВидыЦен</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>HTTPService.SUI_Exchange.URLTemplate.ТоварыВЯчейках.Method.Получить</name>
 		<right>
 			<name>Use</name>
@@ -739,13 +732,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.SUI_ИспользоватьТаблицу_ЦеныНоменклатуры</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы.Subsystem.SUI_ДополнительныеРеквизитыТаблиц</name>
 		<right>
 			<name>View</name>
@@ -781,13 +767,6 @@
 		</right>
 		<right>
 			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</name>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1131,13 +1110,6 @@
 		</right>
 		<right>
 			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.Удалить_SUI_ИспользоватьТаблицу_ВидыНоменклатуры</name>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>

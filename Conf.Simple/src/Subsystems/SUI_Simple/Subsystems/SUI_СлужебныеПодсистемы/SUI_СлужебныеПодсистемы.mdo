@@ -37,15 +37,12 @@
   <content>EventSubscription.SUI_КонстантыИспользоватьТаблицуПриЗаписи</content>
   <content>FunctionalOption.SUI_ИспользоватьЗапросыАвторизацииМУ</content>
   <content>FunctionalOption.SUI_ИспользоватьПользовательскийЗапрос</content>
-  <content>FunctionalOption.SUI_ИспользоватьТаблицу_ВидыЦен</content>
-  <content>FunctionalOption.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_Контрагенты</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_Номенклатура</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_СерииНоменклатуры</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_Склады</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_УпаковкиНоменклатуры</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_ХарактеристикиНоменклатуры</content>
-  <content>FunctionalOption.SUI_ИспользоватьТаблицу_ЦеныНоменклатуры</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_ШаблоныЭтикеток</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_ШтрихкодыНоменклатуры</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_ШтрихкодыУпаковок</content>

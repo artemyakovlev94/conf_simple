@@ -18,10 +18,6 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Constant.SUI_ИспользоватьТаблицу_ЦеныНоменклатуры.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Constant.SUI_ИспользоватьТаблицу_ХарактеристикиНоменклатуры.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
@@ -46,14 +42,6 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Constant.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Constant.SUI_ИспользоватьТаблицу_ВидыЦен.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Constant.SUI_ИспользоватьТаблицу_ПользователиТСД.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
@@ -65,15 +53,12 @@
   <commandsOrder>
     <orderFragments>
       <group>ActionsPanelTools</group>
-      <commands>Constant.SUI_ИспользоватьТаблицу_ВидыЦен.StandardCommand.Open</commands>
-      <commands>Constant.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_Контрагенты.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_Номенклатура.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_СерииНоменклатуры.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_Склады.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_УпаковкиНоменклатуры.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_ХарактеристикиНоменклатуры.StandardCommand.Open</commands>
-      <commands>Constant.SUI_ИспользоватьТаблицу_ЦеныНоменклатуры.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_ШаблоныЭтикеток.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_ШтрихкодыНоменклатуры.StandardCommand.Open</commands>
       <commands>Constant.SUI_ИспользоватьТаблицу_ШтрихкодыУпаковок.StandardCommand.Open</commands>

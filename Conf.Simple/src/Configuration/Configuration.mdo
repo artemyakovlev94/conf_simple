@@ -280,8 +280,6 @@
   <functionalOptions>FunctionalOption.SUI_ИспользоватьПользовательскийЗапрос</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторJSON</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторКодаBSL</functionalOptions>
-  <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ВидыЦен</functionalOptions>
-  <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_Контрагенты</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_Номенклатура</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ПользователиТСД</functionalOptions>
@@ -289,7 +287,6 @@
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_Склады</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_УпаковкиНоменклатуры</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ХарактеристикиНоменклатуры</functionalOptions>
-  <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ЦеныНоменклатуры</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ШаблоныЭтикеток</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ШтрихкодыНоменклатуры</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ШтрихкодыУпаковок</functionalOptions>
@@ -305,7 +302,6 @@
   <functionalOptions>FunctionalOption.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_УстановкаПредварительныхВерсий</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ХранениеСообщенийМобильныхУстройствВДнях</functionalOptions>
-  <functionalOptions>FunctionalOption.Удалить_SUI_ИспользоватьТаблицу_ВидыНоменклатуры</functionalOptions>
   <commonCommands>CommonCommand.SUI_ВыполнитьПолнуюВыгрузку</commonCommands>
   <commonCommands>CommonCommand.SUI_ИдентификаторSimple</commonCommands>
   <constants>Constant.SUI_АдресПубликацииБазы</constants>
@@ -318,8 +314,6 @@
   <constants>Constant.SUI_ИспользоватьПользовательскийЗапрос</constants>
   <constants>Constant.SUI_ИспользоватьРедакторJSON</constants>
   <constants>Constant.SUI_ИспользоватьРедакторКодаBSL</constants>
-  <constants>Constant.SUI_ИспользоватьТаблицу_ВидыЦен</constants>
-  <constants>Constant.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_Контрагенты</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_Номенклатура</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_ПользователиТСД</constants>
@@ -327,7 +321,6 @@
   <constants>Constant.SUI_ИспользоватьТаблицу_Склады</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_УпаковкиНоменклатуры</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_ХарактеристикиНоменклатуры</constants>
-  <constants>Constant.SUI_ИспользоватьТаблицу_ЦеныНоменклатуры</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_ШаблоныЭтикеток</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_ШтрихкодыНоменклатуры</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_ШтрихкодыУпаковок</constants>
@@ -360,8 +353,6 @@
   <constants>Constant.SUI_ХранениеЛоговHTTPЗапросовВДнях</constants>
   <constants>Constant.SUI_ХранениеОбработанныхДокументовОбмена</constants>
   <constants>Constant.SUI_ХранениеСообщенийМобильныхУстройствВДнях</constants>
-  <constants>Constant.Удалить_SUI_ИспользоватьТаблицу_ВидыНоменклатуры</constants>
-  <constants>Constant.Удалить_SUI_РЗ_ФормированиеСлужебныхПакетов</constants>
   <commonForms>CommonForm.SUI_QRКодДляПодключенияМобильногоПриложения</commonForms>
   <commonForms>CommonForm.SUI_АутентификацияВСервисе</commonForms>
   <commonForms>CommonForm.SUI_ВерсияДанных</commonForms>
