@@ -7,7 +7,6 @@
   </synonym>
   <location>Constant.SUI_ИспользоватьТаблицу_ВидыЦен</location>
   <privilegedGetMode>true</privilegedGetMode>
-  <content>InformationRegister.SUI_tbl_price_types</content>
   <content>InformationRegister.SUI_docs_tbl_goods.Resource.id_price</content>
   <content>InformationRegister.SUI_docs_tbl_goods_delta.Resource.id_price</content>
 </mdclass:FunctionalOption>

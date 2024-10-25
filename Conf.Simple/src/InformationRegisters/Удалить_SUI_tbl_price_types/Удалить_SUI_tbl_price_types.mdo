@@ -9,14 +9,14 @@
     <recordType typeId="c809f661-4350-44d2-a9b8-262a00ed5b5c" valueTypeId="96267249-ee79-4f02-817e-ab07a0a19da8"/>
     <recordManagerType typeId="a24c1f44-79e5-4bf1-8865-b15722a20e5b" valueTypeId="480a322e-a91d-428e-b6b5-b50c8686f63a"/>
   </producedTypes>
-  <name>SUI_tbl_price_types</name>
+  <name>Удалить_SUI_tbl_price_types</name>
   <synonym>
     <key>ru</key>
-    <value>Таблица Виды цен (SUI)</value>
+    <value>(не используется) Таблица Виды цен (SUI)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
-  <defaultRecordForm>InformationRegister.SUI_tbl_price_types.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultRecordForm>InformationRegister.Удалить_SUI_tbl_price_types.Form.ФормаЗаписи</defaultRecordForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>

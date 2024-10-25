@@ -9,14 +9,14 @@
     <recordType typeId="d59d1f48-2418-44d9-879c-6f66e2528c58" valueTypeId="0f9decc7-a1cb-417a-a095-6ecc5820a37a"/>
     <recordManagerType typeId="8e80dbef-ab06-44e5-9b97-4b749a1b2151" valueTypeId="c86617fa-0d30-4cde-9179-25a92638ed72"/>
   </producedTypes>
-  <name>SUI_tbl_prices</name>
+  <name>Удалить_SUI_tbl_prices</name>
   <synonym>
     <key>ru</key>
-    <value>Таблица Цены номенклатуры (SUI)</value>
+    <value>(не используется) Таблица Цены номенклатуры (SUI)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
-  <defaultRecordForm>InformationRegister.SUI_tbl_prices.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultRecordForm>InformationRegister.Удалить_SUI_tbl_prices.Form.ФормаЗаписи</defaultRecordForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>

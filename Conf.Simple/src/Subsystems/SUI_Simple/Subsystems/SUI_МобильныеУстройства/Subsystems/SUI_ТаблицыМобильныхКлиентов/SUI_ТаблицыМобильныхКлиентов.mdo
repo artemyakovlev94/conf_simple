@@ -41,8 +41,6 @@
   <content>InformationRegister.SUI_tbl_goods</content>
   <content>InformationRegister.SUI_tbl_label_templates</content>
   <content>InformationRegister.SUI_tbl_marking_codes</content>
-  <content>InformationRegister.SUI_tbl_price_types</content>
-  <content>InformationRegister.SUI_tbl_prices</content>
   <content>InformationRegister.SUI_tbl_properties</content>
   <content>InformationRegister.SUI_tbl_series</content>
   <content>InformationRegister.SUI_tbl_units</content>

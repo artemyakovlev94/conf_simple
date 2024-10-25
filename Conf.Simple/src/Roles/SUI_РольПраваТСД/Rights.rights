@@ -492,7 +492,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_tbl_prices</name>
+		<name>InformationRegister.Удалить_SUI_tbl_prices</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -721,7 +721,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_tbl_price_types</name>
+		<name>InformationRegister.Удалить_SUI_tbl_price_types</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

@@ -136,15 +136,7 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>InformationRegister.SUI_tbl_prices</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
     <mdObject>InformationRegister.SUI_tbl_goods</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
-    <mdObject>InformationRegister.SUI_tbl_price_types</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
