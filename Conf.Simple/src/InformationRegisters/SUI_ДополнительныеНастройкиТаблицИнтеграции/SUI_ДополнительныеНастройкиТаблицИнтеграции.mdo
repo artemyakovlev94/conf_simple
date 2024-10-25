@@ -83,6 +83,20 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Ссылка</name>
+      <value xsi:type="core:FixedArrayValue">
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.СерииНоменклатуры</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ШтрихкодыУпаковок</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.SUI_ТаблицыИнтеграции.EnumValue.ШтрихкодыНоменклатуры</value>
+        </values>
+      </value>
+    </choiceParameters>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
