@@ -87,40 +87,4 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <forms uuid="7f6ffc75-dae7-46c2-8271-377f35ad90a6">
-    <name>ДополнительныеНастройки</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дополнительные настройки</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="57478510-ffae-487e-9223-1f2405d7e21a">
-    <name>ДополнительныеНастройки_СерииНоменклатуры</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дополнительные настройки: Серии номенклатуры</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="2a52152a-f695-4592-9427-0acc70094551">
-    <name>ДополнительныеНастройки_ШтрихкодыНоменклатуры</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дополнительные настройки: Штрихкоды номенклатуры</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="296cf151-c4c0-46b7-ad68-038e7cad5bac">
-    <name>ДополнительныеНастройки_ШтрихкодыУпаковок</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дополнительные настройки: Штрихкоды упаковок</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:InformationRegister>
