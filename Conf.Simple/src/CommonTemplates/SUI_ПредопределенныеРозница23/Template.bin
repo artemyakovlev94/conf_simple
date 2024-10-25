@@ -123,68 +123,6 @@
 				</Value>
 			</pair>
 			<pair>
-				<Key xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">ЦеныНоменклатуры</Key>
-				<Value xsi:type="Structure">
-					<Property name="ТаблицаИнтеграции">
-						<Value xmlns:d7p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d7p1:EnumRef.SUI_ТаблицыИнтеграции">ЦеныНоменклатуры</Value>
-					</Property>
-					<Property name="ПолноеИмяОбъекта">
-						<Value xsi:type="xs:string">РегистрСведений.ЦеныНоменклатуры</Value>
-					</Property>
-					<Property name="ТаблицаОбъекта">
-						<Value xsi:type="xs:string">СрезПоследних</Value>
-					</Property>
-					<Property name="НастройкиКомпоновкиДанных">
-						<Value xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xsi:type="dcsset:Settings">
-							<dcsset:userFields>
-								<dcsset:item xsi:type="dcsset:UserFieldCase">
-									<dcsset:dataPath>ПользовательскиеПоля.Поле1</dcsset:dataPath>
-									<dcsset:title>SUI_ID_EMPTY</dcsset:title>
-									<dcsset:cases>
-										<dcsset:item>
-											<dcsset:filter/>
-											<dcsset:value xsi:type="xs:string"/>
-										</dcsset:item>
-									</dcsset:cases>
-								</dcsset:item>
-							</dcsset:userFields>
-							<dcsset:selection>
-								<dcsset:item xsi:type="dcsset:SelectedItemField">
-									<dcsset:field>Номенклатура</dcsset:field>
-									<dcsset:title>id_goods</dcsset:title>
-								</dcsset:item>
-								<dcsset:item xsi:type="dcsset:SelectedItemField">
-									<dcsset:field>Характеристика</dcsset:field>
-									<dcsset:title>id_properties</dcsset:title>
-								</dcsset:item>
-								<dcsset:item xsi:type="dcsset:SelectedItemField">
-									<dcsset:field>Цена</dcsset:field>
-									<dcsset:title>price</dcsset:title>
-								</dcsset:item>
-								<dcsset:item xsi:type="dcsset:SelectedItemField">
-									<dcsset:field>ВидЦены</dcsset:field>
-									<dcsset:title>id_price_types</dcsset:title>
-								</dcsset:item>
-								<dcsset:item xsi:type="dcsset:SelectedItemField">
-									<dcsset:field>Упаковка</dcsset:field>
-									<dcsset:title>id_unit</dcsset:title>
-								</dcsset:item>
-								<dcsset:item xsi:type="dcsset:SelectedItemField">
-									<dcsset:field>ПользовательскиеПоля.Поле1</dcsset:field>
-									<dcsset:title>id</dcsset:title>
-								</dcsset:item>
-							</dcsset:selection>
-						</Value>
-					</Property>
-					<Property name="ДополнительныеНастройки">
-						<Value xsi:type="Structure"/>
-					</Property>
-					<Property name="Используется">
-						<Value xsi:type="xs:boolean">true</Value>
-					</Property>
-				</Value>
-			</pair>
-			<pair>
 				<Key xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">СерииНоменклатуры</Key>
 				<Value xsi:type="Structure">
 					<Property name="ТаблицаИнтеграции">
@@ -214,10 +152,6 @@
 								<dcsset:item xsi:type="dcsset:SelectedItemField">
 									<dcsset:field>Номер</dcsset:field>
 									<dcsset:title>number</dcsset:title>
-								</dcsset:item>
-								<dcsset:item xsi:type="dcsset:SelectedItemField">
-									<dcsset:field>ВидНоменклатуры</dcsset:field>
-									<dcsset:title>type_goods</dcsset:title>
 								</dcsset:item>
 							</dcsset:selection>
 							<dcsset:filter>
@@ -387,47 +321,6 @@
 								</dcsset:item>
 								<dcsset:item xsi:type="dcsset:FilterItemComparison">
 									<dcsset:left xsi:type="dcscor:Field">ЭтоГруппа</dcsset:left>
-									<dcsset:comparisonType>Equal</dcsset:comparisonType>
-									<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
-								</dcsset:item>
-							</dcsset:filter>
-						</Value>
-					</Property>
-					<Property name="ДополнительныеНастройки">
-						<Value xsi:type="Structure"/>
-					</Property>
-					<Property name="Используется">
-						<Value xsi:type="xs:boolean">true</Value>
-					</Property>
-				</Value>
-			</pair>
-			<pair>
-				<Key xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">ВидыЦен</Key>
-				<Value xsi:type="Structure">
-					<Property name="ТаблицаИнтеграции">
-						<Value xmlns:d7p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d7p1:EnumRef.SUI_ТаблицыИнтеграции">ВидыЦен</Value>
-					</Property>
-					<Property name="ПолноеИмяОбъекта">
-						<Value xsi:type="xs:string">Справочник.ВидыЦен</Value>
-					</Property>
-					<Property name="ТаблицаОбъекта">
-						<Value xsi:type="xs:string"/>
-					</Property>
-					<Property name="НастройкиКомпоновкиДанных">
-						<Value xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xsi:type="dcsset:Settings">
-							<dcsset:selection>
-								<dcsset:item xsi:type="dcsset:SelectedItemField">
-									<dcsset:field>Ссылка</dcsset:field>
-									<dcsset:title>id</dcsset:title>
-								</dcsset:item>
-								<dcsset:item xsi:type="dcsset:SelectedItemField">
-									<dcsset:field>Наименование</dcsset:field>
-									<dcsset:title>name</dcsset:title>
-								</dcsset:item>
-							</dcsset:selection>
-							<dcsset:filter>
-								<dcsset:item xsi:type="dcsset:FilterItemComparison">
-									<dcsset:left xsi:type="dcscor:Field">ПометкаУдаления</dcsset:left>
 									<dcsset:comparisonType>Equal</dcsset:comparisonType>
 									<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
 								</dcsset:item>
