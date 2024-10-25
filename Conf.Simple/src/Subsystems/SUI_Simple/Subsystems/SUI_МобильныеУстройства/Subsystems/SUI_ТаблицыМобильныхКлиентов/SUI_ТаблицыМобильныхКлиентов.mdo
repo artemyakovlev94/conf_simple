@@ -36,7 +36,6 @@
   <content>Enum.SUI_ТаблицыИнтеграции</content>
   <content>InformationRegister.SUI_tbl_barcodes</content>
   <content>InformationRegister.SUI_tbl_cells</content>
-  <content>InformationRegister.SUI_tbl_classifier_units</content>
   <content>InformationRegister.SUI_tbl_countragents</content>
   <content>InformationRegister.SUI_tbl_goods</content>
   <content>InformationRegister.SUI_tbl_label_templates</content>

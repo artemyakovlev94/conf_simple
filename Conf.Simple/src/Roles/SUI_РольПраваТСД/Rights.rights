@@ -463,7 +463,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_tbl_classifier_units</name>
+		<name>InformationRegister.Удалить_SUI_tbl_classifier_units</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

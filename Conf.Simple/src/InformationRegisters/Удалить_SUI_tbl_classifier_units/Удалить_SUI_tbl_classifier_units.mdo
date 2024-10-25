@@ -9,14 +9,14 @@
     <recordType typeId="1906a100-5bc5-4c23-ac49-c255d1ec07d7" valueTypeId="3dc7d463-670c-4c97-bddd-f5a6488f62bc"/>
     <recordManagerType typeId="5f8b5c33-45bd-4a1c-80f9-e2f509645468" valueTypeId="55db3c7b-8dc0-42ea-9bca-f523c6ce9fb5"/>
   </producedTypes>
-  <name>SUI_tbl_classifier_units</name>
+  <name>Удалить_SUI_tbl_classifier_units</name>
   <synonym>
     <key>ru</key>
-    <value>Таблица Единицы измерения (SUI)</value>
+    <value>(не используется) Таблица Единицы измерения (SUI)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
-  <defaultRecordForm>InformationRegister.SUI_tbl_classifier_units.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultRecordForm>InformationRegister.Удалить_SUI_tbl_classifier_units.Form.ФормаЗаписи</defaultRecordForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>

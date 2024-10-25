@@ -7,5 +7,4 @@
   </synonym>
   <location>Constant.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</location>
   <privilegedGetMode>true</privilegedGetMode>
-  <content>InformationRegister.SUI_tbl_classifier_units</content>
 </mdclass:FunctionalOption>

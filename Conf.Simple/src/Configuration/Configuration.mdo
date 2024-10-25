@@ -424,7 +424,6 @@
   <informationRegisters>InformationRegister.SUI_docs_tbl_series</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_barcodes</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_cells</informationRegisters>
-  <informationRegisters>InformationRegister.SUI_tbl_classifier_units</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_countragents</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_goods</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_label_templates</informationRegisters>
@@ -446,6 +445,7 @@
   <informationRegisters>InformationRegister.SUI_СообщенияОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.SUI_СостоянияМобильныхУстройств</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ТаблицыКПерезаписиВМУ</informationRegisters>
+  <informationRegisters>InformationRegister.Удалить_SUI_tbl_classifier_units</informationRegisters>
   <informationRegisters>InformationRegister.Удалить_SUI_tbl_price_types</informationRegisters>
   <informationRegisters>InformationRegister.Удалить_SUI_tbl_prices</informationRegisters>
   <informationRegisters>InformationRegister.Удалить_SUI_tbl_types_goods</informationRegisters>

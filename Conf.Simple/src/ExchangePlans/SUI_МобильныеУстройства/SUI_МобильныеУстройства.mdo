@@ -128,10 +128,6 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>InformationRegister.SUI_tbl_classifier_units</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
     <mdObject>InformationRegister.SUI_tbl_properties</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
