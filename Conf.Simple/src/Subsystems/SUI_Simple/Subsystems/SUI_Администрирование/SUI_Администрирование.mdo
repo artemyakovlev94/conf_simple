@@ -47,6 +47,18 @@
   <content>Constant.SUI_СоздаватьШтрихкодыИзТСД</content>
   <content>InformationRegister.SUI_СообщенияОбменаДанными</content>
   <content>InformationRegister.SUI_СообщенияМобильныхУстройств</content>
+  <content>CommonTemplate.SUI_ПредопределенныеБухгалтерия</content>
+  <content>CommonTemplate.SUI_ПредопределенныеБухгалтерияДокументы</content>
+  <content>CommonTemplate.SUI_ПредопределенныеЕРП</content>
+  <content>CommonTemplate.SUI_ПредопределенныеЕРПДокументы</content>
+  <content>CommonTemplate.SUI_ПредопределенныеКАДокументы</content>
+  <content>CommonTemplate.SUI_ПредопределенныеРозница23</content>
+  <content>CommonTemplate.SUI_ПредопределенныеРозница30</content>
+  <content>CommonTemplate.SUI_ПредопределенныеРозница30Документы</content>
+  <content>CommonTemplate.SUI_ПредопределенныеУправлениеНашейФирмой</content>
+  <content>CommonTemplate.SUI_ПредопределенныеУправлениеНашейФирмойДокументы</content>
+  <content>CommonTemplate.SUI_ПредопределенныеУправлениеТорговлей11</content>
+  <content>CommonTemplate.SUI_ПредопределенныеУправлениеТорговлей11Документы</content>
   <subsystems>SUI_КонфигурацииПриложений</subsystems>
   <subsystems>SUI_Логирование</subsystems>
   <subsystems>SUI_Справочники</subsystems>
