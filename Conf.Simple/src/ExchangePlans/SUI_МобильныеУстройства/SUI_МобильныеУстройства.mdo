@@ -120,10 +120,6 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>InformationRegister.SUI_tbl_series</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
     <mdObject>InformationRegister.SUI_tbl_cells</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
