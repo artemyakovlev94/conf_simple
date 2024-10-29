@@ -26,6 +26,9 @@
 				<Property name="ИмяОбъектаМетаданных">
 					<Value xsi:type="xs:string">ПриходнаяНакладная</Value>
 				</Property>
+				<Property name="СинонимОбъектаМетаданных">
+					<Value xsi:type="xs:string">ПриходнаяНакладная</Value>
+				</Property>
 				<Property name="КонтролироватьДокумент">
 					<Value xsi:type="xs:boolean">true</Value>
 				</Property>
@@ -664,6 +667,9 @@
 				<Property name="ИмяОбъектаМетаданных">
 					<Value xsi:type="xs:string">РасходнаяНакладная</Value>
 				</Property>
+				<Property name="СинонимОбъектаМетаданных">
+					<Value xsi:type="xs:string">РасходнаяНакладная</Value>
+				</Property>
 				<Property name="КонтролироватьДокумент">
 					<Value xsi:type="xs:boolean">true</Value>
 				</Property>
@@ -1279,6 +1285,9 @@
 					<Value xsi:type="xs:boolean">false</Value>
 				</Property>
 				<Property name="ИмяОбъектаМетаданных">
+					<Value xsi:type="xs:string">ПеремещениеЗапасов</Value>
+				</Property>
+				<Property name="СинонимОбъектаМетаданных">
 					<Value xsi:type="xs:string">ПеремещениеЗапасов</Value>
 				</Property>
 				<Property name="КонтролироватьДокумент">
@@ -1905,6 +1914,9 @@ odCUINGBINGA0LDRgdGF0L7QttC00LXQvdC40Y/QvNC4LiJ9</Value>
 				<Property name="ИмяОбъектаМетаданных">
 					<Value xsi:type="xs:string">ИнвентаризацияЗапасов</Value>
 				</Property>
+				<Property name="СинонимОбъектаМетаданных">
+					<Value xsi:type="xs:string">ИнвентаризацияЗапасов</Value>
+				</Property>
 				<Property name="КонтролироватьДокумент">
 					<Value xsi:type="xs:boolean">false</Value>
 				</Property>
@@ -2491,6 +2503,9 @@ odCUINGBINGA0LDRgdGF0L7QttC00LXQvdC40Y/QvNC4LiJ9</Value>
 				<Property name="ИмяОбъектаМетаданных">
 					<Value xsi:type="xs:string">СборкаЗапасов</Value>
 				</Property>
+				<Property name="СинонимОбъектаМетаданных">
+					<Value xsi:type="xs:string">СборкаЗапасов</Value>
+				</Property>
 				<Property name="КонтролироватьДокумент">
 					<Value xsi:type="xs:boolean">true</Value>
 				</Property>
@@ -3046,6 +3061,9 @@ odCUINGBINGA0LDRgdGF0L7QttC00LXQvdC40Y/QvNC4LiJ9</Value>
 					<Value xsi:type="xs:boolean">false</Value>
 				</Property>
 				<Property name="ИмяОбъектаМетаданных">
+					<Value xsi:type="xs:string">СборкаЗапасов</Value>
+				</Property>
+				<Property name="СинонимОбъектаМетаданных">
 					<Value xsi:type="xs:string">СборкаЗапасов</Value>
 				</Property>
 				<Property name="КонтролироватьДокумент">
