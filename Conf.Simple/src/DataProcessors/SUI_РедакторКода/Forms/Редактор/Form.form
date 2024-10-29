@@ -1819,8 +1819,7 @@
     </title>
     <id>25</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>ValueList</types>
     </valueType>
     <view>
       <common>true</common>
@@ -1828,6 +1827,12 @@
     <edit>
       <common>true</common>
     </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </itemValueType>
+    </extInfo>
   </attributes>
   <formCommands>
     <name>КонструкторЗапроса</name>
@@ -2306,8 +2311,7 @@
   <parameters>
     <name>ПредопределенныйТекст</name>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>ValueList</types>
     </valueType>
   </parameters>
   <parameters>
