@@ -1165,7 +1165,7 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.SUI_ФормаВыбораЗначений</name>
+		<name>CommonForm.SUI_ВыборИзСписка</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

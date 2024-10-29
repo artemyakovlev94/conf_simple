@@ -55,7 +55,7 @@
   <content>CommonForm.SUI_ВыгрузкаДокументаНаТСД</content>
   <content>CommonForm.SUI_ЗагрузкаДокументаИзТСД</content>
   <content>CommonForm.SUI_КонструкторЗапроса</content>
-  <content>CommonForm.SUI_ФормаВыбораЗначений</content>
+  <content>CommonForm.SUI_ВыборИзСписка</content>
   <content>CommonForm.SUI_ЛогированиеHTTPЗапросов</content>
   <content>CommonCommand.SUI_ВыполнитьПолнуюВыгрузку</content>
   <content>CommonTemplate.SUI_КартинкаШтрихкода</content>

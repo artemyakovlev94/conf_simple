@@ -356,6 +356,7 @@
   <commonForms>CommonForm.SUI_QRКодДляПодключенияМобильногоПриложения</commonForms>
   <commonForms>CommonForm.SUI_АутентификацияВСервисе</commonForms>
   <commonForms>CommonForm.SUI_ВерсияДанных</commonForms>
+  <commonForms>CommonForm.SUI_ВыборИзСписка</commonForms>
   <commonForms>CommonForm.SUI_ВыгрузкаДокументаНаТСД</commonForms>
   <commonForms>CommonForm.SUI_ЗагрузкаДокументаИзТСД</commonForms>
   <commonForms>CommonForm.SUI_ИдентификаторSimple</commonForms>
@@ -365,7 +366,6 @@
   <commonForms>CommonForm.SUI_РедактированиеВерсии</commonForms>
   <commonForms>CommonForm.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</commonForms>
   <commonForms>CommonForm.SUI_УпрощеннаяНастройкаСхемыКомпоновкиДанных</commonForms>
-  <commonForms>CommonForm.SUI_ФормаВыбораЗначений</commonForms>
   <catalogs>Catalog.SUI_КонфигурацииПриложений</catalogs>
   <catalogs>Catalog.SUI_НастройкиДокументов</catalogs>
   <catalogs>Catalog.SUI_НастройкиКонфигурацийПриложений</catalogs>

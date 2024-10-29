@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Выбор</value>
+  </title>
   <items xsi:type="form:Table">
     <name>Список</name>
     <id>1</id>
@@ -253,7 +257,6 @@
     <autoMaxRowsCount>true</autoMaxRowsCount>
     <choiceMode>true</choiceMode>
     <rowSelectionMode>Row</rowSelectionMode>
-    <header>true</header>
     <headerHeight>1</headerHeight>
     <footerHeight>1</footerHeight>
     <horizontalScrollBar>AutoUse</horizontalScrollBar>
@@ -265,6 +268,7 @@
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
     <fileDragMode>AsFileRef</fileDragMode>
+    <viewStatusLocation>None</viewStatusLocation>
   </items>
   <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
@@ -310,6 +314,19 @@
       <itemValueType/>
     </extInfo>
   </attributes>
+  <parameters>
+    <name>Заголовок</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>СписокВыбора</name>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
