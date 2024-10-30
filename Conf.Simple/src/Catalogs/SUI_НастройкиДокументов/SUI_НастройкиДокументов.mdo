@@ -863,7 +863,7 @@
     <name>ФормаВыбораНастроекИзФайла</name>
     <synonym>
       <key>ru</key>
-      <value>Форма выбора настроек из файла</value>
+      <value>Выбор настроек документов</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
