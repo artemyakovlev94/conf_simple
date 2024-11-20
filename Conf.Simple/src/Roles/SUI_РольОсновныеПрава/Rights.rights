@@ -119,13 +119,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.SUI_ИспользоватьТаблицу_ВидыЦен</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonForm.SUI_АутентификацияВСервисе</name>
 		<right>
 			<name>View</name>
@@ -616,7 +609,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_tbl_classifier_units</name>
+		<name>InformationRegister.Удалить_SUI_tbl_classifier_units</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -653,7 +646,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_tbl_prices</name>
+		<name>InformationRegister.Удалить_SUI_tbl_prices</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -700,7 +693,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_tbl_types_goods</name>
+		<name>InformationRegister.Удалить_SUI_tbl_types_goods</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -812,17 +805,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.SUI_КонсольПроизвольногоАлгоритма</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.SUI_ОчередьЗаданий.Attribute.Создано</name>
 		<right>
 			<name>View</name>
@@ -866,7 +848,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_tbl_price_types</name>
+		<name>InformationRegister.Удалить_SUI_tbl_price_types</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -877,13 +859,6 @@
 		</right>
 		<right>
 			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.SUI_ИспользоватьТаблицу_ЦеныНоменклатуры</name>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -939,13 +914,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -1197,7 +1165,7 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.SUI_ФормаВыбораЗначений</name>
+		<name>CommonForm.SUI_ВыборИзСписка</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1864,13 +1832,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.SUI_ИспользоватьТаблицу_ВидыНоменклатуры</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
 		</right>
 	</object>
 	<object>

@@ -27,6 +27,67 @@
   <content>CommonPicture.SUI_КоллекцияВидыСобытийЖурналаРегистрации</content>
   <content>CommonPicture.SUI_ЗагрузитьСхемуИзФайла</content>
   <content>CommonPicture.SUI_Ошибка32</content>
+  <content>CommonPicture.SUI_QR_код</content>
+  <content>CommonPicture.SUI_QRКодДляПечатныхФорм</content>
+  <content>CommonPicture.SUI_ВидыОбъектовМетаданных</content>
+  <content>CommonPicture.SUI_ВыгрузитьВТСД</content>
+  <content>CommonPicture.SUI_ВыгрузитьВФайл</content>
+  <content>CommonPicture.SUI_ДлительнаяОперация48</content>
+  <content>CommonPicture.SUI_Документ</content>
+  <content>CommonPicture.SUI_ДокументВРаботе</content>
+  <content>CommonPicture.SUI_ДокументВыгружен</content>
+  <content>CommonPicture.SUI_ДокументЗавершен</content>
+  <content>CommonPicture.SUI_ДокументЗагружен</content>
+  <content>CommonPicture.SUI_ДокументНовый</content>
+  <content>CommonPicture.SUI_ДокументОжидание</content>
+  <content>CommonPicture.SUI_ДокументОтменен</content>
+  <content>CommonPicture.SUI_ДокументыСиний32</content>
+  <content>CommonPicture.SUI_Загрузить</content>
+  <content>CommonPicture.SUI_ЗагрузитьИзТСД</content>
+  <content>CommonPicture.SUI_ЗагрузитьИзФайла</content>
+  <content>CommonPicture.SUI_ЗакомментироватьТекст</content>
+  <content>CommonPicture.SUI_ЗаполнитьПоШаблону</content>
+  <content>CommonPicture.SUI_ЗаполнитьФорму</content>
+  <content>CommonPicture.SUI_Звездочка</content>
+  <content>CommonPicture.SUI_ЗеленаяГалка</content>
+  <content>CommonPicture.SUI_ИконкаSimpleUI</content>
+  <content>CommonPicture.SUI_Информация32</content>
+  <content>CommonPicture.SUI_КартинкаПереключателя</content>
+  <content>CommonPicture.SUI_МобильныйТелефонВРуке</content>
+  <content>CommonPicture.SUI_ОжидаемаяДлительнаяОперация48</content>
+  <content>CommonPicture.SUI_ОкПлюсМинус</content>
+  <content>CommonPicture.SUI_Остановить</content>
+  <content>CommonPicture.SUI_ОформлениеЗнакКрест</content>
+  <content>CommonPicture.SUI_ОформлениеЗнакВосклицательныйЗнак</content>
+  <content>CommonPicture.SUI_ОформлениеЗнакФлажок</content>
+  <content>CommonPicture.SUI_ОформлениеКрест</content>
+  <content>CommonPicture.SUI_ОформлениеФлажок</content>
+  <content>CommonPicture.SUI_ОшибкаКрасный</content>
+  <content>CommonPicture.SUI_ПереместитьВсеВлево</content>
+  <content>CommonPicture.SUI_ПереместитьВсеВправо</content>
+  <content>CommonPicture.SUI_ПодсистемаСклад</content>
+  <content>CommonPicture.SUI_ПодсистемаSimple</content>
+  <content>CommonPicture.SUI_ПометитьНаУдаление</content>
+  <content>CommonPicture.SUI_ПредупреждениеЖелтый</content>
+  <content>CommonPicture.SUI_Проверено</content>
+  <content>CommonPicture.SUI_ПровереноПредупреждениеОшибка</content>
+  <content>CommonPicture.SUI_РазделСклад16</content>
+  <content>CommonPicture.SUI_РазрешитьРедактированиеРеквизитовОбъекта</content>
+  <content>CommonPicture.SUI_СканерШтрихкодов</content>
+  <content>CommonPicture.SUI_Смартфон</content>
+  <content>CommonPicture.SUI_СообщитьОПроблеме</content>
+  <content>CommonPicture.SUI_СостояниеЖелтый</content>
+  <content>CommonPicture.SUI_СостояниеЗеленный</content>
+  <content>CommonPicture.SUI_СостояниеКрасный</content>
+  <content>CommonPicture.SUI_СостояниеСерый</content>
+  <content>CommonPicture.SUI_Состояния</content>
+  <content>CommonPicture.SUI_СостоянияДокументов</content>
+  <content>CommonPicture.SUI_ТипИдентификатор</content>
+  <content>CommonPicture.SUI_УбратьКомментарииВТексте</content>
+  <content>CommonPicture.SUI_УбратьПереносыСтрок</content>
+  <content>CommonPicture.SUI_Удалить</content>
+  <content>CommonPicture.SUI_УдалитьНепосредственно</content>
+  <content>CommonPicture.SUI_Штрихкод</content>
   <subsystems>SUI_Администрирование</subsystems>
   <subsystems>SUI_ДокументыОбмена</subsystems>
   <subsystems>SUI_МобильныеУстройства</subsystems>

@@ -32,7 +32,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ООО &quot;Симпл&quot;</vendor>
-  <version>1.0.3.27</version>
+  <version>1.0.4.18</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <logo/>
   <copyright>
@@ -45,7 +45,7 @@
   </vendorInformationAddress>
   <configurationInformationAddress>
     <key>ru</key>
-    <value>https://github.com/artemyakovlev94/simple</value>
+    <value>https://github.com/simple-kit/simple-1C</value>
   </configurationInformationAddress>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.17</compatibilityMode>
@@ -62,6 +62,7 @@
   <commonPictures>CommonPicture.SUI_QRКодДляПечатныхФорм</commonPictures>
   <commonPictures>CommonPicture.SUI_ВидыОбъектовМетаданных</commonPictures>
   <commonPictures>CommonPicture.SUI_ВыгрузитьВТСД</commonPictures>
+  <commonPictures>CommonPicture.SUI_ВыгрузитьВФайл</commonPictures>
   <commonPictures>CommonPicture.SUI_ДлительнаяОперация48</commonPictures>
   <commonPictures>CommonPicture.SUI_Документ</commonPictures>
   <commonPictures>CommonPicture.SUI_ДокументВРаботе</commonPictures>
@@ -72,9 +73,13 @@
   <commonPictures>CommonPicture.SUI_ДокументОжидание</commonPictures>
   <commonPictures>CommonPicture.SUI_ДокументОтменен</commonPictures>
   <commonPictures>CommonPicture.SUI_ДокументыСиний32</commonPictures>
+  <commonPictures>CommonPicture.SUI_Загрузить</commonPictures>
   <commonPictures>CommonPicture.SUI_ЗагрузитьИзТСД</commonPictures>
+  <commonPictures>CommonPicture.SUI_ЗагрузитьИзФайла</commonPictures>
   <commonPictures>CommonPicture.SUI_ЗагрузитьСхемуИзФайла</commonPictures>
   <commonPictures>CommonPicture.SUI_ЗакомментироватьТекст</commonPictures>
+  <commonPictures>CommonPicture.SUI_ЗаполнитьПоШаблону</commonPictures>
+  <commonPictures>CommonPicture.SUI_ЗаполнитьФорму</commonPictures>
   <commonPictures>CommonPicture.SUI_Звездочка</commonPictures>
   <commonPictures>CommonPicture.SUI_ЗеленаяГалка</commonPictures>
   <commonPictures>CommonPicture.SUI_ИконкаSimpleUI</commonPictures>
@@ -82,6 +87,7 @@
   <commonPictures>CommonPicture.SUI_КартинкаПереключателя</commonPictures>
   <commonPictures>CommonPicture.SUI_КоллекцияВидыСобытийЖурналаРегистрации</commonPictures>
   <commonPictures>CommonPicture.SUI_МобильныйТелефонВРуке</commonPictures>
+  <commonPictures>CommonPicture.SUI_ОжидаемаяДлительнаяОперация48</commonPictures>
   <commonPictures>CommonPicture.SUI_ОкПлюсМинус</commonPictures>
   <commonPictures>CommonPicture.SUI_Остановить</commonPictures>
   <commonPictures>CommonPicture.SUI_ОформлениеЗнакВосклицательныйЗнак</commonPictures>
@@ -100,6 +106,7 @@
   <commonPictures>CommonPicture.SUI_Проверено</commonPictures>
   <commonPictures>CommonPicture.SUI_ПровереноПредупреждениеОшибка</commonPictures>
   <commonPictures>CommonPicture.SUI_РазделСклад16</commonPictures>
+  <commonPictures>CommonPicture.SUI_РазрешитьРедактированиеРеквизитовОбъекта</commonPictures>
   <commonPictures>CommonPicture.SUI_СканерШтрихкодов</commonPictures>
   <commonPictures>CommonPicture.SUI_Смартфон</commonPictures>
   <commonPictures>CommonPicture.SUI_СообщитьОПроблеме</commonPictures>
@@ -114,6 +121,7 @@
   <commonPictures>CommonPicture.SUI_УбратьПереносыСтрок</commonPictures>
   <commonPictures>CommonPicture.SUI_Удалить</commonPictures>
   <commonPictures>CommonPicture.SUI_УдалитьНепосредственно</commonPictures>
+  <commonPictures>CommonPicture.SUI_Штрихкод</commonPictures>
   <roles>Role.SUI_ИнтерактивноеУдалениеДокументовСборШтрихкодов</roles>
   <roles>Role.SUI_ИнтерактивноеУдалениеКонфигурацийПриложений</roles>
   <roles>Role.SUI_ИнтерактивноеУдалениеМобильныхКлиентов</roles>
@@ -189,6 +197,7 @@
   <commonModules>CommonModule.SUI_НастройкиДокументовВызовСервера</commonModules>
   <commonModules>CommonModule.SUI_НастройкиДокументовКлиент</commonModules>
   <commonModules>CommonModule.SUI_НастройкиДокументовКлиентСервер</commonModules>
+  <commonModules>CommonModule.SUI_НастройкиДокументовПовтИсп</commonModules>
   <commonModules>CommonModule.SUI_НастройкиДокументовСервер</commonModules>
   <commonModules>CommonModule.SUI_НастройкиМетаданныхВызовСервера</commonModules>
   <commonModules>CommonModule.SUI_НастройкиМетаданныхКлиент</commonModules>
@@ -217,8 +226,8 @@
   <commonModules>CommonModule.SUI_РегламентныеЗадания</commonModules>
   <commonModules>CommonModule.SUI_РегламентныеЗаданияКлиент</commonModules>
   <commonModules>CommonModule.SUI_РегламентныеЗаданияКлиентСервер</commonModules>
-  <commonModules>CommonModule.SUI_РедакторJSON</commonModules>
-  <commonModules>CommonModule.SUI_РедакторJSONКлиент</commonModules>
+  <commonModules>CommonModule.SUI_РедакторКодаКлиент</commonModules>
+  <commonModules>CommonModule.SUI_РедакторКодаКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_РепозиторийРасширенияВызовСервера</commonModules>
   <commonModules>CommonModule.SUI_РепозиторийРасширенияКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_СерииНоменклатуры</commonModules>
@@ -259,7 +268,6 @@
   <eventSubscriptions>EventSubscription.SUI_ИнтеграцияВКонфигурациюРегистрыСведенийПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_ИнтеграцияВКонфигурациюСправочникиПередУдалением</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_ИнтеграцияВКонфигурациюСправочникиПриЗаписи</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.SUI_КонстантыИспользоватьТаблицуПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_КонстантыИспользоватьТаблицуПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_МобильноеУстройствоПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_МобильноеУстройствоПередУдалением</eventSubscriptions>
@@ -270,9 +278,8 @@
   <functionalOptions>FunctionalOption.SUI_ИспользоватьДополнительныеРеквизитыТаблиц</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьЗапросыАвторизацииМУ</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьПользовательскийЗапрос</functionalOptions>
-  <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ВидыНоменклатуры</functionalOptions>
-  <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ВидыЦен</functionalOptions>
-  <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</functionalOptions>
+  <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторJSON</functionalOptions>
+  <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторКодаBSL</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_Контрагенты</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_Номенклатура</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ПользователиТСД</functionalOptions>
@@ -280,7 +287,6 @@
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_Склады</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_УпаковкиНоменклатуры</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ХарактеристикиНоменклатуры</functionalOptions>
-  <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ЦеныНоменклатуры</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ШаблоныЭтикеток</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ШтрихкодыНоменклатуры</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ШтрихкодыУпаковок</functionalOptions>
@@ -306,9 +312,8 @@
   <constants>Constant.SUI_ИспользоватьДополнительныеРеквизитыТаблиц</constants>
   <constants>Constant.SUI_ИспользоватьЗапросыАвторизацииМУ</constants>
   <constants>Constant.SUI_ИспользоватьПользовательскийЗапрос</constants>
-  <constants>Constant.SUI_ИспользоватьТаблицу_ВидыНоменклатуры</constants>
-  <constants>Constant.SUI_ИспользоватьТаблицу_ВидыЦен</constants>
-  <constants>Constant.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</constants>
+  <constants>Constant.SUI_ИспользоватьРедакторJSON</constants>
+  <constants>Constant.SUI_ИспользоватьРедакторКодаBSL</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_Контрагенты</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_Номенклатура</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_ПользователиТСД</constants>
@@ -316,7 +321,6 @@
   <constants>Constant.SUI_ИспользоватьТаблицу_Склады</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_УпаковкиНоменклатуры</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_ХарактеристикиНоменклатуры</constants>
-  <constants>Constant.SUI_ИспользоватьТаблицу_ЦеныНоменклатуры</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_ШаблоныЭтикеток</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_ШтрихкодыНоменклатуры</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_ШтрихкодыУпаковок</constants>
@@ -349,11 +353,10 @@
   <constants>Constant.SUI_ХранениеЛоговHTTPЗапросовВДнях</constants>
   <constants>Constant.SUI_ХранениеОбработанныхДокументовОбмена</constants>
   <constants>Constant.SUI_ХранениеСообщенийМобильныхУстройствВДнях</constants>
-  <constants>Constant.Удалить_SUI_РЗ_ФормированиеСлужебныхПакетов</constants>
   <commonForms>CommonForm.SUI_QRКодДляПодключенияМобильногоПриложения</commonForms>
-  <commonForms>CommonForm.SUI_АлгоритмПолученияШтрихкодаДокумента</commonForms>
   <commonForms>CommonForm.SUI_АутентификацияВСервисе</commonForms>
   <commonForms>CommonForm.SUI_ВерсияДанных</commonForms>
+  <commonForms>CommonForm.SUI_ВыборИзСписка</commonForms>
   <commonForms>CommonForm.SUI_ВыгрузкаДокументаНаТСД</commonForms>
   <commonForms>CommonForm.SUI_ЗагрузкаДокументаИзТСД</commonForms>
   <commonForms>CommonForm.SUI_ИдентификаторSimple</commonForms>
@@ -363,7 +366,6 @@
   <commonForms>CommonForm.SUI_РедактированиеВерсии</commonForms>
   <commonForms>CommonForm.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</commonForms>
   <commonForms>CommonForm.SUI_УпрощеннаяНастройкаСхемыКомпоновкиДанных</commonForms>
-  <commonForms>CommonForm.SUI_ФормаВыбораЗначений</commonForms>
   <catalogs>Catalog.SUI_КонфигурацииПриложений</catalogs>
   <catalogs>Catalog.SUI_НастройкиДокументов</catalogs>
   <catalogs>Catalog.SUI_НастройкиКонфигурацийПриложений</catalogs>
@@ -393,7 +395,6 @@
   <reports>Report.SUI_ОтчетПоВыработкеСотрудников</reports>
   <reports>Report.SUI_ОтчетПоЗадачамПересчет</reports>
   <dataProcessors>DataProcessor.SUI_ЗапросыКБазамДанныхМобильныхУстройств</dataProcessors>
-  <dataProcessors>DataProcessor.SUI_КонсольПроизвольногоАлгоритма</dataProcessors>
   <dataProcessors>DataProcessor.SUI_МастерНастроек</dataProcessors>
   <dataProcessors>DataProcessor.SUI_НастройкаМетаданных</dataProcessors>
   <dataProcessors>DataProcessor.SUI_ОбновлениеSimple</dataProcessors>
@@ -402,6 +403,8 @@
   <dataProcessors>DataProcessor.SUI_РабочееМестоОператораОбмена</dataProcessors>
   <dataProcessors>DataProcessor.SUI_РегистрацияИзменений</dataProcessors>
   <dataProcessors>DataProcessor.SUI_РегламентныеЗадания</dataProcessors>
+  <dataProcessors>DataProcessor.SUI_РедакторJSON</dataProcessors>
+  <dataProcessors>DataProcessor.SUI_РедакторКода</dataProcessors>
   <dataProcessors>DataProcessor.SUI_ФормаДополнительнаяИнформация</dataProcessors>
   <dataProcessors>DataProcessor.SUI_ЦентрНастроек</dataProcessors>
   <informationRegisters>InformationRegister.SUI_docs</informationRegisters>
@@ -412,16 +415,12 @@
   <informationRegisters>InformationRegister.SUI_docs_tbl_series</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_barcodes</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_cells</informationRegisters>
-  <informationRegisters>InformationRegister.SUI_tbl_classifier_units</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_countragents</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_goods</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_label_templates</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_marking_codes</informationRegisters>
-  <informationRegisters>InformationRegister.SUI_tbl_price_types</informationRegisters>
-  <informationRegisters>InformationRegister.SUI_tbl_prices</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_properties</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_series</informationRegisters>
-  <informationRegisters>InformationRegister.SUI_tbl_types_goods</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_units</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_warehouses</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ДополнительныеНастройкиТаблицИнтеграции</informationRegisters>
@@ -437,4 +436,8 @@
   <informationRegisters>InformationRegister.SUI_СообщенияОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.SUI_СостоянияМобильныхУстройств</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ТаблицыКПерезаписиВМУ</informationRegisters>
+  <informationRegisters>InformationRegister.Удалить_SUI_tbl_classifier_units</informationRegisters>
+  <informationRegisters>InformationRegister.Удалить_SUI_tbl_price_types</informationRegisters>
+  <informationRegisters>InformationRegister.Удалить_SUI_tbl_prices</informationRegisters>
+  <informationRegisters>InformationRegister.Удалить_SUI_tbl_types_goods</informationRegisters>
 </mdclass:Configuration>

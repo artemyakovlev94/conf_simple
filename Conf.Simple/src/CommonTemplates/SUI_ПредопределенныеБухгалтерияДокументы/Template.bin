@@ -26,6 +26,9 @@
 				<Property name="ИмяОбъектаМетаданных">
 					<Value xsi:type="xs:string">РеализацияТоваровУслуг</Value>
 				</Property>
+				<Property name="СинонимОбъектаМетаданных">
+					<Value xsi:type="xs:string">РеализацияТоваровУслуг</Value>
+				</Property>
 				<Property name="КонтролироватьДокумент">
 					<Value xsi:type="xs:boolean">true</Value>
 				</Property>
@@ -612,6 +615,9 @@
 				<Property name="ИмяОбъектаМетаданных">
 					<Value xsi:type="xs:string">ПоступлениеТоваровУслуг</Value>
 				</Property>
+				<Property name="СинонимОбъектаМетаданных">
+					<Value xsi:type="xs:string">ПоступлениеТоваровУслуг</Value>
+				</Property>
 				<Property name="КонтролироватьДокумент">
 					<Value xsi:type="xs:boolean">true</Value>
 				</Property>
@@ -1188,6 +1194,9 @@
 				<Property name="ИмяОбъектаМетаданных">
 					<Value xsi:type="xs:string">ПеремещениеТоваров</Value>
 				</Property>
+				<Property name="СинонимОбъектаМетаданных">
+					<Value xsi:type="xs:string">ПеремещениеТоваров</Value>
+				</Property>
 				<Property name="КонтролироватьДокумент">
 					<Value xsi:type="xs:boolean">false</Value>
 				</Property>
@@ -1676,6 +1685,9 @@
 				<Property name="ИмяОбъектаМетаданных">
 					<Value xsi:type="xs:string">ИнвентаризацияОС</Value>
 				</Property>
+				<Property name="СинонимОбъектаМетаданных">
+					<Value xsi:type="xs:string">ИнвентаризацияОС</Value>
+				</Property>
 				<Property name="КонтролироватьДокумент">
 					<Value xsi:type="xs:boolean">true</Value>
 				</Property>
@@ -2161,6 +2173,9 @@
 				<Property name="ИмяОбъектаМетаданных">
 					<Value xsi:type="xs:string">ИнвентаризацияТоваровНаСкладе</Value>
 				</Property>
+				<Property name="СинонимОбъектаМетаданных">
+					<Value xsi:type="xs:string">ИнвентаризацияТоваровНаСкладе</Value>
+				</Property>
 				<Property name="КонтролироватьДокумент">
 					<Value xsi:type="xs:boolean">false</Value>
 				</Property>
@@ -2642,6 +2657,9 @@
 				<Property name="ИмяОбъектаМетаданных">
 					<Value xsi:type="xs:string">СписаниеТоваров</Value>
 				</Property>
+				<Property name="СинонимОбъектаМетаданных">
+					<Value xsi:type="xs:string">СписаниеТоваров</Value>
+				</Property>
 				<Property name="КонтролироватьДокумент">
 					<Value xsi:type="xs:boolean">false</Value>
 				</Property>
@@ -3121,6 +3139,9 @@
 					<Value xsi:type="xs:boolean">false</Value>
 				</Property>
 				<Property name="ИмяОбъектаМетаданных">
+					<Value xsi:type="xs:string">СписаниеОС</Value>
+				</Property>
+				<Property name="СинонимОбъектаМетаданных">
 					<Value xsi:type="xs:string">СписаниеОС</Value>
 				</Property>
 				<Property name="КонтролироватьДокумент">
@@ -3606,6 +3627,9 @@
 					<Value xsi:type="xs:boolean">false</Value>
 				</Property>
 				<Property name="ИмяОбъектаМетаданных">
+					<Value xsi:type="xs:string">СписаниеКодовМаркировкиИСМП</Value>
+				</Property>
+				<Property name="СинонимОбъектаМетаданных">
 					<Value xsi:type="xs:string">СписаниеКодовМаркировкиИСМП</Value>
 				</Property>
 				<Property name="КонтролироватьДокумент">
@@ -4159,6 +4183,9 @@
 				<Property name="ИмяОбъектаМетаданных">
 					<Value xsi:type="xs:string">ПринятиеКУчетуОС</Value>
 				</Property>
+				<Property name="СинонимОбъектаМетаданных">
+					<Value xsi:type="xs:string">ПринятиеКУчетуОС</Value>
+				</Property>
 				<Property name="КонтролироватьДокумент">
 					<Value xsi:type="xs:boolean">false</Value>
 				</Property>
@@ -4643,6 +4670,9 @@
 					<Value xsi:type="xs:boolean">false</Value>
 				</Property>
 				<Property name="ИмяОбъектаМетаданных">
+					<Value xsi:type="xs:string">ПоступлениеТоваровУслуг</Value>
+				</Property>
+				<Property name="СинонимОбъектаМетаданных">
 					<Value xsi:type="xs:string">ПоступлениеТоваровУслуг</Value>
 				</Property>
 				<Property name="КонтролироватьДокумент">

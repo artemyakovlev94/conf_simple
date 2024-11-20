@@ -106,13 +106,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.SUI_ИспользоватьТаблицу_ВидыЦен</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>HTTPService.SUI_Exchange.URLTemplate.ТоварыВЯчейках.Method.Получить</name>
 		<right>
 			<name>Use</name>
@@ -463,7 +456,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_tbl_classifier_units</name>
+		<name>InformationRegister.Удалить_SUI_tbl_classifier_units</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -492,7 +485,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_tbl_prices</name>
+		<name>InformationRegister.Удалить_SUI_tbl_prices</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -545,7 +538,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_tbl_types_goods</name>
+		<name>InformationRegister.Удалить_SUI_tbl_types_goods</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -721,7 +714,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_tbl_price_types</name>
+		<name>InformationRegister.Удалить_SUI_tbl_price_types</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -736,13 +729,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.SUI_ИспользоватьТаблицу_ЦеныНоменклатуры</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -781,13 +767,6 @@
 		</right>
 		<right>
 			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</name>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1131,13 +1110,6 @@
 		</right>
 		<right>
 			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.SUI_ИспользоватьТаблицу_ВидыНоменклатуры</name>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>

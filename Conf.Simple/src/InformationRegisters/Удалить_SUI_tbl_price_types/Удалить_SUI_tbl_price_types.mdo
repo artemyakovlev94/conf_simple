@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="849c6b92-eb4e-47fe-a12d-872467821310">
+  <producedTypes>
+    <selectionType typeId="60dfee50-99ac-4639-ac86-08540871d03b" valueTypeId="5bd28554-dabb-4ec1-8591-cb145f25b690"/>
+    <listType typeId="99c79c30-8047-45f0-8a25-c1d21e4070d1" valueTypeId="966ecc89-aefc-4e1c-80bb-82e558e84c84"/>
+    <managerType typeId="f1fa9b0d-5cd4-49c9-9162-28151a25003c" valueTypeId="ce601d50-1d15-4f77-8c67-003381557d07"/>
+    <recordSetType typeId="d72882f8-b694-46be-82ab-5564f4c2bfeb" valueTypeId="ad06ae83-b31c-4bf1-98eb-0bde76ced731"/>
+    <recordKeyType typeId="dc8ad438-86ef-486f-8a37-bfdeb0560e02" valueTypeId="e41a0479-ca5c-49cc-9b2e-680becd0c12a"/>
+    <recordType typeId="c809f661-4350-44d2-a9b8-262a00ed5b5c" valueTypeId="96267249-ee79-4f02-817e-ab07a0a19da8"/>
+    <recordManagerType typeId="a24c1f44-79e5-4bf1-8865-b15722a20e5b" valueTypeId="480a322e-a91d-428e-b6b5-b50c8686f63a"/>
+  </producedTypes>
+  <name>Удалить_SUI_tbl_price_types</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Таблица Виды цен (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Удалить_SUI_tbl_price_types.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Запись таблицы Виды цен</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Таблица Виды цен</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Таблица &quot;Виды цен&quot; на мобильном устройстве.</value>
+  </explanation>
+  <resources uuid="f775a273-d0db-4e8b-a52d-03dd7a58355f">
+    <name>name</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование вида цены</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2ccb3976-5d93-4c8a-b031-e74a65fd3c31">
+    <name>id</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>69</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор записи. В качестве значения можно указать ссылку объекта справочника или пустую строку для автоматической генерации идентификатора регистра сведений. Автоматическая генерация идентификатора снижает производительность.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b77ebbfb-09f5-48f6-b86c-f137517cce76">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

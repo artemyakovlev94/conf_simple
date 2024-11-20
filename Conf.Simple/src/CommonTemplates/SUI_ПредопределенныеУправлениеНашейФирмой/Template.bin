@@ -103,11 +103,11 @@
 					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
 						<dcssch:name>НаборДанных1</dcssch:name>
 						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
-						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	*
-ИЗ
-	Справочник.Контрагенты КАК Контрагенты
-{ГДЕ
+						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	*
+ИЗ
+	Справочник.Контрагенты КАК Контрагенты
+{ГДЕ
 	Контрагенты.Ссылка = &amp;Ссылка}</dcssch:query>
 					</dcssch:dataSet>
 					<dcssch:settingsVariant>
@@ -174,11 +174,11 @@
 					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
 						<dcssch:name>НаборДанных1</dcssch:name>
 						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
-						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	*
-ИЗ
-	Справочник.СтруктурныеЕдиницы КАК СтруктурныеЕдиницы
-{ГДЕ
+						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	*
+ИЗ
+	Справочник.СтруктурныеЕдиницы КАК СтруктурныеЕдиницы
+{ГДЕ
 	СтруктурныеЕдиницы.Ссылка = &amp;Ссылка}</dcssch:query>
 					</dcssch:dataSet>
 					<dcssch:settingsVariant>
@@ -228,11 +228,11 @@
 					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
 						<dcssch:name>НаборДанных1</dcssch:name>
 						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
-						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	*
-ИЗ
-	Справочник.Ячейки КАК Ячейки
-{ГДЕ
+						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	*
+ИЗ
+	Справочник.Ячейки КАК Ячейки
+{ГДЕ
 	Ячейки.Ссылка = &amp;Ссылка}</dcssch:query>
 					</dcssch:dataSet>
 					<dcssch:settingsVariant>
@@ -286,11 +286,11 @@
 					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
 						<dcssch:name>НаборДанных1</dcssch:name>
 						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
-						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	*
-ИЗ
-	Справочник.Номенклатура КАК Номенклатура
-{ГДЕ
+						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	*
+ИЗ
+	Справочник.Номенклатура КАК Номенклатура
+{ГДЕ
 	Номенклатура.Ссылка = &amp;Ссылка}</dcssch:query>
 					</dcssch:dataSet>
 					<dcssch:settingsVariant>
@@ -322,7 +322,7 @@
 							<dcsset:title>unit</dcsset:title>
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>КатегорияНоменклатуры</dcsset:field>
+							<dcsset:field>КатегорияНоменклатуры.Наименование</dcsset:field>
 							<dcsset:title>type_good</dcsset:title>
 						</dcsset:item>
 					</dcsset:selection>
@@ -361,11 +361,11 @@
 					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
 						<dcssch:name>НаборДанных1</dcssch:name>
 						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
-						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	*
-ИЗ
-	Справочник.ХарактеристикиНоменклатуры КАК ХарактеристикиНоменклатуры
-{ГДЕ
+						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	*
+ИЗ
+	Справочник.ХарактеристикиНоменклатуры КАК ХарактеристикиНоменклатуры
+{ГДЕ
 	ХарактеристикиНоменклатуры.Ссылка = &amp;Ссылка}</dcssch:query>
 					</dcssch:dataSet>
 					<dcssch:settingsVariant>
@@ -419,11 +419,11 @@
 					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
 						<dcssch:name>НаборДанных1</dcssch:name>
 						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
-						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	*
-ИЗ
-	Справочник.ПартииНоменклатуры КАК ПартииНоменклатуры
-{ГДЕ
+						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	*
+ИЗ
+	Справочник.ПартииНоменклатуры КАК ПартииНоменклатуры
+{ГДЕ
 	ПартииНоменклатуры.Ссылка = &amp;Ссылка}</dcssch:query>
 					</dcssch:dataSet>
 					<dcssch:settingsVariant>
@@ -450,10 +450,6 @@
 							<dcsset:field>ГоденДо</dcsset:field>
 							<dcsset:title>production_date</dcsset:title>
 						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>Владелец.КатегорияНоменклатуры</dcsset:field>
-							<dcsset:title>type_goods</dcsset:title>
-						</dcsset:item>
 					</dcsset:selection>
 					<dcsset:item xsi:type="dcsset:StructureItemGroup">
 						<dcsset:order>
@@ -478,11 +474,11 @@
 					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
 						<dcssch:name>НаборДанных1</dcssch:name>
 						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
-						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	*
-ИЗ
-	Справочник.СерииНоменклатуры КАК СерииНоменклатуры
-{ГДЕ
+						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	*
+ИЗ
+	Справочник.СерииНоменклатуры КАК СерииНоменклатуры
+{ГДЕ
 	СерииНоменклатуры.Ссылка = &amp;Ссылка}</dcssch:query>
 					</dcssch:dataSet>
 					<dcssch:settingsVariant>
@@ -509,61 +505,6 @@
 							<dcsset:field>ДатаПроизводства</dcsset:field>
 							<dcsset:title>production_date</dcsset:title>
 						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>Владелец.КатегорияНоменклатуры</dcsset:field>
-							<dcsset:title>type_goods</dcsset:title>
-						</dcsset:item>
-					</dcsset:selection>
-					<dcsset:item xsi:type="dcsset:StructureItemGroup">
-						<dcsset:order>
-							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
-						</dcsset:order>
-						<dcsset:selection>
-							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
-						</dcsset:selection>
-					</dcsset:item>
-				</Value>
-			</row>
-			<row>
-				<Value xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">ЕдиницыИзмерения</Value>
-				<Value xsi:type="xs:string">Справочник.ПартииНоменклатуры</Value>
-				<Value xsi:type="xs:boolean">true</Value>
-				<Value xsi:type="xs:boolean">true</Value>
-				<Value xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xsi:type="dcssch:DataCompositionSchema">
-					<dcssch:dataSource>
-						<dcssch:name>ИсточникДанных1</dcssch:name>
-						<dcssch:dataSourceType>Local</dcssch:dataSourceType>
-					</dcssch:dataSource>
-					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
-						<dcssch:name>НаборДанных1</dcssch:name>
-						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
-						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	*
-ИЗ
-	Справочник.ПартииНоменклатуры КАК ПартииНоменклатуры
-{ГДЕ
-	ПартииНоменклатуры.Ссылка = &amp;Ссылка}</dcssch:query>
-					</dcssch:dataSet>
-					<dcssch:settingsVariant>
-						<dcsset:name>Основной</dcsset:name>
-						<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
-						<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
-					</dcssch:settingsVariant>
-				</Value>
-				<Value xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xsi:type="dcsset:Settings">
-					<dcsset:selection>
-						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>Ссылка</dcsset:field>
-							<dcsset:title>id</dcsset:title>
-						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>Наименование</dcsset:field>
-							<dcsset:title>code</dcsset:title>
-						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>Номер</dcsset:field>
-							<dcsset:title>name</dcsset:title>
-						</dcsset:item>
 					</dcsset:selection>
 					<dcsset:item xsi:type="dcsset:StructureItemGroup">
 						<dcsset:order>
@@ -588,11 +529,11 @@
 					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
 						<dcssch:name>НаборДанных1</dcssch:name>
 						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
-						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	*
-ИЗ
-	Справочник.ЕдиницыИзмерения КАК ЕдиницыИзмерения
-{ГДЕ
+						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	*
+ИЗ
+	Справочник.ЕдиницыИзмерения КАК ЕдиницыИзмерения
+{ГДЕ
 	ЕдиницыИзмерения.Ссылка = &amp;Ссылка}</dcssch:query>
 					</dcssch:dataSet>
 					<dcssch:settingsVariant>
@@ -662,238 +603,6 @@
 				</Value>
 			</row>
 			<row>
-				<Value xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">ВидыНоменклатуры</Value>
-				<Value xsi:type="xs:string">Справочник.КатегорииНоменклатуры</Value>
-				<Value xsi:type="xs:boolean">true</Value>
-				<Value xsi:type="xs:boolean">true</Value>
-				<Value xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xsi:type="dcssch:DataCompositionSchema">
-					<dcssch:dataSource>
-						<dcssch:name>ИсточникДанных1</dcssch:name>
-						<dcssch:dataSourceType>Local</dcssch:dataSourceType>
-					</dcssch:dataSource>
-					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
-						<dcssch:name>НаборДанных1</dcssch:name>
-						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
-						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	*
-ИЗ
-	Справочник.КатегорииНоменклатуры КАК КатегорииНоменклатуры
-{ГДЕ
-	КатегорииНоменклатуры.Ссылка = &amp;Ссылка}</dcssch:query>
-					</dcssch:dataSet>
-					<dcssch:settingsVariant>
-						<dcsset:name>Основной</dcsset:name>
-						<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
-						<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
-					</dcssch:settingsVariant>
-				</Value>
-				<Value xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xsi:type="dcsset:Settings">
-					<dcsset:userFields>
-						<dcsset:item xsi:type="dcsset:UserFieldCase">
-							<dcsset:dataPath>ПользовательскиеПоля.Поле1</dcsset:dataPath>
-							<dcsset:title>ПризнакМаркировки</dcsset:title>
-							<dcsset:cases>
-								<dcsset:item>
-									<dcsset:filter>
-										<dcsset:item xsi:type="dcsset:FilterItemComparison">
-											<dcsset:left xsi:type="dcscor:Field">ВидПродукцииИС</dcsset:left>
-											<dcsset:comparisonType>InList</dcsset:comparisonType>
-											<dcsset:right xmlns:d12p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d12p1:EnumRef.ВидыПродукцииИС">Обувь</dcsset:right>
-											<dcsset:right xmlns:d12p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d12p1:EnumRef.ВидыПродукцииИС">ЛегкаяПромышленность</dcsset:right>
-											<dcsset:right xmlns:d12p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d12p1:EnumRef.ВидыПродукцииИС">Фотоаппараты</dcsset:right>
-											<dcsset:right xmlns:d12p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d12p1:EnumRef.ВидыПродукцииИС">Велосипеды</dcsset:right>
-											<dcsset:right xmlns:d12p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d12p1:EnumRef.ВидыПродукцииИС">КреслаКоляски</dcsset:right>
-											<dcsset:right xmlns:d12p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d12p1:EnumRef.ВидыПродукцииИС">Шины</dcsset:right>
-											<dcsset:right xmlns:d12p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d12p1:EnumRef.ВидыПродукцииИС">Духи</dcsset:right>
-											<dcsset:right xmlns:d12p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d12p1:EnumRef.ВидыПродукцииИС">УпакованнаяВода</dcsset:right>
-											<dcsset:right xmlns:d12p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d12p1:EnumRef.ВидыПродукцииИС">Антисептики</dcsset:right>
-											<dcsset:right xmlns:d12p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d12p1:EnumRef.ВидыПродукцииИС">БАДы</dcsset:right>
-											<dcsset:right xmlns:d12p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d12p1:EnumRef.ВидыПродукцииИС">Табак</dcsset:right>
-											<dcsset:right xmlns:d12p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d12p1:EnumRef.ВидыПродукцииИС">АльтернативныйТабак</dcsset:right>
-											<dcsset:right xmlns:d12p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d12p1:EnumRef.ВидыПродукцииИС">НикотиносодержащаяПродукция</dcsset:right>
-											<dcsset:right xmlns:d12p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d12p1:EnumRef.ВидыПродукцииИС">МолочнаяПродукцияПодконтрольнаяВЕТИС</dcsset:right>
-											<dcsset:right xmlns:d12p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d12p1:EnumRef.ВидыПродукцииИС">МолочнаяПродукцияБезВЕТИС</dcsset:right>
-											<dcsset:right xmlns:d12p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d12p1:EnumRef.ВидыПродукцииИС">Пиво</dcsset:right>
-										</dcsset:item>
-									</dcsset:filter>
-									<dcsset:value xsi:type="xs:boolean">true</dcsset:value>
-								</dcsset:item>
-								<dcsset:item>
-									<dcsset:filter/>
-									<dcsset:value xsi:type="xs:boolean">false</dcsset:value>
-								</dcsset:item>
-							</dcsset:cases>
-						</dcsset:item>
-					</dcsset:userFields>
-					<dcsset:selection>
-						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>Ссылка</dcsset:field>
-							<dcsset:title>id</dcsset:title>
-						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>Наименование</dcsset:field>
-							<dcsset:title>name</dcsset:title>
-						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>ПользовательскиеПоля.Поле1</dcsset:field>
-							<dcsset:title>use_mark</dcsset:title>
-						</dcsset:item>
-					</dcsset:selection>
-					<dcsset:filter>
-						<dcsset:item xsi:type="dcsset:FilterItemComparison">
-							<dcsset:left xsi:type="dcscor:Field">ПометкаУдаления</dcsset:left>
-							<dcsset:comparisonType>Equal</dcsset:comparisonType>
-							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
-						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:FilterItemComparison">
-							<dcsset:left xsi:type="dcscor:Field">ЭтоГруппа</dcsset:left>
-							<dcsset:comparisonType>Equal</dcsset:comparisonType>
-							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
-						</dcsset:item>
-					</dcsset:filter>
-					<dcsset:item xsi:type="dcsset:StructureItemGroup">
-						<dcsset:order>
-							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
-						</dcsset:order>
-						<dcsset:selection>
-							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
-						</dcsset:selection>
-					</dcsset:item>
-				</Value>
-			</row>
-			<row>
-				<Value xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">ВидыЦен</Value>
-				<Value xsi:type="xs:string">Справочник.ВидыЦен</Value>
-				<Value xsi:type="xs:boolean">true</Value>
-				<Value xsi:type="xs:boolean">true</Value>
-				<Value xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xsi:type="dcssch:DataCompositionSchema">
-					<dcssch:dataSource>
-						<dcssch:name>ИсточникДанных1</dcssch:name>
-						<dcssch:dataSourceType>Local</dcssch:dataSourceType>
-					</dcssch:dataSource>
-					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
-						<dcssch:name>НаборДанных1</dcssch:name>
-						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
-						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	*
-ИЗ
-	Справочник.ВидыЦен КАК ВидыЦен
-{ГДЕ
-	ВидыЦен.Ссылка = &amp;Ссылка}</dcssch:query>
-					</dcssch:dataSet>
-					<dcssch:settingsVariant>
-						<dcsset:name>Основной</dcsset:name>
-						<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
-						<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
-					</dcssch:settingsVariant>
-				</Value>
-				<Value xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xsi:type="dcsset:Settings">
-					<dcsset:selection>
-						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>Ссылка</dcsset:field>
-							<dcsset:title>id</dcsset:title>
-						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>Наименование</dcsset:field>
-							<dcsset:title>name</dcsset:title>
-						</dcsset:item>
-					</dcsset:selection>
-					<dcsset:filter>
-						<dcsset:item xsi:type="dcsset:FilterItemComparison">
-							<dcsset:left xsi:type="dcscor:Field">ПометкаУдаления</dcsset:left>
-							<dcsset:comparisonType>Equal</dcsset:comparisonType>
-							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
-						</dcsset:item>
-					</dcsset:filter>
-					<dcsset:item xsi:type="dcsset:StructureItemGroup">
-						<dcsset:order>
-							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
-						</dcsset:order>
-						<dcsset:selection>
-							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
-						</dcsset:selection>
-					</dcsset:item>
-				</Value>
-			</row>
-			<row>
-				<Value xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">ЦеныНоменклатуры</Value>
-				<Value xsi:type="xs:string">РегистрСведений.ЦеныНоменклатуры</Value>
-				<Value xsi:type="xs:boolean">true</Value>
-				<Value xsi:type="xs:boolean">true</Value>
-				<Value xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xsi:type="dcssch:DataCompositionSchema">
-					<dcssch:dataSource>
-						<dcssch:name>ИсточникДанных1</dcssch:name>
-						<dcssch:dataSourceType>Local</dcssch:dataSourceType>
-					</dcssch:dataSource>
-					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
-						<dcssch:name>НаборДанных1</dcssch:name>
-						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
-						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	*
-ИЗ
-	РегистрСведений.ЦеныНоменклатуры.СрезПоследних КАК ЦеныНоменклатурыСрезПоследних
-{ГДЕ
-	ЦеныНоменклатурыСрезПоследних.Период = &amp;Период,
-	ЦеныНоменклатурыСрезПоследних.ВидЦен = &amp;ВидЦен,
-	ЦеныНоменклатурыСрезПоследних.Номенклатура = &amp;Номенклатура,
-	ЦеныНоменклатурыСрезПоследних.Характеристика = &amp;Характеристика}</dcssch:query>
-					</dcssch:dataSet>
-					<dcssch:settingsVariant>
-						<dcsset:name>Основной</dcsset:name>
-						<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
-						<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
-					</dcssch:settingsVariant>
-				</Value>
-				<Value xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xsi:type="dcsset:Settings">
-					<dcsset:userFields>
-						<dcsset:item xsi:type="dcsset:UserFieldCase">
-							<dcsset:dataPath>ПользовательскиеПоля.Поле1</dcsset:dataPath>
-							<dcsset:title>SUI_ID_EMPTY</dcsset:title>
-							<dcsset:cases>
-								<dcsset:item>
-									<dcsset:filter/>
-									<dcsset:value xsi:type="xs:string"/>
-								</dcsset:item>
-							</dcsset:cases>
-						</dcsset:item>
-					</dcsset:userFields>
-					<dcsset:selection>
-						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>Номенклатура</dcsset:field>
-							<dcsset:title>id_goods</dcsset:title>
-						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>Характеристика</dcsset:field>
-							<dcsset:title>id_properties</dcsset:title>
-						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>Цена</dcsset:field>
-							<dcsset:title>price</dcsset:title>
-						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>ВидЦен</dcsset:field>
-							<dcsset:title>id_price_types</dcsset:title>
-						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>ЕдиницаИзмерения</dcsset:field>
-							<dcsset:title>id_unit</dcsset:title>
-						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:SelectedItemField">
-							<dcsset:field>ПользовательскиеПоля.Поле1</dcsset:field>
-							<dcsset:title>id</dcsset:title>
-						</dcsset:item>
-					</dcsset:selection>
-					<dcsset:item xsi:type="dcsset:StructureItemGroup">
-						<dcsset:order>
-							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
-						</dcsset:order>
-						<dcsset:selection>
-							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
-						</dcsset:selection>
-					</dcsset:item>
-				</Value>
-			</row>
-			<row>
 				<Value xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">ШтрихкодыНоменклатуры</Value>
 				<Value xsi:type="xs:string">РегистрСведений.ШтрихкодыНоменклатуры</Value>
 				<Value xsi:type="xs:boolean">true</Value>
@@ -906,15 +615,15 @@
 					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
 						<dcssch:name>НаборДанных1</dcssch:name>
 						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
-						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	*
-ИЗ
-	РегистрСведений.ШтрихкодыНоменклатуры КАК ШтрихкодыНоменклатуры
-{ГДЕ
-	ШтрихкодыНоменклатуры.Штрихкод = &amp;Штрихкод,
-	ШтрихкодыНоменклатуры.Номенклатура = &amp;Номенклатура,
-	ШтрихкодыНоменклатуры.Характеристика = &amp;Характеристика,
-	ШтрихкодыНоменклатуры.Партия = &amp;Партия,
+						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	*
+ИЗ
+	РегистрСведений.ШтрихкодыНоменклатуры КАК ШтрихкодыНоменклатуры
+{ГДЕ
+	ШтрихкодыНоменклатуры.Штрихкод = &amp;Штрихкод,
+	ШтрихкодыНоменклатуры.Номенклатура = &amp;Номенклатура,
+	ШтрихкодыНоменклатуры.Характеристика = &amp;Характеристика,
+	ШтрихкодыНоменклатуры.Партия = &amp;Партия,
 	ШтрихкодыНоменклатуры.ЕдиницаИзмерения = &amp;ЕдиницаИзмерения}</dcssch:query>
 					</dcssch:dataSet>
 					<dcssch:settingsVariant>
@@ -1004,11 +713,11 @@
 					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
 						<dcssch:name>НаборДанных1</dcssch:name>
 						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
-						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	*
-ИЗ
-	Справочник.ШтрихкодыУпаковокТоваров КАК ШтрихкодыУпаковокТоваров
-{ГДЕ
+						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	*
+ИЗ
+	Справочник.ШтрихкодыУпаковокТоваров КАК ШтрихкодыУпаковокТоваров
+{ГДЕ
 	ШтрихкодыУпаковокТоваров.Ссылка = &amp;Ссылка}</dcssch:query>
 					</dcssch:dataSet>
 					<dcssch:settingsVariant>
@@ -1074,11 +783,11 @@
 					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
 						<dcssch:name>НаборДанных1</dcssch:name>
 						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
-						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	*
-ИЗ
-	Справочник.ШаблоныЭтикетокИЦенниковБПО КАК ШаблоныЭтикетокИЦенниковБПО
-{ГДЕ
+						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	*
+ИЗ
+	Справочник.ШаблоныЭтикетокИЦенниковБПО КАК ШаблоныЭтикетокИЦенниковБПО
+{ГДЕ
 	ШаблоныЭтикетокИЦенниковБПО.Ссылка = &amp;Ссылка}</dcssch:query>
 					</dcssch:dataSet>
 					<dcssch:settingsVariant>
@@ -1140,119 +849,278 @@
 	<Property name="ДополнительныеНастройки">
 		<Value xsi:type="Map">
 			<pair>
+				<Key xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">ШтрихкодыНоменклатуры</Key>
+				<Value xsi:type="Structure">
+					<Property name="АлгоритмСозданияШтрихкодаНоменклатуры">
+						<Value xsi:type="Structure">
+							<Property name="Тип">
+								<Value xmlns:d9p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d9p1:EnumRef.SUI_ТипыАлгоритмов">Произвольный</Value>
+							</Property>
+							<Property name="Алгоритм">
+								<Value xsi:type="xs:string">МенеджерЗаписи = РегистрыСведений.ШтрихкодыНоменклатуры.СоздатьМенеджерЗаписи();
+
+МенеджерЗаписи.Штрихкод 		= Штрихкод;
+МенеджерЗаписи.Номенклатура 	= Номенклатура;
+МенеджерЗаписи.Характеристика 	= Характеристика;
+МенеджерЗаписи.ЕдиницаИзмерения = Упаковка;
+
+МенеджерЗаписи.Записать(Истина);</Value>
+							</Property>
+						</Value>
+					</Property>
+				</Value>
+			</pair>
+			<pair>
+				<Key xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">ШтрихкодыУпаковок</Key>
+				<Value xsi:type="Structure">
+					<Property name="АлгоритмНормализацииЗначенияШтрихкода">
+						<Value xsi:type="Structure">
+							<Property name="Алгоритм">
+								<Value xsi:type="xs:string">РезультатРазбора = РазборКодаМаркировкиИССлужебный.РазобратьКодМаркировки(ЗначениеШтрихкода);
+ЗначениеШтрихкода = ?(ЗначениеЗаполнено(РезультатРазбора), РезультатРазбора.НормализованныйКодМаркировки, "");</Value>
+							</Property>
+						</Value>
+					</Property>
+					<Property name="АлгоритмСозданияШтрихкодаУпаковки">
+						<Value xsi:type="Structure">
+							<Property name="Алгоритм">
+								<Value xsi:type="xs:string">ШтрихкодУпаковки = Справочники.ШтрихкодыУпаковокТоваров.ПолучитьПоЗначениюШтрихкода(ЗначениеШтрихкода);
+
+Если ШтрихкодУпаковки = Неопределено Тогда
+	
+	РезультатРазбора = РазборКодаМаркировкиИССлужебный.РазобратьКодМаркировки(ЗначениеШтрихкода);
+	
+	Если ЗначениеЗаполнено(РезультатРазбора) Тогда
+		
+		СтруктураСоздания = Справочники.ШтрихкодыУпаковокТоваров.СтруктураСозданияШтрихкодаУпаковки();
+		СтруктураСоздания.Номенклатура = Номенклатура;
+		СтруктураСоздания.Характеристика = Характеристика;
+		СтруктураСоздания.Серия = Серия;
+		СтруктураСоздания.Упаковка = Упаковка;
+		СтруктураСоздания.Штрихкод = РезультатРазбора.НормализованныйКодМаркировки;
+		СтруктураСоздания.ТипШтрихкода = РезультатРазбора.ТипШтрихкода;
+		СтруктураСоздания.ТипУпаковки = Перечисления.ТипыУпаковок.МаркированныйТовар;
+		
+		ДополнительныеПараметрыСоздания = Справочники.ШтрихкодыУпаковокТоваров
+			.ДополнительныеПараметрыСозданияШтрихкодовУпаковок();
+		
+		ШтрихкодУпаковки = Справочники.ШтрихкодыУпаковокТоваров.СоздатьШтрихкодУпаковки(СтруктураСоздания, , , , 
+			ДополнительныеПараметрыСоздания);
+		
+	КонецЕсли;
+	
+КонецЕсли;
+
+ШтрихкодТранспортнойУпаковки = Справочники.ШтрихкодыУпаковокТоваров.ПолучитьПоЗначениюШтрихкода(
+	ЗначениеШтрихкодаТранспортнойУпаковки);
+
+Если ШтрихкодТранспортнойУпаковки = Неопределено Тогда
+	
+	РезультатРазбора = РазборКодаМаркировкиИССлужебный.РазобратьКодМаркировки(ЗначениеШтрихкодаТранспортнойУпаковки);
+	
+	Если ЗначениеЗаполнено(РезультатРазбора) Тогда
+		
+		СтруктураСоздания = Справочники.ШтрихкодыУпаковокТоваров.СтруктураСозданияШтрихкодаУпаковки();
+		СтруктураСоздания.Штрихкод = РезультатРазбора.НормализованныйКодМаркировки;
+		СтруктураСоздания.ТипШтрихкода = РезультатРазбора.ТипШтрихкода;
+		
+		Если РезультатРазбора.ВидУпаковки = Перечисления.ВидыУпаковокИС.Логистическая И
+			РезультатРазбора.СоставКодаМаркировки.Свойство("GTIN") И
+			ЗначениеЗаполнено(РезультатРазбора.СоставКодаМаркировки.GTIN) Тогда
+			СтруктураСоздания.ТипУпаковки = Перечисления.ТипыУпаковок.МонотоварнаяУпаковка;
+		Иначе
+			СтруктураСоздания.ТипУпаковки = Перечисления.ТипыУпаковок.МультитоварнаяУпаковка;
+		КонецЕсли;
+		
+		ДополнительныеПараметрыСоздания = Справочники.ШтрихкодыУпаковокТоваров
+			.ДополнительныеПараметрыСозданияШтрихкодовУпаковок();
+		
+		ВложенныеШтрихкоды = ?(ЗначениеЗаполнено(ШтрихкодУпаковки),
+			ОбщегоНазначенияКлиентСервер.ЗначениеВМассиве(ШтрихкодУпаковки),
+			Неопределено);
+		
+		ШтрихкодТранспортнойУпаковки = Справочники.ШтрихкодыУпаковокТоваров.СоздатьШтрихкодУпаковки(
+			СтруктураСоздания, ВложенныеШтрихкоды, , , ДополнительныеПараметрыСоздания);
+		
+	КонецЕсли;
+	
+Иначе
+	
+	ЗначенияРеквизитов = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(ШтрихкодТранспортнойУпаковки, 
+		"ТипУпаковки,ВложенныеШтрихкоды.Штрихкод");
+	
+	Если ЗначенияРеквизитов.ТипУпаковки = Перечисления.ТипыУпаковок.МонотоварнаяУпаковка Или
+		ЗначенияРеквизитов.ТипУпаковки = Перечисления.ТипыУпаковок.МультитоварнаяУпаковка Тогда
+		
+		Если ЗначениеЗаполнено(ШтрихкодУпаковки) Тогда
+			
+			РезультатЗапроса = ЗначенияРеквизитов.ВложенныеШтрихкодыШтрихкод;
+			
+			Если РезультатЗапроса.Пустой() Тогда
+				ДобавитьВложенныйШтрихкод = Истина;
+			Иначе
+				
+				Выборка = РезультатЗапроса.Выбрать();
+				
+				ПараметрыОтбора = Новый Структура();
+				ПараметрыОтбора.Вставить("Штрихкод", ШтрихкодУпаковки);
+				
+				ДобавитьВложенныйШтрихкод = Не Выборка.НайтиСледующий(ПараметрыОтбора);
+				
+			КонецЕсли;
+			
+			Если ДобавитьВложенныйШтрихкод Тогда
+				
+				ШтрихкодТранспортнойУпаковкиОбъект = ШтрихкодТранспортнойУпаковки.ПолучитьОбъект();
+				
+				НоваяСтрокаВложенныеШтрихкоды = ШтрихкодТранспортнойУпаковкиОбъект.ВложенныеШтрихкоды.Добавить();
+				НоваяСтрокаВложенныеШтрихкоды.Штрихкод = ШтрихкодУпаковки;
+				
+				ШтрихкодТранспортнойУпаковкиОбъект.Записать();
+				
+			КонецЕсли;
+			
+		КонецЕсли;
+		
+	Иначе
+		ШтрихкодТранспортнойУпаковки = Справочники.ШтрихкодыУпаковокТоваров.ПустаяСсылка();
+	КонецЕсли;
+	
+КонецЕсли;</Value>
+							</Property>
+						</Value>
+					</Property>
+				</Value>
+			</pair>
+			<pair>
 				<Key xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">СерииНоменклатуры</Key>
-				<Value xsi:type="FixedStructure">
+				<Value xsi:type="Structure">
 					<Property name="АлгоритмСозданияСерииНоменклатуры">
 						<Value xsi:type="Structure">
 							<Property name="Алгоритм">
 								<Value xsi:type="xs:string">Запрос = Новый Запрос;
 Запрос.МенеджерВременныхТаблиц = Новый МенеджерВременныхТаблиц;
 Запрос.УстановитьПараметр("ТаблицаВходныеДанные", ТаблицаСерий);
-Запрос.Текст ="ВЫБРАТЬ                            
-|	ВЫРАЗИТЬ(ТаблицаВходныеДанные.Серия КАК Справочник.СерииНоменклатуры) КАК Серия,
-|	ВЫРАЗИТЬ(ТаблицаВходныеДанные.Номенклатура КАК Справочник.Номенклатура) КАК Номенклатура,
-|	ТаблицаВходныеДанные.Наименование КАК Наименование,
-|	ТаблицаВходныеДанные.Номер КАК Номер,
-|	ТаблицаВходныеДанные.ДатаПроизводства КАК ДатаПроизводства,
-|	ТаблицаВходныеДанные.ГоденДо КАК ГоденДо
-|ПОМЕСТИТЬ втВходныеДанные
-|ИЗ
-|	&amp;ТаблицаВходныеДанные КАК ТаблицаВходныеДанные
-|
-|ИНДЕКСИРОВАТЬ ПО
-|	Номенклатура
-|;
-|
-|////////////////////////////////////////////////////////////////////////////////
-|ВЫБРАТЬ РАЗЛИЧНЫЕ
-|	втВходныеДанные.Номенклатура КАК Номенклатура,
-|	втВходныеДанные.Наименование КАК Наименование,
-|	втВходныеДанные.Номер КАК Номер,
-|	втВходныеДанные.ДатаПроизводства КАК ДатаПроизводства,
-|	втВходныеДанные.ГоденДо КАК ГоденДо,
-|	ЕСТЬNULL(СправочникНоменклатура.ИспользоватьСерииНоменклатуры, ЛОЖЬ) КАК ИспользоватьСерии,
-|	ЕСТЬNULL(СправочникНоменклатура.ИспользоватьСрокГодностиСерии, ЛОЖЬ) КАК ИспользоватьСрокГодностиСерии,
-|	ЕСТЬNULL(СправочникНоменклатура.ИспользоватьУникальныеСерии, ЛОЖЬ) КАК ИспользоватьНомерСерии
-|ПОМЕСТИТЬ втВходныеДанныеСВидомНоменклатуры
-|ИЗ
-|	втВходныеДанные КАК втВходныеДанные
-|		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Номенклатура КАК СправочникНоменклатура
-|		ПО (втВходныеДанные.Номенклатура = СправочникНоменклатура.Ссылка)
-|
-|СГРУППИРОВАТЬ ПО
-|	втВходныеДанные.Номенклатура,
-|	втВходныеДанные.ГоденДо,
-|	втВходныеДанные.Наименование,
-|	втВходныеДанные.Номер,
-|	втВходныеДанные.ДатаПроизводства,
-|	ЕСТЬNULL(СправочникНоменклатура.ИспользоватьСерииНоменклатуры, ЛОЖЬ),
-|	ЕСТЬNULL(СправочникНоменклатура.ИспользоватьСрокГодностиСерии, ЛОЖЬ),
-|	ЕСТЬNULL(СправочникНоменклатура.ИспользоватьУникальныеСерии, ЛОЖЬ)
-|
-|ИНДЕКСИРОВАТЬ ПО
-|	втВходныеДанные.Номенклатура   
-|;
-|////////////////////////////////////////////////////////////////////////////////
-|ВЫБРАТЬ
-|	втВходныеДанныеСВидомНоменклатуры.Номенклатура КАК Номенклатура,
-|	СправочникНоменклатура.Наименование КАК Наименование,
-|	МАКСИМУМ(ЕСТЬNULL(СерииНоменклатуры.Ссылка, ЗНАЧЕНИЕ(Справочник.СерииНоменклатуры.ПустаяСсылка))) КАК Серия
-|ИЗ
-|	втВходныеДанныеСВидомНоменклатуры КАК втВходныеДанныеСВидомНоменклатуры
-|		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Номенклатура КАК СправочникНоменклатура
-|		ПО втВходныеДанныеСВидомНоменклатуры.Номенклатура = СправочникНоменклатура.Ссылка
-|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.СерииНоменклатуры КАК СерииНоменклатуры
-|		ПО (СерииНоменклатуры.Владелец = втВходныеДанныеСВидомНоменклатуры.Номенклатура)
-|ГДЕ
-|	втВходныеДанныеСВидомНоменклатуры.ИспользоватьСерии
-|	
-|
-|СГРУППИРОВАТЬ ПО
-|	втВходныеДанныеСВидомНоменклатуры.Номенклатура,
-|	СправочникНоменклатура.Наименование
-|;
-|
-|////////////////////////////////////////////////////////////////////////////////
-|ВЫБРАТЬ
-|	втВходныеДанныеСВидомНоменклатуры.Номенклатура КАК Номенклатура,
-|	втВходныеДанныеСВидомНоменклатуры.Наименование КАК Наименование,
-|	втВходныеДанныеСВидомНоменклатуры.Номер КАК Номер,
-|	втВходныеДанныеСВидомНоменклатуры.ДатаПроизводства КАК ДатаПроизводства,
-|	втВходныеДанныеСВидомНоменклатуры.ГоденДо КАК ГоденДо,
-|	МАКСИМУМ(ЕСТЬNULL(СерииНоменклатуры.Ссылка, ЗНАЧЕНИЕ(Справочник.СерииНоменклатуры.ПустаяСсылка))) КАК Серия
-|ИЗ
-|	втВходныеДанныеСВидомНоменклатуры КАК втВходныеДанныеСВидомНоменклатуры
-|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.СерииНоменклатуры КАК СерииНоменклатуры
-|		ПО (СерииНоменклатуры.Владелец = втВходныеДанныеСВидомНоменклатуры.Номенклатура
-|				И ВЫБОР
-|					КОГДА втВходныеДанныеСВидомНоменклатуры.ИспользоватьНомерСерии
-|						ТОГДА втВходныеДанныеСВидомНоменклатуры.Номер ПОДОБНО СерииНоменклатуры.Наименование
-|					ИНАЧЕ втВходныеДанныеСВидомНоменклатуры.Наименование ПОДОБНО СерииНоменклатуры.Наименование
-|				КОНЕЦ
-|				И ВЫБОР
-|					КОГДА втВходныеДанныеСВидомНоменклатуры.ИспользоватьСрокГодностиСерии
-|						ТОГДА втВходныеДанныеСВидомНоменклатуры.ГоденДо = СерииНоменклатуры.ГоденДо
-|					ИНАЧЕ ИСТИНА
-|				КОНЕЦ
-|				И ВЫБОР
-|					КОГДА втВходныеДанныеСВидомНоменклатуры.ИспользоватьСрокГодностиСерии
-|						ТОГДА втВходныеДанныеСВидомНоменклатуры.ДатаПроизводства = СерииНоменклатуры.ДатаПроизводства
-|					ИНАЧЕ ИСТИНА
-|				КОНЕЦ)
-|ГДЕ
-|	втВходныеДанныеСВидомНоменклатуры.ИспользоватьСерии
-|
-|
-|СГРУППИРОВАТЬ ПО
-|	втВходныеДанныеСВидомНоменклатуры.Номенклатура,
-|	втВходныеДанныеСВидомНоменклатуры.Наименование,
-|	втВходныеДанныеСВидомНоменклатуры.Номер,
-|	втВходныеДанныеСВидомНоменклатуры.ДатаПроизводства,
-|	втВходныеДанныеСВидомНоменклатуры.ГоденДо";
+Запрос.Текст =
+	"ВЫБРАТЬ
+	|	ВЫРАЗИТЬ(ТаблицаВходныеДанные.Серия КАК Справочник.СерииНоменклатуры) КАК Серия,
+	|	ВЫРАЗИТЬ(ТаблицаВходныеДанные.Номенклатура КАК Справочник.Номенклатура) КАК Номенклатура,
+	|	ТаблицаВходныеДанные.Наименование КАК Наименование,
+	|	ТаблицаВходныеДанные.Номер КАК Номер,
+	|	ТаблицаВходныеДанные.ДатаПроизводства КАК ДатаПроизводства,
+	|	ТаблицаВходныеДанные.ГоденДо КАК ГоденДо
+	|ПОМЕСТИТЬ втВходныеДанные
+	|ИЗ
+	|	&amp;ТаблицаВходныеДанные КАК ТаблицаВходныеДанные
+	|
+	|ИНДЕКСИРОВАТЬ ПО
+	|	Номенклатура
+	|;
+	|
+	|////////////////////////////////////////////////////////////////////////////////
+	|ВЫБРАТЬ РАЗЛИЧНЫЕ
+	|	втВходныеДанные.Номенклатура КАК Номенклатура,
+	|	втВходныеДанные.Наименование КАК Наименование,
+	|	втВходныеДанные.Номер КАК Номер,
+	|	втВходныеДанные.ДатаПроизводства КАК ДатаПроизводства,
+	|	втВходныеДанные.ГоденДо КАК ГоденДо,
+	|	ЕСТЬNULL(ВладельцыСерии.Ссылка, ВидыНоменклатуры.Ссылка) КАК ВидНоменклатуры,
+	|	ЕСТЬNULL(ВидыНоменклатуры.ИспользоватьСерии, ЛОЖЬ) КАК ИспользоватьСерии,
+	|	ЕСТЬNULL(ВладельцыСерии.АвтоматическиГенерироватьСерии, ВидыНоменклатуры.АвтоматическиГенерироватьСерии) КАК АвтоматическиГенерироватьСерии,
+	|	ЕСТЬNULL(ВладельцыСерии.ИспользоватьСрокГодностиСерии, ВидыНоменклатуры.ИспользоватьСрокГодностиСерии) КАК ИспользоватьСрокГодностиСерии,
+	|	ЕСТЬNULL(ВладельцыСерии.ИспользоватьНомерСерии, ВидыНоменклатуры.ИспользоватьНомерСерии) КАК ИспользоватьНомерСерии
+	|ПОМЕСТИТЬ втВходныеДанныеСВидомНоменклатуры
+	|ИЗ
+	|	втВходныеДанные КАК втВходныеДанные
+	|		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Номенклатура КАК СправочникНоменклатура
+	|		ПО втВходныеДанные.Номенклатура = СправочникНоменклатура.Ссылка
+	|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ВидыНоменклатуры КАК ВидыНоменклатуры
+	|		ПО (СправочникНоменклатура.ВидНоменклатуры = ВидыНоменклатуры.Ссылка)
+	|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ВидыНоменклатуры КАК ВладельцыСерии
+	|		ПО (СправочникНоменклатура.ВладелецСерий = ВладельцыСерии.Ссылка)
+	|
+	|СГРУППИРОВАТЬ ПО
+	|	втВходныеДанные.Номенклатура,
+	|	втВходныеДанные.ГоденДо,
+	|	втВходныеДанные.Наименование,
+	|	втВходныеДанные.Номер,
+	|	втВходныеДанные.ДатаПроизводства,
+	|	ЕСТЬNULL(ВладельцыСерии.Ссылка, ВидыНоменклатуры.Ссылка),
+	|	ЕСТЬNULL(ВидыНоменклатуры.ИспользоватьСерии, ЛОЖЬ),
+	|	ЕСТЬNULL(ВладельцыСерии.АвтоматическиГенерироватьСерии, ВидыНоменклатуры.АвтоматическиГенерироватьСерии),
+	|	ЕСТЬNULL(ВладельцыСерии.ИспользоватьСрокГодностиСерии, ВидыНоменклатуры.ИспользоватьСрокГодностиСерии),
+	|	ЕСТЬNULL(ВладельцыСерии.ИспользоватьНомерСерии, ВидыНоменклатуры.ИспользоватьНомерСерии)
+	|
+	|ИНДЕКСИРОВАТЬ ПО
+	|	втВходныеДанные.Номенклатура
+	|;
+	|
+	|////////////////////////////////////////////////////////////////////////////////
+	|ВЫБРАТЬ
+	|	втВходныеДанныеСВидомНоменклатуры.Номенклатура КАК Номенклатура,
+	|	втВходныеДанныеСВидомНоменклатуры.ВидНоменклатуры КАК ВидНоменклатуры,
+	|	СправочникНоменклатура.Наименование КАК Наименование,
+	|	МАКСИМУМ(ЕСТЬNULL(СерииНоменклатуры.Ссылка, ЗНАЧЕНИЕ(Справочник.СерииНоменклатуры.ПустаяСсылка))) КАК Серия
+	|ИЗ
+	|	втВходныеДанныеСВидомНоменклатуры КАК втВходныеДанныеСВидомНоменклатуры
+	|		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Номенклатура КАК СправочникНоменклатура
+	|		ПО втВходныеДанныеСВидомНоменклатуры.Номенклатура = СправочникНоменклатура.Ссылка
+	|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.СерииНоменклатуры КАК СерииНоменклатуры
+	|		ПО (СерииНоменклатуры.ВидНоменклатуры = втВходныеДанныеСВидомНоменклатуры.ВидНоменклатуры)
+	|ГДЕ
+	|	втВходныеДанныеСВидомНоменклатуры.ИспользоватьСерии
+	|	И втВходныеДанныеСВидомНоменклатуры.АвтоматическиГенерироватьСерии
+	|
+	|СГРУППИРОВАТЬ ПО
+	|	втВходныеДанныеСВидомНоменклатуры.Номенклатура,
+	|	втВходныеДанныеСВидомНоменклатуры.ВидНоменклатуры,
+	|	СправочникНоменклатура.Наименование
+	|;
+	|
+	|////////////////////////////////////////////////////////////////////////////////
+	|ВЫБРАТЬ
+	|	втВходныеДанныеСВидомНоменклатуры.Номенклатура КАК Номенклатура,
+	|	втВходныеДанныеСВидомНоменклатуры.ВидНоменклатуры КАК ВидНоменклатуры,
+	|	втВходныеДанныеСВидомНоменклатуры.Наименование КАК Наименование,
+	|	втВходныеДанныеСВидомНоменклатуры.Номер КАК Номер,
+	|	втВходныеДанныеСВидомНоменклатуры.ДатаПроизводства КАК ДатаПроизводства,
+	|	втВходныеДанныеСВидомНоменклатуры.ГоденДо КАК ГоденДо,
+	|	МАКСИМУМ(ЕСТЬNULL(СерииНоменклатуры.Ссылка, ЗНАЧЕНИЕ(Справочник.СерииНоменклатуры.ПустаяСсылка))) КАК Серия
+	|ИЗ
+	|	втВходныеДанныеСВидомНоменклатуры КАК втВходныеДанныеСВидомНоменклатуры
+	|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.СерииНоменклатуры КАК СерииНоменклатуры
+	|		ПО (СерииНоменклатуры.ВидНоменклатуры = втВходныеДанныеСВидомНоменклатуры.ВидНоменклатуры
+	|				И ВЫБОР
+	|					КОГДА втВходныеДанныеСВидомНоменклатуры.ИспользоватьНомерСерии
+	|						ТОГДА втВходныеДанныеСВидомНоменклатуры.Номер ПОДОБНО СерииНоменклатуры.Номер
+	|					ИНАЧЕ втВходныеДанныеСВидомНоменклатуры.Наименование ПОДОБНО СерииНоменклатуры.Наименование
+	|				КОНЕЦ
+	|				И ВЫБОР
+	|					КОГДА втВходныеДанныеСВидомНоменклатуры.ИспользоватьСрокГодностиСерии
+	|						ТОГДА втВходныеДанныеСВидомНоменклатуры.ГоденДо = СерииНоменклатуры.ГоденДо
+	|					ИНАЧЕ ИСТИНА
+	|				КОНЕЦ
+	|				И ВЫБОР
+	|					КОГДА втВходныеДанныеСВидомНоменклатуры.ИспользоватьСрокГодностиСерии
+	|						ТОГДА втВходныеДанныеСВидомНоменклатуры.ДатаПроизводства = СерииНоменклатуры.ДатаПроизводства
+	|					ИНАЧЕ ИСТИНА
+	|				КОНЕЦ)
+	|ГДЕ
+	|	втВходныеДанныеСВидомНоменклатуры.ИспользоватьСерии
+	|	И НЕ втВходныеДанныеСВидомНоменклатуры.АвтоматическиГенерироватьСерии
+	|
+	|СГРУППИРОВАТЬ ПО
+	|	втВходныеДанныеСВидомНоменклатуры.Номенклатура,
+	|	втВходныеДанныеСВидомНоменклатуры.ВидНоменклатуры,
+	|	втВходныеДанныеСВидомНоменклатуры.Наименование,
+	|	втВходныеДанныеСВидомНоменклатуры.Номер,
+	|	втВходныеДанныеСВидомНоменклатуры.ДатаПроизводства,
+	|	втВходныеДанныеСВидомНоменклатуры.ГоденДо";
 
 РезультатЗапроса = Запрос.ВыполнитьПакет(); 
 
-РезультатАвтоматическиГенерировать = РезультатЗапроса[РезультатЗапроса.ВГраница()];
+РезультатАвтоматическиГенерировать = РезультатЗапроса[РезультатЗапроса.ВГраница()-1];
+РезультатНеАвтоматическиГенерировать = РезультатЗапроса[РезультатЗапроса.ВГраница()];
 
 Если Не РезультатАвтоматическиГенерировать.Пустой() Тогда
 	
@@ -1264,11 +1132,7 @@
 			Серия = Выборка.Серия;
 		Иначе
 			Серия = Справочники.СерииНоменклатуры.СоздатьЭлемент();
-			
 			Серия.Заполнить(Выборка);
-            
-            Серия.Наименование = Выборка.Номер;
-			Серия.Владелец = Выборка.Номенклатура;
 			Серия.Записать();
 		КонецЕсли;
 		
@@ -1281,81 +1145,36 @@
 		
 	КонецЦикла;
 	
-КонецЕсли;</Value>
-							</Property>
-						</Value>
-					</Property>
-				</Value>
-			</pair>
-			<pair>
-				<Key xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">ШтрихкодыУпаковок</Key>
-				<Value xsi:type="FixedStructure">
-					<Property name="АлгоритмНормализацииЗначенияШтрихкода">
-						<Value xsi:type="Structure">
-							<Property name="Тип">
-								<Value xmlns:d9p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d9p1:EnumRef.SUI_ТипыАлгоритмов">Произвольный</Value>
-							</Property>
-							<Property name="Алгоритм">
-								<Value xsi:type="xs:string">РезультатРазбора = РазборКодаМаркировкиИССлужебный.РазобратьКодМаркировки(ЗначениеШтрихкода);
+КонецЕсли;
 
-Если ЗначениеЗаполнено(РезультатРазбора) Тогда
-	ЗначениеШтрихкода = РезультатРазбора.НормализованныйКодМаркировки;
-Иначе
-	ЗначениеШтрихкода = "";
-КонецЕсли;</Value>
-							</Property>
-						</Value>
-					</Property>
-					<Property name="АлгоритмСозданияШтрихкодаУпаковки">
-						<Value xsi:type="Structure">
-							<Property name="Алгоритм">
-								<Value xsi:type="xs:string">ШтрихкодУпаковки = Справочники.ШтрихкодыУпаковокТоваров.ПолучитьПоЗначениюШтрихкода(ЗначениеШтрихкода);
-
-Если Не ЗначениеЗаполнено(ШтрихкодУпаковки) Тогда
+Если Не РезультатНеАвтоматическиГенерировать.Пустой() Тогда
 	
-	РезультатРазбора = РазборКодаМаркировкиИССлужебный.РазобратьКодМаркировки(ЗначениеШтрихкода);
-
-	Если ЗначениеЗаполнено(РезультатРазбора) Тогда
-
-		СтруктураСоздания = Справочники.ШтрихкодыУпаковокТоваров.СтруктураСозданияШтрихкодаУпаковки();
-		СтруктураСоздания.Номенклатура = Номенклатура;
-		СтруктураСоздания.Характеристика = Характеристика;
-		СтруктураСоздания.Серия = Серия;
-		СтруктураСоздания.Упаковка = Упаковка;
-		СтруктураСоздания.Штрихкод = РезультатРазбора.НормализованныйКодМаркировки;
-		СтруктураСоздания.ТипШтрихкода = РезультатРазбора.ТипШтрихкода;
-
-		СтруктураСоздания.ТипУпаковки = ПредопределенноеЗначение("Перечисление.ТипыУпаковок.МаркированныйТовар");
+	Выборка = РезультатНеАвтоматическиГенерировать.Выбрать();
+	
+	Пока Выборка.Следующий() Цикл
 		
-		ДополнительныеПараметрыСоздания = Справочники.ШтрихкодыУпаковокТоваров.ДополнительныеПараметрыСозданияШтрихкодовУпаковок();
-
-		ШтрихкодУпаковки =  Справочники.ШтрихкодыУпаковокТоваров.СоздатьШтрихкодУпаковки(СтруктураСоздания, , , , ДополнительныеПараметрыСоздания);
-
-	КонецЕсли;
-
+		Если ЗначениеЗаполнено(Выборка.Серия) Тогда
+			Серия = Выборка.Серия;
+		Иначе
+			Серия = Справочники.СерииНоменклатуры.СоздатьЭлемент();
+			ЗаполнитьЗначенияСвойств(Серия, Выборка);
+			Серия.Записать();
+		КонецЕсли;
+		
+		ПараметрыПоискаСтрок = Новый Структура();
+		ПараметрыПоискаСтрок.Вставить("Номенклатура", Выборка.Номенклатура);
+		ПараметрыПоискаСтрок.Вставить("Наименование", Выборка.Наименование);
+		ПараметрыПоискаСтрок.Вставить("Номер", Выборка.Номер);
+		ПараметрыПоискаСтрок.Вставить("ГоденДо", Выборка.ГоденДо);
+		ПараметрыПоискаСтрок.Вставить("ДатаПроизводства", Выборка.ДатаПроизводства);
+		
+		Для Каждого НайденнаяСтрока Из ТаблицаСерий.НайтиСтроки(ПараметрыПоискаСтрок) Цикл 
+			НайденнаяСтрока.Серия = Серия.Ссылка;
+		КонецЦикла;
+		
+	КонецЦикла;
+	
 КонецЕсли;</Value>
-							</Property>
-						</Value>
-					</Property>
-				</Value>
-			</pair>
-			<pair>
-				<Key xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">ШтрихкодыНоменклатуры</Key>
-				<Value xsi:type="Structure">
-					<Property name="АлгоритмСозданияШтрихкодаНоменклатуры">
-						<Value xsi:type="Structure">
-							<Property name="Тип">
-								<Value xmlns:d9p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d9p1:EnumRef.SUI_ТипыАлгоритмов">Произвольный</Value>
-							</Property>
-							<Property name="Алгоритм">
-								<Value xsi:type="xs:string">МенеджерЗаписи = ОбщегоНазначения.ОбщийМодуль("РегистрыСведений.ШтрихкодыНоменклатуры").СоздатьМенеджерЗаписи();
-
-МенеджерЗаписи.Штрихкод 		= Штрихкод;
-МенеджерЗаписи.Номенклатура 	= Номенклатура;
-МенеджерЗаписи.Характеристика 	= Характеристика;
-МенеджерЗаписи.ЕдиницаИзмерения = Упаковка;
-
-МенеджерЗаписи.Записать(Истина);</Value>
 							</Property>
 						</Value>
 					</Property>

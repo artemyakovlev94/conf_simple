@@ -841,6 +841,51 @@
       <maxValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="cf5320ca-4fc3-4938-85cb-ba770a133ec8">
+    <producedTypes>
+      <objectType typeId="69a3e96b-6a25-456c-8515-62f63cf598c5" valueTypeId="cf35da06-23e8-4580-8bae-4ebb15b2e42a"/>
+      <rowType typeId="3099ce50-f66a-40e1-a4f0-1f6f5e65ae19" valueTypeId="6674d27a-4ed6-47c2-911a-1af745ecb0e3"/>
+    </producedTypes>
+    <name>НастройкиВыводаДополнительныхПолей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки вывода дополнительных полей</value>
+    </synonym>
+    <attributes uuid="89afb34f-5b2c-4cab-a584-cb368fb227fa">
+      <name>РеквизитДокумента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит документа</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7d18be8d-e4ca-4b35-bebe-91d3bc671ad7">
+      <name>ИмяНаУстройстве</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя на устройстве</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="ae35fc53-4dec-4eca-b484-0160ed16b0f1">
     <name>НастройкаТабличнойЧасти</name>
     <synonym>
@@ -863,7 +908,7 @@
     <name>ФормаВыбораНастроекИзФайла</name>
     <synonym>
       <key>ru</key>
-      <value>Форма выбора настроек из файла</value>
+      <value>Выбор настроек документов</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

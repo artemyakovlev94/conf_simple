@@ -97,13 +97,12 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>InformationRegister.SUI_tbl_marking_codes</mdObject>
-  </content>
-  <content>
     <mdObject>InformationRegister.SUI_tbl_countragents</mdObject>
+    <autoRecord>Allow</autoRecord>
   </content>
   <content>
     <mdObject>InformationRegister.SUI_tbl_warehouses</mdObject>
+    <autoRecord>Allow</autoRecord>
   </content>
   <content>
     <mdObject>InformationRegister.SUI_docs</mdObject>
@@ -114,39 +113,30 @@
   </content>
   <content>
     <mdObject>Catalog.SUI_ПользователиТСД</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.SUI_tbl_series</mdObject>
+    <autoRecord>Allow</autoRecord>
   </content>
   <content>
     <mdObject>InformationRegister.SUI_tbl_cells</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.SUI_tbl_classifier_units</mdObject>
+    <autoRecord>Allow</autoRecord>
   </content>
   <content>
     <mdObject>InformationRegister.SUI_tbl_properties</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.SUI_tbl_prices</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.SUI_tbl_types_goods</mdObject>
+    <autoRecord>Allow</autoRecord>
   </content>
   <content>
     <mdObject>InformationRegister.SUI_tbl_goods</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.SUI_tbl_price_types</mdObject>
+    <autoRecord>Allow</autoRecord>
   </content>
   <content>
     <mdObject>InformationRegister.SUI_tbl_units</mdObject>
+    <autoRecord>Allow</autoRecord>
   </content>
   <content>
     <mdObject>InformationRegister.SUI_СообщенияМобильныхУстройств</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.SUI_tbl_barcodes</mdObject>
+    <autoRecord>Allow</autoRecord>
   </content>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>

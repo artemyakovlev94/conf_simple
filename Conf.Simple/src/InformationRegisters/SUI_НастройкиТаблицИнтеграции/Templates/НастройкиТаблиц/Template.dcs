@@ -65,8 +65,8 @@
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.SUI_НастройкиТаблицИнтеграции КАК НастройкиТаблицИнтеграции
 		ПО ТаблицыИнтеграции.Ссылка = НастройкиТаблицИнтеграции.ТаблицаИнтеграции
 {ГДЕ
-	(ТаблицыИнтеграции.Ссылка = &amp;ТаблицаИнтеграции),
-	(НастройкиТаблицИнтеграции.ИмяОбъектаКонфигурации = &amp;ИмяОбъекта)}</query>
+	(ТаблицыИнтеграции.Ссылка В (&amp;ТаблицаИнтеграции)),
+	(НастройкиТаблицИнтеграции.ИмяОбъектаКонфигурации В (&amp;ИмяОбъекта))}</query>
 	</dataSet>
 	<calculatedField>
 		<dataPath>СхемаКомпоновкиДанных</dataPath>
@@ -147,8 +147,8 @@
 		<valueType>
 			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.SUI_ТаблицыИнтеграции</v8:Type>
 		</valueType>
-		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
 	</parameter>
 	<parameter>
 		<name>ИмяОбъекта</name>
@@ -165,8 +165,8 @@
 				<v8:AllowedLength>Variable</v8:AllowedLength>
 			</v8:StringQualifiers>
 		</valueType>
-		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
 	</parameter>
 	<parameter>
 		<name>НастройкиЗаполнены</name>

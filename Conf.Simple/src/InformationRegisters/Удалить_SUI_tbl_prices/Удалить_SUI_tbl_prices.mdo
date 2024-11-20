@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5515033f-b36d-4e7a-afa8-8d33ecbf511f">
+  <producedTypes>
+    <selectionType typeId="c1e1057e-57eb-466d-8914-a105ce68d7ed" valueTypeId="27c89966-7ef7-41f0-a173-8a02c802898f"/>
+    <listType typeId="1fc61e89-ee96-46e6-9c51-c40f872d7d86" valueTypeId="11b11d21-642a-45e0-b593-775acd07e9aa"/>
+    <managerType typeId="c636dd87-a372-47e7-b0c5-5bd9d3ac828a" valueTypeId="1e0fe1b0-2726-4245-b95f-140525fde6bd"/>
+    <recordSetType typeId="24f7ae9a-46e3-4ee6-a65c-f23b3802592e" valueTypeId="f2be72ff-72a7-4c42-b386-2c09b7b3fa90"/>
+    <recordKeyType typeId="ccb0a4c1-dad7-497b-8dfc-191b9ff6abd4" valueTypeId="651551ee-91d0-4103-9320-aa98caa25532"/>
+    <recordType typeId="d59d1f48-2418-44d9-879c-6f66e2528c58" valueTypeId="0f9decc7-a1cb-417a-a095-6ecc5820a37a"/>
+    <recordManagerType typeId="8e80dbef-ab06-44e5-9b97-4b749a1b2151" valueTypeId="c86617fa-0d30-4cde-9179-25a92638ed72"/>
+  </producedTypes>
+  <name>Удалить_SUI_tbl_prices</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Таблица Цены номенклатуры (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Удалить_SUI_tbl_prices.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Запись таблицы Цены номенклатуры</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Таблица Цены номенклатуры</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Таблица &quot;Цены номенклатуры&quot; на мобильном устройстве.</value>
+  </explanation>
+  <resources uuid="a16ff07e-1750-4d4f-899d-6e3dd2e3df98">
+    <name>id_goods</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор номенклатуры</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>69</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка номенклатуры</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="72b378a0-530b-412a-b868-89c0c3b13274">
+    <name>id_price_types</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор вида цены</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>69</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка вида цены</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="11c0ffe8-50b8-4949-85c0-5e0554bb001d">
+    <name>id_properties</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор характеристики</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>69</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка характеристики номенклатуры</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="491e3893-cd98-4565-b9ec-488309a8768a">
+    <name>id_unit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор упаковки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>69</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка упаковки номенклатуры</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5d2d29d9-8abd-4786-a9f3-7a0beadd8e15">
+    <name>price</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Цена номенклатуры</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c1dfb9b6-7478-48cc-b309-b977e0cde676">
+    <name>id</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>69</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор записи. В качестве значения можно указать ссылку объекта справочника или пустую строку для автоматической генерации идентификатора регистра сведений. Автоматическая генерация идентификатора снижает производительность.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="eccc766e-a377-4486-8bdc-45bc25de05b0">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

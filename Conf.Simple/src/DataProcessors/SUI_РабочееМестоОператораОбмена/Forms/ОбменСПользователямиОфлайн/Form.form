@@ -1312,6 +1312,7 @@
         <name>ОтправитьСообщение</name>
       </handler>
     </action>
+    <functionalOptions>FunctionalOption.SUI_ОнлайнОбмен</functionalOptions>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>

@@ -59,10 +59,10 @@
     </synonym>
   </enumValues>
   <enumValues uuid="e052802a-634e-489c-bb23-cad6c04b4609">
-    <name>ЕдиницыИзмерения</name>
+    <name>Удалить_ЕдиницыИзмерения</name>
     <synonym>
       <key>ru</key>
-      <value>Единицы измерения</value>
+      <value>(не используется) Единицы измерения</value>
     </synonym>
   </enumValues>
   <enumValues uuid="1570c8dd-cba0-4f73-b5be-f65782e7e3ca">
@@ -73,24 +73,24 @@
     </synonym>
   </enumValues>
   <enumValues uuid="b07300d1-4a62-402a-9c5a-b99b8a52a3ba">
-    <name>ВидыНоменклатуры</name>
+    <name>Удалить_ВидыНоменклатуры</name>
     <synonym>
       <key>ru</key>
-      <value>Виды номенклатуры</value>
+      <value>(не используется) Виды номенклатуры</value>
     </synonym>
   </enumValues>
   <enumValues uuid="06ce3679-b17d-4d5d-b083-33b1a5be3968">
-    <name>ВидыЦен</name>
+    <name>Удалить_ВидыЦен</name>
     <synonym>
       <key>ru</key>
-      <value>Виды цен</value>
+      <value>(не используется) Виды цен</value>
     </synonym>
   </enumValues>
   <enumValues uuid="46f9dc2a-b41b-497d-982c-fdcfc40ae1f9">
-    <name>ЦеныНоменклатуры</name>
+    <name>Удалить_ЦеныНоменклатуры</name>
     <synonym>
       <key>ru</key>
-      <value>Цены номенклатуры</value>
+      <value>(не используется) Цены номенклатуры</value>
     </synonym>
   </enumValues>
   <enumValues uuid="9826a07b-4ef8-4701-8530-ae2bfe9e4db2">

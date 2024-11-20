@@ -9,5 +9,5 @@
     <types>InformationRegisterRecordSet</types>
   </source>
   <event>BeforeWrite</event>
-  <handler>CommonModule.SUI_ИнтеграцияВКонфигурацию.SUI_ИнтеграцияВКонфигурациюРегистрыСведенийПередЗаписью</handler>
+  <handler>CommonModule.SUI_ИнтеграцияВКонфигурацию.РегистрыСведенийПередЗаписью</handler>
 </mdclass:EventSubscription>

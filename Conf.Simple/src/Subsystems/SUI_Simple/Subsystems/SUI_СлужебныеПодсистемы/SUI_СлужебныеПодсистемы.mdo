@@ -34,20 +34,15 @@
   <content>EventSubscription.SUI_ИнтеграцияВКонфигурациюРегистрыСведенийПриЗаписи</content>
   <content>EventSubscription.SUI_ИнтеграцияВКонфигурациюСправочникиПередУдалением</content>
   <content>EventSubscription.SUI_ИнтеграцияВКонфигурациюСправочникиПриЗаписи</content>
-  <content>EventSubscription.SUI_КонстантыИспользоватьТаблицуПередЗаписью</content>
   <content>EventSubscription.SUI_КонстантыИспользоватьТаблицуПриЗаписи</content>
   <content>FunctionalOption.SUI_ИспользоватьЗапросыАвторизацииМУ</content>
   <content>FunctionalOption.SUI_ИспользоватьПользовательскийЗапрос</content>
-  <content>FunctionalOption.SUI_ИспользоватьТаблицу_ВидыНоменклатуры</content>
-  <content>FunctionalOption.SUI_ИспользоватьТаблицу_ВидыЦен</content>
-  <content>FunctionalOption.SUI_ИспользоватьТаблицу_ЕдиницыИзмерения</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_Контрагенты</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_Номенклатура</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_СерииНоменклатуры</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_Склады</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_УпаковкиНоменклатуры</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_ХарактеристикиНоменклатуры</content>
-  <content>FunctionalOption.SUI_ИспользоватьТаблицу_ЦеныНоменклатуры</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_ШаблоныЭтикеток</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_ШтрихкодыНоменклатуры</content>
   <content>FunctionalOption.SUI_ИспользоватьТаблицу_ШтрихкодыУпаковок</content>
@@ -60,14 +55,12 @@
   <content>CommonForm.SUI_ВыгрузкаДокументаНаТСД</content>
   <content>CommonForm.SUI_ЗагрузкаДокументаИзТСД</content>
   <content>CommonForm.SUI_КонструкторЗапроса</content>
-  <content>CommonForm.SUI_ФормаВыбораЗначений</content>
+  <content>CommonForm.SUI_ВыборИзСписка</content>
   <content>CommonForm.SUI_ЛогированиеHTTPЗапросов</content>
   <content>CommonCommand.SUI_ВыполнитьПолнуюВыгрузку</content>
   <content>CommonTemplate.SUI_КартинкаШтрихкода</content>
   <content>CommonTemplate.SUI_КомпонентаПечатиШтрихкодов</content>
   <content>CommonTemplate.SUI_ШаблоныКодовМаркировки</content>
-  <content>CommonPicture.SUI_QR_код</content>
-  <content>CommonPicture.SUI_ВыгрузитьВТСД</content>
   <content>CommonPicture.SUI_Документ</content>
   <content>CommonPicture.SUI_ДокументВРаботе</content>
   <content>CommonPicture.SUI_ДокументЗавершен</content>
@@ -117,23 +110,15 @@
   <content>Enum.SUI_ТаблицыИнтеграции</content>
   <content>DataProcessor.SUI_ФормаДополнительнаяИнформация</content>
   <content>InformationRegister.SUI_НастройкиДокументовМобильныхУстройств</content>
-  <content>CommonPicture.SUI_QRКодДляПечатныхФорм</content>
   <content>CommonPicture.SUI_ПереместитьВсеВлево</content>
   <content>CommonPicture.SUI_ПереместитьВсеВправо</content>
-  <content>CommonPicture.SUI_ВидыОбъектовМетаданных</content>
   <content>Constant.SUI_АлгоритмПолученияШтрихкодаДокумента</content>
   <content>FunctionalOption.SUI_АлгоритмПолученияШтрихкодаДокумента</content>
-  <content>CommonForm.SUI_АлгоритмПолученияШтрихкодаДокумента</content>
   <content>CommonModule.SUI_ОбщегоНазначенияПереопределяемый</content>
   <content>CommonModule.SUI_СтроковыеФункцииКлиентСерверПереопределяемый</content>
   <content>CommonModule.SUI_ОбщегоНазначенияКлиентСерверПереопределяемый</content>
   <content>CommonForm.SUI_РедактированиеВерсии</content>
-  <content>CommonTemplate.SUI_ПредопределенныеУправлениеТорговлей11</content>
-  <content>CommonTemplate.SUI_ПредопределенныеРозница23</content>
-  <content>CommonTemplate.SUI_ПредопределенныеУправлениеНашейФирмой</content>
-  <content>CommonTemplate.SUI_ПредопределенныеРозница30</content>
   <content>CommonModule.SUI_ПользователиПереопределяемый</content>
-  <content>DataProcessor.SUI_КонсольПроизвольногоАлгоритма</content>
   <content>CommonModule.SUI_СобытияФормИСКлиент</content>
   <content>CommonModule.SUI_СобытияФормИС</content>
   <content>XDTOPackage.SUI_ExchangeSupport</content>
@@ -152,6 +137,8 @@
   <subsystems>SUI_ПакетыДанных</subsystems>
   <subsystems>SUI_РаботаСФайлами</subsystems>
   <subsystems>SUI_РегламентныеЗадания</subsystems>
+  <subsystems>SUI_РедакторJSON</subsystems>
+  <subsystems>SUI_РедакторКода</subsystems>
   <subsystems>SUI_РепозиторийРасширения</subsystems>
   <subsystems>SUI_СообщенияМобильныхУстройств</subsystems>
   <subsystems>SUI_СообщенияОбменаДанными</subsystems>

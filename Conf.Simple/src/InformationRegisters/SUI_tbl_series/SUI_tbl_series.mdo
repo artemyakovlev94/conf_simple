@@ -124,7 +124,6 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -145,30 +144,6 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <resources uuid="f351e082-e258-4c3c-92b2-01528164a631">
-    <name>type_goods</name>
-    <synonym>
-      <key>ru</key>
-      <value>Идентификатор вида номенклатуры</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>69</length>
-      </stringQualifiers>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Ссылка вида номенклатуры</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
