@@ -11,4 +11,6 @@
   <content>InformationRegister.SUI_docs</content>
   <content>InformationRegister.SUI_docs_tbl_barcode_flow</content>
   <content>Catalog.SUI_НастройкиДокументов.Attribute.СоздаватьДокументыНаТСД</content>
+  <content>InformationRegister.SUI_СообщенияМобильныхУстройств</content>
+  <content>InformationRegister.SUI_СообщенияМобильныхУстройств.Command.ОтправитьСообщение</content>
 </mdclass:FunctionalOption>

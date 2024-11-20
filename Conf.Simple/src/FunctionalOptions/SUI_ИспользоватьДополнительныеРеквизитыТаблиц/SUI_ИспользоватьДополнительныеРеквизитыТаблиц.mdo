@@ -11,4 +11,5 @@
   <content>InformationRegister.SUI_docs_tbl_goods.Resource.additional_details</content>
   <content>InformationRegister.SUI_docs_tbl_series.Resource.additional_details</content>
   <content>InformationRegister.SUI_docs_tbl_barcodes.Resource.additional_details</content>
+  <content>Catalog.SUI_НастройкиДокументов.TabularSection.НастройкиВыводаДополнительныхПолей</content>
 </mdclass:FunctionalOption>
