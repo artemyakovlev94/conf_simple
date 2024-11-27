@@ -399,20 +399,160 @@
           <checkBoxType>Switcher</checkBoxType>
         </extInfo>
       </items>
-      <items xsi:type="form:FormField">
-        <name>ЗагружатьВДокумент1СПослеПолученияИзТСД</name>
-        <id>223</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаЗагрузкаДокумента</name>
+        <id>361</id>
+        <items xsi:type="form:FormField">
+          <name>ЗагружатьВДокумент1СПослеПолученияИзТСД</name>
+          <id>223</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ЗагружатьВДокумент1СПослеПолученияИзТСД</segments>
+          </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ЗагружатьВДокумент1СПослеПолученияИзТСДПриИзменении</name>
+          </handlers>
+          <extendedTooltip>
+            <name>ЗагружатьВДокумент1СПослеПолученияИзТСДРасширеннаяПодсказка</name>
+            <id>225</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ЗагружатьВДокумент1СПослеПолученияИзТСДКонтекстноеМеню</name>
+            <id>224</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>CheckBoxField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:CheckBoxFieldExtInfo">
+            <checkBoxType>Switcher</checkBoxType>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаЗавершениеДокумента</name>
+          <id>366</id>
+          <items xsi:type="form:FormField">
+            <name>ЗавершатьДокумент1СПослеПолученияИзТСД</name>
+            <id>363</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.ЗавершатьДокумент1СПослеПолученияИзТСД</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ЗавершатьДокумент1СПослеПолученияИзТСДРасширеннаяПодсказка</name>
+              <id>365</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ЗавершатьДокумент1СПослеПолученияИзТСДКонтекстноеМеню</name>
+              <id>364</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>CheckBoxField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:CheckBoxFieldExtInfo">
+              <checkBoxType>Switcher</checkBoxType>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Группа завершение документа</value>
+          </title>
+          <toolTip>
+            <key>ru</key>
+            <value>Группа завершение документа</value>
+          </toolTip>
+          <extendedTooltip>
+            <name>ГруппаЗавершениеДокументаРасширеннаяПодсказка</name>
+            <id>367</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>HorizontalIfPossible</group>
+            <behavior>Auto</behavior>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ЗагружатьВДокумент1СПослеПолученияИзТСД</segments>
-        </dataPath>
+        <title>
+          <key>ru</key>
+          <value>Группа загрузка документа</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа загрузка документа</value>
+        </toolTip>
         <extendedTooltip>
-          <name>ЗагружатьВДокумент1СПослеПолученияИзТСДРасширеннаяПодсказка</name>
-          <id>225</id>
+          <name>ГруппаЗагрузкаДокументаРасширеннаяПодсказка</name>
+          <id>362</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -425,23 +565,14 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <contextMenu>
-          <name>ЗагружатьВДокумент1СПослеПолученияИзТСДКонтекстноеМеню</name>
-          <id>224</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>CheckBoxField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:CheckBoxFieldExtInfo">
-          <checkBoxType>Switcher</checkBoxType>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>AlwaysHorizontal</group>
+          <behavior>Auto</behavior>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">

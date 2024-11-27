@@ -382,6 +382,19 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="c8c19cba-1755-406f-a9f9-f27997e5897f">
+    <name>ЗавершатьДокумент1СПослеПолученияИзТСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершать документ 1С после получения из ТСД</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <tabularSections uuid="b2145de9-57ab-4f48-b649-c1f470c3285e">
     <producedTypes>
       <objectType typeId="6749dd5d-b1ff-4391-9617-982bcdbb8b2b" valueTypeId="5bd79383-e0af-4933-8011-bef8047702e5"/>
