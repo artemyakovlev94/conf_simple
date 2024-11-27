@@ -218,7 +218,7 @@
       <key>ru</key>
       <value>Результат сообщения обмена данными</value>
     </synonym>
-    <template>/exchange_message/{messageID}/result</template>
+    <template>/exchange_message/result</template>
     <methods uuid="acf02fff-d25f-4a9a-b800-ce12b0be1a1d">
       <name>Получить</name>
       <synonym>
