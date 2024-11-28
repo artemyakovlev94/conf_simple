@@ -293,9 +293,9 @@
   <functionalOptions>FunctionalOption.SUI_НастройкаДокументаПеремещенияЗапасов</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_НеЗапускатьМастерНастроекПриНачалеРаботы</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ОнлайнОбмен</functionalOptions>
+  <functionalOptions>FunctionalOption.SUI_ОтключитьЛогированиеШаблонаHTTPСервиса</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ОткрыватьВыгрузкуДокументовОбменаОфлайн</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ОфлайнОбмен</functionalOptions>
-  <functionalOptions>FunctionalOption.SUI_ПараметрыЛогированияHTTPСервиса</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ПроверкаОбновленийПриСтарте</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_РазмерПакетаДанных</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</functionalOptions>

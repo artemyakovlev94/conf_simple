@@ -16,6 +16,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.SUI_ПараметрыЛогированияHTTPСервиса.Form.ФормаНабораЗаписей</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
   <recordPresentation>
     <key>ru</key>
@@ -26,10 +27,10 @@
     <value>Параметры логирования HTTP сервиса</value>
   </listPresentation>
   <resources uuid="f56b6fca-5d27-4194-bf0b-c6a257abf32c">
-    <name>Логировать</name>
+    <name>ОтключитьЛогирование</name>
     <synonym>
       <key>ru</key>
-      <value>Логировать</value>
+      <value>Отключить логирование</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -61,4 +62,13 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="dcb25d4e-cf58-41da-9da8-91e70e300a6c">
+    <name>ФормаНабораЗаписей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма набора записей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>

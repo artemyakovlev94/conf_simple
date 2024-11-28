@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91d7f05c-4672-4016-b469-8a043d4e3ce1">
+  <name>SUI_ОтключитьЛогированиеШаблонаHTTPСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отключить логирование шаблона HTTP сервиса (SUI)</value>
+  </synonym>
+  <location>InformationRegister.SUI_ПараметрыЛогированияHTTPСервиса.Resource.ОтключитьЛогирование</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

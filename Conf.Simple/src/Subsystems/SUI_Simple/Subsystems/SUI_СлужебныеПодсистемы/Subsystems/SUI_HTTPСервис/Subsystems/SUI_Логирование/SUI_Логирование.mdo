@@ -13,6 +13,6 @@
   <content>CommonModule.SUI_ЛогированиеHTTPЗапросовКлиентСервер</content>
   <content>InformationRegister.SUI_ПараметрыЛогированияHTTPСервиса</content>
   <content>FunctionalOptionsParameter.SUI_ПараметрыЛогированияHTTPСервиса</content>
-  <content>FunctionalOption.SUI_ПараметрыЛогированияHTTPСервиса</content>
+  <content>FunctionalOption.SUI_ОтключитьЛогированиеШаблонаHTTPСервиса</content>
   <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы.Subsystem.SUI_HTTPСервис</parentSubsystem>
 </mdclass:Subsystem>

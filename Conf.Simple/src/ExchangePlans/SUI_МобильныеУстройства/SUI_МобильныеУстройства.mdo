@@ -225,6 +225,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="726b8777-ff98-4183-829c-62b7ac27c358">
+    <name>ОтключитьЛогирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключить логирование</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="81ef77e7-e660-4a12-862a-1bfa5108bb38">
     <name>ФормаСписка</name>
     <synonym>
