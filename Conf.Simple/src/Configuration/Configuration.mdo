@@ -295,11 +295,13 @@
   <functionalOptions>FunctionalOption.SUI_ОнлайнОбмен</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ОткрыватьВыгрузкуДокументовОбменаОфлайн</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ОфлайнОбмен</functionalOptions>
+  <functionalOptions>FunctionalOption.SUI_ПараметрыЛогированияHTTPСервиса</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ПроверкаОбновленийПриСтарте</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_РазмерПакетаДанных</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_УстановкаПредварительныхВерсий</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ХранениеСообщенийМобильныхУстройствВДнях</functionalOptions>
+  <functionalOptionsParameters>FunctionalOptionsParameter.SUI_ПараметрыЛогированияHTTPСервиса</functionalOptionsParameters>
   <commonCommands>CommonCommand.SUI_ВыполнитьПолнуюВыгрузку</commonCommands>
   <commonCommands>CommonCommand.SUI_ИдентификаторSimple</commonCommands>
   <constants>Constant.SUI_АдресПубликацииБазы</constants>
@@ -428,6 +430,7 @@
   <informationRegisters>InformationRegister.SUI_НастройкиДокументовМобильныхУстройств</informationRegisters>
   <informationRegisters>InformationRegister.SUI_НастройкиТаблицИнтеграции</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ОчередьЗаданий</informationRegisters>
+  <informationRegisters>InformationRegister.SUI_ПараметрыЛогированияHTTPСервиса</informationRegisters>
   <informationRegisters>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.SUI_СеансыМобильныхУстройств</informationRegisters>
   <informationRegisters>InformationRegister.SUI_СообщенияМобильныхУстройств</informationRegisters>

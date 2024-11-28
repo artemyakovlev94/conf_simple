@@ -10,4 +10,5 @@
   <content>Enum.SUI_HTTPМетоды</content>
   <content>InformationRegister.SUI_ЛогированиеHTTPЗапросов</content>
   <content>Constant.SUI_РЗ_ОчисткаЛогированияHTTPЗапросов</content>
+  <content>InformationRegister.SUI_ПараметрыЛогированияHTTPСервиса</content>
 </mdclass:FunctionalOption>

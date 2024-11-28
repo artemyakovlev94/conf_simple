@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="767dbdcb-9cec-4327-a0b2-84b395667edd">
+  <producedTypes>
+    <selectionType typeId="ce7b86ca-a1a6-438f-af7d-353227fce0af" valueTypeId="ca772367-4e36-4451-8c90-f7ff1bc43d58"/>
+    <listType typeId="2cd39b65-3014-4e3a-a9f6-a34a4b455861" valueTypeId="3fc43b2d-208d-4751-8aba-c3f17d75f8f6"/>
+    <managerType typeId="e60782ea-2dfe-4dc7-add4-e140f6685b02" valueTypeId="57fee2b2-7454-45a5-8390-e59814e4ecf6"/>
+    <recordSetType typeId="5d0f5fe7-b35e-492d-b6ae-0479ffa84dd6" valueTypeId="b1cafa69-a6d4-4d5b-8c83-a7944eafcf1b"/>
+    <recordKeyType typeId="5a3b24c3-0b61-4052-8d5a-041cb445290e" valueTypeId="68a1cb90-9860-47b1-9960-a268d4e45cad"/>
+    <recordType typeId="2e757298-132e-41f3-b484-6490d948782c" valueTypeId="2d48dffd-831a-4a67-8cce-954387c0b4e8"/>
+    <recordManagerType typeId="5ce5560e-3b67-4155-9b5c-e58b726f995a" valueTypeId="17cf0d5c-0207-4c39-814f-822e079bcc11"/>
+  </producedTypes>
+  <name>SUI_ПараметрыЛогированияHTTPСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры логирования HTTP сервиса (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Параметр логирования HTTP сервиса</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Параметры логирования HTTP сервиса</value>
+  </listPresentation>
+  <resources uuid="f56b6fca-5d27-4194-bf0b-c6a257abf32c">
+    <name>Логировать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логировать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e2d27953-4ba7-4371-93ea-8a7e64cdffcc">
+    <name>ШаблонСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон сервиса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
