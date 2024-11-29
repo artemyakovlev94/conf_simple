@@ -20,18 +20,18 @@
     <excludedCommands>Change</excludedCommands>
     <excludedCommands>SearchEverywhere</excludedCommands>
     <items xsi:type="form:FormField">
-      <name>ШаблонСервиса</name>
-      <id>26</id>
+      <name>ИмяШаблона</name>
+      <id>41</id>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>НаборЗаписей.ШаблонСервиса</segments>
+        <segments>НаборЗаписей.ИмяШаблона</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ШаблонСервисаРасширеннаяПодсказка</name>
-        <id>28</id>
+        <name>ИмяШаблонаРасширеннаяПодсказка</name>
+        <id>43</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -45,8 +45,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ШаблонСервисаКонтекстноеМеню</name>
-        <id>27</id>
+        <name>ИмяШаблонаКонтекстноеМеню</name>
+        <id>42</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -55,7 +55,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
+      <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
