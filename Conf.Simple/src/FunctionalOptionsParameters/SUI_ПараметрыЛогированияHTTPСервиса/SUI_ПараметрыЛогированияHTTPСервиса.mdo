@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:FunctionalOptionsParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="166d0ca0-9e50-429d-9b28-f2e0631fd625">
-  <name>SUI_ПараметрыЛогированияHTTPСервиса</name>
-  <synonym>
-    <key>ru</key>
-    <value>Параметры логирования HTTP сервиса (SUI)</value>
-  </synonym>
-  <use>InformationRegister.SUI_ПараметрыЛогированияHTTPСервиса.Dimension.ШаблонСервиса</use>
-</mdclass:FunctionalOptionsParameter>
