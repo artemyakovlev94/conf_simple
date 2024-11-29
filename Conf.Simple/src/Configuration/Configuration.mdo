@@ -301,7 +301,7 @@
   <functionalOptions>FunctionalOption.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_УстановкаПредварительныхВерсий</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ХранениеСообщенийМобильныхУстройствВДнях</functionalOptions>
-  <functionalOptionsParameters>FunctionalOptionsParameter.SUI_ПараметрыЛогированияHTTPСервиса</functionalOptionsParameters>
+  <functionalOptionsParameters>FunctionalOptionsParameter.SUI_ПараметрыЛогированияHTTPСервисаИмяШаблона</functionalOptionsParameters>
   <commonCommands>CommonCommand.SUI_ВыполнитьПолнуюВыгрузку</commonCommands>
   <commonCommands>CommonCommand.SUI_ИдентификаторSimple</commonCommands>
   <constants>Constant.SUI_АдресПубликацииБазы</constants>

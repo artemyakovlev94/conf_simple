@@ -42,10 +42,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="e2d27953-4ba7-4371-93ea-8a7e64cdffcc">
-    <name>ШаблонСервиса</name>
+    <name>ИмяШаблона</name>
     <synonym>
       <key>ru</key>
-      <value>Шаблон сервиса</value>
+      <value>Имя шаблона</value>
     </synonym>
     <type>
       <types>String</types>
