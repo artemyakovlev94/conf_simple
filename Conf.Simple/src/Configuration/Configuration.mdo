@@ -31,7 +31,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ООО &quot;Симпл&quot;</vendor>
-  <version>1.0.4.24</version>
+  <version>1.0.4.28</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <logo/>
   <copyright>
@@ -142,6 +142,7 @@
   <commonTemplates>CommonTemplate.SUI_ПредопределенныеЕРПДокументы</commonTemplates>
   <commonTemplates>CommonTemplate.SUI_ПредопределенныеКАДокументы</commonTemplates>
   <commonTemplates>CommonTemplate.SUI_ПредопределенныеРозница23</commonTemplates>
+  <commonTemplates>CommonTemplate.SUI_ПредопределенныеРозница23Документы</commonTemplates>
   <commonTemplates>CommonTemplate.SUI_ПредопределенныеРозница30</commonTemplates>
   <commonTemplates>CommonTemplate.SUI_ПредопределенныеРозница30Документы</commonTemplates>
   <commonTemplates>CommonTemplate.SUI_ПредопределенныеУправлениеНашейФирмой</commonTemplates>

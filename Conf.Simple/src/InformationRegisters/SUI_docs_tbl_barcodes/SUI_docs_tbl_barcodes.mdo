@@ -210,6 +210,25 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="e82b7efa-f4f5-4afd-975a-22c0ead2363a">
+    <name>id_cell</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID ячейки</value>
+    </synonym>
+    <comment>Ячейка</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>69</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <attributes uuid="83a60a32-bdaf-49c4-a8c1-d88795a94ed6">
     <name>ДатаОбновления</name>
     <synonym>

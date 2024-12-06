@@ -413,6 +413,11 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.ЗагружатьВДокумент1СПослеПолученияИзТСД</segments>
           </dataPath>
+          <toolTip>
+            <key>ru</key>
+            <value>В активном состоянии после выгрузки документа с устройства данные автоматически записываются в документ 1с.</value>
+          </toolTip>
+          <toolTipRepresentation>Button</toolTipRepresentation>
           <handlers>
             <event>OnChange</event>
             <name>ЗагружатьВДокумент1СПослеПолученияИзТСДПриИзменении</name>
@@ -465,6 +470,11 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Объект.ЗавершатьДокумент1СПослеПолученияИзТСД</segments>
             </dataPath>
+            <toolTip>
+              <key>ru</key>
+              <value>Автоматическое завершение работы с документом и установка статуса &quot;Завершен&quot;.</value>
+            </toolTip>
+            <toolTipRepresentation>Button</toolTipRepresentation>
             <extendedTooltip>
               <name>ЗавершатьДокумент1СПослеПолученияИзТСДРасширеннаяПодсказка</name>
               <id>365</id>
@@ -550,6 +560,7 @@
           <key>ru</key>
           <value>Группа загрузка документа</value>
         </toolTip>
+        <toolTipRepresentation>None</toolTipRepresentation>
         <extendedTooltip>
           <name>ГруппаЗагрузкаДокументаРасширеннаяПодсказка</name>
           <id>362</id>

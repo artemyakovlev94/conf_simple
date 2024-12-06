@@ -2760,6 +2760,7 @@
 		|	SUI_docs_tbl_barcodes.id_property,
 		|	SUI_docs_tbl_barcodes.id_series,
 		|	SUI_docs_tbl_barcodes.id_unit,
+		|	SUI_docs_tbl_barcodes.id_cell,
 		|	SUI_docs_tbl_barcodes.mark_code,
 		|	SUI_docs_tbl_barcodes.barcode_from_scanner,
 		|	SUI_docs_tbl_barcodes.id_marking_code,
@@ -2820,6 +2821,7 @@
 					ПараметрыМетода.Добавить(SUI_ИнтеграцияВКонфигурацию.СсылкаПоИдентификаторуSimple(Выборка.id_property, Истина));
 					ПараметрыМетода.Добавить(SUI_ИнтеграцияВКонфигурацию.СсылкаПоИдентификаторуSimple(Выборка.id_series, Истина));
 					ПараметрыМетода.Добавить(SUI_ИнтеграцияВКонфигурацию.СсылкаПоИдентификаторуSimple(Выборка.id_unit, Истина));
+					ПараметрыМетода.Добавить(SUI_ИнтеграцияВКонфигурацию.СсылкаПоИдентификаторуSimple(Выборка.id_cell, Истина));
 					ПараметрыМетода.Добавить(Данные.id_marking_code);
 					ПараметрыМетода.Добавить(Данные.id_SSCC);
 					
@@ -5117,6 +5119,7 @@
 	|	Таблица.id_property,
 	|	Таблица.id_series,
 	|	Таблица.id_unit,
+	|	Таблица.id_cell,
 	|	Таблица.mark_code,
 	|	Таблица.id_SSCC,
 	|	Таблица.SSCC,
@@ -5145,6 +5148,7 @@
 	|	втТаблица.id_property,
 	|	втТаблица.id_series,
 	|	втТаблица.id_unit,
+	|	втТаблица.id_cell,
 	|	втТаблица.mark_code,
 	|	втТаблица.id_SSCC,
 	|	втТаблица.SSCC,
@@ -5216,6 +5220,7 @@
 	|	втФильтр.id_property,
 	|	втФильтр.id_series,
 	|	втФильтр.id_unit,
+	|	втФильтр.id_cell,
 	|	втФильтр.mark_code,
 	|	втФильтр.barcode_from_scanner,
 	|	втФильтр.id_SSCC,
@@ -5885,6 +5890,7 @@
 		|	ТаблицаШтрихкодыУпаковок.id_property,
 		|	ТаблицаШтрихкодыУпаковок.id_series,
 		|	ТаблицаШтрихкодыУпаковок.id_unit,
+		|	ТаблицаШтрихкодыУпаковок.id_cell,
 		|	ТаблицаШтрихкодыУпаковок.id_SSCC,
 		|	ТаблицаШтрихкодыУпаковок.SSCC,
 		|	ТаблицаШтрихкодыУпаковок.mark_code,
@@ -6022,7 +6028,8 @@
 		|	втТаблицаШтрихкодыУпаковок.id_good,
 		|	втТаблицаШтрихкодыУпаковок.id_property,
 		|	втТаблицаШтрихкодыУпаковок.id_series,
-		|	втТаблицаШтрихкодыУпаковок.id_unit,
+		|	втТаблицаШтрихкодыУпаковок.id_unit, 
+		|	втТаблицаШтрихкодыУпаковок.id_cell,
 		|	ЕСТЬNULL(SUI_docs_tbl_barcodes.mark_code, втТаблицаШтрихкодыУпаковок.mark_code) КАК mark_code,
 		|	ЕСТЬNULL(SUI_docs_tbl_barcodes.barcode_from_scanner, втТаблицаШтрихкодыУпаковок.barcode_from_scanner) КАК barcode_from_scanner,
 		|	ЕСТЬNULL(SUI_docs_tbl_barcodes.SSCC, втТаблицаШтрихкодыУпаковок.SSCC) КАК SSCC,
@@ -6046,6 +6053,7 @@
 		|		И втТаблицаШтрихкодыУпаковок.id_property = SUI_docs_tbl_barcodes.id_property
 		|		И втТаблицаШтрихкодыУпаковок.id_series = SUI_docs_tbl_barcodes.id_series
 		|		И втТаблицаШтрихкодыУпаковок.id_unit = SUI_docs_tbl_barcodes.id_unit
+		|		И втТаблицаШтрихкодыУпаковок.id_cell = SUI_docs_tbl_barcodes.id_cell
 		|		И ВЫБОР
 		|			КОГДА втТаблицаШтрихкодыУпаковок.id_marking_code ПОДОБНО &ШаблонИдентификатораSimple
 		|				ТОГДА втТаблицаШтрихкодыУпаковок.id_marking_code = SUI_docs_tbl_barcodes.id_marking_code
