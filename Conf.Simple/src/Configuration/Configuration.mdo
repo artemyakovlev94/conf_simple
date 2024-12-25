@@ -13,7 +13,6 @@
     <sessionModule>Extended</sessionModule>
     <externalConnectionModule>Extended</externalConnectionModule>
     <defaultLanguage>Checked</defaultLanguage>
-    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
     <compatibilityMode>Notify</compatibilityMode>
     <logo>Extended</logo>
   </extension>
@@ -32,7 +31,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ООО &quot;Симпл&quot;</vendor>
-  <version>1.0.4.18</version>
+  <version>1.0.4.32</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <logo/>
   <copyright>
@@ -47,7 +46,6 @@
     <key>ru</key>
     <value>https://github.com/simple-kit/simple-1C</value>
   </configurationInformationAddress>
-  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.17</compatibilityMode>
   <languages uuid="9396f4b2-89c1-458e-8572-606b9efe7c9e">
     <name>Русский</name>
@@ -144,6 +142,7 @@
   <commonTemplates>CommonTemplate.SUI_ПредопределенныеЕРПДокументы</commonTemplates>
   <commonTemplates>CommonTemplate.SUI_ПредопределенныеКАДокументы</commonTemplates>
   <commonTemplates>CommonTemplate.SUI_ПредопределенныеРозница23</commonTemplates>
+  <commonTemplates>CommonTemplate.SUI_ПредопределенныеРозница23Документы</commonTemplates>
   <commonTemplates>CommonTemplate.SUI_ПредопределенныеРозница30</commonTemplates>
   <commonTemplates>CommonTemplate.SUI_ПредопределенныеРозница30Документы</commonTemplates>
   <commonTemplates>CommonTemplate.SUI_ПредопределенныеУправлениеНашейФирмой</commonTemplates>
@@ -295,6 +294,7 @@
   <functionalOptions>FunctionalOption.SUI_НастройкаДокументаПеремещенияЗапасов</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_НеЗапускатьМастерНастроекПриНачалеРаботы</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ОнлайнОбмен</functionalOptions>
+  <functionalOptions>FunctionalOption.SUI_ОтключитьЛогированиеШаблонаHTTPСервиса</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ОткрыватьВыгрузкуДокументовОбменаОфлайн</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ОфлайнОбмен</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ПроверкаОбновленийПриСтарте</functionalOptions>
@@ -302,6 +302,7 @@
   <functionalOptions>FunctionalOption.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_УстановкаПредварительныхВерсий</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ХранениеСообщенийМобильныхУстройствВДнях</functionalOptions>
+  <functionalOptionsParameters>FunctionalOptionsParameter.SUI_ПараметрыЛогированияHTTPСервисаИмяШаблона</functionalOptionsParameters>
   <commonCommands>CommonCommand.SUI_ВыполнитьПолнуюВыгрузку</commonCommands>
   <commonCommands>CommonCommand.SUI_ИдентификаторSimple</commonCommands>
   <constants>Constant.SUI_АдресПубликацииБазы</constants>
@@ -430,6 +431,7 @@
   <informationRegisters>InformationRegister.SUI_НастройкиДокументовМобильныхУстройств</informationRegisters>
   <informationRegisters>InformationRegister.SUI_НастройкиТаблицИнтеграции</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ОчередьЗаданий</informationRegisters>
+  <informationRegisters>InformationRegister.SUI_ПараметрыЛогированияHTTPСервиса</informationRegisters>
   <informationRegisters>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.SUI_СеансыМобильныхУстройств</informationRegisters>
   <informationRegisters>InformationRegister.SUI_СообщенияМобильныхУстройств</informationRegisters>

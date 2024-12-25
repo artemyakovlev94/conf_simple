@@ -1629,6 +1629,37 @@
               <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
             </items>
             <items xsi:type="form:Button">
+              <name>ОткрытьПараметрыЛогированияHTTPСервиса</name>
+              <id>210</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ОткрытьПараметрыЛогированияHTTPСервисаРасширеннаяПодсказка</name>
+                <id>211</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <type>Hyperlink</type>
+              <commandName>Form.Command.ОткрытьПараметрыЛогированияHTTPСервиса</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:Button">
               <name>ОткрытьЗаписиЛогированияHTTPЗапросов</name>
               <id>146</id>
               <visible>true</visible>
@@ -3829,6 +3860,24 @@
         <name>ОткрытьСрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</name>
       </handler>
     </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьПараметрыЛогированияHTTPСервиса</name>
+    <title>
+      <key>ru</key>
+      <value>Параметры логирования</value>
+    </title>
+    <id>15</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьПараметрыЛогированияHTTPСервиса</name>
+      </handler>
+    </action>
+    <functionalOptions>FunctionalOption.SUI_ЛогированиеHTTPЗапросов</functionalOptions>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
