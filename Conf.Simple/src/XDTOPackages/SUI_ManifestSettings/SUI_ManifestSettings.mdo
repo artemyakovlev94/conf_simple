@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22c08b55-29e7-4b38-a8ad-ee14986ffa17">
+  <name>SUI_ManifestSettings</name>
+  <synonym>
+    <key>ru</key>
+    <value>Manifest settings (SUI)</value>
+  </synonym>
+  <namespace>http://www.manifest-settings.simple</namespace>
+</mdclass:XDTOPackage>

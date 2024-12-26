@@ -88,6 +88,7 @@
   <content>CommonPicture.SUI_Удалить</content>
   <content>CommonPicture.SUI_УдалитьНепосредственно</content>
   <content>CommonPicture.SUI_Штрихкод</content>
+  <content>CommonPicture.SUI_КоллекцияПиктограммФайлов</content>
   <subsystems>SUI_Администрирование</subsystems>
   <subsystems>SUI_ДокументыОбмена</subsystems>
   <subsystems>SUI_МобильныеУстройства</subsystems>

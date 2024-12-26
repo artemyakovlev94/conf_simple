@@ -84,6 +84,7 @@
   <commonPictures>CommonPicture.SUI_Информация32</commonPictures>
   <commonPictures>CommonPicture.SUI_КартинкаПереключателя</commonPictures>
   <commonPictures>CommonPicture.SUI_КоллекцияВидыСобытийЖурналаРегистрации</commonPictures>
+  <commonPictures>CommonPicture.SUI_КоллекцияПиктограммФайлов</commonPictures>
   <commonPictures>CommonPicture.SUI_МобильныйТелефонВРуке</commonPictures>
   <commonPictures>CommonPicture.SUI_ОжидаемаяДлительнаяОперация48</commonPictures>
   <commonPictures>CommonPicture.SUI_ОкПлюсМинус</commonPictures>
@@ -256,6 +257,7 @@
   <exchangePlans>ExchangePlan.SUI_МобильныеУстройства</exchangePlans>
   <xDTOPackages>XDTOPackage.SUI_ExchangeSupport</xDTOPackages>
   <xDTOPackages>XDTOPackage.SUI_HTTPLog</xDTOPackages>
+  <xDTOPackages>XDTOPackage.SUI_ManifestSettings</xDTOPackages>
   <xDTOPackages>XDTOPackage.SUI_RegistrationLog</xDTOPackages>
   <httpServices>HTTPService.SUI_Exchange</httpServices>
   <eventSubscriptions>EventSubscription.SUI_ДокументыОбменаПередЗаписью</eventSubscriptions>
@@ -396,6 +398,7 @@
   <reports>Report.SUI_ОтчетПоВыработкеСотрудников</reports>
   <reports>Report.SUI_ОтчетПоЗадачамПересчет</reports>
   <dataProcessors>DataProcessor.SUI_ЗапросыКБазамДанныхМобильныхУстройств</dataProcessors>
+  <dataProcessors>DataProcessor.SUI_ИмпортЭкспортНастроек</dataProcessors>
   <dataProcessors>DataProcessor.SUI_МастерНастроек</dataProcessors>
   <dataProcessors>DataProcessor.SUI_НастройкаМетаданных</dataProcessors>
   <dataProcessors>DataProcessor.SUI_ОбновлениеSimple</dataProcessors>
