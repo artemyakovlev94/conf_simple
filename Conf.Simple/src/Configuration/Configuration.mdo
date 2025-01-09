@@ -257,7 +257,6 @@
   <exchangePlans>ExchangePlan.SUI_МобильныеУстройства</exchangePlans>
   <xDTOPackages>XDTOPackage.SUI_ExchangeSupport</xDTOPackages>
   <xDTOPackages>XDTOPackage.SUI_HTTPLog</xDTOPackages>
-  <xDTOPackages>XDTOPackage.SUI_ManifestSettings</xDTOPackages>
   <xDTOPackages>XDTOPackage.SUI_RegistrationLog</xDTOPackages>
   <httpServices>HTTPService.SUI_Exchange</httpServices>
   <eventSubscriptions>EventSubscription.SUI_ДокументыОбменаПередЗаписью</eventSubscriptions>
