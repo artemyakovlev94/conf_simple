@@ -900,7 +900,6 @@
     <name>ПриОткрытии</name>
   </handlers>
   <saveWindowSettings>true</saveWindowSettings>
-  <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1041,9 +1040,7 @@
         <value>Key</value>
       </title>
       <id>23</id>
-      <valueType>
-        <types>CatalogRef.SUI_НастройкиДокументов</types>
-      </valueType>
+      <valueType/>
       <view>
         <common>true</common>
       </view>
