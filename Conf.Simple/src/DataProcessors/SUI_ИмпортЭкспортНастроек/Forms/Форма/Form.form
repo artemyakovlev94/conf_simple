@@ -333,39 +333,39 @@
             </extendedTooltip>
             <extInfo xsi:type="form:ButtonGroupExtInfo"/>
           </items>
-          <items xsi:type="form:FormGroup">
-            <name>НастройкиГруппаЗагрузитьВыгрузить</name>
-            <id>67</id>
-            <items xsi:type="form:Button">
-              <name>НастройкиЗагрузитьИзФайла</name>
-              <id>51</id>
+          <items xsi:type="form:Button">
+            <name>НастройкиЗаписатьНастройки</name>
+            <id>116</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>НастройкиЗаписатьНастройкиРасширеннаяПодсказка</name>
+              <id>117</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <extendedTooltip>
-                <name>НастройкиЗагрузитьИзФайлаРасширеннаяПодсказка</name>
-                <id>52</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <commandName>Form.Command.ЗагрузитьИзФайла</commandName>
-              <representation>Auto</representation>
+              <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
-              <placementArea>UserCmds</placementArea>
-              <representationInContextMenu>Auto</representationInContextMenu>
-            </items>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ЗаписатьНастройки</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:FormGroup">
+            <name>НастройкиГруппаЗагрузитьВыгрузить</name>
+            <id>67</id>
             <items xsi:type="form:Button">
               <name>НастройкиВыгрузитьВФайл</name>
               <id>69</id>
@@ -390,6 +390,36 @@
                 </extInfo>
               </extendedTooltip>
               <commandName>Form.Command.ВыгрузитьВФайл</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:Button">
+              <name>НастройкиЗагрузитьИзФайла</name>
+              <id>51</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>НастройкиЗагрузитьИзФайлаРасширеннаяПодсказка</name>
+                <id>52</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ЗагрузитьИзФайла</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1198,7 +1228,7 @@
     <name>ЗагрузитьИзФайла</name>
     <title>
       <key>ru</key>
-      <value>Загрузить</value>
+      <value>Загрузить из файла</value>
     </title>
     <id>1</id>
     <toolTip>
@@ -1321,7 +1351,7 @@
     <name>ВыгрузитьВФайл</name>
     <title>
       <key>ru</key>
-      <value>Выгрузить</value>
+      <value>Выгрузить в файл</value>
     </title>
     <id>6</id>
     <toolTip>
@@ -1346,22 +1376,47 @@
     <name>ЗагрузитьПредопределенные</name>
     <title>
       <key>ru</key>
-      <value>Предопределенные</value>
+      <value>Загрузить с сайта</value>
     </title>
     <id>7</id>
     <toolTip>
       <key>ru</key>
-      <value>Загрузить предопределенные настройки из репозитория</value>
+      <value>Загрузить предопределенные настройки с сайта Simple</value>
     </toolTip>
     <use>
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.SUI_ЗаполнитьПоШаблону</picture>
+      <picture>StdPicture.GotoExternalURL</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ЗагрузитьПредопределенные</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗаписатьНастройки</name>
+    <title>
+      <key>ru</key>
+      <value>Записать настройки</value>
+    </title>
+    <id>8</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Записать загруженные настройки</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Write</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗаписатьНастройки</name>
       </handler>
     </action>
     <representation>TextPicture</representation>
