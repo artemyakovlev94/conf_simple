@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8dcbc05e-2f23-4e44-a7d3-a2da10b26965">
-  <name>SUI_ПредопределенныеРозница30</name>
-  <synonym>
-    <key>ru</key>
-    <value>Предопределенные настройки Розница 3.0 (SUI)</value>
-  </synonym>
-  <templateType>BinaryData</templateType>
-</mdclass:CommonTemplate>

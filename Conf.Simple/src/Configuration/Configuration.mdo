@@ -137,19 +137,6 @@
   <commonTemplates>CommonTemplate.SUI_КартинкаШтрихкода</commonTemplates>
   <commonTemplates>CommonTemplate.SUI_КомпонентаПечатиШтрихкодов</commonTemplates>
   <commonTemplates>CommonTemplate.SUI_ПолучениеДереваОбработчиковОбновления</commonTemplates>
-  <commonTemplates>CommonTemplate.SUI_ПредопределенныеБухгалтерия</commonTemplates>
-  <commonTemplates>CommonTemplate.SUI_ПредопределенныеБухгалтерияДокументы</commonTemplates>
-  <commonTemplates>CommonTemplate.SUI_ПредопределенныеЕРП</commonTemplates>
-  <commonTemplates>CommonTemplate.SUI_ПредопределенныеЕРПДокументы</commonTemplates>
-  <commonTemplates>CommonTemplate.SUI_ПредопределенныеКАДокументы</commonTemplates>
-  <commonTemplates>CommonTemplate.SUI_ПредопределенныеРозница23</commonTemplates>
-  <commonTemplates>CommonTemplate.SUI_ПредопределенныеРозница23Документы</commonTemplates>
-  <commonTemplates>CommonTemplate.SUI_ПредопределенныеРозница30</commonTemplates>
-  <commonTemplates>CommonTemplate.SUI_ПредопределенныеРозница30Документы</commonTemplates>
-  <commonTemplates>CommonTemplate.SUI_ПредопределенныеУправлениеНашейФирмой</commonTemplates>
-  <commonTemplates>CommonTemplate.SUI_ПредопределенныеУправлениеНашейФирмойДокументы</commonTemplates>
-  <commonTemplates>CommonTemplate.SUI_ПредопределенныеУправлениеТорговлей11</commonTemplates>
-  <commonTemplates>CommonTemplate.SUI_ПредопределенныеУправлениеТорговлей11Документы</commonTemplates>
   <commonTemplates>CommonTemplate.SUI_СостояниеТаблицМобильногоУстройства</commonTemplates>
   <commonTemplates>CommonTemplate.SUI_ШаблоныКодовМаркировки</commonTemplates>
   <commonModules>CommonModule.SUI_HTTPКонектор</commonModules>
