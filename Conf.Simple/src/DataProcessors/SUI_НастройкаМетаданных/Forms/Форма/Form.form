@@ -2026,31 +2026,6 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ЗаполнитьПредопределеннойНастройкой</name>
-    <title>
-      <key>ru</key>
-      <value>Предопределенная настройка</value>
-    </title>
-    <id>14</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Заполнить на основании преопределенной настройки</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.DataCompositionStandardSettings</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ЗаполнитьПредопределеннойНастройкой</name>
-      </handler>
-    </action>
-    <representation>TextPicture</representation>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>ВыгрузитьНастройкиВФайл</name>
     <title>
       <key>ru</key>

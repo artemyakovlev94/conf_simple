@@ -456,7 +456,7 @@
               </items>
               <items xsi:type="form:Button">
                 <name>НастройкиЗагрузитьПредопределенные</name>
-                <id>71</id>
+                <id>132</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -464,7 +464,7 @@
                 </userVisible>
                 <extendedTooltip>
                   <name>НастройкиЗагрузитьПредопределенныеРасширеннаяПодсказка</name>
-                  <id>72</id>
+                  <id>133</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -478,6 +478,36 @@
                   </extInfo>
                 </extendedTooltip>
                 <commandName>Form.Command.ЗагрузитьПредопределенные</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:Button">
+                <name>ЗагрузитьССайта</name>
+                <id>71</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ЗагрузитьССайтаРасширеннаяПодсказка</name>
+                  <id>72</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.ЗагрузитьССайта</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -669,7 +699,7 @@
             <changeRowOrder>true</changeRowOrder>
             <width>100</width>
             <autoMaxWidth>true</autoMaxWidth>
-            <height>10</height>
+            <height>15</height>
             <autoMaxHeight>true</autoMaxHeight>
             <autoMaxRowsCount>true</autoMaxRowsCount>
             <selectionMode>MultiRow</selectionMode>
@@ -1594,15 +1624,15 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ЗагрузитьПредопределенные</name>
+    <name>ЗагрузитьССайта</name>
     <title>
       <key>ru</key>
-      <value>Загрузить с сайта</value>
+      <value>Получить с сайта</value>
     </title>
     <id>7</id>
     <toolTip>
       <key>ru</key>
-      <value>Загрузить предопределенные настройки с сайта Simple</value>
+      <value>Загрузить настройки с сайта Simple</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -1612,7 +1642,7 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ЗагрузитьПредопределенные</name>
+        <name>ЗагрузитьССайта</name>
       </handler>
     </action>
     <representation>TextPicture</representation>
@@ -1665,6 +1695,31 @@
         <name>ОткрытьСтарыйФорматОбменаНастройками</name>
       </handler>
     </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗагрузитьПредопределенные</name>
+    <title>
+      <key>ru</key>
+      <value>Предопределенные</value>
+    </title>
+    <id>10</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Загрузить предопределенные настройки</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.SUI_ЗаполнитьПоШаблону</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗагрузитьПредопределенные</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <parameters>

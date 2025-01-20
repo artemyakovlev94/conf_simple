@@ -24,4 +24,22 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="aa2920e7-0061-4722-bd24-956c1dfdbc09">
+    <name>ПредопределенныеНастройкиДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенные настройки документов</value>
+    </synonym>
+    <comment>Архив предопределенных настроек документов</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="e98ee3c9-092f-4e87-910d-59c2278dac05">
+    <name>ПредопределенныеНастройкиПодсистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенные настройки подсистемы</value>
+    </synonym>
+    <comment>Архив предопределенных настроек подсистемы</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
 </mdclass:DataProcessor>
