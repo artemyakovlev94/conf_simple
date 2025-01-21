@@ -6,9 +6,7 @@
     <value>Конфигурации приложений</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <content>Catalog.SUI_НастройкиКонфигурацийПриложений</content>
   <content>Role.SUI_ИнтерактивноеУдалениеКонфигурацийПриложений</content>
   <content>Role.SUI_ИнтерактивноеУдалениеНастроекКонфигурацийПриложений</content>
-  <content>Catalog.SUI_КонфигурацииПриложений</content>
   <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_Администрирование</parentSubsystem>
 </mdclass:Subsystem>

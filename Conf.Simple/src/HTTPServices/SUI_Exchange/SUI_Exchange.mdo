@@ -111,22 +111,6 @@
       <handler>ОбновитьДокументы</handler>
     </methods>
   </urlTemplates>
-  <urlTemplates uuid="70b4d319-21f7-48c6-b8ad-05849ec25a63">
-    <name>ОбновленияКонфигурацийПриложений</name>
-    <synonym>
-      <key>ru</key>
-      <value>Обновления конфигураций приложений</value>
-    </synonym>
-    <template>/app/updates</template>
-    <methods uuid="2be7c1fe-14e5-4be8-9b2b-34531f6f4857">
-      <name>Получить</name>
-      <synonym>
-        <key>ru</key>
-        <value>Получить</value>
-      </synonym>
-      <handler>ОбновленияКонфигурацийПриложенийПолучить</handler>
-    </methods>
-  </urlTemplates>
   <urlTemplates uuid="50763652-bb3d-4e2d-9071-e556dbfb43f3">
     <name>ОстаткиИЦены</name>
     <synonym>

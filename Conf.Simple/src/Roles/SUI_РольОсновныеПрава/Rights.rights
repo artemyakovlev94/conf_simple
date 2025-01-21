@@ -1404,13 +1404,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.SUI_НастройкиКонфигурацийПриложений</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.SUI_docs_tbl_barcode_flow</name>
 		<right>
 			<name>Read</name>
@@ -1748,13 +1741,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.SUI_КонфигурацииПриложений</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.SUI_ВерсияДанных</name>
 		<right>
 			<name>Read</name>
@@ -1762,13 +1748,6 @@
 		</right>
 		<right>
 			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_ПрисоединенныеФайлыОбщие</name>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>

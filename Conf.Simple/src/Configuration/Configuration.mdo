@@ -355,11 +355,8 @@
   <commonForms>CommonForm.SUI_РедактированиеВерсии</commonForms>
   <commonForms>CommonForm.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</commonForms>
   <commonForms>CommonForm.SUI_УпрощеннаяНастройкаСхемыКомпоновкиДанных</commonForms>
-  <catalogs>Catalog.SUI_КонфигурацииПриложений</catalogs>
   <catalogs>Catalog.SUI_НастройкиДокументов</catalogs>
-  <catalogs>Catalog.SUI_НастройкиКонфигурацийПриложений</catalogs>
   <catalogs>Catalog.SUI_ПользователиТСД</catalogs>
-  <catalogs>Catalog.SUI_ПрисоединенныеФайлыОбщие</catalogs>
   <catalogs>Catalog.SUI_ШаблоныЭтикетокZPL</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Удалить_SUI_МобильныеКлиенты</catalogs>
