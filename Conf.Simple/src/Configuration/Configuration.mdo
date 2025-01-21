@@ -356,6 +356,7 @@
   <commonForms>CommonForm.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</commonForms>
   <commonForms>CommonForm.SUI_УпрощеннаяНастройкаСхемыКомпоновкиДанных</commonForms>
   <catalogs>Catalog.SUI_НастройкиДокументов</catalogs>
+  <catalogs>Catalog.SUI_НастройкиМобильныхУстройств</catalogs>
   <catalogs>Catalog.SUI_ПользователиТСД</catalogs>
   <catalogs>Catalog.SUI_ШаблоныЭтикетокZPL</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
