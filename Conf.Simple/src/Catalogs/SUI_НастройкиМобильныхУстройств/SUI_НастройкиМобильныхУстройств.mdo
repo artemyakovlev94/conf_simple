@@ -50,11 +50,12 @@
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:StringValue">
-      <value>0</value>
+      <value>1</value>
     </minValue>
     <maxValue xsi:type="core:StringValue">
-      <value>99</value>
+      <value>30</value>
     </maxValue>
+    <fillChecking>ShowError</fillChecking>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:NumberValue">
       <value>15</value>
@@ -75,11 +76,12 @@
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:StringValue">
-      <value>0</value>
+      <value>1</value>
     </minValue>
     <maxValue xsi:type="core:StringValue">
-      <value>99</value>
+      <value>30</value>
     </maxValue>
+    <fillChecking>ShowError</fillChecking>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:NumberValue">
       <value>18</value>
@@ -100,11 +102,12 @@
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:StringValue">
-      <value>0</value>
+      <value>1</value>
     </minValue>
     <maxValue xsi:type="core:StringValue">
-      <value>99</value>
+      <value>30</value>
     </maxValue>
+    <fillChecking>ShowError</fillChecking>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:NumberValue">
       <value>16</value>
@@ -125,11 +128,12 @@
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:StringValue">
-      <value>0</value>
+      <value>1</value>
     </minValue>
     <maxValue xsi:type="core:StringValue">
-      <value>99</value>
+      <value>30</value>
     </maxValue>
+    <fillChecking>ShowError</fillChecking>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:NumberValue">
       <value>15</value>
@@ -257,7 +261,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="6a73b244-55af-4d0a-b713-1e98cde52f0b">
-    <name>ОффлайнРежим</name>
+    <name>ОфлайнРежим</name>
     <synonym>
       <key>ru</key>
       <value>Офлайн режим</value>
@@ -363,8 +367,9 @@
     <name>УдалятьДокументыСоСтатусамиСтрокой</name>
     <synonym>
       <key>ru</key>
-      <value>Удалять документы со статусами строкой</value>
+      <value>Удалять документы со статусами</value>
     </synonym>
+    <comment>Значения разделенные через ;</comment>
     <type>
       <types>String</types>
       <stringQualifiers>
@@ -742,7 +747,7 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>3</precision>
+        <precision>4</precision>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
