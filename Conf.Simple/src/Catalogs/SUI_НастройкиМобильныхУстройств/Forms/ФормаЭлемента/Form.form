@@ -2371,7 +2371,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>ПротоколПечати</name>
+        <name>ТипСоединенияПринтера</name>
         <id>70</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2379,10 +2379,10 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ПротоколПечати</segments>
+          <segments>Объект.ТипСоединенияПринтера</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПротоколПечатиРасширеннаяПодсказка</name>
+          <name>ТипСоединенияПринтераРасширеннаяПодсказка</name>
           <id>72</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2397,7 +2397,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ПротоколПечатиКонтекстноеМеню</name>
+          <name>ТипСоединенияПринтераКонтекстноеМеню</name>
           <id>71</id>
           <visible>true</visible>
           <enabled>true</enabled>

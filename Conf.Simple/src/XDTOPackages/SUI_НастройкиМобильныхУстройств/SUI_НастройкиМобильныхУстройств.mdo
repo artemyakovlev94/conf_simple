@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dde2d098-7ac3-4afa-bc68-af5ce4e20355">
-  <name>SUI_НастройкиМобильныхУстройств</name>
-  <synonym>
-    <key>ru</key>
-    <value>Настройки мобильных устройств (SUI)</value>
-  </synonym>
-  <namespace>http://www.mobile-settings.simple</namespace>
-</mdclass:XDTOPackage>

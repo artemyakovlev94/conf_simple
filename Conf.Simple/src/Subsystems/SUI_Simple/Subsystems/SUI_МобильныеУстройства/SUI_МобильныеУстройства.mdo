@@ -19,7 +19,6 @@
   <content>InformationRegister.SUI_СеансыМобильныхУстройств</content>
   <content>ExchangePlan.SUI_МобильныеУстройства</content>
   <content>Catalog.SUI_НастройкиМобильныхУстройств</content>
-  <content>XDTOPackage.SUI_НастройкиМобильныхУстройств</content>
   <subsystems>SUI_ТаблицыМобильныхКлиентов</subsystems>
   <subsystems>SUI_ЦентрализованноеУправление</subsystems>
   <parentSubsystem>Subsystem.SUI_Simple</parentSubsystem>

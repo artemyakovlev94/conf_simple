@@ -509,10 +509,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="d1db58b6-e6e1-4ec0-9c49-a3cfa6900f41">
-    <name>ПротоколПечати</name>
+    <name>ТипСоединенияПринтера</name>
     <synonym>
       <key>ru</key>
-      <value>Протокол печати</value>
+      <value>Тип соединения принтера</value>
     </synonym>
     <comment>&quot;BT&quot; или &quot;WiFi&quot;</comment>
     <type>
@@ -885,10 +885,10 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <templates uuid="4d060af6-f3ba-4a2d-a448-5276e1301667">
-    <name>СтруктураНастройкиJSON</name>
+    <name>МакетНастройки</name>
     <synonym>
       <key>ru</key>
-      <value>Структура настройки JSON</value>
+      <value>Макет настройки</value>
     </synonym>
   </templates>
   <commands uuid="9174863e-f598-4612-9a94-4d408901558e">
