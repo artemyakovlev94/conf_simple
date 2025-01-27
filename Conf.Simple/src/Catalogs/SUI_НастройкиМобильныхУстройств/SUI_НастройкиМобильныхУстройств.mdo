@@ -851,6 +851,21 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="600dec0a-5695-4535-bc78-d64c7fdc5101">
+    <name>УдалятьУстаревшиеЛоги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалять устаревшие логи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="cb8fd8db-c8fb-48ba-818e-56c20ca44f27">
     <name>ФормаСписка</name>
     <synonym>
@@ -869,6 +884,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="4d060af6-f3ba-4a2d-a448-5276e1301667">
+    <name>СтруктураНастройкиJSON</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура настройки JSON</value>
+    </synonym>
+  </templates>
   <commands uuid="9174863e-f598-4612-9a94-4d408901558e">
     <name>НазначитьОсновной</name>
     <synonym>

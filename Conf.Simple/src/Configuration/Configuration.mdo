@@ -245,6 +245,7 @@
   <xDTOPackages>XDTOPackage.SUI_ExchangeSupport</xDTOPackages>
   <xDTOPackages>XDTOPackage.SUI_HTTPLog</xDTOPackages>
   <xDTOPackages>XDTOPackage.SUI_RegistrationLog</xDTOPackages>
+  <xDTOPackages>XDTOPackage.SUI_НастройкиМобильныхУстройств</xDTOPackages>
   <httpServices>HTTPService.SUI_Exchange</httpServices>
   <eventSubscriptions>EventSubscription.SUI_ДокументыОбменаПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_ДокументыОбменаПриЗаписи</eventSubscriptions>
