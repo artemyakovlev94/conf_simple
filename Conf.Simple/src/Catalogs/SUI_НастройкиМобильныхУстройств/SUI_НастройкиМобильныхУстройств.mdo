@@ -837,6 +837,20 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="b6339cab-8982-4b60-9af8-1d26e1e7f2d2">
+    <name>ОсновнаяНастройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="cb8fd8db-c8fb-48ba-818e-56c20ca44f27">
     <name>ФормаСписка</name>
     <synonym>
@@ -855,4 +869,17 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <commands uuid="9174863e-f598-4612-9a94-4d408901558e">
+    <name>НазначитьОсновной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначить основной</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.SUI_НастройкиМобильныхУстройств</types>
+    </commandParameterType>
+    <modifiesData>true</modifiesData>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Catalog>
