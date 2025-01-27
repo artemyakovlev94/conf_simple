@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de7fd18c-a18b-45f7-a763-04a8470afd09">
+  <name>SUI_ПредопределенныеЕРПДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предопределенные настройки ЕРП (SUI)</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

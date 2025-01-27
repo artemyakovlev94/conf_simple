@@ -616,16 +616,16 @@
     <name>ПриОткрытии</name>
   </handlers>
   <handlers>
+    <event>BeforeClose</event>
+    <name>ПередЗакрытием</name>
+  </handlers>
+  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <handlers>
     <event>FillCheckProcessingAtServer</event>
     <name>ОбработкаПроверкиЗаполненияНаСервере</name>
-  </handlers>
-  <handlers>
-    <event>BeforeClose</event>
-    <name>ПередЗакрытием</name>
   </handlers>
   <excludedCommands>Copy</excludedCommands>
   <height>20</height>
@@ -808,16 +808,16 @@
   </commandInterface>
   <extInfo xsi:type="form:InformationRegisterManagerFormExtInfo">
     <handlers>
+      <event>AfterWrite</event>
+      <name>ПослеЗаписи</name>
+    </handlers>
+    <handlers>
       <event>BeforeWrite</event>
       <name>ПередЗаписью</name>
     </handlers>
     <handlers>
       <event>BeforeWriteAtServer</event>
       <name>ПередЗаписьюНаСервере</name>
-    </handlers>
-    <handlers>
-      <event>AfterWrite</event>
-      <name>ПослеЗаписи</name>
     </handlers>
   </extInfo>
 </form:Form>

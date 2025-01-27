@@ -1,0 +1,710 @@
+﻿<Structure xmlns="http://v8.1c.ru/8.1/data/core" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Structure">
+	<Property name="Вид">
+		<Value xsi:type="xs:string">НастройкиМетаданных</Value>
+	</Property>
+	<Property name="Версия">
+		<Value xsi:type="xs:string">1.0</Value>
+	</Property>
+	<Property name="ПользовательскийЗапрос">
+		<Value xsi:type="Structure">
+			<Property name="Использование">
+				<Value xsi:type="xs:boolean">false</Value>
+			</Property>
+			<Property name="ДанныеКонструктора">
+				<Value xsi:type="FixedStructure">
+					<Property name="ТекстЗапроса">
+						<Value xsi:type="xs:string"/>
+					</Property>
+					<Property name="ВыполнятьВПакетномРежиме">
+						<Value xsi:type="xs:boolean">false</Value>
+					</Property>
+					<Property name="ПакетыРезультата">
+						<Value xsi:type="Array"/>
+					</Property>
+				</Value>
+			</Property>
+		</Value>
+	</Property>
+	<Property name="ЗапросПолученияОстатковИЦен">
+		<Value xsi:type="Structure">
+			<Property name="ДанныеКонструктора">
+				<Value xsi:type="FixedStructure">
+					<Property name="ТекстЗапроса">
+						<Value xsi:type="xs:string"/>
+					</Property>
+					<Property name="ВыполнятьВПакетномРежиме">
+						<Value xsi:type="xs:boolean">false</Value>
+					</Property>
+					<Property name="ПакетыРезультата">
+						<Value xsi:type="Array"/>
+					</Property>
+				</Value>
+			</Property>
+		</Value>
+	</Property>
+	<Property name="ТаблицыИнтеграции">
+		<Value xsi:type="ValueTable">
+			<column>
+				<Name xsi:type="xs:string">ТаблицаИнтеграции</Name>
+				<ValueType>
+					<Type xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:EnumRef.SUI_ТаблицыИнтеграции</Type>
+					<Type>Null</Type>
+				</ValueType>
+				<Title>Таблица интеграции</Title>
+			</column>
+			<column>
+				<Name xsi:type="xs:string">ИмяОбъекта</Name>
+				<ValueType>
+					<Type>xs:string</Type>
+					<Type>Null</Type>
+					<StringQualifiers>
+						<Length>150</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</ValueType>
+				<Title>Имя объекта</Title>
+			</column>
+			<column>
+				<Name xsi:type="xs:string">ОсновнойОбъект</Name>
+				<ValueType>
+					<Type>xs:boolean</Type>
+					<Type>Null</Type>
+				</ValueType>
+				<Title>Основной объект</Title>
+			</column>
+			<column>
+				<Name xsi:type="xs:string">Используется</Name>
+				<ValueType>
+					<Type>xs:boolean</Type>
+					<Type>Null</Type>
+				</ValueType>
+				<Title>Используется</Title>
+			</column>
+			<column>
+				<Name xsi:type="xs:string">СхемаКомпоновкиДанных</Name>
+				<ValueType/>
+				<Title>Схема компоновки данных</Title>
+			</column>
+			<column>
+				<Name xsi:type="xs:string">НастройкиКомпоновкиДанных</Name>
+				<ValueType/>
+				<Title>Настройки компоновки данных</Title>
+			</column>
+			<row>
+				<Value xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">Контрагенты</Value>
+				<Value xsi:type="xs:string">Справочник.Контрагенты</Value>
+				<Value xsi:type="xs:boolean">true</Value>
+				<Value xsi:type="xs:boolean">true</Value>
+				<Value xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xsi:type="dcssch:DataCompositionSchema">
+					<dcssch:dataSource>
+						<dcssch:name>ИсточникДанных1</dcssch:name>
+						<dcssch:dataSourceType>Local</dcssch:dataSourceType>
+					</dcssch:dataSource>
+					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
+						<dcssch:name>НаборДанных1</dcssch:name>
+						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
+						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	*
+ИЗ
+	Справочник.Контрагенты КАК Контрагенты
+{ГДЕ
+	Контрагенты.Ссылка = &amp;Ссылка}</dcssch:query>
+					</dcssch:dataSet>
+					<dcssch:settingsVariant>
+						<dcsset:name>Основной</dcsset:name>
+						<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+						<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+					</dcssch:settingsVariant>
+				</Value>
+				<Value xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xsi:type="dcsset:Settings">
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Ссылка</dcsset:field>
+							<dcsset:title>id</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Наименование</dcsset:field>
+							<dcsset:title>name</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>НаименованиеПолное</dcsset:field>
+							<dcsset:title>full_name</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ИНН</dcsset:field>
+							<dcsset:title>inn</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>КПП</dcsset:field>
+							<dcsset:title>kpp</dcsset:title>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ПометкаУдаления</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ЭтоГруппа</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</Value>
+			</row>
+			<row>
+				<Value xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">Склады</Value>
+				<Value xsi:type="xs:string">Справочник.Склады</Value>
+				<Value xsi:type="xs:boolean">true</Value>
+				<Value xsi:type="xs:boolean">true</Value>
+				<Value xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xsi:type="dcssch:DataCompositionSchema">
+					<dcssch:dataSource>
+						<dcssch:name>ИсточникДанных1</dcssch:name>
+						<dcssch:dataSourceType>Local</dcssch:dataSourceType>
+					</dcssch:dataSource>
+					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
+						<dcssch:name>НаборДанных1</dcssch:name>
+						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
+						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	*
+ИЗ
+	Справочник.Склады КАК Склады
+{ГДЕ
+	Склады.Ссылка = &amp;Ссылка}</dcssch:query>
+					</dcssch:dataSet>
+					<dcssch:settingsVariant>
+						<dcsset:name>Основной</dcsset:name>
+						<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+						<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+					</dcssch:settingsVariant>
+				</Value>
+				<Value xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xsi:type="dcsset:Settings">
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Код</dcsset:field>
+							<dcsset:title>id</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Наименование</dcsset:field>
+							<dcsset:title>name</dcsset:title>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</Value>
+			</row>
+			<row>
+				<Value xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">Номенклатура</Value>
+				<Value xsi:type="xs:string">Справочник.ОсновныеСредства</Value>
+				<Value xsi:type="xs:boolean">false</Value>
+				<Value xsi:type="xs:boolean">true</Value>
+				<Value xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xsi:type="dcssch:DataCompositionSchema">
+					<dcssch:dataSource>
+						<dcssch:name>ИсточникДанных1</dcssch:name>
+						<dcssch:dataSourceType>Local</dcssch:dataSourceType>
+					</dcssch:dataSource>
+					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
+						<dcssch:name>НаборДанных1</dcssch:name>
+						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
+						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	*
+ИЗ
+	Справочник.ОсновныеСредства КАК ОсновныеСредства
+{ГДЕ
+	ОсновныеСредства.Ссылка = &amp;Ссылка}</dcssch:query>
+					</dcssch:dataSet>
+					<dcssch:settingsVariant>
+						<dcsset:name>Основной</dcsset:name>
+						<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+						<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+					</dcssch:settingsVariant>
+				</Value>
+				<Value xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xsi:type="dcsset:Settings">
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Ссылка</dcsset:field>
+							<dcsset:title>id</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Наименование</dcsset:field>
+							<dcsset:title>name</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Код</dcsset:field>
+							<dcsset:title>code</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ГруппаОС</dcsset:field>
+							<dcsset:title>type_good</dcsset:title>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</Value>
+			</row>
+			<row>
+				<Value xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">Номенклатура</Value>
+				<Value xsi:type="xs:string">Справочник.Номенклатура</Value>
+				<Value xsi:type="xs:boolean">true</Value>
+				<Value xsi:type="xs:boolean">true</Value>
+				<Value xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xsi:type="dcssch:DataCompositionSchema">
+					<dcssch:dataSource>
+						<dcssch:name>ИсточникДанных1</dcssch:name>
+						<dcssch:dataSourceType>Local</dcssch:dataSourceType>
+					</dcssch:dataSource>
+					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
+						<dcssch:name>НаборДанных1</dcssch:name>
+						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
+						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	*
+ИЗ
+	Справочник.Номенклатура КАК Номенклатура
+{ГДЕ
+	Номенклатура.Ссылка = &amp;Ссылка}</dcssch:query>
+					</dcssch:dataSet>
+					<dcssch:settingsVariant>
+						<dcsset:name>Основной</dcsset:name>
+						<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+						<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+					</dcssch:settingsVariant>
+				</Value>
+				<Value xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xsi:type="dcsset:Settings">
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Ссылка</dcsset:field>
+							<dcsset:title>id</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Наименование</dcsset:field>
+							<dcsset:title>name</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Код</dcsset:field>
+							<dcsset:title>code</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Артикул</dcsset:field>
+							<dcsset:title>art</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ЕдиницаИзмерения</dcsset:field>
+							<dcsset:title>unit</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ВидНоменклатуры.Наименование</dcsset:field>
+							<dcsset:title>type_good</dcsset:title>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ПометкаУдаления</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ЭтоГруппа</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</Value>
+			</row>
+			<row>
+				<Value xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">ШтрихкодыНоменклатуры</Value>
+				<Value xsi:type="xs:string">РегистрСведений.ПервоначальныеСведенияОСБухгалтерскийУчет</Value>
+				<Value xsi:type="xs:boolean">false</Value>
+				<Value xsi:type="xs:boolean">true</Value>
+				<Value xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xsi:type="dcssch:DataCompositionSchema">
+					<dcssch:dataSource>
+						<dcssch:name>ИсточникДанных1</dcssch:name>
+						<dcssch:dataSourceType>Local</dcssch:dataSourceType>
+					</dcssch:dataSource>
+					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
+						<dcssch:name>НаборДанных1</dcssch:name>
+						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
+						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	*
+ИЗ
+	РегистрСведений.ПервоначальныеСведенияОСБухгалтерскийУчет КАК ПервоначальныеСведенияОСБухгалтерскийУчет
+{ГДЕ
+	ПервоначальныеСведенияОСБухгалтерскийУчет.Регистратор = &amp;Регистратор}</dcssch:query>
+					</dcssch:dataSet>
+					<dcssch:settingsVariant>
+						<dcsset:name>Основной</dcsset:name>
+						<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+						<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+					</dcssch:settingsVariant>
+				</Value>
+				<Value xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xsi:type="dcsset:Settings">
+					<dcsset:userFields>
+						<dcsset:item xsi:type="dcsset:UserFieldCase">
+							<dcsset:dataPath>ПользовательскиеПоля.Поле1</dcsset:dataPath>
+							<dcsset:title>Ид_шк_ос</dcsset:title>
+							<dcsset:cases>
+								<dcsset:item>
+									<dcsset:filter/>
+									<dcsset:value xsi:type="xs:string"/>
+								</dcsset:item>
+							</dcsset:cases>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:UserFieldCase">
+							<dcsset:dataPath>ПользовательскиеПоля.Поле2</dcsset:dataPath>
+							<dcsset:title>1</dcsset:title>
+							<dcsset:cases>
+								<dcsset:item>
+									<dcsset:filter/>
+									<dcsset:value xsi:type="xs:decimal">1</dcsset:value>
+								</dcsset:item>
+							</dcsset:cases>
+						</dcsset:item>
+					</dcsset:userFields>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ПользовательскиеПоля.Поле1</dcsset:field>
+							<dcsset:title>id</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ИнвентарныйНомер</dcsset:field>
+							<dcsset:title>barcode</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ОсновноеСредство</dcsset:field>
+							<dcsset:title>id_good</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ПользовательскиеПоля.Поле2</dcsset:field>
+							<dcsset:title>ratio</dcsset:title>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</Value>
+			</row>
+			<row>
+				<Value xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">ШтрихкодыНоменклатуры</Value>
+				<Value xsi:type="xs:string">РегистрСведений.ШтрихкодыНоменклатуры</Value>
+				<Value xsi:type="xs:boolean">true</Value>
+				<Value xsi:type="xs:boolean">true</Value>
+				<Value xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xsi:type="dcssch:DataCompositionSchema">
+					<dcssch:dataSource>
+						<dcssch:name>ИсточникДанных1</dcssch:name>
+						<dcssch:dataSourceType>Local</dcssch:dataSourceType>
+					</dcssch:dataSource>
+					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
+						<dcssch:name>НаборДанных1</dcssch:name>
+						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
+						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	*
+ИЗ
+	РегистрСведений.ШтрихкодыНоменклатуры КАК ШтрихкодыНоменклатуры
+{ГДЕ
+	ШтрихкодыНоменклатуры.Штрихкод = &amp;Штрихкод}</dcssch:query>
+					</dcssch:dataSet>
+					<dcssch:settingsVariant>
+						<dcsset:name>Основной</dcsset:name>
+						<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+						<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+					</dcssch:settingsVariant>
+				</Value>
+				<Value xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xsi:type="dcsset:Settings">
+					<dcsset:userFields>
+						<dcsset:item xsi:type="dcsset:UserFieldCase">
+							<dcsset:dataPath>ПользовательскиеПоля.Поле1</dcsset:dataPath>
+							<dcsset:title>SUI_RATIO</dcsset:title>
+							<dcsset:cases>
+								<dcsset:item>
+									<dcsset:filter/>
+									<dcsset:value xsi:type="xs:decimal">1</dcsset:value>
+								</dcsset:item>
+							</dcsset:cases>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:UserFieldCase">
+							<dcsset:dataPath>ПользовательскиеПоля.Поле2</dcsset:dataPath>
+							<dcsset:title>SUI_EMPTY</dcsset:title>
+							<dcsset:cases>
+								<dcsset:item>
+									<dcsset:filter/>
+									<dcsset:value xsi:type="xs:string"/>
+								</dcsset:item>
+							</dcsset:cases>
+						</dcsset:item>
+					</dcsset:userFields>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ПользовательскиеПоля.Поле2</dcsset:field>
+							<dcsset:title>id</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Штрихкод</dcsset:field>
+							<dcsset:title>barcode</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Номенклатура</dcsset:field>
+							<dcsset:title>id_good</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ПользовательскиеПоля.Поле1</dcsset:field>
+							<dcsset:title>ratio</dcsset:title>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</Value>
+			</row>
+			<row>
+				<Value xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">ШтрихкодыУпаковок</Value>
+				<Value xsi:type="xs:string">Справочник.ШтрихкодыУпаковокТоваров</Value>
+				<Value xsi:type="xs:boolean">true</Value>
+				<Value xsi:type="xs:boolean">true</Value>
+				<Value xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xsi:type="dcssch:DataCompositionSchema">
+					<dcssch:dataSource>
+						<dcssch:name>ИсточникДанных1</dcssch:name>
+						<dcssch:dataSourceType>Local</dcssch:dataSourceType>
+					</dcssch:dataSource>
+					<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
+						<dcssch:name>НаборДанных1</dcssch:name>
+						<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
+						<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	*
+ИЗ
+	Справочник.ШтрихкодыУпаковокТоваров КАК ШтрихкодыУпаковокТоваров
+{ГДЕ
+	ШтрихкодыУпаковокТоваров.Ссылка = &amp;Ссылка}</dcssch:query>
+					</dcssch:dataSet>
+					<dcssch:settingsVariant>
+						<dcsset:name>Основной</dcsset:name>
+						<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+						<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+					</dcssch:settingsVariant>
+				</Value>
+				<Value xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xsi:type="dcsset:Settings">
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Ссылка</dcsset:field>
+							<dcsset:title>id</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Номенклатура</dcsset:field>
+							<dcsset:title>id_good</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Характеристика</dcsset:field>
+							<dcsset:title>id_property</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Серия</dcsset:field>
+							<dcsset:title>id_series</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Упаковка</dcsset:field>
+							<dcsset:title>id_unit</dcsset:title>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ЗначениеШтрихкода</dcsset:field>
+							<dcsset:title>mark_code</dcsset:title>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ПометкаУдаления</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</Value>
+			</row>
+		</Value>
+	</Property>
+	<Property name="ДополнительныеНастройки">
+		<Value xsi:type="Map">
+			<pair>
+				<Key xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">ШтрихкодыНоменклатуры</Key>
+				<Value xsi:type="Structure">
+					<Property name="АлгоритмСозданияШтрихкодаНоменклатуры">
+						<Value xsi:type="Structure">
+							<Property name="Алгоритм">
+								<Value xsi:type="xs:string">МенеджерЗаписи = РегистрыСведений.ШтрихкодыНоменклатуры.СоздатьМенеджерЗаписи();
+
+МенеджерЗаписи.Штрихкод 		= Штрихкод;
+МенеджерЗаписи.Номенклатура 	= Номенклатура;
+
+МенеджерЗаписи.Записать(Истина);</Value>
+							</Property>
+						</Value>
+					</Property>
+				</Value>
+			</pair>
+			<pair>
+				<Key xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d5p1:EnumRef.SUI_ТаблицыИнтеграции">ШтрихкодыУпаковок</Key>
+				<Value xsi:type="Structure">
+					<Property name="АлгоритмНормализацииЗначенияШтрихкода">
+						<Value xsi:type="Structure">
+							<Property name="Алгоритм">
+								<Value xsi:type="xs:string">РезультатРазбора = РазборКодаМаркировкиИССлужебный.РазобратьКодМаркировки(ЗначениеШтрихкода);
+ЗначениеШтрихкода = ?(ЗначениеЗаполнено(РезультатРазбора), РезультатРазбора.НормализованныйКодМаркировки, "");</Value>
+							</Property>
+						</Value>
+					</Property>
+					<Property name="АлгоритмСозданияШтрихкодаУпаковки">
+						<Value xsi:type="Structure">
+							<Property name="Алгоритм">
+								<Value xsi:type="xs:string">ШтрихкодУпаковки = Справочники.ШтрихкодыУпаковокТоваров.ПолучитьПоЗначениюШтрихкода(ЗначениеШтрихкода);
+
+Если ШтрихкодУпаковки = Неопределено Тогда
+	
+	РезультатРазбора = РазборКодаМаркировкиИССлужебный.РазобратьКодМаркировки(ЗначениеШтрихкода);
+	
+	Если ЗначениеЗаполнено(РезультатРазбора) Тогда
+		
+		СтруктураСоздания = Справочники.ШтрихкодыУпаковокТоваров.СтруктураСозданияШтрихкодаУпаковки();
+		СтруктураСоздания.Номенклатура = Номенклатура;
+		СтруктураСоздания.Характеристика = Характеристика;
+		СтруктураСоздания.Серия = Серия;
+		СтруктураСоздания.Упаковка = Упаковка;
+		СтруктураСоздания.Штрихкод = РезультатРазбора.НормализованныйКодМаркировки;
+		СтруктураСоздания.ТипШтрихкода = РезультатРазбора.ТипШтрихкода;
+		СтруктураСоздания.ТипУпаковки = Перечисления.ТипыУпаковок.МаркированныйТовар;
+		
+		ДополнительныеПараметрыСоздания = Справочники.ШтрихкодыУпаковокТоваров
+			.ДополнительныеПараметрыСозданияШтрихкодовУпаковок();
+		
+		ШтрихкодУпаковки = Справочники.ШтрихкодыУпаковокТоваров.СоздатьШтрихкодУпаковки(СтруктураСоздания, , , , 
+			ДополнительныеПараметрыСоздания);
+		
+	КонецЕсли;
+	
+КонецЕсли;
+
+ШтрихкодТранспортнойУпаковки = Справочники.ШтрихкодыУпаковокТоваров.ПолучитьПоЗначениюШтрихкода(
+	ЗначениеШтрихкодаТранспортнойУпаковки);
+
+Если ШтрихкодТранспортнойУпаковки = Неопределено Тогда
+	
+	РезультатРазбора = РазборКодаМаркировкиИССлужебный.РазобратьКодМаркировки(ЗначениеШтрихкодаТранспортнойУпаковки);
+	
+	Если ЗначениеЗаполнено(РезультатРазбора) Тогда
+		
+		СтруктураСоздания = Справочники.ШтрихкодыУпаковокТоваров.СтруктураСозданияШтрихкодаУпаковки();
+		СтруктураСоздания.Штрихкод = РезультатРазбора.НормализованныйКодМаркировки;
+		СтруктураСоздания.ТипШтрихкода = РезультатРазбора.ТипШтрихкода;
+		
+		Если РезультатРазбора.ВидУпаковки = Перечисления.ВидыУпаковокИС.Логистическая И
+			РезультатРазбора.СоставКодаМаркировки.Свойство("GTIN") И
+			ЗначениеЗаполнено(РезультатРазбора.СоставКодаМаркировки.GTIN) Тогда
+			СтруктураСоздания.ТипУпаковки = Перечисления.ТипыУпаковок.МонотоварнаяУпаковка;
+		Иначе
+			СтруктураСоздания.ТипУпаковки = Перечисления.ТипыУпаковок.МультитоварнаяУпаковка;
+		КонецЕсли;
+		
+		ДополнительныеПараметрыСоздания = Справочники.ШтрихкодыУпаковокТоваров
+			.ДополнительныеПараметрыСозданияШтрихкодовУпаковок();
+		
+		ВложенныеШтрихкоды = ?(ЗначениеЗаполнено(ШтрихкодУпаковки),
+			ОбщегоНазначенияКлиентСервер.ЗначениеВМассиве(ШтрихкодУпаковки),
+			Неопределено);
+		
+		ШтрихкодТранспортнойУпаковки = Справочники.ШтрихкодыУпаковокТоваров.СоздатьШтрихкодУпаковки(
+			СтруктураСоздания, ВложенныеШтрихкоды, , , ДополнительныеПараметрыСоздания);
+		
+	КонецЕсли;
+	
+Иначе
+	
+	ЗначенияРеквизитов = ОбщегоНазначения.ЗначенияРеквизитовОбъекта(ШтрихкодТранспортнойУпаковки, 
+		"ТипУпаковки,ВложенныеШтрихкоды.Штрихкод");
+	
+	Если ЗначенияРеквизитов.ТипУпаковки = Перечисления.ТипыУпаковок.МонотоварнаяУпаковка Или
+		ЗначенияРеквизитов.ТипУпаковки = Перечисления.ТипыУпаковок.МультитоварнаяУпаковка Тогда
+		
+		Если ЗначениеЗаполнено(ШтрихкодУпаковки) Тогда
+			
+			РезультатЗапроса = ЗначенияРеквизитов.ВложенныеШтрихкодыШтрихкод;
+			
+			Если РезультатЗапроса.Пустой() Тогда
+				ДобавитьВложенныйШтрихкод = Истина;
+			Иначе
+				
+				Выборка = РезультатЗапроса.Выбрать();
+				
+				ПараметрыОтбора = Новый Структура();
+				ПараметрыОтбора.Вставить("Штрихкод", ШтрихкодУпаковки);
+				
+				ДобавитьВложенныйШтрихкод = Не Выборка.НайтиСледующий(ПараметрыОтбора);
+				
+			КонецЕсли;
+			
+			Если ДобавитьВложенныйШтрихкод Тогда
+				
+				ШтрихкодТранспортнойУпаковкиОбъект = ШтрихкодТранспортнойУпаковки.ПолучитьОбъект();
+				
+				НоваяСтрокаВложенныеШтрихкоды = ШтрихкодТранспортнойУпаковкиОбъект.ВложенныеШтрихкоды.Добавить();
+				НоваяСтрокаВложенныеШтрихкоды.Штрихкод = ШтрихкодУпаковки;
+				
+				ШтрихкодТранспортнойУпаковкиОбъект.Записать();
+				
+			КонецЕсли;
+			
+		КонецЕсли;
+		
+	Иначе
+		ШтрихкодТранспортнойУпаковки = Справочники.ШтрихкодыУпаковокТоваров.ПустаяСсылка();
+	КонецЕсли;
+	
+КонецЕсли;</Value>
+							</Property>
+						</Value>
+					</Property>
+				</Value>
+			</pair>
+		</Value>
+	</Property>
+</Structure>

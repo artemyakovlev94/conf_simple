@@ -107,25 +107,25 @@
         <segments>ПакетыСтрок</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
-      <excludedCommands>EndEdit</excludedCommands>
       <excludedCommands>Add</excludedCommands>
-      <excludedCommands>MoveUp</excludedCommands>
-      <excludedCommands>CheckAll</excludedCommands>
-      <excludedCommands>Delete</excludedCommands>
-      <excludedCommands>SearchHistory</excludedCommands>
-      <excludedCommands>MoveDown</excludedCommands>
-      <excludedCommands>FindByCurrentValue</excludedCommands>
-      <excludedCommands>SortListDesc</excludedCommands>
-      <excludedCommands>SearchEverywhere</excludedCommands>
-      <excludedCommands>UncheckAll</excludedCommands>
       <excludedCommands>CancelSearch</excludedCommands>
       <excludedCommands>Change</excludedCommands>
-      <excludedCommands>SortListAsc</excludedCommands>
-      <excludedCommands>Find</excludedCommands>
-      <excludedCommands>ShowRowRearrangement</excludedCommands>
+      <excludedCommands>CheckAll</excludedCommands>
       <excludedCommands>Copy</excludedCommands>
-      <excludedCommands>Pickup</excludedCommands>
       <excludedCommands>CopyToClipboard</excludedCommands>
+      <excludedCommands>Delete</excludedCommands>
+      <excludedCommands>EndEdit</excludedCommands>
+      <excludedCommands>Find</excludedCommands>
+      <excludedCommands>FindByCurrentValue</excludedCommands>
+      <excludedCommands>MoveDown</excludedCommands>
+      <excludedCommands>MoveUp</excludedCommands>
+      <excludedCommands>Pickup</excludedCommands>
+      <excludedCommands>SearchEverywhere</excludedCommands>
+      <excludedCommands>SearchHistory</excludedCommands>
+      <excludedCommands>ShowRowRearrangement</excludedCommands>
+      <excludedCommands>SortListAsc</excludedCommands>
+      <excludedCommands>SortListDesc</excludedCommands>
+      <excludedCommands>UncheckAll</excludedCommands>
       <items xsi:type="form:FormField">
         <name>ПакетыСтрокПредставление</name>
         <id>58</id>
@@ -225,7 +225,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>ПакетыСтрокСтрокаПоиска</source>
+        <source>ПакетыСтрок</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -264,7 +264,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>ПакетыСтрокСостояниеПросмотра</source>
+        <source>ПакетыСтрок</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -303,7 +303,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>ПакетыСтрокУправлениеПоиском</source>
+        <source>ПакетыСтрок</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
