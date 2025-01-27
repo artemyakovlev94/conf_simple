@@ -864,6 +864,14 @@
       <key>ru</key>
       <value>Настройки вывода дополнительных полей</value>
     </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
     <attributes uuid="89afb34f-5b2c-4cab-a584-cb368fb227fa">
       <name>РеквизитДокумента</name>
       <synonym>

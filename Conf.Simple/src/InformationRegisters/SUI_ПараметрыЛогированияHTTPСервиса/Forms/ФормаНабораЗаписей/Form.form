@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:Table">
     <name>НаборЗаписей</name>
     <id>1</id>
@@ -12,13 +12,13 @@
       <segments>НаборЗаписей</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
-    <excludedCommands>MoveUp</excludedCommands>
+    <excludedCommands>Change</excludedCommands>
+    <excludedCommands>Copy</excludedCommands>
     <excludedCommands>EndEdit</excludedCommands>
     <excludedCommands>MoveDown</excludedCommands>
-    <excludedCommands>ShowRowRearrangement</excludedCommands>
-    <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>Change</excludedCommands>
+    <excludedCommands>MoveUp</excludedCommands>
     <excludedCommands>SearchEverywhere</excludedCommands>
+    <excludedCommands>ShowRowRearrangement</excludedCommands>
     <items xsi:type="form:FormField">
       <name>ИмяШаблона</name>
       <id>41</id>
@@ -111,12 +111,12 @@
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
         <handlers>
-          <event>ChoiceProcessing</event>
-          <name>НаименованиеОбработкаВыбора</name>
-        </handlers>
-        <handlers>
           <event>StartChoice</event>
           <name>НаименованиеНачалоВыбора</name>
+        </handlers>
+        <handlers>
+          <event>ChoiceProcessing</event>
+          <name>НаименованиеОбработкаВыбора</name>
         </handlers>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -323,7 +323,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>НаборЗаписейСтрокаПоиска</source>
+      <source>НаборЗаписей</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -362,7 +362,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>НаборЗаписейСостояниеПросмотра</source>
+      <source>НаборЗаписей</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -401,7 +401,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>НаборЗаписейУправлениеПоиском</source>
+      <source>НаборЗаписей</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -452,6 +452,7 @@
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
+    <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
