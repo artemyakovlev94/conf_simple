@@ -13,6 +13,22 @@
 		<userSettingID>d6984c2a-d056-4c1f-8d98-f9f4e3aa2100</userSettingID>
 	</order>
 	<conditionalAppearance>
+		<item>
+			<selection/>
+			<filter>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">ОсновнаяНастройка</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="xs:boolean">true</right>
+				</item>
+			</filter>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>Шрифт</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:Font" ref="style:NormalTextFont" bold="true" kind="StyleItem"/>
+				</dcscor:item>
+			</appearance>
+		</item>
 		<viewMode>Normal</viewMode>
 		<userSettingID>8e57383e-6a9e-41f0-9cd2-ab9d45cd98a9</userSettingID>
 	</conditionalAppearance>
