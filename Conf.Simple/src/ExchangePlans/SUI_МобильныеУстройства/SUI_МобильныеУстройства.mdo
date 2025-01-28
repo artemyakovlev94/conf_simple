@@ -124,6 +124,10 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
+    <mdObject>Catalog.SUI_НастройкиМобильныхУстройств</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>InformationRegister.SUI_tbl_goods</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
