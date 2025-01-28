@@ -35,7 +35,7 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.SUI_НастройкиМобильныхУстройств.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.SUI_НастройкиМобильныхУстройств.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Catalog.SUI_НастройкиМобильныхУстройств.Form.ФормаСписка</defaultChoiceForm>
+  <defaultChoiceForm>Catalog.SUI_НастройкиМобильныхУстройств.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="9fda021a-f553-4662-89ce-1cb45a6ad046">
     <name>РазмерШрифтаЗаголовкаТаблицы</name>
     <synonym>
@@ -880,6 +880,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5292b14d-8ea3-417b-ae72-2ea3828dd6cf">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
