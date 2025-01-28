@@ -6,6 +6,5 @@
     <value>SUI работа с файлами</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <content>Role.SUI_ИнтерактивноеУдалениеПрисоединенныхФайлов</content>
   <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

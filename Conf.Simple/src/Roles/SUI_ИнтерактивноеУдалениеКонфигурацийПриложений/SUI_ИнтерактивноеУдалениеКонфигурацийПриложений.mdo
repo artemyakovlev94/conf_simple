@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d95b4ed-17fb-4e17-8405-26741a6d9399">
-  <name>SUI_ИнтерактивноеУдалениеКонфигурацийПриложений</name>
-  <synonym>
-    <key>ru</key>
-    <value>Simple: Интерактивное удаление конфигураций приложений</value>
-  </synonym>
-</mdclass:Role>

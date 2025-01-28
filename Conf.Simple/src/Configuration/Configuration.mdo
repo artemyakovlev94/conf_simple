@@ -122,13 +122,10 @@
   <commonPictures>CommonPicture.SUI_УдалитьНепосредственно</commonPictures>
   <commonPictures>CommonPicture.SUI_Штрихкод</commonPictures>
   <roles>Role.SUI_ИнтерактивноеУдалениеДокументовСборШтрихкодов</roles>
-  <roles>Role.SUI_ИнтерактивноеУдалениеКонфигурацийПриложений</roles>
   <roles>Role.SUI_ИнтерактивноеУдалениеМобильныхКлиентов</roles>
   <roles>Role.SUI_ИнтерактивноеУдалениеМобильныхУстройств</roles>
-  <roles>Role.SUI_ИнтерактивноеУдалениеНастроекКонфигурацийПриложений</roles>
   <roles>Role.SUI_ИнтерактивноеУдалениеНастройкиДокументов</roles>
   <roles>Role.SUI_ИнтерактивноеУдалениеПользователейТСД</roles>
-  <roles>Role.SUI_ИнтерактивноеУдалениеПрисоединенныхФайлов</roles>
   <roles>Role.SUI_ИнтерактивноеУдалениеРегламентныхЗаданий</roles>
   <roles>Role.SUI_ИнтерактивноеУдалениеШаблоновЭтикетокZPL</roles>
   <roles>Role.SUI_РольАдминистрирование</roles>
