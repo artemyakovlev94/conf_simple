@@ -750,6 +750,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.SUI_НастройкиМобильныхУстройств</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.SUI_СообщенияМобильныхУстройств.Attribute.МеткаВремени</name>
 		<right>
 			<name>View</name>
