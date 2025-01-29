@@ -566,20 +566,6 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="5502d2d6-5439-49a2-8bd6-7798adcc817d">
-    <name>АппаратныйСканерИспользовать</name>
-    <synonym>
-      <key>ru</key>
-      <value>Использовать аппаратный сканер</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="b42cdba7-ee86-4821-938b-c212bd79f4b4">
     <name>АппаратныйСканерИспользованиеКомандИнтентов</name>
     <synonym>
@@ -866,6 +852,24 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="bf36ce97-8309-4dca-a733-0a0c8208562b">
+    <name>СвязноеСканированиеШКсКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связное сканирование ШК с КМ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется для поочередного сканирования ШК и КМ. Например, для быстрой привязки ШК к техническим КМ с префиксом 029.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="cb8fd8db-c8fb-48ba-818e-56c20ca44f27">
     <name>ФормаСписка</name>
     <synonym>
@@ -893,12 +897,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="4d060af6-f3ba-4a2d-a448-5276e1301667">
-    <name>МакетНастройки</name>
+  <templates uuid="50db3607-8302-404d-b64f-f1fdc204a3a1">
+    <name>СхемаНастроекДляВыгрузки</name>
     <synonym>
       <key>ru</key>
-      <value>Макет настройки</value>
+      <value>Схема настроек для выгрузки</value>
     </synonym>
+    <templateType>TextDocument</templateType>
   </templates>
   <commands uuid="9174863e-f598-4612-9a94-4d408901558e">
     <name>НазначитьОсновной</name>
