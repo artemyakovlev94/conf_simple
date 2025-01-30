@@ -365,6 +365,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.ГрупповоеСканирование</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ГрупповоеСканированиеПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ГрупповоеСканированиеРасширеннаяПодсказка</name>
           <id>252</id>
@@ -748,6 +752,51 @@
         <name>ГруппаCVАгрегация</name>
         <id>320</id>
         <items xsi:type="form:FormField">
+          <name>Агрегация</name>
+          <id>312</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Агрегация</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>АгрегацияРасширеннаяПодсказка</name>
+            <id>314</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>АгрегацияКонтекстноеМеню</name>
+            <id>313</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>CheckBoxField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:CheckBoxFieldExtInfo">
+            <checkBoxType>Switcher</checkBoxType>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
           <name>ComputerVision</name>
           <id>322</id>
           <visible>true</visible>
@@ -758,10 +807,6 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.ComputerVision</segments>
           </dataPath>
-          <handlers>
-            <event>OnChange</event>
-            <name>ComputerVisionПриИзменении</name>
-          </handlers>
           <extendedTooltip>
             <name>ComputerVisionРасширеннаяПодсказка</name>
             <id>324</id>
@@ -799,51 +844,6 @@
         <items xsi:type="form:FormGroup">
           <name>ГруппаАгрегация</name>
           <id>315</id>
-          <items xsi:type="form:FormField">
-            <name>Агрегация</name>
-            <id>312</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.Агрегация</segments>
-            </dataPath>
-            <extendedTooltip>
-              <name>АгрегацияРасширеннаяПодсказка</name>
-              <id>314</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>АгрегацияКонтекстноеМеню</name>
-              <id>313</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>CheckBoxField</type>
-            <editMode>Enter</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:CheckBoxFieldExtInfo">
-              <checkBoxType>Switcher</checkBoxType>
-            </extInfo>
-          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -904,7 +904,7 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>HorizontalIfPossible</group>
+          <group>Vertical</group>
           <behavior>Auto</behavior>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
