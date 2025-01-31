@@ -153,6 +153,11 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.РазрешитьВводФакта</segments>
         </dataPath>
+        <toolTip>
+          <key>ru</key>
+          <value>В активном состоянии пользователю ТСД доступен ручной ввод факта товара без сканирования штрихкодов.</value>
+        </toolTip>
+        <toolTipRepresentation>ShowRight</toolTipRepresentation>
         <extendedTooltip>
           <name>РазрешитьВводФактаРасширеннаяПодсказка</name>
           <id>30</id>
@@ -198,6 +203,11 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.ОфлайнРежим</segments>
         </dataPath>
+        <toolTip>
+          <key>ru</key>
+          <value>Используется, если в &quot;Центре настроек&quot; (Simple) установлен вариант обмена &quot;Офлайн&quot;.</value>
+        </toolTip>
+        <toolTipRepresentation>ShowRight</toolTipRepresentation>
         <handlers>
           <event>OnChange</event>
           <name>ОфлайнРежимПриИзменении</name>
@@ -247,6 +257,11 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.ОфлайнРежимГрупповойРаботы</segments>
         </dataPath>
+        <toolTip>
+          <key>ru</key>
+          <value>Используется при нестабильной связи. Отправка и получение данных инициируется вручную пользователем ТСД по кнопкам «Синхронизировать данные с 1С» и «Отправить все сканы в 1С».</value>
+        </toolTip>
+        <toolTipRepresentation>ShowRight</toolTipRepresentation>
         <extendedTooltip>
           <name>ОфлайнРежимГрупповойРаботыРасширеннаяПодсказка</name>
           <id>36</id>
@@ -292,6 +307,11 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.ОтключитьОбмен</segments>
         </dataPath>
+        <toolTip>
+          <key>ru</key>
+          <value>В активном состоянии выключает он-лайн обмен с устройством. Получение данных из 1С инициируется пользователем ТСД по кнопке &quot;Синхронизировать&quot; в настройках обмена.</value>
+        </toolTip>
+        <toolTipRepresentation>ShowRight</toolTipRepresentation>
         <extendedTooltip>
           <name>ОтключитьОбменРасширеннаяПодсказка</name>
           <id>39</id>
@@ -335,6 +355,7 @@
         <key>ru</key>
         <value>Общее</value>
       </title>
+      <horizontalStretch>true</horizontalStretch>
       <extendedTooltip>
         <name>СтраницаОбщиеНастройкиРасширеннаяПодсказка</name>
         <id>130</id>
@@ -924,6 +945,7 @@
         <key>ru</key>
         <value>Шрифты</value>
       </title>
+      <horizontalStretch>true</horizontalStretch>
       <extendedTooltip>
         <name>СтраницаНастройкиШрифтовРасширеннаяПодсказка</name>
         <id>132</id>
@@ -1061,6 +1083,7 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>ГруппаСигналУдачногоСобытияРасширеннаяПодсказка</name>
           <id>178</id>
@@ -1199,6 +1222,7 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>ГруппаСигналПредупрежденияРасширеннаяПодсказка</name>
           <id>180</id>
@@ -1337,6 +1361,7 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>ГруппаСигналОшибкиРасширеннаяПодсказка</name>
           <id>182</id>
@@ -1475,6 +1500,7 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>ГруппаСигналУведомленияРасширеннаяПодсказка</name>
           <id>184</id>
@@ -1509,6 +1535,7 @@
         <key>ru</key>
         <value>Звуки</value>
       </title>
+      <horizontalStretch>true</horizontalStretch>
       <extendedTooltip>
         <name>СтраницаНастройкиЗвуковРасширеннаяПодсказка</name>
         <id>134</id>
@@ -1704,6 +1731,7 @@
         <key>ru</key>
         <value>Обмен</value>
       </title>
+      <horizontalStretch>true</horizontalStretch>
       <extendedTooltip>
         <name>СтраницаНастройкиОбменаРасширеннаяПодсказка</name>
         <id>136</id>
@@ -1886,6 +1914,7 @@
         <key>ru</key>
         <value>Хранение данных</value>
       </title>
+      <horizontalStretch>true</horizontalStretch>
       <extendedTooltip>
         <name>СтраницаНастройкиХраненияДанныхРасширеннаяПодсказка</name>
         <id>138</id>
@@ -2183,6 +2212,7 @@
         <key>ru</key>
         <value>Логирование</value>
       </title>
+      <horizontalStretch>true</horizontalStretch>
       <extendedTooltip>
         <name>СтраницаНастройкиЛогированияРасширеннаяПодсказка</name>
         <id>140</id>
@@ -2515,6 +2545,7 @@
         <key>ru</key>
         <value>Принтер</value>
       </title>
+      <horizontalStretch>true</horizontalStretch>
       <extendedTooltip>
         <name>СтраницаНастройкиПринтераРасширеннаяПодсказка</name>
         <id>142</id>
@@ -2749,6 +2780,7 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <horizontalStretch>true</horizontalStretch>
           <extendedTooltip>
             <name>ГруппаНастройкиКомандСканераКомандыРасширеннаяПодсказка</name>
             <id>237</id>
@@ -2783,6 +2815,7 @@
           <key>ru</key>
           <value>Команды сканера</value>
         </title>
+        <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>ГруппаНастройкиКомандСканераРасширеннаяПодсказка</name>
           <id>148</id>
@@ -2819,6 +2852,7 @@
         <key>ru</key>
         <value>Сканер</value>
       </title>
+      <horizontalStretch>true</horizontalStretch>
       <extendedTooltip>
         <name>СтраницаНастройкиСканераРасширеннаяПодсказка</name>
         <id>144</id>
@@ -2860,6 +2894,11 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Объект.КонтрольУникальностиСерий</segments>
             </dataPath>
+            <toolTip>
+              <key>ru</key>
+              <value>В активном состоянии устанавливается запрет на повторное добавление серии и сканирование обычных штрихкодов товаров.</value>
+            </toolTip>
+            <toolTipRepresentation>ShowRight</toolTipRepresentation>
             <handlers>
               <event>OnChange</event>
               <name>КонтрольУникальностиСерийПриИзменении</name>
@@ -2909,6 +2948,11 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Объект.УдалятьСерииБезПредупреждения</segments>
             </dataPath>
+            <toolTip>
+              <key>ru</key>
+              <value>Автоматическое удаление без предупреждения повторно отсканированной серии (в том числе добавленных при массовом сканировании).</value>
+            </toolTip>
+            <toolTipRepresentation>ShowRight</toolTipRepresentation>
             <handlers>
               <event>OnChange</event>
               <name>УдалятьСерииБезПредупрежденияПриИзменении</name>
@@ -2958,6 +3002,11 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Объект.ПодтверждениеПриУдаленииДубля</segments>
             </dataPath>
+            <toolTip>
+              <key>ru</key>
+              <value>В активном состоянии отображается окно подтверждения удаления серии, в неактивном состоянии при дублировании удаляет серию из списка.</value>
+            </toolTip>
+            <toolTipRepresentation>ShowRight</toolTipRepresentation>
             <handlers>
               <event>OnChange</event>
               <name>ПодтверждениеПриУдаленииДубляПриИзменении</name>
@@ -3007,6 +3056,11 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Объект.МассовоеСканированиеВСериях</segments>
             </dataPath>
+            <toolTip>
+              <key>ru</key>
+              <value>В активном состоянии разделяет зашифрованный в одном QR-коде список серий.</value>
+            </toolTip>
+            <toolTipRepresentation>ShowRight</toolTipRepresentation>
             <handlers>
               <event>OnChange</event>
               <name>МассовоеСканированиеВСерияхПриИзменении</name>
@@ -3056,6 +3110,11 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Объект.СимволыРазелители</segments>
             </dataPath>
+            <toolTip>
+              <key>ru</key>
+              <value>Символы которыми разделен список серий в одном QR-коде.</value>
+            </toolTip>
+            <toolTipRepresentation>ShowRight</toolTipRepresentation>
             <extendedTooltip>
               <name>СимволыРазелителиРасширеннаяПодсказка</name>
               <id>108</id>
@@ -3110,6 +3169,11 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Объект.ИспользоватьПереносСтрокиКакРазделитель</segments>
             </dataPath>
+            <toolTip>
+              <key>ru</key>
+              <value>При массовом сканировании устройством будет осуществляться поиск установленного разделителя в QR-коде.</value>
+            </toolTip>
+            <toolTipRepresentation>ShowRight</toolTipRepresentation>
             <extendedTooltip>
               <name>ИспользоватьПереносСтрокиКакРазделительРасширеннаяПодсказка</name>
               <id>111</id>
@@ -3155,6 +3219,11 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Объект.МинимальнаяДлинаСимволовШтрихкода</segments>
             </dataPath>
+            <toolTip>
+              <key>ru</key>
+              <value>Строка для указания минимального значения символов при сканировании серий номенклатуры.</value>
+            </toolTip>
+            <toolTipRepresentation>ShowRight</toolTipRepresentation>
             <extendedTooltip>
               <name>МинимальнаяДлинаСимволовШтрихкодаРасширеннаяПодсказка</name>
               <id>114</id>
@@ -3205,6 +3274,11 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Объект.МаксимальнаяДлинаСимволовШтрихкода</segments>
             </dataPath>
+            <toolTip>
+              <key>ru</key>
+              <value>Строка для указания максимального значения символов при сканировании серий номенклатуры.</value>
+            </toolTip>
+            <toolTipRepresentation>ShowRight</toolTipRepresentation>
             <extendedTooltip>
               <name>МаксимальнаяДлинаСимволовШтрихкодаРасширеннаяПодсказка</name>
               <id>117</id>
@@ -3337,7 +3411,7 @@
               <key>ru</key>
               <value>Используется для поочередного сканирования ШК и КМ. Например, для быстрой привязки ШК к техническим КМ с префиксом 029.</value>
             </toolTip>
-            <toolTipRepresentation>Button</toolTipRepresentation>
+            <toolTipRepresentation>ShowRight</toolTipRepresentation>
             <extendedTooltip>
               <name>СвязноеСканированиеШКсКМРасширеннаяПодсказка</name>
               <id>235</id>
@@ -3407,6 +3481,7 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>СтраницыУчетРасширеннаяПодсказка</name>
           <id>228</id>
