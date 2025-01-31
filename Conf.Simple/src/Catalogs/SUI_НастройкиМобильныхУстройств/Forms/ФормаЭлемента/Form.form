@@ -2881,6 +2881,139 @@
         <name>СтраницыУчет</name>
         <id>227</id>
         <items xsi:type="form:FormGroup">
+          <name>СтраницаУчетМаркировка</name>
+          <id>231</id>
+          <items xsi:type="form:FormField">
+            <name>КонтрольGTIN</name>
+            <id>40</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.КонтрольGTIN</segments>
+            </dataPath>
+            <toolTip>
+              <key>ru</key>
+              <value>В активном состоянии осуществляется проверка принадлежности отсканированного КМ к товару. В выключенном состоянии добавляются любые отсканированные валидные КМ.</value>
+            </toolTip>
+            <toolTipRepresentation>ShowRight</toolTipRepresentation>
+            <extendedTooltip>
+              <name>КонтрольGTINРасширеннаяПодсказка</name>
+              <id>42</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>КонтрольGTINКонтекстноеМеню</name>
+              <id>41</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>CheckBoxField</type>
+            <editMode>EnterOnInput</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:CheckBoxFieldExtInfo">
+              <checkBoxType>Switcher</checkBoxType>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>СвязноеСканированиеШКсКМ</name>
+            <id>233</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.СвязноеСканированиеШКсКМ</segments>
+            </dataPath>
+            <toolTip>
+              <key>ru</key>
+              <value>Используется для поочередного сканирования ШК и КМ. Например, для быстрой привязки ШК к техническим КМ с префиксом 029.</value>
+            </toolTip>
+            <toolTipRepresentation>ShowRight</toolTipRepresentation>
+            <extendedTooltip>
+              <name>СвязноеСканированиеШКсКМРасширеннаяПодсказка</name>
+              <id>235</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>СвязноеСканированиеШКсКМКонтекстноеМеню</name>
+              <id>234</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>CheckBoxField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:CheckBoxFieldExtInfo">
+              <checkBoxType>Switcher</checkBoxType>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Маркировка</value>
+          </title>
+          <extendedTooltip>
+            <name>СтраницаУчетМаркировкаРасширеннаяПодсказка</name>
+            <id>232</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Page</type>
+          <extInfo xsi:type="form:PageGroupExtInfo">
+            <group>Vertical</group>
+            <showTitle>true</showTitle>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
           <name>СтраницаУчетСерии</name>
           <id>229</id>
           <items xsi:type="form:FormField">
@@ -3004,7 +3137,7 @@
             </dataPath>
             <toolTip>
               <key>ru</key>
-              <value>В активном состоянии отображается окно подтверждения удаления серии, в неактивном состоянии при дублировании удаляет серию из списка.</value>
+              <value>В активном состоянии отображается окно подтверждения удаления серии.</value>
             </toolTip>
             <toolTipRepresentation>ShowRight</toolTipRepresentation>
             <handlers>
@@ -3112,7 +3245,7 @@
             </dataPath>
             <toolTip>
               <key>ru</key>
-              <value>Символы которыми разделен список серий в одном QR-коде.</value>
+              <value>Символы, которыми разделен список серий в одном QR-коде.</value>
             </toolTip>
             <toolTipRepresentation>ShowRight</toolTipRepresentation>
             <extendedTooltip>
@@ -3330,134 +3463,6 @@
           <extendedTooltip>
             <name>СтраницаУчетСерииРасширеннаяПодсказка</name>
             <id>230</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>Page</type>
-          <extInfo xsi:type="form:PageGroupExtInfo">
-            <group>Vertical</group>
-            <showTitle>true</showTitle>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormGroup">
-          <name>СтраницаУчетМаркировка</name>
-          <id>231</id>
-          <items xsi:type="form:FormField">
-            <name>КонтрольGTIN</name>
-            <id>40</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.КонтрольGTIN</segments>
-            </dataPath>
-            <extendedTooltip>
-              <name>КонтрольGTINРасширеннаяПодсказка</name>
-              <id>42</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>КонтрольGTINКонтекстноеМеню</name>
-              <id>41</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>CheckBoxField</type>
-            <editMode>EnterOnInput</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:CheckBoxFieldExtInfo">
-              <checkBoxType>Switcher</checkBoxType>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormField">
-            <name>СвязноеСканированиеШКсКМ</name>
-            <id>233</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.СвязноеСканированиеШКсКМ</segments>
-            </dataPath>
-            <toolTip>
-              <key>ru</key>
-              <value>Используется для поочередного сканирования ШК и КМ. Например, для быстрой привязки ШК к техническим КМ с префиксом 029.</value>
-            </toolTip>
-            <toolTipRepresentation>ShowRight</toolTipRepresentation>
-            <extendedTooltip>
-              <name>СвязноеСканированиеШКсКМРасширеннаяПодсказка</name>
-              <id>235</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>СвязноеСканированиеШКсКМКонтекстноеМеню</name>
-              <id>234</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>CheckBoxField</type>
-            <editMode>Enter</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:CheckBoxFieldExtInfo">
-              <checkBoxType>Switcher</checkBoxType>
-            </extInfo>
-          </items>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <title>
-            <key>ru</key>
-            <value>Маркировка</value>
-          </title>
-          <extendedTooltip>
-            <name>СтраницаУчетМаркировкаРасширеннаяПодсказка</name>
-            <id>232</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>

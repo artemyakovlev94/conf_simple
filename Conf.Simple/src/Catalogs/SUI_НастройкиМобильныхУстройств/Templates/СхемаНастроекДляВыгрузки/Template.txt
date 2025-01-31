@@ -50,7 +50,7 @@
         <row>
             <Value>enable_gtin_mark_check</Value>
             <Value>КонтрольGTIN</Value>
-            <Value xsi:type="xs:boolean">false</Value>
+            <Value xsi:type="xs:boolean">true</Value>
         </row>
         <row>
             <Value>quick_mark_handling</Value>

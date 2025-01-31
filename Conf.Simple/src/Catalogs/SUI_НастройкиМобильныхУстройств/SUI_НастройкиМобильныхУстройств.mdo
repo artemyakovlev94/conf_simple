@@ -317,7 +317,9 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="ab887522-bad2-4207-b273-08e74c9fc7f9">
