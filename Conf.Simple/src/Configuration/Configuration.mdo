@@ -280,7 +280,6 @@
   <functionalOptions>FunctionalOption.SUI_ОтключитьЛогированиеШаблонаHTTPСервиса</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ОткрыватьВыгрузкуДокументовОбменаОфлайн</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ОфлайнОбмен</functionalOptions>
-  <functionalOptions>FunctionalOption.SUI_ПроверкаОбновленийПриСтарте</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_РазмерПакетаДанных</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_УстановкаПредварительныхВерсий</functionalOptions>
@@ -316,7 +315,6 @@
   <constants>Constant.SUI_ОткрыватьВыгрузкуДокументовОбменаОфлайн</constants>
   <constants>Constant.SUI_ОфлайнОбмен</constants>
   <constants>Constant.SUI_ПользовательскийЗапрос</constants>
-  <constants>Constant.SUI_ПроверкаОбновленийПриСтарте</constants>
   <constants>Constant.SUI_ПроверятьСвязьСПользователямиПриОткрытииРабочегоМеста</constants>
   <constants>Constant.SUI_РазмерПакетаДанных</constants>
   <constants>Constant.SUI_РегистрироватьИзмененияПослеЗагрузкиДокументаИзМУ</constants>

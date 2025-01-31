@@ -1944,19 +1944,15 @@
             <name>ГруппаОбновлениеРасширенияНастройки</name>
             <id>194</id>
             <items xsi:type="form:FormField">
-              <name>SUI_ПроверкаОбновленийПриСтарте</name>
-              <id>199</id>
-              <title>
-                <key>ru</key>
-                <value>Проверка обновлений при запуске</value>
-              </title>
+              <name>ПроверкаОбновленийПриСтарте</name>
+              <id>218</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
               <dataPath xsi:type="form:DataPath">
-                <segments>НаборКонстант.SUI_ПроверкаОбновленийПриСтарте</segments>
+                <segments>ПроверкаОбновленийПриСтарте</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
               <toolTip>
@@ -1966,11 +1962,11 @@
               <toolTipRepresentation>ShowBottom</toolTipRepresentation>
               <handlers>
                 <event>OnChange</event>
-                <name>SUI_ПроверкаОбновленийПриСтартеПриИзменении</name>
+                <name>ПроверкаОбновленийПриСтартеПриИзменении</name>
               </handlers>
               <extendedTooltip>
-                <name>SUI_ПроверкаОбновленийПриСтартеРасширеннаяПодсказка</name>
-                <id>201</id>
+                <name>ПроверкаОбновленийПриСтартеРасширеннаяПодсказка</name>
+                <id>220</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1984,8 +1980,8 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>SUI_ПроверкаОбновленийПриСтартеКонтекстноеМеню</name>
-                <id>200</id>
+                <name>ПроверкаОбновленийПриСтартеКонтекстноеМеню</name>
+                <id>219</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>

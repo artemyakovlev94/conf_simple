@@ -14,7 +14,5 @@
   <content>Constant.SUI_УстановкаПредварительныхВерсий</content>
   <content>Constant.SUI_ВерсияДанных</content>
   <content>CommonTemplate.SUI_ПолучениеДереваОбработчиковОбновления</content>
-  <content>Constant.SUI_ПроверкаОбновленийПриСтарте</content>
-  <content>FunctionalOption.SUI_ПроверкаОбновленийПриСтарте</content>
   <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
