@@ -262,8 +262,6 @@
   <functionalOptions>FunctionalOption.SUI_ИспользоватьДополнительныеРеквизитыТаблиц</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьЗапросыАвторизацииМУ</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьПользовательскийЗапрос</functionalOptions>
-  <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторJSON</functionalOptions>
-  <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторКодаBSL</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_Контрагенты</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_Номенклатура</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_ПользователиТСД</functionalOptions>
@@ -298,8 +296,6 @@
   <constants>Constant.SUI_ИспользоватьДополнительныеРеквизитыТаблиц</constants>
   <constants>Constant.SUI_ИспользоватьЗапросыАвторизацииМУ</constants>
   <constants>Constant.SUI_ИспользоватьПользовательскийЗапрос</constants>
-  <constants>Constant.SUI_ИспользоватьРедакторJSON</constants>
-  <constants>Constant.SUI_ИспользоватьРедакторКодаBSL</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_Контрагенты</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_Номенклатура</constants>
   <constants>Constant.SUI_ИспользоватьТаблицу_ПользователиТСД</constants>

@@ -1528,7 +1528,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторКодаBSL</functionalOptions>
   </attributes>
   <attributes>
     <name>АдресБиблиотеки</name>

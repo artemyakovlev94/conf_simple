@@ -964,7 +964,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторJSON</functionalOptions>
   </attributes>
   <attributes>
     <name>РедактируемаяСтрока</name>
