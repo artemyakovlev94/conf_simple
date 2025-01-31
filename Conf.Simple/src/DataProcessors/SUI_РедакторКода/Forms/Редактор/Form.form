@@ -1855,7 +1855,6 @@
         <name>КонструкторЗапроса</name>
       </handler>
     </action>
-    <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторКодаBSL</functionalOptions>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
@@ -1906,7 +1905,6 @@
         <name>ПодсвечиватьЗапросы</name>
       </handler>
     </action>
-    <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторКодаBSL</functionalOptions>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
@@ -1932,7 +1930,6 @@
         <name>КартаКода</name>
       </handler>
     </action>
-    <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторКодаBSL</functionalOptions>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
@@ -1958,7 +1955,6 @@
         <name>СтрокаСостояния</name>
       </handler>
     </action>
-    <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторКодаBSL</functionalOptions>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
@@ -1984,7 +1980,6 @@
         <name>ОтображатьПробелыИТабуляции</name>
       </handler>
     </action>
-    <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторКодаBSL</functionalOptions>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
@@ -2085,7 +2080,6 @@
         <name>ТемаРедактора</name>
       </handler>
     </action>
-    <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторКодаBSL</functionalOptions>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
@@ -2111,7 +2105,6 @@
         <name>ДобавитьКомментарий</name>
       </handler>
     </action>
-    <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторКодаBSL</functionalOptions>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
@@ -2137,7 +2130,6 @@
         <name>УдалитьКомментарий</name>
       </handler>
     </action>
-    <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторКодаBSL</functionalOptions>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
@@ -2163,7 +2155,6 @@
         <name>НомераСтрок</name>
       </handler>
     </action>
-    <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторКодаBSL</functionalOptions>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
@@ -2189,7 +2180,6 @@
         <name>ФорматироватьКод</name>
       </handler>
     </action>
-    <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторКодаBSL</functionalOptions>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
@@ -2262,7 +2252,6 @@
         <name>ПереустановитьБиблиотеку</name>
       </handler>
     </action>
-    <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторКодаBSL</functionalOptions>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <parameters>

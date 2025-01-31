@@ -1086,7 +1086,6 @@
         <name>РежимДерева</name>
       </handler>
     </action>
-    <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторJSON</functionalOptions>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
@@ -1108,7 +1107,6 @@
         <name>ПереустановитьБиблиотеку</name>
       </handler>
     </action>
-    <functionalOptions>FunctionalOption.SUI_ИспользоватьРедакторJSON</functionalOptions>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
