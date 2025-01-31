@@ -12,7 +12,6 @@
   </picture>
   <content>Role.SUI_РольАдминистрирование</content>
   <content>DataProcessor.SUI_РабочееМестоОператораОбмена</content>
-  <content>Constant.SUI_НеЗапускатьМастерНастроекПриНачалеРаботы</content>
   <content>Constant.SUI_ЗапросПолученияОстатковИЦен</content>
   <content>DataProcessor.SUI_МастерНастроек</content>
   <content>Role.SUI_РольОсновныеПрава</content>

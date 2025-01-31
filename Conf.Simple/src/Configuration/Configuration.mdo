@@ -275,7 +275,6 @@
   <functionalOptions>FunctionalOption.SUI_ИспользоватьТаблицу_Ячейки</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ЛогированиеHTTPЗапросов</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_НастройкаДокументаПеремещенияЗапасов</functionalOptions>
-  <functionalOptions>FunctionalOption.SUI_НеЗапускатьМастерНастроекПриНачалеРаботы</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ОнлайнОбмен</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ОтключитьЛогированиеШаблонаHTTPСервиса</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ОткрыватьВыгрузкуДокументовОбменаОфлайн</functionalOptions>
@@ -310,7 +309,6 @@
   <constants>Constant.SUI_КоличествоЗаданийВПотокеОчередиЗаданий</constants>
   <constants>Constant.SUI_ЛогированиеHTTPЗапросов</constants>
   <constants>Constant.SUI_НастройкаДокументаПеремещенияЗапасов</constants>
-  <constants>Constant.SUI_НеЗапускатьМастерНастроекПриНачалеРаботы</constants>
   <constants>Constant.SUI_ОнлайнОбмен</constants>
   <constants>Constant.SUI_ОткрыватьВыгрузкуДокументовОбменаОфлайн</constants>
   <constants>Constant.SUI_ОфлайнОбмен</constants>
