@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="872cd574-1a66-4eb2-b780-598e596e49ef">
+  <name>SUI_ФайловаяСистема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файловая система (SUI)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.SUI_ФайловаяСистемаКлиент</content>
+  <content>CommonModule.SUI_ФайловаяСистемаСлужебныйКлиент</content>
+  <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

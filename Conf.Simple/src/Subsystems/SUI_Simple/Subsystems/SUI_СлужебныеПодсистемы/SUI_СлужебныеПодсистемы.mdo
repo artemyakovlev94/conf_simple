@@ -142,6 +142,7 @@
   <subsystems>SUI_РепозиторийРасширения</subsystems>
   <subsystems>SUI_СообщенияМобильныхУстройств</subsystems>
   <subsystems>SUI_СообщенияОбменаДанными</subsystems>
+  <subsystems>SUI_ФайловаяСистема</subsystems>
   <subsystems>SUI_Штрихкодирование</subsystems>
   <parentSubsystem>Subsystem.SUI_Simple</parentSubsystem>
 </mdclass:Subsystem>
