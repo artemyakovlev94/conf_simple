@@ -274,6 +274,24 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="b48d21d5-81f3-4874-bfaf-86f1050ad50d">
+    <name>series_number</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер серии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="af7154ca-3844-44dc-865d-50e8301ac471">
     <name>sid</name>
     <synonym>
