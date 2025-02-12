@@ -46,7 +46,7 @@
     <key>ru</key>
     <value>https://github.com/simple-kit/simple-1C</value>
   </configurationInformationAddress>
-  <compatibilityMode>8.3.24</compatibilityMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
   <languages uuid="9396f4b2-89c1-458e-8572-606b9efe7c9e">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
