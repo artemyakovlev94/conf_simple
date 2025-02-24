@@ -240,6 +240,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="42028956-d4c8-4763-a418-a95094a87048">
+    <name>Пользователь1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь1 С</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="81ef77e7-e660-4a12-862a-1bfa5108bb38">
     <name>ФормаСписка</name>
     <synonym>

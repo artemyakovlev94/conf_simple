@@ -343,4 +343,20 @@
       <handler>ШтрихкодыНоменклатурыСоздатьШтрихкодыНоменклатуры</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="9deb7082-2634-4f41-8992-52e93c1930e6">
+    <name>ЯчейкиТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ячейки товара</value>
+    </synonym>
+    <template>/cells</template>
+    <methods uuid="715fa1a6-0ddf-4663-9518-e80e0ab3ce99">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <handler>ЯчейкиТовараПолучить</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>

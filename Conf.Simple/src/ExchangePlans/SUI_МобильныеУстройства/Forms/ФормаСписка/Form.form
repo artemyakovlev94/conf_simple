@@ -117,7 +117,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.Description</segments>
+          <segments>Список.Наименование</segments>
         </dataPath>
         <extendedTooltip>
           <name>НаименованиеРасширеннаяПодсказка</name>
@@ -167,7 +167,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.Code</segments>
+          <segments>Список.Код</segments>
         </dataPath>
         <extendedTooltip>
           <name>КодРасширеннаяПодсказка</name>
@@ -206,6 +206,52 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>Пользователь1С</name>
+        <id>78</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.Пользователь1С</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>Пользователь1СРасширеннаяПодсказка</name>
+          <id>80</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>Пользователь1СКонтекстноеМеню</name>
+          <id>79</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>LabelField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:LabelFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -702,7 +748,7 @@
       <enabled>true</enabled>
       <userVisible/>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Ref</segments>
+        <segments>Список.Ссылка</segments>
       </dataPath>
       <extendedTooltip>
         <name>СсылкаРасширеннаяПодсказка</name>
@@ -897,7 +943,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Items.Список.CurrentData.Ref</segments>
+          <segments>Items.Список.CurrentData.Ссылка</segments>
         </dataPath>
         <extendedTooltip>
           <name>СписокКонтекстноеМенюОбщаяКомандаSUI_ВыполнитьПолнуюВыгрузкуРасширеннаяПодсказка</name>
@@ -930,7 +976,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Items.Список.CurrentData.Ref</segments>
+          <segments>Items.Список.CurrentData.Ссылка</segments>
         </dataPath>
         <extendedTooltip>
           <name>СписокКонтекстноеМенюРегистрСведенийSUI_СообщенияМобильныхУстройствКомандаОтправитьСообщениеРасширеннаяПодсказка</name>
@@ -1042,19 +1088,19 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.Ref</segments>
+      <segments>Список.Ссылка</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	SUI_МобильныеУстройства.Ссылка,
-	SUI_МобильныеУстройства.ПометкаУдаления,
-	SUI_МобильныеУстройства.Код,
-	SUI_МобильныеУстройства.Наименование,
-	SUI_МобильныеУстройства.IPАдрес,
-	SUI_МобильныеУстройства.Порт,
-	SUI_МобильныеУстройства.ЭтотУзел,
-	SUI_МобильныеУстройства.ОтключитьЛогирование,
+	SUI_МобильныеУстройства.Ссылка КАК Ссылка,
+	SUI_МобильныеУстройства.ПометкаУдаления КАК ПометкаУдаления,
+	SUI_МобильныеУстройства.Код КАК Код,
+	SUI_МобильныеУстройства.Наименование КАК Наименование,
+	SUI_МобильныеУстройства.IPАдрес КАК IPАдрес,
+	SUI_МобильныеУстройства.Порт КАК Порт,
+	SUI_МобильныеУстройства.ЭтотУзел КАК ЭтотУзел,
+	SUI_МобильныеУстройства.ОтключитьЛогирование КАК ОтключитьЛогирование,
 	ВЫБОР
 		КОГДА SUI_МобильныеУстройства.ЭтотУзел
 			ТОГДА ИСТИНА
@@ -1062,21 +1108,21 @@
 	КОНЕЦ КАК ЭтоПредопределенный,
 	ЕСТЬNULL(SUI_СеансыМобильныхУстройств.ДатаСеанса, ДАТАВРЕМЯ(1, 1, 1)) КАК ПоследнийСеанс,
 	ЕСТЬNULL(SUI_СеансыМобильныхУстройств.ВерсияПриложения, &quot;0.0.0.0&quot;) КАК ВерсияПриложения,
-	ЕСТЬNULL(SUI_СостоянияМобильныхУстройств.Состояние,
-		ЗНАЧЕНИЕ(Перечисление.SUI_СостоянияМобильныхУстройств.ПустаяСсылка)) КАК ТекущееСостояние,
+	ЕСТЬNULL(SUI_СостоянияМобильныхУстройств.Состояние, ЗНАЧЕНИЕ(Перечисление.SUI_СостоянияМобильныхУстройств.ПустаяСсылка)) КАК ТекущееСостояние,
 	SUI_СостоянияМобильныхУстройств.ДатаОбновления КАК ДатаСостояния,
 	ВЫБОР
 		КОГДА НЕ SUI_МобильныеУстройства.ЭтотУзел
-		И (SUI_СеансыМобильныхУстройств.ДатаСеанса ЕСТЬ NULL
-		ИЛИ SUI_СеансыМобильныхУстройств.ДатаСеанса &lt; &amp;ДатаОтсутствияСеанса)
+				И (SUI_СеансыМобильныхУстройств.ДатаСеанса ЕСТЬ NULL
+					ИЛИ SUI_СеансыМобильныхУстройств.ДатаСеанса &lt; &amp;ДатаОтсутствияСеанса)
 			ТОГДА 1
 		ИНАЧЕ 0
 	КОНЕЦ КАК ИндексКартинки,
-	SUI_МобильныеУстройства.Представление
+	SUI_МобильныеУстройства.Представление КАК Представление,
+	SUI_МобильныеУстройства.Пользователь1С КАК Пользователь1С
 ИЗ
 	ПланОбмена.SUI_МобильныеУстройства КАК SUI_МобильныеУстройства
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.SUI_СеансыМобильныхУстройств КАК SUI_СеансыМобильныхУстройств
-		ПО SUI_СеансыМобильныхУстройств.МобильноеУстройство = SUI_МобильныеУстройства.Ссылка
+		ПО (SUI_СеансыМобильныхУстройств.МобильноеУстройство = SUI_МобильныеУстройства.Ссылка)
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.SUI_СостоянияМобильныхУстройств КАК SUI_СостоянияМобильныхУстройств
 		ПО SUI_МобильныеУстройства.Ссылка = SUI_СостоянияМобильныхУстройств.МобильноеУстройство</queryText>
       <mainTable>ExchangePlan.SUI_МобильныеУстройства</mainTable>

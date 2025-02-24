@@ -13,7 +13,6 @@
     <sessionModule>Extended</sessionModule>
     <externalConnectionModule>Extended</externalConnectionModule>
     <defaultLanguage>Checked</defaultLanguage>
-    <compatibilityMode>Notify</compatibilityMode>
     <logo>Extended</logo>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="be6971f0-0ec3-4878-bdc8-845036aa6a48"/>
@@ -31,7 +30,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ООО &quot;Симпл&quot;</vendor>
-  <version>1.0.4.33</version>
+  <version>1.0.4.28</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <logo/>
   <copyright>
@@ -46,7 +45,6 @@
     <key>ru</key>
     <value>https://github.com/simple-kit/simple-1C</value>
   </configurationInformationAddress>
-  <compatibilityMode>8.3.17</compatibilityMode>
   <languages uuid="9396f4b2-89c1-458e-8572-606b9efe7c9e">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -373,7 +371,9 @@
   <catalogs>Catalog.SUI_ПользователиТСД</catalogs>
   <catalogs>Catalog.SUI_ПрисоединенныеФайлыОбщие</catalogs>
   <catalogs>Catalog.SUI_ШаблоныЭтикетокZPL</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.СкладскиеЯчейки</catalogs>
   <catalogs>Catalog.Удалить_SUI_МобильныеКлиенты</catalogs>
   <documents>Document.SUI_СборШтрихкодов</documents>
   <enums>Enum.SUI_HTTPМетоды</enums>
@@ -442,4 +442,5 @@
   <informationRegisters>InformationRegister.Удалить_SUI_tbl_price_types</informationRegisters>
   <informationRegisters>InformationRegister.Удалить_SUI_tbl_prices</informationRegisters>
   <informationRegisters>InformationRegister.Удалить_SUI_tbl_types_goods</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыВЯчейках</accumulationRegisters>
 </mdclass:Configuration>
