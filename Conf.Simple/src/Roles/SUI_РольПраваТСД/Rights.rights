@@ -616,6 +616,13 @@
 		</right>
 	</object>
 	<object>
+		<name>HTTPService.SUI_Exchange.URLTemplate.ЯчейкиТовара.Method.Получить</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.SUI_НастройкиТаблицИнтеграции</name>
 		<right>
 			<name>Read</name>
