@@ -13,6 +13,8 @@
 		|	РегистрСведений.SUI_docs КАК SUI_docs
 		|		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.SUI_docs_tbl_barcode_flow КАК SUI_docs_tbl_barcode_flow
 		|		ПО SUI_docs.sid = SUI_docs_tbl_barcode_flow.sid_doc
+		|		И НЕ SUI_docs_tbl_barcode_flow.ЭтоШтрихкодКМ
+		|		И НЕ SUI_docs_tbl_barcode_flow.ЭтоШтрихкодSSCC
 		|ГДЕ
 		|	ВЫБОР
 		|		КОГДА &id_doc <> НЕОПРЕДЕЛЕНО

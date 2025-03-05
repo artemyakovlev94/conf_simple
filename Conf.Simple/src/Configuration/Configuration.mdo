@@ -229,6 +229,7 @@
   <commonModules>CommonModule.SUI_ФайловаяСистемаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.SUI_ШаблоныЭтикеток</commonModules>
   <commonModules>CommonModule.SUI_ШаблоныЭтикетокПовтИсп</commonModules>
+  <commonModules>CommonModule.SUI_ШтрихкодированиеКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_ШтрихкодыНоменклатуры</commonModules>
   <commonModules>CommonModule.SUI_ШтрихкодыНоменклатурыКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_ШтрихкодыУпаковок</commonModules>
