@@ -4368,6 +4368,42 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>ДанныеСтрокой</name>
+      <title>
+        <key>ru</key>
+        <value>Данные строкой</value>
+      </title>
+      <id>73</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>КлючСобытия</name>
+      <title>
+        <key>ru</key>
+        <value>Ключ события</value>
+      </title>
+      <id>74</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ОтборЖурналаРегистрации</name>
