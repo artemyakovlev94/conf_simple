@@ -31,7 +31,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ООО &quot;Симпл&quot;</vendor>
-  <version>1.0.5.10</version>
+  <version>1.0.5.11</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <logo/>
   <copyright>
@@ -222,7 +222,9 @@
   <commonModules>CommonModule.SUI_СобытияФормИСКлиент</commonModules>
   <commonModules>CommonModule.SUI_СообщенияМобильныхУстройств</commonModules>
   <commonModules>CommonModule.SUI_СообщенияМобильныхУстройствКлиент</commonModules>
+  <commonModules>CommonModule.SUI_СообщенияМобильныхУстройствКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_СообщенияОбменаДанными</commonModules>
+  <commonModules>CommonModule.SUI_СообщенияОбменаДаннымиКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_СтроковыеФункцииКлиентСерверПереопределяемый</commonModules>
   <commonModules>CommonModule.SUI_ФайловаяСистемаКлиент</commonModules>
@@ -249,8 +251,6 @@
   <eventSubscriptions>EventSubscription.SUI_ДокументыОбменаПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_ДокументыОбменаПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_ДокументыОбменаПриЗаписи_beta</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.SUI_ИдентификаторыРегламентныхЗаданийПередЗаписью</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.SUI_ИдентификаторыРегламентныхЗаданийПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_ИнтеграцияВКонфигурациюРегистрыСведенийПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_ИнтеграцияВКонфигурациюРегистрыСведенийПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_ИнтеграцияВКонфигурациюСправочникиПередУдалением</eventSubscriptions>
@@ -321,13 +321,6 @@
   <constants>Constant.SUI_ПроверятьСвязьСПользователямиПриОткрытииРабочегоМеста</constants>
   <constants>Constant.SUI_РазмерПакетаДанных</constants>
   <constants>Constant.SUI_РегистрироватьИзмененияПослеЗагрузкиДокументаИзМУ</constants>
-  <constants>Constant.SUI_РЗ_ОбработкаОчередиЗаданий</constants>
-  <constants>Constant.SUI_РЗ_ОбработкаСообщенийОбменаДанными</constants>
-  <constants>Constant.SUI_РЗ_ОчисткаЛогированияHTTPЗапросов</constants>
-  <constants>Constant.SUI_РЗ_ОчисткаОбработанныхДокументов</constants>
-  <constants>Constant.SUI_РЗ_ОчисткаОчередиЗаданий</constants>
-  <constants>Constant.SUI_РЗ_ОчисткаСообщенийМобильныхУстройств</constants>
-  <constants>Constant.SUI_РЗ_СверткаСообщенийОбменаДанными</constants>
   <constants>Constant.SUI_СоздаватьШтрихкодыИзТСД</constants>
   <constants>Constant.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</constants>
   <constants>Constant.SUI_ТаймаутВыгрузкиДанных</constants>
@@ -359,7 +352,6 @@
   <enums>Enum.SUI_HTTPМетоды</enums>
   <enums>Enum.SUI_ВариантОбмена</enums>
   <enums>Enum.SUI_ВидыДанныхСообщенийОбменаДанными</enums>
-  <enums>Enum.SUI_КлючиРегламентыхЗаданий</enums>
   <enums>Enum.SUI_ПредопределенныеНастройкиПодсистемы</enums>
   <enums>Enum.SUI_РежимыОткрытияДокументаОбмена</enums>
   <enums>Enum.SUI_СостоянияДокументовОбмена</enums>
@@ -371,6 +363,7 @@
   <enums>Enum.SUI_ТипыАлгоритмов</enums>
   <enums>Enum.SUI_ТипыИдентификацииСтрокТЧ</enums>
   <enums>Enum.SUI_ТипыТаблицДокументовОбмена</enums>
+  <enums>Enum.Удалить_SUI_КлючиРегламентыхЗаданий</enums>
   <enums>Enum.Удалить_SUI_СостоянияПолнойВыгрузкиМУ</enums>
   <enums>Enum.Удалить_SUI_ТипыПакетовДанных</enums>
   <reports>Report.SUI_ОтчетПоВыработкеСотрудников</reports>

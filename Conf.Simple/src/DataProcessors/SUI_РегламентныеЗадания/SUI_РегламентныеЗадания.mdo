@@ -10,34 +10,52 @@
     <value>Регламентные задания (SUI)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.SUI_РегламентныеЗадания.Form.Форма</defaultForm>
+  <defaultForm>DataProcessor.SUI_РегламентныеЗадания.Form.РегламентныеЗадания</defaultForm>
   <extendedPresentation>
     <key>ru</key>
-    <value>Регламентные задания</value>
+    <value>Регламентные задания Simple</value>
   </extendedPresentation>
-  <forms uuid="5ff1705e-f9a3-4fe7-a652-558abc12ce08">
-    <name>Форма</name>
+  <forms uuid="db0309ac-e326-4a51-a359-5166e77c7df8">
+    <name>РегламентныеЗадания</name>
     <synonym>
       <key>ru</key>
-      <value>Форма</value>
+      <value>Регламентные задания</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="1af1f4fc-8e95-4c0c-9c5d-4db0113e1f0f">
-    <name>ФормаРегламентногоЗадания</name>
+  <forms uuid="edbb45df-8f10-486a-b600-dafcc3242627">
+    <name>НастройкаАварийногоПерезапуска</name>
     <synonym>
       <key>ru</key>
-      <value>Форма регламентного задания</value>
+      <value>Настройка аварийного перезапуска</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="37cabb29-0932-41f2-93a3-d4f19aaa93ca">
-    <name>ФормаВыполненияРегламентногоЗадания</name>
+  <forms uuid="65eee741-3f9f-415b-8b48-043613d4d7e3">
+    <name>ПросмотрОшибки</name>
     <synonym>
       <key>ru</key>
-      <value>Выполнение регламентного задания</value>
+      <value>Просмотр ошибки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fdd0b36b-9239-4d97-9ad3-37392ac9a2f1">
+    <name>ПросмотрСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотр сообщений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b52a4f58-5904-440b-9e12-24e5276056f7">
+    <name>ЗапускРегламентногоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запуск регламентного задания</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
