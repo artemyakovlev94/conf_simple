@@ -770,7 +770,7 @@
     <fillChecking>ShowError</fillChecking>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:NumberValue">
-      <value>5</value>
+      <value>200</value>
     </fillValue>
     <dataHistory>Use</dataHistory>
   </attributes>
