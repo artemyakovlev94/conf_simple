@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdd7cc07-ed3f-437e-9690-150f1d32c379">
-  <name>SUI_ДлительныеОперацииПереопределяемый</name>
+  <name>SUI_ДлительныеОперации</name>
   <synonym>
     <key>ru</key>
-    <value>Длительные операции переопределяемый (SUI)</value>
+    <value>Длительные операции (SUI)</value>
   </synonym>
   <server>true</server>
   <externalConnection>true</externalConnection>
