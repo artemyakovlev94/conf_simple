@@ -224,7 +224,6 @@
   <commonModules>CommonModule.SUI_СообщенияОбменаДанными</commonModules>
   <commonModules>CommonModule.SUI_СообщенияОбменаДаннымиКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_СтроковыеФункцииКлиентСервер</commonModules>
-  <commonModules>CommonModule.SUI_СтроковыеФункцииКлиентСерверПереопределяемый</commonModules>
   <commonModules>CommonModule.SUI_ФайловаяСистемаКлиент</commonModules>
   <commonModules>CommonModule.SUI_ФайловаяСистемаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.SUI_ШаблоныЭтикеток</commonModules>
