@@ -199,7 +199,7 @@
   <commonModules>CommonModule.SUI_ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_ОбщегоНазначенияКлиентСерверПереопределяемый</commonModules>
   <commonModules>CommonModule.SUI_ОбщегоНазначенияПереопределяемый</commonModules>
-  <commonModules>CommonModule.SUI_ОценкаПроизводительностиПереопределяемый</commonModules>
+  <commonModules>CommonModule.SUI_ОценкаПроизводительности</commonModules>
   <commonModules>CommonModule.SUI_ОчередьЗаданий</commonModules>
   <commonModules>CommonModule.SUI_ОчередьЗаданийКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_ПакетыДанных</commonModules>
