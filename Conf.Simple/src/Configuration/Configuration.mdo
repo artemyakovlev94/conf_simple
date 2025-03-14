@@ -203,7 +203,6 @@
   <commonModules>CommonModule.SUI_ПакетыДанных</commonModules>
   <commonModules>CommonModule.SUI_ПакетыДанныхКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_ПакетыДанныхПовтИсп</commonModules>
-  <commonModules>CommonModule.SUI_ПользователиПереопределяемый</commonModules>
   <commonModules>CommonModule.SUI_РаботаСФайламиКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_РегламентныеЗадания</commonModules>
   <commonModules>CommonModule.SUI_РегламентныеЗаданияКлиент</commonModules>
