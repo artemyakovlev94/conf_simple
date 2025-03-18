@@ -269,7 +269,6 @@
   <eventSubscriptions>EventSubscription.SUI_МобильноеУстройствоПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_МобильноеУстройствоПередУдалением</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_МобильноеУстройствоПриЗаписи</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.SUI_ОчередьЗаданийПриЗаписи</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ЗапускДополнительныхОбработок</scheduledJobs>
   <functionalOptions>FunctionalOption.SUI_АлгоритмПолученияШтрихкодаДокумента</functionalOptions>
   <functionalOptions>FunctionalOption.SUI_ИспользоватьДополнительныеРеквизитыТаблиц</functionalOptions>
