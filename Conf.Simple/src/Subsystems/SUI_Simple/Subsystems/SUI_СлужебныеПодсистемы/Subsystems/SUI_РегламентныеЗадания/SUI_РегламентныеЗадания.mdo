@@ -7,17 +7,8 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>CommonModule.SUI_РегламентныеЗадания</content>
-  <content>Enum.SUI_КлючиРегламентыхЗаданий</content>
-  <content>Constant.SUI_РЗ_ОбработкаОчередиЗаданий</content>
-  <content>Constant.SUI_РЗ_ОчисткаСообщенийМобильныхУстройств</content>
-  <content>Constant.SUI_РЗ_ОчисткаОчередиЗаданий</content>
-  <content>Constant.SUI_РЗ_ОчисткаЛогированияHTTPЗапросов</content>
-  <content>EventSubscription.SUI_ИдентификаторыРегламентныхЗаданийПриЗаписи</content>
-  <content>EventSubscription.SUI_ИдентификаторыРегламентныхЗаданийПередЗаписью</content>
+  <content>Enum.Удалить_SUI_КлючиРегламентыхЗаданий</content>
   <content>DataProcessor.SUI_РегламентныеЗадания</content>
-  <content>Constant.SUI_РЗ_ОчисткаОбработанныхДокументов</content>
-  <content>Constant.SUI_РЗ_ОбработкаСообщенийОбменаДанными</content>
-  <content>Constant.SUI_РЗ_СверткаСообщенийОбменаДанными</content>
   <content>CommonModule.SUI_РегламентныеЗаданияКлиентСервер</content>
   <content>CommonModule.SUI_РегламентныеЗаданияКлиент</content>
   <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>

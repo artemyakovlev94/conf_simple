@@ -9,10 +9,9 @@
   <content>InformationRegister.SUI_СообщенияОбменаДанными</content>
   <content>Enum.SUI_ВидыДанныхСообщенийОбменаДанными</content>
   <content>CommonModule.SUI_СообщенияОбменаДанными</content>
-  <content>Constant.SUI_РЗ_ОбработкаСообщенийОбменаДанными</content>
-  <content>Constant.SUI_РЗ_СверткаСообщенийОбменаДанными</content>
   <content>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными</content>
   <content>Constant.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</content>
   <content>FunctionalOption.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</content>
+  <content>CommonModule.SUI_СообщенияОбменаДаннымиКлиентСервер</content>
   <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

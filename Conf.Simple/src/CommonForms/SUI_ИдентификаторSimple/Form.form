@@ -222,6 +222,8 @@
       <types>CatalogRef.SUI_НастройкиМобильныхУстройств</types>
       <types>CatalogRef.SUI_ПользователиТСД</types>
       <types>CatalogRef.SUI_ШаблоныЭтикетокZPL</types>
+      <types>DocumentRef</types>
+      <types>CatalogRef.Пользователи</types>
     </valueType>
     <view>
       <common>true</common>

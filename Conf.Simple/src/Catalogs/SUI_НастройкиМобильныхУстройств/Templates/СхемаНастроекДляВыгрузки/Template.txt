@@ -109,26 +109,6 @@
         </row>
 	</row>
     <row>
-        <Value>http_settings</Value>
-		<Value/>
-		<Value xsi:nil="true"/>
-        <row>
-            <Value>url</Value>
-            <Value>АдресСервера</Value>
-            <Value xsi:type="xs:string"/>
-        </row>
-        <row>
-            <Value>user</Value>
-            <Value>Пользователь</Value>
-            <Value xsi:type="xs:string"/>
-        </row>
-        <row>
-            <Value>user_name</Value>
-            <Value>ПользовательНаименование</Value>
-            <Value xsi:type="xs:string"/>
-        </row>
-	</row>
-    <row>
         <Value>documents_settings</Value>
 		<Value/>
 		<Value xsi:nil="true"/>
@@ -207,36 +187,6 @@
             <Value>IPАдресWiFiПринтера</Value>
             <Value xsi:type="xs:string"/>
         </row>
-	</row>
-	<row>
-        <Value>scanner_settings</Value>
-		<Value/>
-		<Value xsi:nil="true"/>
-		<row>
-            <Value>scanner_intents</Value>
-			<Value/>
-			<Value xsi:nil="true"/>
-			<row>
-				<Value>IntentScanner</Value>
-				<Value>АппаратныйСканерИспользованиеКомандИнтентов</Value>
-				<Value xsi:type="xs:boolean">false</Value>
-			</row>
-			<row>
-				<Value>IntentScannerMessage</Value>
-				<Value>АппаратныйСканерIntentScannerMessage</Value>
-				<Value xsi:type="xs:string"/>
-			</row>
-            <row>
-				<Value>IntentScannerVariable</Value>
-				<Value>АппаратныйСканерIntentScannerVariable</Value>
-				<Value xsi:type="xs:string"/>
-			</row>
-            <row>
-				<Value>IntentScannerLength</Value>
-				<Value>АппаратныйСканерIntentScannerLength</Value>
-				<Value xsi:type="xs:string"/>
-			</row>
-		</row>
 	</row>
     <row>
         <Value>series_settings</Value>
