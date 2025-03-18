@@ -166,6 +166,7 @@
   <commonModules>CommonModule.SUI_ДокументыОбменаВызовСервера</commonModules>
   <commonModules>CommonModule.SUI_ДокументыОбменаКлиент</commonModules>
   <commonModules>CommonModule.SUI_ДокументыОбменаКлиентСервер</commonModules>
+  <commonModules>CommonModule.SUI_ДокументыОбменаПереопределяемый</commonModules>
   <commonModules>CommonModule.SUI_ДокументыОбменаПовтИсп</commonModules>
   <commonModules>CommonModule.SUI_ДополнительныеРеквизитыТаблиц</commonModules>
   <commonModules>CommonModule.SUI_ЖурналРегистрации</commonModules>
