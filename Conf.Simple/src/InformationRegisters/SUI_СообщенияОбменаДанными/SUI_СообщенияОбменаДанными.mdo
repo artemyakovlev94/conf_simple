@@ -156,6 +156,23 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="14451fbc-8ed4-4627-af34-28695f951979">
+    <name>Ключи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="eec0522a-8fad-467d-a665-48a257dab942">
     <name>ID</name>
     <synonym>

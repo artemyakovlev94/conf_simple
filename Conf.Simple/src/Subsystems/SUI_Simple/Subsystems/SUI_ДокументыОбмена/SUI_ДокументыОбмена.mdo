@@ -27,6 +27,7 @@
   <content>Constant.SUI_ОткрыватьВыгрузкуДокументовОбменаОфлайн</content>
   <content>FunctionalOption.SUI_ОткрыватьВыгрузкуДокументовОбменаОфлайн</content>
   <content>CommonModule.SUI_ДокументыОбменаПереопределяемый</content>
+  <content>CommonModule.SUI_ДокументыОбменаКлиентПереопределяемый</content>
   <subsystems>SUI_НастройкиДокументовОбмена</subsystems>
   <subsystems>SUI_ТаблицыДокументовОбмена</subsystems>
   <parentSubsystem>Subsystem.SUI_Simple</parentSubsystem>

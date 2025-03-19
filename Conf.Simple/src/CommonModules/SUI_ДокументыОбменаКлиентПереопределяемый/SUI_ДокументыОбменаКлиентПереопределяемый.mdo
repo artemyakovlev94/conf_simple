@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="134b3cfd-2bfb-496c-bee8-c013fc4a282a">
+  <name>SUI_ДокументыОбменаКлиентПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы обмена (клиент, переопределяемый) (SUI)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
