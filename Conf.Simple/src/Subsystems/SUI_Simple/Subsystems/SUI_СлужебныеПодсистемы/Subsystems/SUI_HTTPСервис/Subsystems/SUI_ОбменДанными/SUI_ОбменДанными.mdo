@@ -7,5 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>CommonModule.SUI_ОбменДаннымиСервер</content>
+  <content>CommonModule.SUI_ОбменДаннымиСерверПереопределяемый</content>
   <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы.Subsystem.SUI_HTTPСервис</parentSubsystem>
 </mdclass:Subsystem>
