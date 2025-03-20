@@ -288,6 +288,25 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="3f2ca056-98d1-4b65-ac17-aa4cb7eaac9b">
+    <name>НомерСеансаЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер сеанса задания</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="1b7c62ba-3ce1-4f7d-8de3-1c2e3af3ef73">
     <name>Идентификатор</name>
     <synonym>
