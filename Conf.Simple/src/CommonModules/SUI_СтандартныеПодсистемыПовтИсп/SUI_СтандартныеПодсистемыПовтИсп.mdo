@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06b81a2b-b624-422e-8848-119ea2ad830c">
-  <name>SUI_ОбщегоНазначенияПовтИсп</name>
+  <name>SUI_СтандартныеПодсистемыПовтИсп</name>
   <synonym>
     <key>ru</key>
-    <value>Общего назначения (повт. исп.) (SUI)</value>
+    <value>Стандартные подсистемы (повт. исп.) (SUI)</value>
   </synonym>
   <server>true</server>
   <externalConnection>true</externalConnection>

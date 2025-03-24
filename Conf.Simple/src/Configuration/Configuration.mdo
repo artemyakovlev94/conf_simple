@@ -197,7 +197,6 @@
   <commonModules>CommonModule.SUI_ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.SUI_ОбщегоНазначенияКлиент</commonModules>
   <commonModules>CommonModule.SUI_ОбщегоНазначенияКлиентСервер</commonModules>
-  <commonModules>CommonModule.SUI_ОбщегоНазначенияПовтИсп</commonModules>
   <commonModules>CommonModule.SUI_ОценкаПроизводительности</commonModules>
   <commonModules>CommonModule.SUI_ОчередьЗаданий</commonModules>
   <commonModules>CommonModule.SUI_ОчередьЗаданийКлиентСервер</commonModules>
@@ -223,6 +222,7 @@
   <commonModules>CommonModule.SUI_СообщенияМобильныхУстройствКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_СообщенияОбменаДанными</commonModules>
   <commonModules>CommonModule.SUI_СообщенияОбменаДаннымиКлиентСервер</commonModules>
+  <commonModules>CommonModule.SUI_СтандартныеПодсистемыПовтИсп</commonModules>
   <commonModules>CommonModule.SUI_СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_ФайловаяСистемаКлиент</commonModules>
   <commonModules>CommonModule.SUI_ФайловаяСистемаСлужебныйКлиент</commonModules>
