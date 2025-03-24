@@ -13,6 +13,7 @@
     <sessionModule>Extended</sessionModule>
     <externalConnectionModule>Extended</externalConnectionModule>
     <defaultLanguage>Checked</defaultLanguage>
+    <compatibilityMode>Notify</compatibilityMode>
     <logo>Extended</logo>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="be6971f0-0ec3-4878-bdc8-845036aa6a48"/>
@@ -45,6 +46,7 @@
     <key>ru</key>
     <value>https://github.com/simple-kit/simple-1C</value>
   </configurationInformationAddress>
+  <compatibilityMode>8.3.24</compatibilityMode>
   <languages uuid="9396f4b2-89c1-458e-8572-606b9efe7c9e">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
