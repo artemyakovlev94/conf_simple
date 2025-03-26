@@ -231,7 +231,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <width>35</width>
+      <width>20</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <autoMaxRowsCount>true</autoMaxRowsCount>
@@ -289,19 +289,20 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>TextDocumentField</type>
-      <readOnly>true</readOnly>
+      <type>InputField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:TextDocFieldExtInfo">
+      <extInfo xsi:type="form:InputFieldExtInfo">
         <width>50</width>
-        <autoMaxWidth>true</autoMaxWidth>
         <height>10</height>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
-        <verticalStretch>true</verticalStretch>
+        <wrap>true</wrap>
+        <multiLine>true</multiLine>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -380,7 +381,7 @@
     </extInfo>
   </attributes>
   <parameters>
-    <name>ПредставлениеРегламентногоЗадания</name>
+    <name>Заголовок</name>
     <valueType>
       <types>String</types>
       <stringQualifiers/>

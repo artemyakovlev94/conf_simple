@@ -380,6 +380,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.SUI_ПросмотрОшибки</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.SUI_НастройкиДокументовМобильныхУстройств</name>
 		<right>
 			<name>Read</name>
@@ -433,6 +440,13 @@
 	</object>
 	<object>
 		<name>CommonForm.SUI_УпрощеннаяНастройкаСхемыКомпоновкиДанных</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.SUI_ПросмотрСообщений</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

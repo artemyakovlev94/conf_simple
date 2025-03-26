@@ -221,6 +221,8 @@
   <commonModules>CommonModule.SUI_СообщенияМобильныхУстройствКлиент</commonModules>
   <commonModules>CommonModule.SUI_СообщенияМобильныхУстройствКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_СообщенияОбменаДанными</commonModules>
+  <commonModules>CommonModule.SUI_СообщенияОбменаДаннымиВызовСервера</commonModules>
+  <commonModules>CommonModule.SUI_СообщенияОбменаДаннымиКлиент</commonModules>
   <commonModules>CommonModule.SUI_СообщенияОбменаДаннымиКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_СтандартныеПодсистемыПовтИсп</commonModules>
   <commonModules>CommonModule.SUI_СтроковыеФункцииКлиентСервер</commonModules>
@@ -334,6 +336,8 @@
   <commonForms>CommonForm.SUI_ИдентификаторSimple</commonForms>
   <commonForms>CommonForm.SUI_КонструкторЗапроса</commonForms>
   <commonForms>CommonForm.SUI_ЛогированиеHTTPЗапросов</commonForms>
+  <commonForms>CommonForm.SUI_ПросмотрОшибки</commonForms>
+  <commonForms>CommonForm.SUI_ПросмотрСообщений</commonForms>
   <commonForms>CommonForm.SUI_РазмерПакетаДанных</commonForms>
   <commonForms>CommonForm.SUI_РедактированиеВерсии</commonForms>
   <commonForms>CommonForm.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</commonForms>

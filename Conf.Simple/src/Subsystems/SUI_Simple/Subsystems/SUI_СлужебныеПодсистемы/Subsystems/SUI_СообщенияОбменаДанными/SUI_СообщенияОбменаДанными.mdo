@@ -13,5 +13,7 @@
   <content>Constant.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</content>
   <content>FunctionalOption.SUI_СрокХраненияРезультатовОбработкиВходящихСообщенийОбмена</content>
   <content>CommonModule.SUI_СообщенияОбменаДаннымиКлиентСервер</content>
+  <content>CommonModule.SUI_СообщенияОбменаДаннымиКлиент</content>
+  <content>CommonModule.SUI_СообщенияОбменаДаннымиВызовСервера</content>
   <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

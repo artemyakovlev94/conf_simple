@@ -33,24 +33,6 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="65eee741-3f9f-415b-8b48-043613d4d7e3">
-    <name>ПросмотрОшибки</name>
-    <synonym>
-      <key>ru</key>
-      <value>Просмотр ошибки</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="fdd0b36b-9239-4d97-9ad3-37392ac9a2f1">
-    <name>ПросмотрСообщений</name>
-    <synonym>
-      <key>ru</key>
-      <value>Просмотр сообщений</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="b52a4f58-5904-440b-9e12-24e5276056f7">
     <name>ЗапускРегламентногоЗадания</name>
     <synonym>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Ошибка</value>
+  </title>
   <items xsi:type="form:FormField">
     <name>ПредставлениеОшибки</name>
     <id>16</id>
@@ -37,19 +41,20 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>TextDocumentField</type>
-    <readOnly>true</readOnly>
+    <type>InputField</type>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:TextDocFieldExtInfo">
+    <extInfo xsi:type="form:InputFieldExtInfo">
       <width>50</width>
-      <autoMaxWidth>true</autoMaxWidth>
-      <height>10</height>
-      <autoMaxHeight>true</autoMaxHeight>
+      <height>7</height>
       <horizontalStretch>true</horizontalStretch>
       <verticalStretch>true</verticalStretch>
+      <wrap>true</wrap>
+      <multiLine>true</multiLine>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -101,7 +106,6 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <width>75</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
@@ -146,7 +150,7 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <parameters>
-    <name>ПредставлениеРегламентногоЗадания</name>
+    <name>Заголовок</name>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
