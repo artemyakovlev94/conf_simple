@@ -195,6 +195,7 @@
   <commonModules>CommonModule.SUI_ОбновлениеSimpleКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.SUI_ОбщегоНазначенияВызовСервера</commonModules>
+  <commonModules>CommonModule.SUI_ОбщегоНазначенияГлобальный</commonModules>
   <commonModules>CommonModule.SUI_ОбщегоНазначенияКлиент</commonModules>
   <commonModules>CommonModule.SUI_ОбщегоНазначенияКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.SUI_ОбщегоНазначенияКлиентСервер</commonModules>
