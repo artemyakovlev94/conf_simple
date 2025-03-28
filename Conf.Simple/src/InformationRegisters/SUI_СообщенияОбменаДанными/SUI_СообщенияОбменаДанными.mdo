@@ -203,6 +203,24 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="1bc1f598-2f77-46a1-af25-5914e68f24d6">
+    <name>Ключи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключи сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="eec0522a-8fad-467d-a665-48a257dab942">
     <name>ID</name>
     <synonym>

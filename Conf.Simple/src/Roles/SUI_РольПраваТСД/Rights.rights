@@ -847,7 +847,7 @@
 		</right>
 	</object>
 	<object>
-		<name>HTTPService.SUI_Exchange.URLTemplate.Документы.Method.ОбновитьДокументы</name>
+		<name>HTTPService.SUI_Exchange.URLTemplate.Документы.Method.Обновить</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>

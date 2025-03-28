@@ -102,13 +102,13 @@
       <handler>ДокументыСоздать</handler>
     </methods>
     <methods uuid="b154f6db-c379-49ed-b1f7-719c33235edb">
-      <name>ОбновитьДокументы</name>
+      <name>Обновить</name>
       <synonym>
         <key>ru</key>
-        <value>Обновить документы</value>
+        <value>Обновить</value>
       </synonym>
       <httpMethod>PUT</httpMethod>
-      <handler>ОбновитьДокументы</handler>
+      <handler>ДокументыОбновить</handler>
     </methods>
   </urlTemplates>
   <urlTemplates uuid="50763652-bb3d-4e2d-9071-e556dbfb43f3">
