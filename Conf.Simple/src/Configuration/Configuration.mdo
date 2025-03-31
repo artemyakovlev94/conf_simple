@@ -200,6 +200,7 @@
   <commonModules>CommonModule.SUI_ОбщегоНазначенияКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.SUI_ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_ОбщегоНазначенияСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.SUI_ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_ОценкаПроизводительности</commonModules>
   <commonModules>CommonModule.SUI_ОчередьЗаданий</commonModules>
   <commonModules>CommonModule.SUI_ОчередьЗаданийКлиентСервер</commonModules>
