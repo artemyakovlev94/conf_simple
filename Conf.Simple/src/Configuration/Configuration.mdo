@@ -230,6 +230,7 @@
   <commonModules>CommonModule.SUI_СообщенияОбменаДаннымиКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_СтандартныеПодсистемыПовтИсп</commonModules>
   <commonModules>CommonModule.SUI_СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.SUI_ФайловаяСистема</commonModules>
   <commonModules>CommonModule.SUI_ФайловаяСистемаКлиент</commonModules>
   <commonModules>CommonModule.SUI_ФайловаяСистемаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.SUI_ФайловаяСистемаСлужебныйКлиентСервер</commonModules>
