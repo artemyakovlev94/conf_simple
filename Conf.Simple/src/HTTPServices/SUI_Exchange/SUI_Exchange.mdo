@@ -327,4 +327,20 @@
       <handler>ШтрихкодыНоменклатурыСоздатьШтрихкодыНоменклатуры</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="50befdeb-252a-42a8-8887-19b944804930">
+    <name>СоставКодовМаркировок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав кодов маркировок</value>
+    </synonym>
+    <template>/cis/includes</template>
+    <methods uuid="a2a416ce-cdaa-47a6-a04f-58dea24131f7">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <handler>СоставКодовМаркировокПолучить</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>

@@ -789,6 +789,13 @@
 		</right>
 	</object>
 	<object>
+		<name>HTTPService.SUI_Exchange.URLTemplate.СоставКодовМаркировок.Method.Получить</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными</name>
 		<right>
 			<name>Read</name>
