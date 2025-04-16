@@ -253,7 +253,6 @@
       <value>Мобильное устройство</value>
     </synonym>
     <type>
-      <types>CatalogRef.Удалить_SUI_МобильныеКлиенты</types>
       <types>ExchangePlanRef.SUI_МобильныеУстройства</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
