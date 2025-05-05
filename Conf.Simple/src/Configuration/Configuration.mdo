@@ -332,6 +332,7 @@
   <constants>Constant.SUI_КоличествоЗаданийВПотокеОчередиЗаданий</constants>
   <constants>Constant.SUI_ЛогированиеHTTPЗапросов</constants>
   <constants>Constant.SUI_НастройкаДокументаПеремещенияЗапасов</constants>
+  <constants>Constant.SUI_НастройкаДокументаПеремещенияМеждуЯчейками</constants>
   <constants>Constant.SUI_НеЗапускатьМастерНастроекПриНачалеРаботы</constants>
   <constants>Constant.SUI_ОнлайнОбмен</constants>
   <constants>Constant.SUI_ОткрыватьВыгрузкуДокументовОбменаОфлайн</constants>

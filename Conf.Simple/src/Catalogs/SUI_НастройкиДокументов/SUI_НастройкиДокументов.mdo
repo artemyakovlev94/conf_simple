@@ -395,6 +395,24 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="103f8611-8b45-4343-bced-2bb90c8d3ccb">
+    <name>АлгоритмИсходныйДокументПриЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алгоритм исходный документ при записи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="b2145de9-57ab-4f48-b649-c1f470c3285e">
     <producedTypes>
       <objectType typeId="6749dd5d-b1ff-4391-9617-982bcdbb8b2b" valueTypeId="5bd79383-e0af-4933-8011-bef8047702e5"/>

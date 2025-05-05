@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2500a161-993d-440a-bf5e-08a73420edbf">
+  <producedTypes>
+    <managerType typeId="1e76e16e-bec1-48ee-9ff3-b42ede53866d" valueTypeId="3130337a-5e36-4a42-a69a-0017a0b100fe"/>
+    <valueManagerType typeId="6e955427-712a-4748-9a58-d8e46b03ebc8" valueTypeId="46b50192-9165-496f-9d39-35c1f7983b82"/>
+    <valueKeyType typeId="2f2de136-5850-4568-bee7-032b526ec43f" valueTypeId="8d614807-41a9-468c-8ed3-707092215204"/>
+  </producedTypes>
+  <name>SUI_НастройкаДокументаПеремещенияМеждуЯчейками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка документа перемещения между ячейками (SUI)</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.SUI_НастройкиДокументов</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Настройка документа перемещения запасов</value>
+  </extendedPresentation>
+  <toolTip>
+    <key>ru</key>
+    <value>Настройка документа, используемая для создания документа перемещения между ячейками</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

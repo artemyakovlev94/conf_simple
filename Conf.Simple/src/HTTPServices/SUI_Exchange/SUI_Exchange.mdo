@@ -359,4 +359,21 @@
       <handler>ЯчейкиТовараПолучить</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="e1d61e73-c1fc-4428-89bb-019e2f4b877f">
+    <name>ПеремещениМеждуЯчейками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещени между ячейками</value>
+    </synonym>
+    <template>/LA/moving_cells</template>
+    <methods uuid="6205d241-e485-47da-8dd8-5e9990e4c17c">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПеремещениМеждуЯчейкамиPOST</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>

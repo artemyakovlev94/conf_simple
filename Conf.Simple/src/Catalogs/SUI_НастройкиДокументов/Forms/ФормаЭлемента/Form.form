@@ -1061,6 +1061,36 @@
         <name>ГруппаАлгоритмыОбработчиковСобытий</name>
         <id>158</id>
         <items xsi:type="form:Button">
+          <name>ОткрытьАлгоритмИсходныйДокументПриЗаписи</name>
+          <id>368</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьАлгоритмИсходныйДокументПриЗаписиРасширеннаяПодсказка</name>
+            <id>369</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьАлгоритмИсходныйДокументПриЗаписи</commandName>
+          <representation>Auto</representation>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:Button">
           <name>ОткрытьАлгоритмПередЗаписью</name>
           <id>156</id>
           <visible>true</visible>
@@ -4042,6 +4072,27 @@
       </handler>
     </action>
     <functionalOptions>FunctionalOption.SUI_ОнлайнОбмен</functionalOptions>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьАлгоритмИсходныйДокументПриЗаписи</name>
+    <title>
+      <key>ru</key>
+      <value>Исходный документ при записи</value>
+    </title>
+    <id>3</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть алгоритм исходный документ при записи</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьАлгоритмИсходныйДокументПриЗаписи</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>

@@ -275,6 +275,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.SUI_НастройкаДокументаПеремещенияМеждуЯчейками</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.SUI_НастройкаДокументаПеремещенияЗапасов</name>
 		<right>
 			<name>Read</name>
@@ -538,6 +545,13 @@
 		</right>
 	</object>
 	<object>
+		<name>HTTPService.SUI_Exchange.URLTemplate.ПеремещениМеждуЯчейками.Method.POST</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.Удалить_SUI_tbl_types_goods</name>
 		<right>
 			<name>Read</name>
@@ -739,13 +753,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы.Subsystem.SUI_ДополнительныеРеквизитыТаблиц</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.SUI_НастройкиДокументов.TabularSection.СоответствияРеквизитов.Attribute.Ключ</name>
 		<right>
 			<name>Edit</name>
@@ -785,13 +792,6 @@
 		</right>
 		<right>
 			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.SUI_Simple</name>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
