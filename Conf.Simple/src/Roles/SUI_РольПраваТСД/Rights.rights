@@ -396,6 +396,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.SUI_ШтрихкодыУпаковокДокументовОбмена</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.SUI_НастройкиДокументов.TabularSection.СопоставлениеРеквизитовТабличныхЧастей.Attribute.Поле</name>
 		<right>
 			<name>Edit</name>

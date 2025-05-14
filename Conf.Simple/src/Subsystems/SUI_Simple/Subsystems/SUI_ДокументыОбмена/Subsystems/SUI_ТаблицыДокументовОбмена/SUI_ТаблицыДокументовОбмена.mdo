@@ -14,5 +14,7 @@
   <content>InformationRegister.SUI_docs_tbl_goods</content>
   <content>InformationRegister.SUI_docs_tbl_goods_delta</content>
   <content>InformationRegister.SUI_docs_tbl_series</content>
+  <content>InformationRegister.SUI_ШтрихкодыУпаковокДокументовОбмена</content>
+  <content>InformationRegister.SUI_ОтсканированныеШтрихкодыУпаковокДокументовОбмена</content>
   <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_ДокументыОбмена</parentSubsystem>
 </mdclass:Subsystem>

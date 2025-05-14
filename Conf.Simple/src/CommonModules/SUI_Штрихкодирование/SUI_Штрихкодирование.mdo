@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc3b9de6-29c5-4ee5-b5a8-ac2be8f1ae56">
+  <name>SUI_Штрихкодирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкодирование (SUI)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

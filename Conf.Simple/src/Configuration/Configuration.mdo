@@ -236,6 +236,8 @@
   <commonModules>CommonModule.SUI_ФайловаяСистемаСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_ШаблоныЭтикеток</commonModules>
   <commonModules>CommonModule.SUI_ШаблоныЭтикетокПовтИсп</commonModules>
+  <commonModules>CommonModule.SUI_Штрихкодирование</commonModules>
+  <commonModules>CommonModule.SUI_ШтрихкодированиеВызовСервера</commonModules>
   <commonModules>CommonModule.SUI_ШтрихкодированиеКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_ШтрихкодыНоменклатуры</commonModules>
   <commonModules>CommonModule.SUI_ШтрихкодыНоменклатурыКлиентСервер</commonModules>
@@ -410,6 +412,7 @@
   <informationRegisters>InformationRegister.SUI_ЛогированиеHTTPЗапросов</informationRegisters>
   <informationRegisters>InformationRegister.SUI_НастройкиДокументовМобильныхУстройств</informationRegisters>
   <informationRegisters>InformationRegister.SUI_НастройкиТаблицИнтеграции</informationRegisters>
+  <informationRegisters>InformationRegister.SUI_ОтсканированныеШтрихкодыУпаковокДокументовОбмена</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ОчередьЗаданий</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ПараметрыЛогированияHTTPСервиса</informationRegisters>
   <informationRegisters>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными</informationRegisters>
@@ -418,6 +421,7 @@
   <informationRegisters>InformationRegister.SUI_СообщенияОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.SUI_СостоянияМобильныхУстройств</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ТаблицыКПерезаписиВМУ</informationRegisters>
+  <informationRegisters>InformationRegister.SUI_ШтрихкодыУпаковокДокументовОбмена</informationRegisters>
   <informationRegisters>InformationRegister.Удалить_SUI_tbl_classifier_units</informationRegisters>
   <informationRegisters>InformationRegister.Удалить_SUI_tbl_price_types</informationRegisters>
   <informationRegisters>InformationRegister.Удалить_SUI_tbl_prices</informationRegisters>
