@@ -172,6 +172,24 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="5be64fd5-d60d-44b2-b6d8-e292e4a65a22">
+    <name>id_cell</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ячейка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>69</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <attributes uuid="fb690ef9-7c1d-428c-91da-5b71050fd44c">
     <name>id_series</name>
     <synonym>
