@@ -192,7 +192,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

@@ -13,7 +13,6 @@
   <content>Enum.SUI_ТаблицыИнтеграции</content>
   <content>Enum.SUI_ТипыТаблицДокументовОбмена</content>
   <content>InformationRegister.SUI_docs_tbl_barcode_flow</content>
-  <content>InformationRegister.SUI_docs_tbl_barcodes</content>
   <content>InformationRegister.SUI_docs_tbl_goods</content>
   <content>InformationRegister.SUI_docs_tbl_goods_delta</content>
   <content>InformationRegister.SUI_docs_tbl_series</content>

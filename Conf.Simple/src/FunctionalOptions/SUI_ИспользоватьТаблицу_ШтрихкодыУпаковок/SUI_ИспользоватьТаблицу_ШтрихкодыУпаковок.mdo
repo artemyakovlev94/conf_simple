@@ -8,6 +8,4 @@
   <location>Constant.SUI_ИспользоватьТаблицу_ШтрихкодыУпаковок</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>InformationRegister.SUI_tbl_marking_codes</content>
-  <content>InformationRegister.SUI_docs_tbl_barcodes</content>
-  <content>InformationRegister.SUI_docs_tbl_barcodes.Resource.id_marking_code</content>
 </mdclass:FunctionalOption>

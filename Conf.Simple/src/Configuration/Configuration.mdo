@@ -392,7 +392,6 @@
   <dataProcessors>DataProcessor.SUI_ЦентрНастроек</dataProcessors>
   <informationRegisters>InformationRegister.SUI_docs</informationRegisters>
   <informationRegisters>InformationRegister.SUI_docs_tbl_barcode_flow</informationRegisters>
-  <informationRegisters>InformationRegister.SUI_docs_tbl_barcodes</informationRegisters>
   <informationRegisters>InformationRegister.SUI_docs_tbl_goods</informationRegisters>
   <informationRegisters>InformationRegister.SUI_docs_tbl_goods_delta</informationRegisters>
   <informationRegisters>InformationRegister.SUI_docs_tbl_series</informationRegisters>
@@ -422,6 +421,7 @@
   <informationRegisters>InformationRegister.SUI_СостоянияМобильныхУстройств</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ТаблицыКПерезаписиВМУ</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ШтрихкодыУпаковокДокументовОбмена</informationRegisters>
+  <informationRegisters>InformationRegister.Удалить_SUI_docs_tbl_barcodes</informationRegisters>
   <informationRegisters>InformationRegister.Удалить_SUI_tbl_classifier_units</informationRegisters>
   <informationRegisters>InformationRegister.Удалить_SUI_tbl_price_types</informationRegisters>
   <informationRegisters>InformationRegister.Удалить_SUI_tbl_prices</informationRegisters>

@@ -9,14 +9,14 @@
     <recordType typeId="4b2e52e4-d762-4440-96d7-bfd29e2456ec" valueTypeId="c90b32af-f97a-432d-9e38-672cc6ead4fb"/>
     <recordManagerType typeId="349e2b55-7171-4633-b270-1aea1b57c827" valueTypeId="8f6ff1eb-c75a-431c-be44-43d8365c0e5c"/>
   </producedTypes>
-  <name>SUI_docs_tbl_barcodes</name>
+  <name>Удалить_SUI_docs_tbl_barcodes</name>
   <synonym>
     <key>ru</key>
-    <value>Штрихкоды упаковок документов обмена (SUI)</value>
+    <value>(не используется) Штрихкоды упаковок документов обмена (SUI)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
-  <defaultRecordForm>InformationRegister.SUI_docs_tbl_barcodes.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultRecordForm>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Form.ФормаЗаписи</defaultRecordForm>
   <dataLockControlMode>Managed</dataLockControlMode>
   <recordPresentation>
     <key>ru</key>

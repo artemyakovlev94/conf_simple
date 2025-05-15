@@ -112,7 +112,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Resource.id_good</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Resource.id_good</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -226,7 +226,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -241,28 +241,28 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.StandardAttribute.Active</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.StandardAttribute.Active</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.StandardAttribute.LineNumber</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.StandardAttribute.LineNumber</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.StandardAttribute.Recorder</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.StandardAttribute.Recorder</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.StandardAttribute.Period</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.StandardAttribute.Period</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -610,7 +610,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Resource.mark_code</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Resource.mark_code</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -624,7 +624,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Resource.id_marking_code</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Resource.id_marking_code</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -867,14 +867,14 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Resource.additional_details</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Resource.additional_details</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Attribute.ДатаОбновления</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Attribute.ДатаОбновления</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -954,7 +954,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Resource.id_property</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Resource.id_property</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -968,7 +968,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Attribute.СтатусОбработки</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Attribute.СтатусОбработки</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1235,7 +1235,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Dimension.sid</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Dimension.sid</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1275,7 +1275,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Resource.id_series</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Resource.id_series</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1493,7 +1493,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Dimension.sid_doc</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Dimension.sid_doc</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1638,7 +1638,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Resource.id_unit</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Resource.id_unit</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
