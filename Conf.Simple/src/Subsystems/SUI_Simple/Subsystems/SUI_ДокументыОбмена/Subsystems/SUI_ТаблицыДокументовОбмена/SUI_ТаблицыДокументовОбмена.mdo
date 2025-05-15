@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a2fa6dd-e2e2-4f90-bf15-64c97cb1c479">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8a2fa6dd-e2e2-4f90-bf15-64c97cb1c479">
   <name>SUI_ТаблицыДокументовОбмена</name>
   <synonym>
     <key>ru</key>
     <value>Таблицы</value>
   </synonym>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <commandInterface>Extended</commandInterface>
+  </extension>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Enum.SUI_ТаблицыИнтеграции</content>

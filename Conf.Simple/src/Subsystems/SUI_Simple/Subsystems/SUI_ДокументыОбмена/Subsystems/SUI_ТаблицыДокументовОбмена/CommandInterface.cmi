@@ -21,6 +21,14 @@
       <command>InformationRegister.SUI_docs_tbl_goods.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.SUI_ШтрихкодыУпаковокДокументовОбмена.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.SUI_ОтсканированныеШтрихкодыУпаковокДокументовОбмена.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsOrder>
     <orderFragments>
