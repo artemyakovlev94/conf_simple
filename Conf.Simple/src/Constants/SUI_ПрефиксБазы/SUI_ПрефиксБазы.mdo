@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a7b4e1a-cfce-491b-99a1-e8be22a7a9ea">
+  <producedTypes>
+    <managerType typeId="fa380fa9-a8a0-4dc4-bfd6-c6307f3901fe" valueTypeId="d83eb874-400a-4fff-84de-57d1523b679f"/>
+    <valueManagerType typeId="e9003d87-1018-4bad-99a3-5e4beb966ee3" valueTypeId="0dc3db3e-534d-42c9-8766-5c09277a794c"/>
+    <valueKeyType typeId="96455bb6-df26-4c55-a9ba-61db783c06dd" valueTypeId="f55d368e-7809-4fb5-837c-79c617463919"/>
+  </producedTypes>
+  <name>SUI_ПрефиксБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префикс базы (SUI)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>3</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Префикс базы</value>
+  </extendedPresentation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

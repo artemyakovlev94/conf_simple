@@ -88,6 +88,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.SUI_ПрефиксБазы</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.SUI_НастройкиДокументов.TabularSection.СоответствияРеквизитовТабличныхЧастей.Attribute.Ключ</name>
 		<right>
 			<name>Edit</name>

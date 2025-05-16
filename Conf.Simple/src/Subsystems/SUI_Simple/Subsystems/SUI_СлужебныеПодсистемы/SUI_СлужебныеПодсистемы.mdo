@@ -126,6 +126,7 @@
   <content>XDTOPackage.SUI_HTTPLog</content>
   <content>CommonForm.SUI_УпрощеннаяНастройкаСхемыКомпоновкиДанных</content>
   <content>CommonModule.SUI_КомпоновкаДанныхКлиент</content>
+  <content>CommonModule.SUI_SimpleПовтИсп</content>
   <subsystems>SUI_HTTPСервис</subsystems>
   <subsystems>SUI_ДополнительныеРеквизитыТаблиц</subsystems>
   <subsystems>SUI_ЖурналРегистрации</subsystems>

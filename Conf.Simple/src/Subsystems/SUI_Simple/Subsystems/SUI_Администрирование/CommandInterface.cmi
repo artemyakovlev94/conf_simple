@@ -129,6 +129,10 @@
       <command>Constant.SUI_СоздаватьШтрихкодыИзТСД.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.SUI_ПрефиксБазы.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsOrder>
     <orderFragments>

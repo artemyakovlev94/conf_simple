@@ -395,21 +395,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="b2ea238f-4309-46f3-958b-0bf9328a9fec">
-    <name>СборШтрихкодов</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сбор штрихкодов</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <tabularSections uuid="b2145de9-57ab-4f48-b649-c1f470c3285e">
     <producedTypes>
       <objectType typeId="6749dd5d-b1ff-4391-9617-982bcdbb8b2b" valueTypeId="5bd79383-e0af-4933-8011-bef8047702e5"/>
@@ -879,14 +864,6 @@
       <key>ru</key>
       <value>Настройки вывода дополнительных полей</value>
     </synonym>
-    <standardAttributes>
-      <dataHistory>Use</dataHistory>
-      <name>LineNumber</name>
-      <fillValue xsi:type="core:UndefinedValue"/>
-      <fullTextSearch>Use</fullTextSearch>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-    </standardAttributes>
     <attributes uuid="89afb34f-5b2c-4cab-a584-cb368fb227fa">
       <name>РеквизитДокумента</name>
       <synonym>

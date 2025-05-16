@@ -31,7 +31,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ООО &quot;Симпл&quot;</vendor>
-  <version>1.0.4.37</version>
+  <version>1.0.4.33.2</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <logo/>
   <copyright>
@@ -161,6 +161,7 @@
   <commonModules>CommonModule.SUI_SimpleГлобальный</commonModules>
   <commonModules>CommonModule.SUI_SimpleКлиент</commonModules>
   <commonModules>CommonModule.SUI_SimpleКлиентСервер</commonModules>
+  <commonModules>CommonModule.SUI_SimpleПовтИсп</commonModules>
   <commonModules>CommonModule.SUI_ГенерацияШтрихкода</commonModules>
   <commonModules>CommonModule.SUI_ГенерацияШтрихкодаПовтИсп</commonModules>
   <commonModules>CommonModule.SUI_ДлительныеОперацииПереопределяемый</commonModules>
@@ -242,7 +243,6 @@
   <commonModules>CommonModule.SUI_СтроковыеФункцииКлиентСерверПереопределяемый</commonModules>
   <commonModules>CommonModule.SUI_ШаблоныЭтикеток</commonModules>
   <commonModules>CommonModule.SUI_ШаблоныЭтикетокПовтИсп</commonModules>
-  <commonModules>CommonModule.SUI_ШтрихкодированиеКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_ШтрихкодыНоменклатуры</commonModules>
   <commonModules>CommonModule.SUI_ШтрихкодыНоменклатурыКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_ШтрихкодыУпаковок</commonModules>
@@ -336,6 +336,7 @@
   <constants>Constant.SUI_ОткрыватьВыгрузкуДокументовОбменаОфлайн</constants>
   <constants>Constant.SUI_ОфлайнОбмен</constants>
   <constants>Constant.SUI_ПользовательскийЗапрос</constants>
+  <constants>Constant.SUI_ПрефиксБазы</constants>
   <constants>Constant.SUI_ПроверкаОбновленийПриСтарте</constants>
   <constants>Constant.SUI_ПроверятьСвязьСПользователямиПриОткрытииРабочегоМеста</constants>
   <constants>Constant.SUI_РазмерПакетаДанных</constants>

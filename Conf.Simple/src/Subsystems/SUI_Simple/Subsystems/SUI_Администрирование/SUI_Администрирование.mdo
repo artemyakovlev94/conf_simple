@@ -59,6 +59,7 @@
   <content>CommonTemplate.SUI_ПредопределенныеУправлениеНашейФирмойДокументы</content>
   <content>CommonTemplate.SUI_ПредопределенныеУправлениеТорговлей11</content>
   <content>CommonTemplate.SUI_ПредопределенныеУправлениеТорговлей11Документы</content>
+  <content>Constant.SUI_ПрефиксБазы</content>
   <subsystems>SUI_КонфигурацииПриложений</subsystems>
   <subsystems>SUI_Логирование</subsystems>
   <subsystems>SUI_Справочники</subsystems>
