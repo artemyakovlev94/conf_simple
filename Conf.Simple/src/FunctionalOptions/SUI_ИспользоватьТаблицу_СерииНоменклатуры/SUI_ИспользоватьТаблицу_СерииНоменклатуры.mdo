@@ -12,7 +12,6 @@
   <content>InformationRegister.SUI_docs_tbl_goods.Resource.use_series</content>
   <content>InformationRegister.SUI_docs_tbl_goods_delta.Resource.id_series</content>
   <content>InformationRegister.SUI_docs_tbl_goods_delta.Resource.use_series</content>
-  <content>InformationRegister.SUI_docs_tbl_barcodes.Resource.id_series</content>
   <content>InformationRegister.SUI_docs_tbl_series</content>
   <content>InformationRegister.SUI_docs_tbl_series.Resource.id_series</content>
 </mdclass:FunctionalOption>

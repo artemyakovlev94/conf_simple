@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67be4361-f56f-4ffd-b0ef-5f2069d3a5cc">
+  <name>SUI_ШтрихкодированиеВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкодирование (вызов сервера) (SUI)</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

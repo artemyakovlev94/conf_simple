@@ -119,7 +119,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Resource.id_good</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Resource.id_good</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -233,7 +233,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -248,28 +248,28 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.StandardAttribute.Active</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.StandardAttribute.Active</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.StandardAttribute.LineNumber</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.StandardAttribute.LineNumber</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.StandardAttribute.Recorder</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.StandardAttribute.Recorder</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.StandardAttribute.Period</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.StandardAttribute.Period</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -387,6 +387,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.SUI_ПросмотрОшибки</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.SUI_НастройкиДокументовМобильныхУстройств</name>
 		<right>
 			<name>Read</name>
@@ -440,6 +447,13 @@
 	</object>
 	<object>
 		<name>CommonForm.SUI_УпрощеннаяНастройкаСхемыКомпоновкиДанных</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.SUI_ПросмотрСообщений</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -518,6 +532,25 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.SUI_ШтрихкодыУпаковокДокументовОбмена</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.SUI_КешПакетовДанных</name>
 		<right>
 			<name>Read</name>
@@ -584,7 +617,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Resource.mark_code</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Resource.mark_code</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -598,7 +631,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Resource.id_marking_code</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Resource.id_marking_code</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -757,6 +790,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.SUI_НастройкиМобильныхУстройств</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.SUI_СообщенияМобильныхУстройств.Attribute.МеткаВремени</name>
 		<right>
 			<name>View</name>
@@ -830,14 +874,14 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Resource.additional_details</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Resource.additional_details</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Attribute.ДатаОбновления</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Attribute.ДатаОбновления</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -917,7 +961,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Resource.id_property</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Resource.id_property</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -931,7 +975,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Attribute.СтатусОбработки</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Attribute.СтатусОбработки</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1179,7 +1223,26 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Dimension.sid</name>
+		<name>InformationRegister.SUI_ОтсканированныеШтрихкодыУпаковокДокументовОбмена</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Dimension.sid</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1219,7 +1282,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Resource.id_series</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Resource.id_series</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1411,13 +1474,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.SUI_НастройкиКонфигурацийПриложений</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.SUI_docs_tbl_barcode_flow</name>
 		<right>
 			<name>Read</name>
@@ -1444,7 +1500,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Dimension.sid_doc</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Dimension.sid_doc</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1589,7 +1645,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes.Resource.id_unit</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Resource.id_unit</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1755,13 +1811,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.SUI_КонфигурацииПриложений</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.SUI_ВерсияДанных</name>
 		<right>
 			<name>Read</name>
@@ -1769,13 +1818,6 @@
 		</right>
 		<right>
 			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_ПрисоединенныеФайлыОбщие</name>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>

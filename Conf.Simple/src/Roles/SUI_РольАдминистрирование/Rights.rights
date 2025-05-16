@@ -103,17 +103,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.SUI_НастройкиКонфигурацийПриложений</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeletePredefinedData</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>ExchangePlan.SUI_МобильныеУстройства</name>
 		<right>
 			<name>InteractiveDelete</name>
@@ -145,28 +134,6 @@
 		<right>
 			<name>AnalyticsSystemClient</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_КонфигурацииПриложений</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeletePredefinedData</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_ПрисоединенныеФайлыОбщие</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeletePredefinedData</name>
-			<value>false</value>
 		</right>
 	</object>
 </Rights>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4becb9b5-7206-47b2-9bcf-8ee458473540">
+  <producedTypes>
+    <selectionType typeId="210a43a7-ad48-484c-8092-20dc01fe4909" valueTypeId="3d87ae43-a7d4-4a92-8c0e-7b46a492d4c4"/>
+    <listType typeId="8cf6f5fc-bf36-4071-87f5-a860f5c927cb" valueTypeId="740b597d-2317-4cba-86d4-f332acff09e4"/>
+    <managerType typeId="700776d5-ce23-4b0f-bb75-51d48c5bd29b" valueTypeId="a95c2447-6203-470d-94b3-71a9c018549d"/>
+    <recordSetType typeId="dbfe83b0-455d-45c3-97ce-0db2a951285b" valueTypeId="61fc7aff-74aa-4898-bb76-347181cca588"/>
+    <recordKeyType typeId="973f0f0c-3322-4cc6-9011-ec3bc58ee159" valueTypeId="264929e0-ca43-4ce7-90bb-d2f4d0af6150"/>
+    <recordType typeId="dfcf92a0-7e9a-4270-9721-4e97be9f027e" valueTypeId="145a0843-bcf1-417d-ba8c-d1c139bc0ed9"/>
+    <recordManagerType typeId="0c5f85a7-f94e-434d-a3c5-8ca5fdf91ca1" valueTypeId="17f3f360-53d5-4a66-b02b-ab8840467b36"/>
+  </producedTypes>
+  <name>SUI_ШтрихкодыУпаковокДокументовОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкоды упаковок документов обмена (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.SUI_ШтрихкодыУпаковокДокументовОбмена.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Штрихкод упаковки документа обмена</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Штрихкоды упаковок документов обмена</value>
+  </listPresentation>
+  <resources uuid="300da623-3e5d-4fac-8521-5c05250f1a31">
+    <name>id_barcode</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод упаковки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>69</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="37d3c7ba-a62b-4dae-87b1-33788edd0e36">
+    <name>barcode</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="5eb249b6-cc40-42fc-ac97-3073949fd048">
+    <name>ДатаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="70b519d6-b8c0-4372-bff2-3548848b6cc2">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2a5cb47c-b501-406b-904f-5c2a4699aa68">
+    <name>additional_details</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные реквизиты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="4f3ccf53-b559-481d-8681-15c1b1b6365b">
+    <name>sid_doc</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор документа обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cd26b434-558f-4178-8cd8-8c97d61b594f">
+    <name>hash</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="4214568f-14f0-4f02-bdb6-4d886306cf8c">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

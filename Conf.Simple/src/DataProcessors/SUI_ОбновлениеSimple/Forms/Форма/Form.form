@@ -71,25 +71,16 @@
               <role>Role.SUI_ИнтерактивноеУдалениеДокументовСборШтрихкодов</role>
             </for>
             <for>
-              <role>Role.SUI_ИнтерактивноеУдалениеКонфигурацийПриложений</role>
-            </for>
-            <for>
               <role>Role.SUI_ИнтерактивноеУдалениеМобильныхКлиентов</role>
             </for>
             <for>
               <role>Role.SUI_ИнтерактивноеУдалениеМобильныхУстройств</role>
             </for>
             <for>
-              <role>Role.SUI_ИнтерактивноеУдалениеНастроекКонфигурацийПриложений</role>
-            </for>
-            <for>
               <role>Role.SUI_ИнтерактивноеУдалениеНастройкиДокументов</role>
             </for>
             <for>
               <role>Role.SUI_ИнтерактивноеУдалениеПользователейТСД</role>
-            </for>
-            <for>
-              <role>Role.SUI_ИнтерактивноеУдалениеПрисоединенныхФайлов</role>
             </for>
             <for>
               <role>Role.SUI_ИнтерактивноеУдалениеРегламентныхЗаданий</role>
@@ -502,7 +493,7 @@
                     </userVisible>
                     <autoFill>true</autoFill>
                   </contextMenu>
-                  <source>СписокОбновлений</source>
+                  <source>СписокОбновленийСтрокаПоиска</source>
                   <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -541,7 +532,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>ViewStatusAddition</type>
-                  <source>СписокОбновлений</source>
+                  <source>СписокОбновленийСостояниеПросмотра</source>
                   <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -580,7 +571,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>SearchControlAddition</type>
-                  <source>СписокОбновлений</source>
+                  <source>СписокОбновленийУправлениеПоиском</source>
                   <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -2052,25 +2043,16 @@
         <role>Role.SUI_ИнтерактивноеУдалениеДокументовСборШтрихкодов</role>
       </for>
       <for>
-        <role>Role.SUI_ИнтерактивноеУдалениеКонфигурацийПриложений</role>
-      </for>
-      <for>
         <role>Role.SUI_ИнтерактивноеУдалениеМобильныхКлиентов</role>
       </for>
       <for>
         <role>Role.SUI_ИнтерактивноеУдалениеМобильныхУстройств</role>
       </for>
       <for>
-        <role>Role.SUI_ИнтерактивноеУдалениеНастроекКонфигурацийПриложений</role>
-      </for>
-      <for>
         <role>Role.SUI_ИнтерактивноеУдалениеНастройкиДокументов</role>
       </for>
       <for>
         <role>Role.SUI_ИнтерактивноеУдалениеПользователейТСД</role>
-      </for>
-      <for>
-        <role>Role.SUI_ИнтерактивноеУдалениеПрисоединенныхФайлов</role>
       </for>
       <for>
         <role>Role.SUI_ИнтерактивноеУдалениеРегламентныхЗаданий</role>

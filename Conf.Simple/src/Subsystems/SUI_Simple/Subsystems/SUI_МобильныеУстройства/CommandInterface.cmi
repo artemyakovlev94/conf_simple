@@ -10,6 +10,7 @@
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>ExchangePlan.SUI_МобильныеУстройства.StandardCommand.OpenList</commands>
+      <commands>Catalog.SUI_НастройкиМобильныхУстройств.StandardCommand.OpenList</commands>
       <commands>InformationRegister.SUI_ЗапросыАвторизацииМобильныхУстройств.StandardCommand.OpenList</commands>
       <commands>InformationRegister.SUI_СостоянияМобильныхУстройств.StandardCommand.OpenList</commands>
       <commands>InformationRegister.SUI_СеансыМобильныхУстройств.StandardCommand.OpenList</commands>

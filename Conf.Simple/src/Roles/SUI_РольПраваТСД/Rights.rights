@@ -199,7 +199,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_docs_tbl_barcodes</name>
+		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -293,13 +293,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>HTTPService.SUI_Exchange.URLTemplate.ОбновленияКонфигурацийПриложений.Method.Получить</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -407,6 +400,17 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_ШтрихкодыУпаковокДокументовОбмена</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -623,6 +627,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.SUI_НастройкиМобильныхУстройств</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.SUI_НастройкиТаблицИнтеграции</name>
 		<right>
 			<name>Read</name>
@@ -796,6 +807,13 @@
 		</right>
 	</object>
 	<object>
+		<name>HTTPService.SUI_Exchange.URLTemplate.СоставКодовМаркировок.Method.Получить</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными</name>
 		<right>
 			<name>Read</name>
@@ -854,7 +872,18 @@
 		</right>
 	</object>
 	<object>
-		<name>HTTPService.SUI_Exchange.URLTemplate.Документы.Method.ОбновитьДокументы</name>
+		<name>InformationRegister.SUI_ОтсканированныеШтрихкодыУпаковокДокументовОбмена</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>HTTPService.SUI_Exchange.URLTemplate.Документы.Method.Обновить</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>
@@ -948,13 +977,6 @@
 	</object>
 	<object>
 		<name>Constant.SUI_ИспользоватьЗапросыАвторизацииМУ</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_НастройкиКонфигурацийПриложений</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1089,21 +1111,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.SUI_КонфигурацииПриложений</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.SUI_ВерсияДанных</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.SUI_ПрисоединенныеФайлыОбщие</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

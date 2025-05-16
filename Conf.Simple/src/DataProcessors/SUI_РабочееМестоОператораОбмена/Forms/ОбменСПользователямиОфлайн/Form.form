@@ -310,7 +310,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>МобильныеУстройства</source>
+      <source>МобильныеУстройстваСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -349,7 +349,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>МобильныеУстройства</source>
+      <source>МобильныеУстройстваСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -388,7 +388,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>МобильныеУстройства</source>
+      <source>МобильныеУстройстваУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

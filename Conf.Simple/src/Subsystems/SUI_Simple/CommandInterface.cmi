@@ -2,10 +2,6 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
-      <command>Constant.SUI_НеЗапускатьМастерНастроекПриНачалеРаботы.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Constant.SUI_ЗапросПолученияОстатковИЦен.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
@@ -25,7 +21,6 @@
   <commandsOrder>
     <orderFragments>
       <group>ActionsPanelTools</group>
-      <commands>Constant.SUI_НеЗапускатьМастерНастроекПриНачалеРаботы.StandardCommand.Open</commands>
       <commands>DataProcessor.SUI_РабочееМестоОператораОбмена.StandardCommand.Open</commands>
     </orderFragments>
     <orderFragments>

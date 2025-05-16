@@ -1,0 +1,236 @@
+<ValueTree xmlns="http://v8.1c.ru/8.1/data/core" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ValueTree">
+	<column>
+		<Name xsi:type="xs:string">Параметр</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>0</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">Реквизит</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>0</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">ЗначениеПоУмолчанию</Name>
+		<ValueType/>
+	</column>
+    <row>
+        <Value>global_settings</Value>
+		<Value/>
+		<Value xsi:nil="true"/>
+        <row>
+            <Value>allow_fact_input</Value>
+            <Value>РазрешитьВводФакта</Value>
+            <Value xsi:type="xs:boolean">true</Value>
+        </row>
+        <row>
+            <Value>offline_mode</Value>
+            <Value>ОфлайнРежим</Value>
+            <Value xsi:type="xs:boolean">false</Value>
+        </row>
+        <row>
+            <Value>group_offline_mode</Value>
+            <Value>ОфлайнРежимГрупповойРаботы</Value>
+            <Value xsi:type="xs:boolean">false</Value>
+        </row>
+        <row>
+            <Value>stop_timer_global</Value>
+            <Value>ОтключитьОбмен</Value>
+            <Value xsi:type="xs:boolean">false</Value>
+        </row>
+        <row>
+            <Value>enable_gtin_mark_check</Value>
+            <Value>КонтрольGTIN</Value>
+            <Value xsi:type="xs:boolean">true</Value>
+        </row>
+        <row>
+            <Value>quick_mark_handling</Value>
+            <Value>СвязноеСканированиеШКсКМ</Value>
+            <Value xsi:type="xs:boolean">false</Value>
+        </row>
+	</row>
+    <row>
+        <Value>style_settings</Value>
+		<Value/>
+		<Value xsi:nil="true"/>
+        <row>
+            <Value>title_text_size</Value>
+            <Value>РазмерШрифтаЗаголовкаТаблицы</Value>
+            <Value xsi:type="xs:int">15</Value>
+        </row>
+        <row>
+            <Value>main_info_text_size</Value>
+            <Value>РазмерШрифтаОсновнойИнформации</Value>
+            <Value xsi:type="xs:int">18</Value>
+        </row>
+        <row>
+            <Value>additional_info_text_size</Value>
+            <Value>РазмерШрифтаДополнительнойИнформации</Value>
+            <Value xsi:type="xs:int">16</Value>
+        </row>
+        <row>
+            <Value>card_text_size</Value>
+            <Value>РазмерШтрифтаОтсутствияВНастройке</Value>
+            <Value xsi:type="xs:int">15</Value>
+        </row>
+	</row>
+    <row>
+        <Value>sound_settings</Value>
+		<Value/>
+		<Value xsi:nil="true"/>
+        <row>
+            <Value>success_signal</Value>
+            <Value>СигналУдачногоСобытия</Value>
+            <Value xsi:type="xs:int">7</Value>
+        </row>
+        <row>
+            <Value>warning_signal</Value>
+            <Value>СигналПредупреждения</Value>
+            <Value xsi:type="xs:int">8</Value>
+        </row>
+        <row>
+            <Value>error_signal</Value>
+            <Value>СигналОшибки</Value>
+            <Value xsi:type="xs:int">5</Value>
+        </row>
+        <row>
+            <Value>info_signal</Value>
+            <Value>СигналУведомления</Value>
+            <Value xsi:type="xs:int">9</Value>
+        </row>
+	</row>
+    <row>
+        <Value>documents_settings</Value>
+		<Value/>
+		<Value xsi:nil="true"/>
+        <row>
+            <Value>delete_old_docs</Value>
+            <Value>УдалятьУстаревшиеДокументы</Value>
+            <Value xsi:type="xs:boolean">true</Value>
+        </row>
+        <row>
+            <Value>doc_delete_settings_days</Value>
+            <Value>СрокХраненияДокументовВДнях</Value>
+            <Value xsi:type="xs:int">1</Value>
+        </row>
+        <row>
+            <Value>delete_doc_statuses</Value>
+            <Value>УдалятьДокументыСоСтатусамиСтрокой</Value>
+            <Value xsi:type="Array"/>
+        </row>
+	</row>
+    <row>
+        <Value>logs_settings</Value>
+		<Value/>
+		<Value xsi:nil="true"/>
+        <row>
+            <Value>error_logs_on_page_count</Value>
+            <Value>КоличествоЛоговНаСтранице</Value>
+            <Value xsi:type="xs:int">20</Value>
+        </row>
+        <row>
+            <Value>delete_error_logs</Value>
+            <Value>УдалятьУстаревшиеЛоги</Value>
+            <Value xsi:type="xs:boolean">false</Value>
+        </row>
+        <row>
+            <Value>delete_error_logs_days</Value>
+            <Value>СрокХраненияЛоговВДнях</Value>
+            <Value xsi:type="xs:int">1</Value>
+        </row>
+        <row>
+            <Value>log_level</Value>
+            <Value>УровеньЛогирования</Value>
+            <Value xsi:type="xs:string">DEBUG</Value>
+        </row>
+        <row>
+            <Value>enable_traceback</Value>
+            <Value>ВыводитьСтекВызовов</Value>
+            <Value xsi:type="xs:boolean">false</Value>
+        </row>
+	</row>
+    <row>
+        <Value>print_settings</Value>
+		<Value/>
+		<Value xsi:nil="true"/>
+        <row>
+            <Value>offline_print</Value>
+            <Value>ОфлайнПечать</Value>
+            <Value xsi:type="xs:boolean">false</Value>
+        </row>
+        <row>
+            <Value>print_template_type</Value>
+            <Value>ШаблонЭтикетки</Value>
+            <Value xsi:type="xs:string">ZPL</Value>
+        </row>
+        <row>
+            <Value>print_connect_type</Value>
+            <Value>ТипСоединенияПринтера</Value>
+            <Value xsi:type="xs:string">BT</Value>
+        </row>
+        <row>
+            <Value>current_BT_printer_MAC</Value>
+            <Value>MACАдресBTПринтера</Value>
+            <Value xsi:type="xs:string"/>
+        </row>
+        <row>
+            <Value>current_WiFi_printer_IP</Value>
+            <Value>IPАдресWiFiПринтера</Value>
+            <Value xsi:type="xs:string"/>
+        </row>
+	</row>
+    <row>
+        <Value>series_settings</Value>
+		<Value/>
+		<Value xsi:nil="true"/>
+        <row>
+            <Value>control_of_unique_series</Value>
+            <Value>КонтрольУникальностиСерий</Value>
+            <Value xsi:type="xs:boolean">false</Value>
+        </row>
+        <row>
+            <Value>del_series_without_confirmation</Value>
+            <Value>УдалятьСерииБезПредупреждения</Value>
+            <Value xsi:type="xs:boolean">false</Value>
+        </row>
+        <row>
+            <Value>del_approve_dialog</Value>
+            <Value>ПодтверждениеПриУдаленииДубля</Value>
+            <Value xsi:type="xs:boolean">false</Value>
+        </row>
+        <row>
+            <Value>enable_mass_scan</Value>
+            <Value>МассовоеСканированиеВСериях</Value>
+            <Value xsi:type="xs:boolean">false</Value>
+        </row>
+        <row>
+            <Value>delimiters_list</Value>
+            <Value>СимволыРазелители</Value>
+            <Value xsi:type="xs:string"> ,.;\n\r</Value>
+        </row>
+        <row>
+            <Value>enable_break_as_delimiters</Value>
+            <Value>ИспользоватьПереносСтрокиКакРазделитель</Value>
+            <Value xsi:type="xs:boolean">true</Value>
+        </row>
+        <row>
+            <Value>char_count_range_min</Value>
+            <Value>МинимальнаяДлинаСимволовШтрихкода</Value>
+            <Value xsi:type="xs:int">1</Value>
+        </row>
+        <row>
+            <Value>char_count_range_max</Value>
+            <Value>МаксимальнаяДлинаСимволовШтрихкода</Value>
+            <Value xsi:type="xs:int">5</Value>
+        </row>
+	</row>
+</ValueTree>

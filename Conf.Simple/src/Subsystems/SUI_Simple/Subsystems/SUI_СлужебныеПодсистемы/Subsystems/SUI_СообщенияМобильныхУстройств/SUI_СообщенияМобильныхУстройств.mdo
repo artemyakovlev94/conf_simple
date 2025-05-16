@@ -11,5 +11,6 @@
   <content>CommonModule.SUI_СообщенияМобильныхУстройствКлиент</content>
   <content>FunctionalOption.SUI_ХранениеСообщенийМобильныхУстройствВДнях</content>
   <content>Constant.SUI_ХранениеСообщенийМобильныхУстройствВДнях</content>
+  <content>CommonModule.SUI_СообщенияМобильныхУстройствКлиентСервер</content>
   <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

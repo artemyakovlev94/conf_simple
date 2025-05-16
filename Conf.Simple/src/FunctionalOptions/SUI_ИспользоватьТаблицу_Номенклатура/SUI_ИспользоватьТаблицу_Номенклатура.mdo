@@ -12,6 +12,5 @@
   <content>InformationRegister.SUI_docs_tbl_goods.Resource.id_good</content>
   <content>InformationRegister.SUI_docs_tbl_goods_delta</content>
   <content>InformationRegister.SUI_docs_tbl_goods_delta.Resource.id_good</content>
-  <content>InformationRegister.SUI_docs_tbl_barcodes.Resource.id_good</content>
   <content>InformationRegister.SUI_docs_tbl_series.Resource.id_good</content>
 </mdclass:FunctionalOption>

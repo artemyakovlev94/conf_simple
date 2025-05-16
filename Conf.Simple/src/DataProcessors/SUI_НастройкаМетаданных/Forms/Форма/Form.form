@@ -728,7 +728,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ДеревоТаблицИнтеграции</source>
+          <source>ДеревоТаблицИнтеграцииСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -767,7 +767,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ДеревоТаблицИнтеграции</source>
+          <source>ДеревоТаблицИнтеграцииСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -806,7 +806,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ДеревоТаблицИнтеграции</source>
+          <source>ДеревоТаблицИнтеграцииУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1586,52 +1586,7 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <extendedTooltip>
-          <name>ГруппаКоманднаяПанельНастройкиИзФайлаРасширеннаяПодсказка</name>
-          <id>127</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
         <extInfo xsi:type="form:ButtonGroupExtInfo"/>
-      </items>
-      <items xsi:type="form:Button">
-        <name>ФормаЗаполнитьПредопределеннойНастройкой</name>
-        <id>118</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ФормаЗаполнитьПредопределеннойНастройкойРасширеннаяПодсказка</name>
-          <id>119</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <commandName>Form.Command.ЗаполнитьПредопределеннойНастройкой</commandName>
-        <representation>Auto</representation>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1642,21 +1597,6 @@
         <key>ru</key>
         <value>Настройки</value>
       </title>
-      <extendedTooltip>
-        <name>ГруппаКоманднаяПанельДействияСНастройкамиРасширеннаяПодсказка</name>
-        <id>125</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
       <type>Popup</type>
       <extInfo xsi:type="form:PopupGroupExtInfo">
         <picture xsi:type="core:PictureRef">
@@ -1683,6 +1623,10 @@
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <handlers>
+    <event>NotificationProcessing</event>
+    <name>ОбработкаОповещения</name>
   </handlers>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
@@ -2112,35 +2056,10 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ЗаполнитьПредопределеннойНастройкой</name>
-    <title>
-      <key>ru</key>
-      <value>Предопределенная настройка</value>
-    </title>
-    <id>14</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Заполнить на основании преопределенной настройки</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.DataCompositionStandardSettings</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ЗаполнитьПредопределеннойНастройкой</name>
-      </handler>
-    </action>
-    <representation>TextPicture</representation>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>ВыгрузитьНастройкиВФайл</name>
     <title>
       <key>ru</key>
-      <value>Выгрузить настройки в файл</value>
+      <value>Выгрузить настройки</value>
     </title>
     <id>15</id>
     <use>
@@ -2161,7 +2080,7 @@
     <name>ЗагрузитьНастройкиИзФайла</name>
     <title>
       <key>ru</key>
-      <value>Загрузить настройки из файла</value>
+      <value>Загрузить настройки</value>
     </title>
     <id>16</id>
     <use>

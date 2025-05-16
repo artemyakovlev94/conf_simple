@@ -6,6 +6,6 @@
     <value>Оценка производительности</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <content>CommonModule.SUI_ОценкаПроизводительностиПереопределяемый</content>
+  <content>CommonModule.SUI_ОценкаПроизводительности</content>
   <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

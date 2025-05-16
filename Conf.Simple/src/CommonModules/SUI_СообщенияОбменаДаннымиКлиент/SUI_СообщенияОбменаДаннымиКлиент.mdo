@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee82daba-ece5-4edb-80fb-d6b3a74ab52c">
+  <name>SUI_СообщенияОбменаДаннымиКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения обмена данными (клиент) (SUI)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

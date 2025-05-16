@@ -8,5 +8,8 @@
   <includeHelpInContents>true</includeHelpInContents>
   <content>CommonModule.SUI_ГенерацияШтрихкода</content>
   <content>CommonModule.SUI_ГенерацияШтрихкодаПовтИсп</content>
+  <content>CommonModule.SUI_ШтрихкодированиеКлиентСервер</content>
+  <content>CommonModule.SUI_Штрихкодирование</content>
+  <content>CommonModule.SUI_ШтрихкодированиеВызовСервера</content>
   <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

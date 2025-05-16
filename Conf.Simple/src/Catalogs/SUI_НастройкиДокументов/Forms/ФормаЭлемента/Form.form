@@ -365,6 +365,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.ГрупповоеСканирование</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ГрупповоеСканированиеПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ГрупповоеСканированиеРасширеннаяПодсказка</name>
           <id>252</id>
@@ -748,6 +752,51 @@
         <name>ГруппаCVАгрегация</name>
         <id>320</id>
         <items xsi:type="form:FormField">
+          <name>Агрегация</name>
+          <id>312</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Агрегация</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>АгрегацияРасширеннаяПодсказка</name>
+            <id>314</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>АгрегацияКонтекстноеМеню</name>
+            <id>313</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>CheckBoxField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:CheckBoxFieldExtInfo">
+            <checkBoxType>Switcher</checkBoxType>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
           <name>ComputerVision</name>
           <id>322</id>
           <visible>true</visible>
@@ -758,10 +807,6 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.ComputerVision</segments>
           </dataPath>
-          <handlers>
-            <event>OnChange</event>
-            <name>ComputerVisionПриИзменении</name>
-          </handlers>
           <extendedTooltip>
             <name>ComputerVisionРасширеннаяПодсказка</name>
             <id>324</id>
@@ -799,51 +844,6 @@
         <items xsi:type="form:FormGroup">
           <name>ГруппаАгрегация</name>
           <id>315</id>
-          <items xsi:type="form:FormField">
-            <name>Агрегация</name>
-            <id>312</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.Агрегация</segments>
-            </dataPath>
-            <extendedTooltip>
-              <name>АгрегацияРасширеннаяПодсказка</name>
-              <id>314</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>АгрегацияКонтекстноеМеню</name>
-              <id>313</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>CheckBoxField</type>
-            <editMode>Enter</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:CheckBoxFieldExtInfo">
-              <checkBoxType>Switcher</checkBoxType>
-            </extInfo>
-          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -904,7 +904,7 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>HorizontalIfPossible</group>
+          <group>Vertical</group>
           <behavior>Auto</behavior>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
@@ -1023,6 +1023,51 @@
           <united>true</united>
           <throughAlign>Auto</throughAlign>
           <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>СборШтрихкодов</name>
+        <id>368</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.СборШтрихкодов</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>СборШтрихкодовРасширеннаяПодсказка</name>
+          <id>370</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>СборШтрихкодовКонтекстноеМеню</name>
+          <id>369</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>CheckBoxField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo">
+          <checkBoxType>Switcher</checkBoxType>
         </extInfo>
       </items>
       <items xsi:type="form:Button">
@@ -1611,7 +1656,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>НастройкаВыводаДополнительныхПолей</source>
+            <source>НастройкаВыводаДополнительныхПолейСтрокаПоиска</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1650,7 +1695,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>НастройкаВыводаДополнительныхПолей</source>
+            <source>НастройкаВыводаДополнительныхПолейСостояниеПросмотра</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1689,7 +1734,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>НастройкаВыводаДополнительныхПолей</source>
+            <source>НастройкаВыводаДополнительныхПолейУправлениеПоиском</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -2423,7 +2468,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>НастройкиТабличныхЧастей</source>
+          <source>НастройкиТабличныхЧастейСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2462,7 +2507,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>НастройкиТабличныхЧастей</source>
+          <source>НастройкиТабличныхЧастейСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2501,7 +2546,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>НастройкиТабличныхЧастей</source>
+          <source>НастройкиТабличныхЧастейУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2855,7 +2900,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>УстановкаРеквизитов</source>
+              <source>УстановкаРеквизитовСтрокаПоиска</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2894,7 +2939,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>УстановкаРеквизитов</source>
+              <source>УстановкаРеквизитовСостояниеПросмотра</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2933,7 +2978,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>УстановкаРеквизитов</source>
+              <source>УстановкаРеквизитовУправлениеПоиском</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3280,7 +3325,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>СозданиеДокументов</source>
+              <source>СозданиеДокументовСтрокаПоиска</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3319,7 +3364,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>СозданиеДокументов</source>
+              <source>СозданиеДокументовСостояниеПросмотра</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3358,7 +3403,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>СозданиеДокументов</source>
+              <source>СозданиеДокументовУправлениеПоиском</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>

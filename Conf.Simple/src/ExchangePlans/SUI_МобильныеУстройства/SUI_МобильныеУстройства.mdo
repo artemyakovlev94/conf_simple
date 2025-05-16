@@ -124,6 +124,10 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
+    <mdObject>Catalog.SUI_НастройкиМобильныхУстройств</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>InformationRegister.SUI_tbl_goods</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
@@ -236,6 +240,25 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="29532678-e846-402d-a0f0-f589278636de">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.SUI_НастройкиМобильныхУстройств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ОсновнаяНастройка</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

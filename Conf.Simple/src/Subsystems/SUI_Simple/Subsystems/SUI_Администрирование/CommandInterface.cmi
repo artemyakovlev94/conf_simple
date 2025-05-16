@@ -133,6 +133,10 @@
       <command>Constant.SUI_ПрефиксБазы.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.SUI_ИмпортЭкспортНастроек.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsOrder>
     <orderFragments>

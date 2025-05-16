@@ -44,6 +44,51 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <attributes uuid="9a461841-6098-44e0-9ca2-f129b9070e5c">
+    <name>ШтрихкодBase64</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод (base64)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7e5deb69-2b42-400d-91e7-b6d0849e8af2">
+    <name>ЭтоШтрихкодКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это штрихкод маркировки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9fde2346-f281-45e5-8a47-d3cff2119dd4">
+    <name>ЭтоШтрихкодSSCC</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это штрихкод SSCC</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="183d816a-aae6-433d-a771-1743069a760d">
     <name>sid</name>
     <synonym>

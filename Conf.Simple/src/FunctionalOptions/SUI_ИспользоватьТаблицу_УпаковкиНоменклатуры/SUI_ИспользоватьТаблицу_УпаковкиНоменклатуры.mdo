@@ -10,5 +10,4 @@
   <content>InformationRegister.SUI_tbl_units</content>
   <content>InformationRegister.SUI_docs_tbl_goods.Resource.id_unit</content>
   <content>InformationRegister.SUI_docs_tbl_goods_delta.Resource.id_unit</content>
-  <content>InformationRegister.SUI_docs_tbl_barcodes.Resource.id_unit</content>
 </mdclass:FunctionalOption>

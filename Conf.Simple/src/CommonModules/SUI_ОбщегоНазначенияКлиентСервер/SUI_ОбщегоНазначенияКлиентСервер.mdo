@@ -3,7 +3,7 @@
   <name>SUI_ОбщегоНазначенияКлиентСервер</name>
   <synonym>
     <key>ru</key>
-    <value>Общего назначения клиент-сервер (SUI)</value>
+    <value>Общего назначения (клиент-сервер) (SUI)</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

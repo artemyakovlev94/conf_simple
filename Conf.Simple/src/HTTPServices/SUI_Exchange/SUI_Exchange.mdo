@@ -102,29 +102,13 @@
       <handler>ДокументыСоздать</handler>
     </methods>
     <methods uuid="b154f6db-c379-49ed-b1f7-719c33235edb">
-      <name>ОбновитьДокументы</name>
+      <name>Обновить</name>
       <synonym>
         <key>ru</key>
-        <value>Обновить документы</value>
+        <value>Обновить</value>
       </synonym>
       <httpMethod>PUT</httpMethod>
-      <handler>ОбновитьДокументы</handler>
-    </methods>
-  </urlTemplates>
-  <urlTemplates uuid="70b4d319-21f7-48c6-b8ad-05849ec25a63">
-    <name>ОбновленияКонфигурацийПриложений</name>
-    <synonym>
-      <key>ru</key>
-      <value>Обновления конфигураций приложений</value>
-    </synonym>
-    <template>/app/updates</template>
-    <methods uuid="2be7c1fe-14e5-4be8-9b2b-34531f6f4857">
-      <name>Получить</name>
-      <synonym>
-        <key>ru</key>
-        <value>Получить</value>
-      </synonym>
-      <handler>ОбновленияКонфигурацийПриложенийПолучить</handler>
+      <handler>ДокументыОбновить</handler>
     </methods>
   </urlTemplates>
   <urlTemplates uuid="50763652-bb3d-4e2d-9071-e556dbfb43f3">
@@ -341,6 +325,22 @@
       </synonym>
       <httpMethod>POST</httpMethod>
       <handler>ШтрихкодыНоменклатурыСоздатьШтрихкодыНоменклатуры</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="50befdeb-252a-42a8-8887-19b944804930">
+    <name>СоставКодовМаркировок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав кодов маркировок</value>
+    </synonym>
+    <template>/cis/includes</template>
+    <methods uuid="a2a416ce-cdaa-47a6-a04f-58dea24131f7">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <handler>СоставКодовМаркировокПолучить</handler>
     </methods>
   </urlTemplates>
 </mdclass:HTTPService>

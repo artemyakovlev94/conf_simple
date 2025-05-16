@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eadeddcc-301b-4c0f-b6b3-982ffef9c071">
+  <name>SUI_СообщенияМобильныхУстройствКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения мобильных устройств (клиент-сервер) (SUI)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

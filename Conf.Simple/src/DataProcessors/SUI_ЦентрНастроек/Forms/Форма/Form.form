@@ -189,7 +189,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>SUI_ПрефиксБазы</name>
-          <id>212</id>
+          <id>221</id>
           <title>
             <key>ru</key>
             <value>Префикс базы</value>
@@ -213,7 +213,7 @@
           </handlers>
           <extendedTooltip>
             <name>SUI_ПрефиксБазыРасширеннаяПодсказка</name>
-            <id>214</id>
+            <id>223</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -228,7 +228,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>SUI_ПрефиксБазыКонтекстноеМеню</name>
-            <id>213</id>
+            <id>222</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2007,19 +2007,15 @@
             <name>ГруппаОбновлениеРасширенияНастройки</name>
             <id>194</id>
             <items xsi:type="form:FormField">
-              <name>SUI_ПроверкаОбновленийПриСтарте</name>
-              <id>199</id>
-              <title>
-                <key>ru</key>
-                <value>Проверка обновлений при запуске</value>
-              </title>
+              <name>ПроверкаОбновленийПриСтарте</name>
+              <id>218</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
               <dataPath xsi:type="form:DataPath">
-                <segments>НаборКонстант.SUI_ПроверкаОбновленийПриСтарте</segments>
+                <segments>ПроверкаОбновленийПриСтарте</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
               <toolTip>
@@ -2029,11 +2025,11 @@
               <toolTipRepresentation>ShowBottom</toolTipRepresentation>
               <handlers>
                 <event>OnChange</event>
-                <name>SUI_ПроверкаОбновленийПриСтартеПриИзменении</name>
+                <name>ПроверкаОбновленийПриСтартеПриИзменении</name>
               </handlers>
               <extendedTooltip>
-                <name>SUI_ПроверкаОбновленийПриСтартеРасширеннаяПодсказка</name>
-                <id>201</id>
+                <name>ПроверкаОбновленийПриСтартеРасширеннаяПодсказка</name>
+                <id>220</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2047,8 +2043,8 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>SUI_ПроверкаОбновленийПриСтартеКонтекстноеМеню</name>
-                <id>200</id>
+                <name>ПроверкаОбновленийПриСтартеКонтекстноеМеню</name>
+                <id>219</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2636,33 +2632,29 @@
           <name>ГруппаРедакторы</name>
           <id>202</id>
           <items xsi:type="form:FormField">
-            <name>SUI_ИспользоватьРедакторJSON</name>
-            <id>204</id>
-            <title>
-              <key>ru</key>
-              <value>Использовать редактор JSON</value>
-            </title>
+            <name>ИспользоватьРедакторJSON</name>
+            <id>212</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>НаборКонстант.SUI_ИспользоватьРедакторJSON</segments>
+              <segments>ИспользоватьРедакторJSON</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
             <toolTip>
               <key>ru</key>
-              <value>Просмотр и редактирование структуры JSON в HTML редакторе JSON (недоступно в веб клиенте).</value>
+              <value>Просмотр и редактирование JSON в HTML редакторе (недоступно в веб клиенте).</value>
             </toolTip>
             <toolTipRepresentation>ShowBottom</toolTipRepresentation>
             <handlers>
               <event>OnChange</event>
-              <name>SUI_ИспользоватьРедакторJSONПриИзменении</name>
+              <name>ИспользоватьРедакторJSONПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>SUI_ИспользоватьРедакторJSONРасширеннаяПодсказка</name>
-              <id>206</id>
+              <name>ИспользоватьРедакторJSONРасширеннаяПодсказка</name>
+              <id>214</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2676,8 +2668,8 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>SUI_ИспользоватьРедакторJSONКонтекстноеМеню</name>
-              <id>205</id>
+              <name>ИспользоватьРедакторJSONКонтекстноеМеню</name>
+              <id>213</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2693,19 +2685,15 @@
             <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
           </items>
           <items xsi:type="form:FormField">
-            <name>SUI_ИспользоватьРедакторКодаBSL</name>
-            <id>207</id>
-            <title>
-              <key>ru</key>
-              <value>Использовать редактор кода BSL</value>
-            </title>
+            <name>ИспользоватьРедакторКодаBSL</name>
+            <id>215</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>НаборКонстант.SUI_ИспользоватьРедакторКодаBSL</segments>
+              <segments>ИспользоватьРедакторКодаBSL</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
             <toolTip>
@@ -2715,11 +2703,11 @@
             <toolTipRepresentation>ShowBottom</toolTipRepresentation>
             <handlers>
               <event>OnChange</event>
-              <name>SUI_ИспользоватьРедакторКодаBSLПриИзменении</name>
+              <name>ИспользоватьРедакторКодаBSLПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>SUI_ИспользоватьРедакторКодаBSLРасширеннаяПодсказка</name>
-              <id>209</id>
+              <name>ИспользоватьРедакторКодаBSLРасширеннаяПодсказка</name>
+              <id>217</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2733,8 +2721,8 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>SUI_ИспользоватьРедакторКодаBSLКонтекстноеМеню</name>
-              <id>208</id>
+              <name>ИспользоватьРедакторКодаBSLКонтекстноеМеню</name>
+              <id>216</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3628,6 +3616,40 @@
       <value>Проверка обновлений при запуске</value>
     </title>
     <id>6</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИспользоватьРедакторJSON</name>
+    <title>
+      <key>ru</key>
+      <value>Использовать редактор JSON</value>
+    </title>
+    <id>7</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИспользоватьРедакторКодаBSL</name>
+    <title>
+      <key>ru</key>
+      <value>Использовать редактор кода BSL</value>
+    </title>
+    <id>8</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
