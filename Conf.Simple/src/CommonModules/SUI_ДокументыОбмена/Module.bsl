@@ -949,7 +949,7 @@
 	|ИЗ
 	|	РегистрСведений.SUI_docs_tbl_goods_delta.СрезПоследних КАК SUI_docs_tbl_goods_deltaСрезПоследних
 	|		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.SUI_docs КАК SUI_docs
-	|		ПО SUI_docs_tbl_goods_deltaСрезПоследних.sid_doc = SUI_docs.id_doc
+	|		ПО SUI_docs_tbl_goods_deltaСрезПоследних.sid_doc = SUI_docs.sid
 	|ГДЕ
 	|	SUI_docs.id_doc = &ИдентификаторДокумента
 	|;
