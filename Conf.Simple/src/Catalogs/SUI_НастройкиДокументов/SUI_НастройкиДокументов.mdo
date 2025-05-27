@@ -410,6 +410,54 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="c8311dc9-9a71-435a-ad33-cac39ab5ebef">
+    <name>ПроверятьCтатусКИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять cтатус КИ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9791d7a-aad3-4a81-85c8-6785f05361ea">
+    <name>ПроверятьВладельца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять владельца</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e3276389-1481-4ff2-9bc4-0d0e19f1a361">
+    <name>ИННВладельца</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИННВладельца</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="b2145de9-57ab-4f48-b649-c1f470c3285e">
     <producedTypes>
       <objectType typeId="6749dd5d-b1ff-4391-9617-982bcdbb8b2b" valueTypeId="5bd79383-e0af-4933-8011-bef8047702e5"/>
@@ -906,6 +954,34 @@
         <types>String</types>
         <stringQualifiers>
           <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c42b0700-c59d-4bc2-a3ed-059dda55defe">
+    <producedTypes>
+      <objectType typeId="712ac13a-a83a-4056-9cbc-2a18b76e77c1" valueTypeId="e536112c-0933-4ff2-98d7-589d8b7d4339"/>
+      <rowType typeId="9bad16ef-7484-4e27-a6a4-f928c195b0d6" valueTypeId="057bc704-c299-4d06-91ae-f33eb8cd1343"/>
+    </producedTypes>
+    <name>СписокСтатусовКодовМаркировок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список статусов кодов маркировок</value>
+    </synonym>
+    <attributes uuid="df175c62-eb39-4ffa-840d-7d267b4a1c31">
+      <name>КодСтатуса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код статуса</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
