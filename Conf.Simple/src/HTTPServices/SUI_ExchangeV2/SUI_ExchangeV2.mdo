@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b848f322-ab91-4340-bcd5-94f93301dd86">
+  <name>SUI_ExchangeV2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Exchange (SUI)</value>
+  </synonym>
+  <rootURL>simple_accountingV2</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="a81694ee-7c71-487f-97c1-e714170f4ff8">
+    <name>СоставКодовМаркировок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав кодов маркировок</value>
+    </synonym>
+    <template>/cis/includes</template>
+    <methods uuid="0e514901-013f-4240-bd6c-1396b338e1c4">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <handler>СоставКодовМаркировокПолучитьV2</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

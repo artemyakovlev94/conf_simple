@@ -255,6 +255,7 @@
   <xDTOPackages>XDTOPackage.SUI_HTTPLog</xDTOPackages>
   <xDTOPackages>XDTOPackage.SUI_RegistrationLog</xDTOPackages>
   <httpServices>HTTPService.SUI_Exchange</httpServices>
+  <httpServices>HTTPService.SUI_ExchangeV2</httpServices>
   <eventSubscriptions>EventSubscription.SUI_ДокументыОбменаПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_ДокументыОбменаПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_ДокументыОбменаПриЗаписи_beta</eventSubscriptions>
@@ -405,6 +406,7 @@
   <informationRegisters>InformationRegister.SUI_tbl_series</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_units</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_warehouses</informationRegisters>
+  <informationRegisters>InformationRegister.SUI_ДанныеКодовМаркировки</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ДополнительныеНастройкиТаблицИнтеграции</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ЗапросыАвторизацииМобильныхУстройств</informationRegisters>
   <informationRegisters>InformationRegister.SUI_КешПакетовДанных</informationRegisters>
