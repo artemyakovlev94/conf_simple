@@ -1343,6 +1343,7 @@
 		|			ТОГДА ""1""
 		|		ИНАЧЕ ""0""
 		|	КОНЕЦ КАК is_group_scan,
+		|	ЕСТЬNULL(Таблица.НастройкаДокумента.ПроверятьCтатусКИ, ЛОЖЬ) КАК checkKiStatus,
 		|	// 20.09.2024 - artem - B119267 -
 		|	ВЫБОР
 		|		КОГДА Таблица.Агрегация
@@ -1437,7 +1438,8 @@
 		|	втТаблица.process_type,
 		|	// 20.09.2024 - artem - B120423 -
 		|	втТаблица.cells_process_type,
-		|	втТаблица.SUI_ЕстьИзменения
+		|	втТаблица.SUI_ЕстьИзменения,
+		|	втТаблица.checkKiStatus
 		|ИЗ
 		|	втТаблица КАК втТаблица
 		|ГДЕ
@@ -1492,7 +1494,8 @@
 		|	втТаблица.process_type,
 		|	// 20.09.2024 - artem - B120423 -
 		|	втТаблица.cells_process_type,
-		|	втТаблица.SUI_ЕстьИзменения
+		|	втТаблица.SUI_ЕстьИзменения,
+		|	втТаблица.checkKiStatus
 		|ИЗ
 		|	втТаблица КАК втТаблица
 		|ГДЕ
@@ -1726,7 +1729,7 @@
 	// Данные документов
 	ДобавитьПакетДанныхВСтруктуруЗапросаДанных(ДанныеЗапроса, 3, 
 		SUI_НастройкиМетаданныхСервер.ПолучитьИмяТаблицыМобильногоУстройства(Перечисления.SUI_ТаблицыИнтеграции.Документы),
-		"id_doc,doc_date,doc_n,doc_type,id_countragents,id_warehouse,control,is_group_scan,use_mark,barcode,is_barc_flow,is_aggr_doc,process_type,cells_process_type" + ?(ДополнительныеРеквизиты_Использовать, ",additional_details", ""), 
+		"id_doc,doc_date,doc_n,doc_type,id_countragents,id_warehouse,control,is_group_scan,use_mark,barcode,is_barc_flow,is_aggr_doc,process_type,cells_process_type,checkKiStatus" + ?(ДополнительныеРеквизиты_Использовать, ",additional_details", ""), 
 		"sid,id_doc,НастройкаДокумента",
 		Перечисления.SUI_ТаблицыИнтеграции.Документы);
 	
@@ -1741,7 +1744,7 @@
 	// Данные документов адресного хранения
 	ДобавитьПакетДанныхВСтруктуруЗапросаДанных(ДанныеЗапроса, 5, 
 		SUI_НастройкиМетаданныхСервер.ПолучитьИмяТаблицыМобильногоУстройства(Перечисления.SUI_ТаблицыИнтеграции.ДокументыАдресногоХранения),
-		"id_doc,doc_date,doc_n,doc_type,id_warehouse,control,is_group_scan,use_mark,barcode,is_aggr_doc,process_type,cells_process_type" + ?(ДополнительныеРеквизиты_Использовать, ",additional_details", ""), 
+		"id_doc,doc_date,doc_n,doc_type,id_warehouse,control,is_group_scan,use_mark,barcode,is_aggr_doc,process_type,cells_process_type,checkKiStatus" + ?(ДополнительныеРеквизиты_Использовать, ",additional_details", ""), 
 		"sid,id_doc,НастройкаДокумента",
 		Перечисления.SUI_ТаблицыИнтеграции.ДокументыАдресногоХранения);
 			
