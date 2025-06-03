@@ -123,10 +123,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="f040b931-8b33-4fc9-91e9-82e845629a62">
-    <name>ИдентификаторФоновогоЗадания</name>
+    <name>КлючФоновогоЗадания</name>
     <synonym>
       <key>ru</key>
-      <value>Идентификатор фонового задания</value>
+      <value>Ключ фонового задания</value>
     </synonym>
     <type>
       <types>String</types>

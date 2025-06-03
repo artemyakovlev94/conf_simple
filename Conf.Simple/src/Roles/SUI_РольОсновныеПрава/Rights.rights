@@ -1874,7 +1874,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_ДанныеКодовМаркировки.Attribute.ИдентификаторФоновогоЗадания</name>
+		<name>InformationRegister.SUI_ДанныеКодовМаркировки.Attribute.КлючФоновогоЗадания</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
