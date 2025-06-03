@@ -4,6 +4,13 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>InformationRegister.SUI_ДанныеКодовМаркировки.Attribute.ДатаОбновления</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.SUI_НастройкиДокументов</name>
 		<right>
 			<name>Read</name>
@@ -359,6 +366,13 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.SUI_ДанныеКодовМаркировки.Dimension.УникальныйИдентификатор</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.SUI_НастройкаДокументаПеремещенияЗапасов</name>
 		<right>
 			<name>Read</name>
@@ -672,6 +686,13 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.SUI_ДанныеКодовМаркировки.Resource.Результат</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.SUI_РегистрироватьИзмененияПослеЗагрузкиДокументаИзМУ</name>
 		<right>
 			<name>Read</name>
@@ -860,6 +881,13 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.SUI_ДанныеКодовМаркировки.Dimension.МобильноеУстройство</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.SUI_docs_tbl_goods.Resource.qtty</name>
 		<right>
 			<name>Edit</name>
@@ -868,6 +896,13 @@
 	</object>
 	<object>
 		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Resource.additional_details</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_ДанныеКодовМаркировки.Resource.ДанныеДляЗапроса</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -908,6 +943,45 @@
 	</object>
 	<object>
 		<name>InformationRegister.SUI_docs_tbl_goods.Resource.id_series</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_ДанныеКодовМаркировки</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_ДанныеКодовМаркировки.StandardAttribute.Active</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_ДанныеКодовМаркировки.StandardAttribute.LineNumber</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_ДанныеКодовМаркировки.StandardAttribute.Recorder</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_ДанныеКодовМаркировки.StandardAttribute.Period</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1782,11 +1856,25 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.SUI_ДанныеКодовМаркировки.Attribute.Выполнено</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.SUI_ЛогированиеHTTPЗапросов.Resource.ОтносительныйURL</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
 		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_ДанныеКодовМаркировки.Attribute.ИдентификаторФоновогоЗадания</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1877,10 +1965,24 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.SUI_ДанныеКодовМаркировки.Resource.ТекстОшибки</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.SUI_РабочееМестоОператораОбмена.Command.ОткрытьРабочееМестоОператораОбмена</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_ДанныеКодовМаркировки.Attribute.ДатаЗаписи</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>

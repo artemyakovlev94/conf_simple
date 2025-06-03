@@ -148,6 +148,7 @@
   <commonModules>CommonModule.SUI_SimpleКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_ГенерацияШтрихкода</commonModules>
   <commonModules>CommonModule.SUI_ГенерацияШтрихкодаПовтИсп</commonModules>
+  <commonModules>CommonModule.SUI_ДанныеКодовМаркировки</commonModules>
   <commonModules>CommonModule.SUI_ДлительныеОперации</commonModules>
   <commonModules>CommonModule.SUI_ДокументыОбмена</commonModules>
   <commonModules>CommonModule.SUI_ДокументыОбменаВызовСервера</commonModules>
