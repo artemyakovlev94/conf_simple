@@ -9,21 +9,21 @@
     <recordType typeId="5270d5df-1056-42eb-962f-eed1c5d5be6a" valueTypeId="381f8c67-f655-4a1b-9a10-aba79ea57509"/>
     <recordManagerType typeId="22cae854-ba5c-4158-bd43-803f1e1eb767" valueTypeId="451e3fd0-e4fc-43fb-8d4b-58ccb1009213"/>
   </producedTypes>
-  <name>SUI_ДанныеКодовМаркировки</name>
+  <name>SUI_ЗапросыКодовМаркировки</name>
   <synonym>
     <key>ru</key>
-    <value>Коды маркировки к проверке состава</value>
+    <value>Запросы кодов маркировки (SUI)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <recordPresentation>
     <key>ru</key>
-    <value>Код маркировки к проверке состава</value>
+    <value>Запрос кодов маркировки</value>
   </recordPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Коды маркировки к проверке состава</value>
+    <value>Запросы кодов маркировки</value>
   </listPresentation>
   <resources uuid="8329f900-e34a-4356-ab89-9e2d40892f7c">
     <name>ДанныеДляЗапроса</name>
@@ -36,56 +36,8 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="5308ac1a-8c8e-4b23-a84e-e1ac6ab363b2">
-    <name>Результат</name>
-    <synonym>
-      <key>ru</key>
-      <value>Результат</value>
-    </synonym>
-    <type>
-      <types>ValueStorage</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <resources uuid="f9d34646-d876-4f4b-82c0-0f90570b6fee">
-    <name>ТекстОшибки</name>
-    <synonym>
-      <key>ru</key>
-      <value>Текст ошибки</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <attributes uuid="eb377833-639b-4f60-bae8-1fd2f44d60c0">
-    <name>Выполнено</name>
-    <synonym>
-      <key>ru</key>
-      <value>Выполнено</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </attributes>
   <attributes uuid="fd0cb664-4753-45db-8ba1-16f41abe85fd">
     <name>ДатаЗаписи</name>
     <synonym>
@@ -104,17 +56,14 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="02581d9c-60fd-4c39-810c-d048b18e42ce">
-    <name>ДатаОбновления</name>
+  <attributes uuid="f50997c7-8ad6-46b8-95e8-21eab572816f">
+    <name>ИдентификаторФоновогоЗадания</name>
     <synonym>
       <key>ru</key>
-      <value>Дата обновления</value>
+      <value>Идентификатор фонового задания</value>
     </synonym>
     <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
+      <types>UUID</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -122,24 +71,26 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="f040b931-8b33-4fc9-91e9-82e845629a62">
-    <name>КлючФоновогоЗадания</name>
+  <dimensions uuid="24e554aa-7f17-46ca-934f-4f59ad64f9d8">
+    <name>ИдентификаторЗапроса</name>
     <synonym>
       <key>ru</key>
-      <value>Ключ фонового задания</value>
+      <value>Идентификатор запроса</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>36</length>
+        <length>40</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
-  </attributes>
+    <mainFilter>true</mainFilter>
+  </dimensions>
   <dimensions uuid="81927aaa-cf12-4c71-9486-1e669c2d3c0f">
     <name>МобильноеУстройство</name>
     <synonym>
@@ -151,27 +102,13 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
-  <dimensions uuid="24e554aa-7f17-46ca-934f-4f59ad64f9d8">
-    <name>УникальныйИдентификатор</name>
-    <synonym>
-      <key>ru</key>
-      <value>Уникальный идентификатор</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>36</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>

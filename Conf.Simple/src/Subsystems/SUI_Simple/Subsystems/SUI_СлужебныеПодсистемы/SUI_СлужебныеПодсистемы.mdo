@@ -129,6 +129,7 @@
   <subsystems>SUI_ДополнительныеРеквизитыТаблиц</subsystems>
   <subsystems>SUI_ЖурналРегистрации</subsystems>
   <subsystems>SUI_ИнтеграцияВКонфигурацию</subsystems>
+  <subsystems>SUI_ИнтеграцияГИСМТ</subsystems>
   <subsystems>SUI_КомпоновкаДанных</subsystems>
   <subsystems>SUI_ОбновлениеSimple</subsystems>
   <subsystems>SUI_ОценкаПроизводительности</subsystems>

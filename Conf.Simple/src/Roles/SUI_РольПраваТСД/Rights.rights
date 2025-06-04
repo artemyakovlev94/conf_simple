@@ -732,6 +732,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы.Subsystem.SUI_ИнтеграцияГИСМТ</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.Удалить_SUI_tbl_price_types</name>
 		<right>
 			<name>Read</name>
@@ -750,7 +757,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.SUI_ДанныеКодовМаркировки</name>
+		<name>InformationRegister.SUI_ЗапросыКодовМаркировки</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

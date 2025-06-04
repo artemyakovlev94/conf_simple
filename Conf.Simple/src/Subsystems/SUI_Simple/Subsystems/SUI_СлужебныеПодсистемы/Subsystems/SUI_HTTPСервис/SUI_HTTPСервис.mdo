@@ -13,8 +13,6 @@
   <content>Enum.SUI_HTTPМетоды</content>
   <content>CommonModule.SUI_HTTPСервисВызовСервера</content>
   <content>CommonModule.SUI_HTTPКонектор</content>
-  <content>CommonModule.SUI_ДанныеКодовМаркировки</content>
-  <content>InformationRegister.SUI_ДанныеКодовМаркировки</content>
   <content>HTTPService.SUI_ExchangeV2</content>
   <subsystems>SUI_Логирование</subsystems>
   <subsystems>SUI_ОбменДанными</subsystems>

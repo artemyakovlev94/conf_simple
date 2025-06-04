@@ -148,7 +148,6 @@
   <commonModules>CommonModule.SUI_SimpleКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_ГенерацияШтрихкода</commonModules>
   <commonModules>CommonModule.SUI_ГенерацияШтрихкодаПовтИсп</commonModules>
-  <commonModules>CommonModule.SUI_ДанныеКодовМаркировки</commonModules>
   <commonModules>CommonModule.SUI_ДлительныеОперации</commonModules>
   <commonModules>CommonModule.SUI_ДокументыОбмена</commonModules>
   <commonModules>CommonModule.SUI_ДокументыОбменаВызовСервера</commonModules>
@@ -160,10 +159,12 @@
   <commonModules>CommonModule.SUI_ЖурналРегистрацииВызовСервера</commonModules>
   <commonModules>CommonModule.SUI_ЖурналРегистрацииКлиент</commonModules>
   <commonModules>CommonModule.SUI_ЖурналРегистрацииКлиентСервер</commonModules>
+  <commonModules>CommonModule.SUI_ЗапросыКодовМаркировки</commonModules>
   <commonModules>CommonModule.SUI_ИнтеграцияВКонфигурацию</commonModules>
   <commonModules>CommonModule.SUI_ИнтеграцияВКонфигурациюВызовСервера</commonModules>
   <commonModules>CommonModule.SUI_ИнтеграцияВКонфигурациюКлиент</commonModules>
   <commonModules>CommonModule.SUI_ИнтеграцияВКонфигурациюКлиентСервер</commonModules>
+  <commonModules>CommonModule.SUI_ИнтеграцияГИСМТ</commonModules>
   <commonModules>CommonModule.SUI_КомпоновкаДанныхКлиент</commonModules>
   <commonModules>CommonModule.SUI_КомпоновкаДанныхКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_КомпоновкаДанныхСервер</commonModules>
@@ -407,9 +408,9 @@
   <informationRegisters>InformationRegister.SUI_tbl_series</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_units</informationRegisters>
   <informationRegisters>InformationRegister.SUI_tbl_warehouses</informationRegisters>
-  <informationRegisters>InformationRegister.SUI_ДанныеКодовМаркировки</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ДополнительныеНастройкиТаблицИнтеграции</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ЗапросыАвторизацииМобильныхУстройств</informationRegisters>
+  <informationRegisters>InformationRegister.SUI_ЗапросыКодовМаркировки</informationRegisters>
   <informationRegisters>InformationRegister.SUI_КешПакетовДанных</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ЛогированиеHTTPЗапросов</informationRegisters>
   <informationRegisters>InformationRegister.SUI_НастройкиДокументовМобильныхУстройств</informationRegisters>
@@ -417,6 +418,7 @@
   <informationRegisters>InformationRegister.SUI_ОтсканированныеШтрихкодыУпаковокДокументовОбмена</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ОчередьЗаданий</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ПараметрыЛогированияHTTPСервиса</informationRegisters>
+  <informationRegisters>InformationRegister.SUI_РезультатыЗапросовКодовМаркировки</informationRegisters>
   <informationRegisters>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.SUI_СеансыМобильныхУстройств</informationRegisters>
   <informationRegisters>InformationRegister.SUI_СообщенияМобильныхУстройств</informationRegisters>
