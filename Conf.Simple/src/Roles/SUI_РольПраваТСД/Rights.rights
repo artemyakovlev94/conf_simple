@@ -296,6 +296,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.SUI_РезультатыЗапросовКодовМаркировки</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.SUI_ИспользоватьТаблицу_Контрагенты</name>
 		<right>
 			<name>Read</name>
