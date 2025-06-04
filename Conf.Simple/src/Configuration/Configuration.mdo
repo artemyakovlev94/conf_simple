@@ -159,10 +159,12 @@
   <commonModules>CommonModule.SUI_ЖурналРегистрацииВызовСервера</commonModules>
   <commonModules>CommonModule.SUI_ЖурналРегистрацииКлиент</commonModules>
   <commonModules>CommonModule.SUI_ЖурналРегистрацииКлиентСервер</commonModules>
+  <commonModules>CommonModule.SUI_ЗапросыКодовМаркировки</commonModules>
   <commonModules>CommonModule.SUI_ИнтеграцияВКонфигурацию</commonModules>
   <commonModules>CommonModule.SUI_ИнтеграцияВКонфигурациюВызовСервера</commonModules>
   <commonModules>CommonModule.SUI_ИнтеграцияВКонфигурациюКлиент</commonModules>
   <commonModules>CommonModule.SUI_ИнтеграцияВКонфигурациюКлиентСервер</commonModules>
+  <commonModules>CommonModule.SUI_ИнтеграцияГИСМТ</commonModules>
   <commonModules>CommonModule.SUI_КомпоновкаДанныхКлиент</commonModules>
   <commonModules>CommonModule.SUI_КомпоновкаДанныхКлиентСервер</commonModules>
   <commonModules>CommonModule.SUI_КомпоновкаДанныхСервер</commonModules>
@@ -255,6 +257,7 @@
   <xDTOPackages>XDTOPackage.SUI_HTTPLog</xDTOPackages>
   <xDTOPackages>XDTOPackage.SUI_RegistrationLog</xDTOPackages>
   <httpServices>HTTPService.SUI_Exchange</httpServices>
+  <httpServices>HTTPService.SUI_ExchangeV2</httpServices>
   <eventSubscriptions>EventSubscription.SUI_ДокументыОбменаПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_ДокументыОбменаПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.SUI_ДокументыОбменаПриЗаписи_beta</eventSubscriptions>
@@ -407,6 +410,7 @@
   <informationRegisters>InformationRegister.SUI_tbl_warehouses</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ДополнительныеНастройкиТаблицИнтеграции</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ЗапросыАвторизацииМобильныхУстройств</informationRegisters>
+  <informationRegisters>InformationRegister.SUI_ЗапросыКодовМаркировки</informationRegisters>
   <informationRegisters>InformationRegister.SUI_КешПакетовДанных</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ЛогированиеHTTPЗапросов</informationRegisters>
   <informationRegisters>InformationRegister.SUI_НастройкиДокументовМобильныхУстройств</informationRegisters>
@@ -414,6 +418,7 @@
   <informationRegisters>InformationRegister.SUI_ОтсканированныеШтрихкодыУпаковокДокументовОбмена</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ОчередьЗаданий</informationRegisters>
   <informationRegisters>InformationRegister.SUI_ПараметрыЛогированияHTTPСервиса</informationRegisters>
+  <informationRegisters>InformationRegister.SUI_РезультатыЗапросовКодовМаркировки</informationRegisters>
   <informationRegisters>InformationRegister.SUI_РезультатыОбработкиВходящихСообщенийОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.SUI_СеансыМобильныхУстройств</informationRegisters>
   <informationRegisters>InformationRegister.SUI_СообщенияМобильныхУстройств</informationRegisters>
