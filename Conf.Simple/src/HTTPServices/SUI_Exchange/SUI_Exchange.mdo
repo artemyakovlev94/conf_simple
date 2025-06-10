@@ -343,4 +343,21 @@
       <handler>СоставКодовМаркировокПолучить</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="bd88ce82-eed4-43bc-a492-093f3d8e2db6">
+    <name>ЗаполненностьЯчейки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполненность ячейки</value>
+    </synonym>
+    <template>/cells/occupancy</template>
+    <methods uuid="bda8a80a-e955-4e09-bcb2-9eb647005499">
+      <name>Установить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Установить</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗаполненностьЯчейкиУстановить</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>

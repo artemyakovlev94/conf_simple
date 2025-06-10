@@ -191,6 +191,7 @@
   <commonModules>CommonModule.SUI_НастройкиМетаданныхПовтИсп</commonModules>
   <commonModules>CommonModule.SUI_НастройкиМетаданныхСервер</commonModules>
   <commonModules>CommonModule.SUI_ОбменДаннымиСервер</commonModules>
+  <commonModules>CommonModule.SUI_ОбменДаннымиСерверПереопределяемый</commonModules>
   <commonModules>CommonModule.SUI_ОбновлениеSimple</commonModules>
   <commonModules>CommonModule.SUI_ОбновлениеSimpleВызовСервера</commonModules>
   <commonModules>CommonModule.SUI_ОбновлениеSimpleКлиент</commonModules>
