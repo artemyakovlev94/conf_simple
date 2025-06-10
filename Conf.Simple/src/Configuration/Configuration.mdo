@@ -249,9 +249,6 @@
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработки</commonModules>
   <commonModules>CommonModule.ПодключаемыеКоманды</commonModules>
   <commonModules>CommonModule.ПодключаемыеКомандыПовтИсп</commonModules>
-  <commonModules>CommonModule.СобытияФормЕГАИСКлиентПереопределяемый</commonModules>
-  <commonModules>CommonModule.СобытияФормИС</commonModules>
-  <commonModules>CommonModule.СобытияФормИСМПКлиентПереопределяемый</commonModules>
   <exchangePlans>ExchangePlan.SUI_МобильныеУстройства</exchangePlans>
   <xDTOPackages>XDTOPackage.SUI_ExchangeSupport</xDTOPackages>
   <xDTOPackages>XDTOPackage.SUI_HTTPLog</xDTOPackages>
