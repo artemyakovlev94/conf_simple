@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28b366fe-e5ee-4065-a308-7ba7f1f55137">
+  <producedTypes>
+    <selectionType typeId="a5beaf52-8fd3-4c95-9b50-161532616d04" valueTypeId="5cb8f7d8-bbbb-4381-91f0-d3871b2f8fe5"/>
+    <listType typeId="c980ab30-63ca-4901-92a9-ce9dbedfe6ab" valueTypeId="381ae397-b6a2-4b50-b92e-43b2f861bc4d"/>
+    <managerType typeId="1f0ce9de-0011-48dd-ae1d-9ce2729676ff" valueTypeId="6dc6610a-b381-4507-85f6-9bfcf95a1171"/>
+    <recordSetType typeId="7503e825-ed9e-4d7b-b3f9-6f5a08bef14d" valueTypeId="10b215f8-d52a-4a49-b188-537fbbfd39b2"/>
+    <recordKeyType typeId="d654b7d2-e1d3-4e51-b004-d98da7b5c89b" valueTypeId="f390b177-9a2d-4955-99de-f1563f819efb"/>
+    <recordType typeId="31195154-27a3-4214-adbc-74ef9e7cd700" valueTypeId="c02a6b4b-cd55-4bbc-b59b-501506208b2e"/>
+    <recordManagerType typeId="ed87545a-b45f-4843-900d-588ba4c1abf6" valueTypeId="c3a6cd2d-6ed6-4dcd-b6ad-5bbbbe3fa3ac"/>
+  </producedTypes>
+  <name>SUI_РезультатыЗапросовКодовМаркировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты запросов кодов маркировки (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Результат запроса кодов маркировки</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Результаты запросов кодов маркировки</value>
+  </listPresentation>
+  <resources uuid="a18e0b9e-9045-4424-b6b5-39cd223cb28e">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="efeec077-30dd-4637-9272-6b0c12518ae1">
+    <name>ДатаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="36ec3594-89ab-408e-ae8c-18a5f0de17ec">
+    <name>ИдентификаторЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор запроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d192d328-dbb7-4e23-952e-1a0c42611fa2">
+    <name>МобильноеУстройство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильное устройство</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.SUI_МобильныеУстройства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

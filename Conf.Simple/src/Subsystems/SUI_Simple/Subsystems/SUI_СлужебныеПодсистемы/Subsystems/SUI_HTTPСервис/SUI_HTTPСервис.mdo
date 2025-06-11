@@ -13,6 +13,7 @@
   <content>Enum.SUI_HTTPМетоды</content>
   <content>CommonModule.SUI_HTTPСервисВызовСервера</content>
   <content>CommonModule.SUI_HTTPКонектор</content>
+  <content>HTTPService.SUI_ExchangeV2</content>
   <subsystems>SUI_Логирование</subsystems>
   <subsystems>SUI_ОбменДанными</subsystems>
   <parentSubsystem>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы</parentSubsystem>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8be98e97-7813-4444-ae21-4eb111fbd541">
+  <producedTypes>
+    <selectionType typeId="012b3699-70a7-449c-99ec-f21fd3ee8f11" valueTypeId="800ed413-0b94-4361-a673-3fd1881f445e"/>
+    <listType typeId="426aa499-84b2-4740-b6f6-839702aca5fd" valueTypeId="7eb77b10-f7c1-4dfc-99b8-d60bc6987555"/>
+    <managerType typeId="ed120b73-4c52-4328-9e8a-a7a78f929e86" valueTypeId="61762042-5d81-47ea-924e-a7927ee8f06a"/>
+    <recordSetType typeId="2d39e7fe-ff46-4378-93ef-f8b195ffd3e4" valueTypeId="2fb72aca-90b3-4d8c-a6cf-52e4338caa0d"/>
+    <recordKeyType typeId="ef07eb30-8fea-40e5-ab72-982e1498778b" valueTypeId="6c002de4-33a9-4ef9-97f2-0fde70562033"/>
+    <recordType typeId="5270d5df-1056-42eb-962f-eed1c5d5be6a" valueTypeId="381f8c67-f655-4a1b-9a10-aba79ea57509"/>
+    <recordManagerType typeId="22cae854-ba5c-4158-bd43-803f1e1eb767" valueTypeId="451e3fd0-e4fc-43fb-8d4b-58ccb1009213"/>
+  </producedTypes>
+  <name>SUI_ЗапросыКодовМаркировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запросы кодов маркировки (SUI)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Запрос кодов маркировки</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Запросы кодов маркировки</value>
+  </listPresentation>
+  <resources uuid="8329f900-e34a-4356-ab89-9e2d40892f7c">
+    <name>ДанныеДляЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные для запроса</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="fd0cb664-4753-45db-8ba1-16f41abe85fd">
+    <name>ДатаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f50997c7-8ad6-46b8-95e8-21eab572816f">
+    <name>ИдентификаторФоновогоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор фонового задания</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="24e554aa-7f17-46ca-934f-4f59ad64f9d8">
+    <name>ИдентификаторЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор запроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="81927aaa-cf12-4c71-9486-1e669c2d3c0f">
+    <name>МобильноеУстройство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильное устройство</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.SUI_МобильныеУстройства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -366,9 +366,27 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.SUI_ЗапросыКодовМаркировки.Dimension.ИдентификаторЗапроса</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.SUI_НастройкаДокументаПеремещенияЗапасов</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_РезультатыЗапросовКодовМаркировки</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -867,6 +885,13 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.SUI_ЗапросыКодовМаркировки.Dimension.МобильноеУстройство</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.SUI_docs_tbl_goods.Resource.qtty</name>
 		<right>
 			<name>Edit</name>
@@ -881,10 +906,24 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.SUI_ЗапросыКодовМаркировки.Resource.ДанныеДляЗапроса</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.Удалить_SUI_docs_tbl_barcodes.Attribute.ДатаОбновления</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.SUI_Simple.Subsystem.SUI_СлужебныеПодсистемы.Subsystem.SUI_ИнтеграцияГИСМТ</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -915,6 +954,45 @@
 	</object>
 	<object>
 		<name>InformationRegister.SUI_docs_tbl_goods.Resource.id_series</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_ЗапросыКодовМаркировки</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_ЗапросыКодовМаркировки.StandardAttribute.Active</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_ЗапросыКодовМаркировки.StandardAttribute.LineNumber</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_ЗапросыКодовМаркировки.StandardAttribute.Recorder</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_ЗапросыКодовМаркировки.StandardAttribute.Period</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1888,6 +1966,13 @@
 		<right>
 			<name>View</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.SUI_ЗапросыКодовМаркировки.Attribute.ДатаЗаписи</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
